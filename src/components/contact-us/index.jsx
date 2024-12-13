@@ -1,7 +1,7 @@
 import React from 'react';
 import { Footer, Header } from '../../layout';
 import BreadcrumbThree from '../breadcrumb/breadcrumb-3';
-
+import ContactMap from '../contact-us/contact-map';
 import ContactUsArea from './contact-us-area';
 
 
