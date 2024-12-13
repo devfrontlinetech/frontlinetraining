@@ -114,7 +114,7 @@ const Footer = ({ style_2, dark_bg,home_4 }) => {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="inner text-center">
-                                <p>Copyright {new Date().getFullYear()} <a href="https://wa.me/919789655455?text=I%20need%20course%20details" rel="noreferrer" target="_blank">Frontline</a> Designed By <a href="https://wa.me/919789655455?text=I%20need%20course%20details" rel="noreferrer" target="_blank">Frontline</a>. All Rights Reserved</p>
+                                <p>Copyright {new Date().getFullYear()} <a href="https://frontlinetraining.in" rel="noreferrer" target="_blank">Frontlinetraining</a> Designed By <a href="https://frontlinetechnologies.org/" rel="noreferrer" target="_blank">Frontline</a>. All Rights Reserved</p>
                             </div>
                         </div>
                     </div>
