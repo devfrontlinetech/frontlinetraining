@@ -14,7 +14,7 @@ const ContactMeArea = () => {
                             <div className="inner">
                                 <div className="thumbnail">
                                     <div className="thumb">
-                                        <img src="/assets/images/others/Contact.webp" alt="Contact Me" />
+                                        <img src="/assets/images/others/contact.webp" alt="Contact Me" />
                                     </div>
                                     <ul className="shape-group">
                                         <motion.li className="shape-1 scene"
