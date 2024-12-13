@@ -7,8 +7,8 @@ import FooterSocial from './component/footer-social';
 const footer_contents = {
     desc: 'Lorem ipsum dolor amet consecto adi pisicing elit sed eiusm tempor incidid unt labore dolore.',
     add: '29/11 A Old Bypass Road, Near SBI, Karur 1.',
-    call: '+7200 247247',
-    email: 'www.frontl.in',
+    call: '+91 97896 55455',
+    email: 'info@frontlinetraining.in',
     widgets: [
         {
             col: '3',
@@ -140,7 +140,7 @@ const FooterTwo = () => {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="inner text-center">
-                                <p>Copyright {new Date().getFullYear()} <a href="https://frontlinetechnologies.org/contact" rel="noreferrer" target="_blank">Frontline</a> Designed By <a href="https://frontlinetechnologies.org/contact" target="_blank" rel="noreferrer">Frontline</a>. All Rights Reserved</p>
+                                <p>Copyright {new Date().getFullYear()} <a href="https://frontlinetraining.in" rel="noreferrer" target="_blank">Frontlinetraining</a> Designed By <a href="https://frontlinetechnologies.org/" target="_blank" rel="noreferrer">Frontline</a>. All Rights Reserved</p>
                             </div>
                         </div>
                     </div>
