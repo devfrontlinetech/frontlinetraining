@@ -27,7 +27,7 @@ const categories = [
             { title: 'UI/UX Training', link: '/ui-ux' },
             { title: ' Full stack MERN (Mongo Express React Node) Training', link: '/mern-python' },
             { title: 'Software Testing', link: '/software-testing' },
-            { title: ' Paython with Data Science Training', link: '/python-data' },
+            { title: ' Python with Data Science Training', link: '/python-data' },
             { title: ' Data Analysis Training', link: '/data-analysis' },
             { title: 'AI/ML Training', link: '/ai-ml' },
            // { title: ' DevOps Training', link: '/home-modern-schooling', new: true },
