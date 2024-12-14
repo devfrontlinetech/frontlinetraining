@@ -81,7 +81,7 @@ const HeaderThree = () => {
                                     </li>
 
                                     <li className="mobile-menu-bar d-block d-xl-none">
-                                        <button className="hamberger-button" onClick={() => setIsOpen(true)}>
+                                        <button className="hamberger-button" onClick={() => setIsOpen(true)} aria-label="Name">
                                             <i className="icon-54"></i>
                                         </button>
                                     </li>
