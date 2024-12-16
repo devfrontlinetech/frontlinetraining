@@ -10,7 +10,7 @@ export const SocialShare = () => {
     return (
         <>
             {social_share.map((social, i) => (
-                <li key={i}><a href={social.link} target={social.target ? social.target : ''}>
+                <li key={i}><a href={social.link} target={social.target ? social.target : ''} aria-label="Read more about Seminole tax hike">
                 <i className={social.icon}></i>
                 </a></li>
             ))}
