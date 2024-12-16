@@ -97,7 +97,7 @@ const FooterThree = () => {
                             <div className="inner text-center">
                                 <p>
                                     Copyright {new Date().toDateString()} 
-                                    <a href="https://frontlinetraining.in" rel="noreferrer" target="_blank">Frontlinetraining</a> Designed By <a href="https://frontlinetechnologies.org/" target="_blank" rel="noreferrer">Frontline</a>. All Rights Reserved
+                                    Frontlinetraining Designed By <a href="https://frontlinetechnologies.org/" target="_blank" rel="noreferrer">Frontline</a>. All Rights Reserved
                                 </p>
                             </div>
                         </div>
