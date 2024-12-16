@@ -60,7 +60,7 @@ const Footer = ({ style_2, dark_bg,home_4 }) => {
                                     </Link>
 
                                     <Link href={'/'}>
-                                        <a>
+                                        <a  aria-label="Frontlinetraining">
                                             {dark_bg && <img className="logo-light" src={home_4?'/assets/images/fnline/Frontline_Logo_White.png' :'/assets/images/fnline/Frontline_Logo_Dark.png'} alt="Corporate Logo" />}
                                         </a>
                                     </Link>
