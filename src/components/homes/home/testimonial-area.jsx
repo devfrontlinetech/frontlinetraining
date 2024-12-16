@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 const testimonial_data = [
     {
         img: '/assets/images/testimonial/test-01.jpg',
-        desc: 'The software company in Karu. Cutting-edge web design and impressive performance of their hosting set it apart.',
+        desc: 'The software company in Karur. Cutting-edge web design and impressive performance of their hosting set it apart.',
         ratings: <>
             <i className="icon-23"></i>
             <i className="icon-23"></i>
