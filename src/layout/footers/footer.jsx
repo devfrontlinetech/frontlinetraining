@@ -51,7 +51,7 @@ const Footer = ({ style_2, dark_bg,home_4 }) => {
                             <div className="edu-footer-widget">
                                 <div className="logo">
                                     <Link href={'/'}>
-                                        <a>
+                                        <a  aria-label="Frontlinetraining">
                                             {!dark_bg && <>
                                                 {!style_2 && <img className="logo-light" src={logoLight} alt="Corporate Logo" />}
                                                 <img className="logo-dark" src={logoDark} alt="Corporate Logo" />
