@@ -143,7 +143,7 @@ const FooterTwo = () => {
                         <div className="col-lg-12">
                             <div className="inner text-center">
                                 <p>Copyright {new Date().getFullYear()} 
-                                    Frontlinetraining Designed By <a href="https://frontlinetechnologies.org/" target="_blank" rel="noreferrer">Frontline</a>. All Rights Reserved
+                                    Frontlinetraining Designed By <a href="https://frontlinetechnologies.org/" target="_blank" rel="noreferrer" aria-label="Frontlinetraining">Frontline</a>. All Rights Reserved
                                 </p>
                             </div>
                         </div>
