@@ -114,7 +114,7 @@ const Footer = ({ style_2, dark_bg,home_4 }) => {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="inner text-center">
-                                <p>Copyright {new Date().getFullYear()} Frontlinetraining Designed By <a href="https://frontlinetechnologies.org/" rel="noreferrer" target="_blank">Frontline</a>. All Rights Reserved</p>
+                                <p>Copyright {new Date().getFullYear()} Frontlinetraining Designed By <a href="https://frontlinetechnologies.org/" rel="noreferrer" target="_blank" aria-label="Read more about Seminole tax hike">Frontline</a>. All Rights Reserved</p>
                             </div>
                         </div>
                     </div>
