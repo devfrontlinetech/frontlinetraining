@@ -17,7 +17,7 @@ const Courses = () => {
                 </div>
 
                 <div className="row g-5">
-                    {course_data.slice(1,5).map((course) => {
+                    {course_data.slice(0,4).map((course) => {
                         return (
                             <div className="col-xl-6" data-sal-delay="100" data-sal="slide-up" data-sal-duration="800" key={course.id}>
                                 <CourseTypeThree data={course} />
