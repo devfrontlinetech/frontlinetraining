@@ -45,7 +45,7 @@ const category_contents = {
             color: 'color-extra03-style',
             icon: 'icon-14',
             title: 'Digital Marketing',
-            link: 'digital-marketing'
+            link: 'digitalmarketing'
         },
         {
             delay: '50',
