@@ -51,7 +51,7 @@ const category_contents = {
             delay: '50',
             color: 'color-extra04-style',
             icon: 'icon-15',
-            title: 'Programming Training',
+            title: 'Low code No code',
             link: 'contact-me'
         },
         {
