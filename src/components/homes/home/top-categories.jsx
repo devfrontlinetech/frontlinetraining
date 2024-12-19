@@ -22,7 +22,7 @@ const category_contents = {
             delay: '150',
             color: 'color-extra01-style',
             icon: 'icon-11 personal-development',
-            title: 'Interview Training',
+            title: 'Power Platform',
             link: 'contact-me'
         },
         {
