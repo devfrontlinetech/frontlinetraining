@@ -21,7 +21,7 @@ const index = () => {
                 <Testimonial />
                 <VideoArea />
                 <CounterArea />
-                <BlogArea />
+{/*                 <BlogArea /> */}
                 <Footer />
             </div>
         </div>
