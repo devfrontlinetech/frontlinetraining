@@ -23,7 +23,7 @@ const category_contents = {
             color: 'color-extra01-style',
             icon: 'icon-11 personal-development',
             title: 'Power Platform',
-            link: 'contact-me'
+            link: 'power-platform'
         },
         {
             delay: '50',
@@ -52,7 +52,7 @@ const category_contents = {
             color: 'color-extra04-style',
             icon: 'icon-15',
             title: 'Low code No code',
-            link: 'contact-me'
+            link: 'lowcode-nocode'
         },
         {
             delay: '100',
