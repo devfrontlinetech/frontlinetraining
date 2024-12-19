@@ -32,11 +32,11 @@ const FaqArea = () => {
                     <div className="col-lg-6 sal-animate" data-sal-delay="100" data-sal="slide-up" data-sal-duration="800">
                         <div className="edu-faq-content">
                             <div className="section-title section-left">
-                                <span className="pre-title">FAQ’s</span>
+{/*                                 <span className="pre-title">FAQ’s</span> */}
                                 <h2 className="title">Over 10 Years in <span className="color-secondary">Distant <br /> Skill</span> Development</h2>
                                 <span className="shape-line"><i className="icon-19"></i></span>
                             </div>
-                            <div className="faq-accordion" id="faq-accordion">
+{/*                             <div className="faq-accordion" id="faq-accordion">
                                 <div className="accordion">
                                     {accordion_items.map((item, i) => {
                                         const { desc, id, show, title } = item;
@@ -56,7 +56,7 @@ const FaqArea = () => {
                                         )
                                     })}
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     <div className="col-lg-6">
