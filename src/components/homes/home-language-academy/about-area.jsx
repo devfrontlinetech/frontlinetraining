@@ -10,7 +10,7 @@ const tabs = {
     ],
     content:[
         {show:true,id:'power-apps',desc:"Power Apps is a suite of apps, services, and connectors, as well as a data platform, that provides a rapid development environment to build custom apps.",
-        feature_list:['Comprehensive Coverage','Hands-On Learning','Available online course']},
+        feature_list:['Comprehensive Coverage','Hands-On Learning']},
         {id:'power-automate',desc:"A comprehensive, end-to-end cloud automation platform powered by low code and AI.",
         feature_list:['Practical Workflow Creation','Advanced Automation Techniques']},
         {id:'power-bi',desc:"Find insights in your data and share rich analytics reports. Create rich, interactive reports with visual analytics using Power BI.",
