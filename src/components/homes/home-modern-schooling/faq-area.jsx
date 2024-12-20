@@ -65,6 +65,12 @@ const FaqArea = () => {
                                 <h2 className="title">Your Ideas, Our <span className="color-secondary">Platform<br /></span> No<span className="color-secondary">Code</span> Required </h2>
                                 <span className="shape-line"><i className="icon-19"></i></span>
                             </div>
+                            <p> Users can build entire applications by simply dragging and dropping pre-built elements and workflows, without writing any code at all.</p>
+                            <p>Offers simple workflow automation capabilities like sending emails, setting triggers, and moving data between applications without writing code.</p>
+                            <p>Set up booths for popular low-code/no-code platforms like OutSystems, Bubble, and Power Apps.</p>
+                            <p>Conduct beginner workshops where attendees can create their first app using a no-code platform.</p>
+                            
+                            
 {/*                             <div className="faq-accordion" id="faq-accordion">
                                 <div className="accordion">
                                     {accordion_items.map((item, i) => {
