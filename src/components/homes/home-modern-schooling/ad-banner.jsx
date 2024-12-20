@@ -47,7 +47,7 @@ const AdBanner = () => {
                         <div className="col-lg-6">
                             <div className="section-title section-left" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
                                 <h2 className="title">Get Your Quality <br /> Skills Certificate Through <br /> FrontLine </h2>
-                                <Link href="/contact-us">
+                                <Link href="/contact-me">
                                     <a className="edu-btn btn-secondary">Get started now <i className="icon-4"></i></a>
                                 </Link>
                             </div>
