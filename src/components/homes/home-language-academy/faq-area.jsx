@@ -36,6 +36,11 @@ const FaqArea = () => {
                                 <h2 className="title">Over 10 Years in <span className="color-secondary">Distant <br /> Skill</span> Development</h2>
                                 <span className="shape-line"><i className="icon-19"></i></span>
                             </div>
+                            <p>Power Apps specifically focuses on building custom business apps without extensive code, while the Power Platform encompasses a broader suite for data analysis, automation, and chatbot creation.</p>
+                            <p>Power Virtual Agents helps users build AI-powered chatbots that can automate customer interactions without requiring any coding.</p>
+                            <p> The key components of the Power Platform include Power BI, Power Apps, Power Automate, and Power Virtual Agents.</p>
+                            
+                            <p>Collaboration features that allow sharing, commenting, and real-time working within the apps or solutions.</p>
 {/*                             <div className="faq-accordion" id="faq-accordion">
                                 <div className="accordion">
                                     {accordion_items.map((item, i) => {
