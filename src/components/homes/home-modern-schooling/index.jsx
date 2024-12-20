@@ -17,11 +17,11 @@ const index = () => {
                 <Header no_top_bar={true}/>
                 <HeroArea/>
                 <BrandArea/>
-                <TopCategories/>
-                <Courses/>
+{/*                 <TopCategories/> */}
+{/*                 <Courses/> */}
                 <FaqArea/>
                 <CounterArea home_8={true}/>
-                <TestimonialArea/>
+    {/* <TestimonialArea/> */}
                 <AdBanner/>
                 <BlogArea/>
                 <Footer/>
