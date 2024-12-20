@@ -32,7 +32,7 @@ const HeroArea = () => {
                                     <h5 className="title">Instrunctor</h5>
                                     <div className="media">
                                         <div className="thumb">
-                                            <img src="/assets/images/banner/author-1.png" alt="Images" />
+                                            <img src="/assets/images/banner/authr.webp" alt="Images" />
                                         </div>
                                         <div className="content">
                                             <span>200+</span> Instactors
