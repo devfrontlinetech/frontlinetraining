@@ -11,7 +11,7 @@ const HeroArea = () => {
                     <div className="col-lg-6">
                         <div className="banner-content">
                             <h1 className="title" data-sal-delay="100" data-sal="slide-up" data-sal-duration="1000">Creativity with <br /><span className="color-secondary">Low</span>-code<span className="color-secondary">No</span>-code</h1>
-                            <p data-sal-delay="200" data-sal="slide-up" data-sal-duration="1000">Develop Apps Quickly and Easily with Low-Code/No-Code Solutions.</p>
+                            <p data-sal-delay="200" data-sal="slide-up" data-sal-duration="1000">Develop Apps Quickly and Easily with Low-Code <br/> No-Code Solutions.</p>
                             <div className="banner-search" data-sal-delay="400" data-sal="slide-up" data-sal-duration="1000">
 {/*                                 <div className="input-group">
                                     <input type="text" className="form-control" placeholder="What do you want learn?" />
