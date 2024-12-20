@@ -33,7 +33,7 @@ const FaqArea = () => {
                     <div className="col-lg-6">
                         <div className="edu-faq-gallery">
                             <div className="faq-thumbnail thumbnail-1" data-sal-delay="50" data-sal="slide-right" data-sal-duration="800">
-                                <img src="/assets/images/others/faq-5.webp" alt="Faq Images" />
+                                <img src="/assets/images/others/people.webp" alt="Faq Images" />
                             </div>
                             <ul className="shape-group">
                                 <motion.li className="shape-1 scene" data-sal-delay="500" data-sal="fade" data-sal-duration="200"
@@ -61,11 +61,17 @@ const FaqArea = () => {
                     <div className="col-lg-6" data-sal-delay="100" data-sal="slide-up" data-sal-duration="800">
                         <div className="edu-faq-content">
                             <div className="section-title section-left">
-                                <span className="pre-title">FAQ’s</span>
-                                <h2 className="title">Over 10 Years in <span className="color-secondary">Distant <br /> Skill</span> Development</h2>
+{/*                                 <span className="pre-title">FAQ’s</span> */}
+                                <h2 className="title">Your Ideas, Our <span className="color-secondary">Platform<br /></span> No<span className="color-secondary">Code</span> Required </h2>
                                 <span className="shape-line"><i className="icon-19"></i></span>
                             </div>
-                            <div className="faq-accordion" id="faq-accordion">
+                            <p> Users can build entire applications by simply dragging and dropping pre-built elements and workflows, without writing any code at all.</p>
+                            <p>Offers simple workflow automation capabilities like sending emails, setting triggers, and moving data between applications without writing code.</p>
+                            <p>Set up booths for popular low-code/no-code platforms like OutSystems, Bubble, and Power Apps.</p>
+                            <p>Conduct beginner workshops where attendees can create their first app using a no-code platform.</p>
+                            
+                            
+{/*                             <div className="faq-accordion" id="faq-accordion">
                                 <div className="accordion">
                                     {accordion_items.map((item, i) => {
                                         const { desc, id, show, title } = item;
@@ -85,7 +91,7 @@ const FaqArea = () => {
                                         )
                                     })}
                                 </div>
-                            </div>
+                            </div> */}
                             <ul className="shape-group">
                                 <motion.li className="shape-1 scene" data-sal-delay="500" data-sal="fade" data-sal-duration="200"
                                     animate={ {

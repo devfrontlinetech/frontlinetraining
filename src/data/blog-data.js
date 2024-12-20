@@ -149,7 +149,7 @@ const blog_data = [
   // modern schooling
   {
     id: 14,
-    img: '/assets/images/blog/blog-32.jpg',
+    img: '/assets/images/blog/blg1.jpg',
     category: 'ONLINE',
     title: 'Good Things are Happening Creative Learning',
     date: "Oct 20, 2022",
@@ -161,7 +161,7 @@ const blog_data = [
   },
   {
     id: 15,
-    img: '/assets/images/blog/blog-33.jpg',
+    img: '/assets/images/blog/blg2.png',
     category: 'LECTURE',
     title: 'Creating a Community of Diverse Learners',
     date: "Oct 15, 2022",
@@ -173,7 +173,7 @@ const blog_data = [
   },
   {
     id: 16,
-    img: '/assets/images/blog/blog-34.jpg',
+    img: '/assets/images/blog/blg3.jpg',
     category: 'BUSINESS',
     title: 'Changing Lives and Giving Choices For Everyone',
     date: "Oct 23, 2022",
@@ -185,7 +185,7 @@ const blog_data = [
   },
   {
     id: 17,
-    img: '/assets/images/blog/blog-35.jpg',
+    img: '/assets/images/blog/blg4.webp',
     category: 'BUSINESS',
     title: 'An Excellent Foundation for Future Success',
     date: "Oct 30, 2022",
