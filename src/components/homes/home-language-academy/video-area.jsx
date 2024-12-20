@@ -6,7 +6,7 @@ const VideoArea = () => {
     const { isVideoOpen, setIsVideoOpen } = useModal();
     return (
         <>
-            <div className="video-area-5 gap-bottom-equal">
+{/*             <div className="video-area-5 gap-bottom-equal">
                 <div className="container">
                     <div className="row g-5 justify-content-center">
                         <div className="col-lg-6">
@@ -34,7 +34,7 @@ const VideoArea = () => {
             </div>
             {/* video modal start */}
             <VideoModal isVideoOpen={isVideoOpen} setIsVideoOpen={setIsVideoOpen} videoId={'PICj5tr9hcc'} />
-            {/* video modal end */}
+            {/* video modal end */} */}
         </>
     )
 }
