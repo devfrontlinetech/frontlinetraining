@@ -1,12 +1,12 @@
 import React from 'react';
 
 const images = [
-    '/assets/images/brand/brand-01.png',
-    '/assets/images/brand/brand-02.png',
-    '/assets/images/brand/brand-03.png',
-    '/assets/images/brand/brand-04.png',
-    '/assets/images/brand/brand-05.png',
-    '/assets/images/brand/brand-06.png'
+    '/assets/images/brand/png1.png',
+    '/assets/images/brand/png2.png',
+    '/assets/images/brand/png3.webp',
+    '/assets/images/brand/png4.jpg',
+    '/assets/images/brand/png5.jpg',
+    '/assets/images/brand/png6.jpg'
 ];
 
 const BrandArea = () => {
