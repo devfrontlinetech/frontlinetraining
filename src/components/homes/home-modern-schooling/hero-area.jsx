@@ -10,13 +10,13 @@ const HeroArea = () => {
                 <div className="row align-items-center">
                     <div className="col-lg-6">
                         <div className="banner-content">
-                            <h1 className="title" data-sal-delay="100" data-sal="slide-up" data-sal-duration="1000">Find Your Best <br /> Courses to <span className="color-secondary">Develope</span> <br />your skills</h1>
-                            <p data-sal-delay="200" data-sal="slide-up" data-sal-duration="1000">Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit.</p>
+                            <h1 className="title" data-sal-delay="100" data-sal="slide-up" data-sal-duration="1000">Creativity with <br /><span className="color-secondary">Low</span>-code<span className="color-secondary">No</span>-code</h1>
+                            <p data-sal-delay="200" data-sal="slide-up" data-sal-duration="1000">Develop Apps Quickly and Easily with Low-Code <br/> No-Code Solutions.</p>
                             <div className="banner-search" data-sal-delay="400" data-sal="slide-up" data-sal-duration="1000">
-                                <div className="input-group">
+{/*                                 <div className="input-group">
                                     <input type="text" className="form-control" placeholder="What do you want learn?" />
                                     <button className="search-btn" type="button"><i className="icon-2"></i></button>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
