@@ -82,9 +82,9 @@ const AboutArea = () => {
                                 }
                             </div>
 
-{/*                             <div className="about-btn sal-animate" data-sal-delay="400" data-sal="slide-up" data-sal-duration="1000">
-                                <a href="#" className="edu-btn">Learn more <i className="icon-4"></i></a>
-                            </div> */}
+                            <div className="about-btn sal-animate" data-sal-delay="400" data-sal="slide-up" data-sal-duration="1000">
+{/*                                 <a href="#" className="edu-btn">Learn more <i className="icon-4"></i></a> */}
+                            </div>
                         </div>
                     </div>
                 </div>
