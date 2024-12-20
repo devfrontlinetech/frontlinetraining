@@ -33,7 +33,7 @@ const FaqArea = () => {
                         <div className="edu-faq-content">
                             <div className="section-title section-left">
 {/*                                 <span className="pre-title">FAQ’s</span> */}
-                                <h2 className="title">Over 10 Years in <span className="color-secondary">Distant <br /> Skill</span> Development</h2>
+                                <h2 className="title">Power Platform <span className="color-secondary">AI&nbsp;&nbsp;</span>and<span className="color-secondary">&nbsp;&nbsp;Machine learning</span></h2>
                                 <span className="shape-line"><i className="icon-19"></i></span>
                             </div>
                             <p>Power Apps specifically focuses on building custom business apps without extensive code, while the Power Platform encompasses a broader suite for data analysis, automation, and chatbot creation.</p>
@@ -67,7 +67,7 @@ const FaqArea = () => {
                     <div className="col-lg-6">
                         <div className="edu-faq-gallery">
                             <div className="faq-thumbnail thumbnail-1" data-sal-delay="50" data-sal="slide-left" data-sal-duration="800">
-                                <img src="/assets/images/others/faq-6.webp" alt="Faq Images" />
+                                <img src="/assets/images/others/faq-img.webp" alt="Faq Images" />
                             </div>
                             <ul className="shape-group">
                                 <li className="shape-1 sal-animate" data-sal-delay="1000" data-sal="fade" data-sal-duration="1000">
