@@ -114,7 +114,7 @@ const Header = ({ header_style, no_top_bar, disable_full_width, disable_category
                                         </div>
                                     </li>
                                     <li className="icon search-icon">
-                                        <a style={{cursor:'pointer'}} onClick={() => setIsSearchOpen(true)} className="search-trigger">
+                                        <a href="#" style={{cursor:'pointer'}} onClick={() => setIsSearchOpen(true)} className="search-trigger">
                                             <i className="icon-2"></i>
                                         </a>
                                     </li>
@@ -142,7 +142,7 @@ const Header = ({ header_style, no_top_bar, disable_full_width, disable_category
                                         </Link>
                                     </li>
                                     <li className="mobile-menu-bar d-block d-xl-none">
-                                        <button className="hamberger-button" onClick={() => setIsOpen(true)}>
+                                        <button className="hamberger-button" onClick={() => setIsOpen(true)} aria-label="Name">
                                             <i className="icon-54"></i>
                                         </button>
                                     </li>

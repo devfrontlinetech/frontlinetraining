@@ -5,10 +5,10 @@ const features = () => {
         <div className="features-area-6">
             <div className="container">
                 <div className="section-title section-center" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                    <span className="pre-title pre-textsecondary">features</span>
-                    <h2 className="title">Explore Yourself All Over The World</h2>
+                    <span className="pre-title pre-textsecondary">features of power platform</span>
+                    <h2 className="title">Natural language processing for human-like interactions.</h2>
                     <span className="shape-line"><i className="icon-19"></i></span>
-                    <p>Consectetur adipiscing elit sed do eiusmod tempor.</p>
+                    <p>Automate repetitive tasks and business processes across apps and services, boosting efficiency.</p>
                 </div>
                 <div className="features-grid-wrap">
                     <div className="features-box features-style-6 ">
@@ -16,8 +16,8 @@ const features = () => {
                             <img className="svgInject" src="/assets/images/svg-icons/online-class.svg" alt="animated icon" />
                         </div>
                         <div className="content">
-                            <h5 className="title">80+ Online Courses</h5>
-                            <p>Lorem ipsum dolor sit amet cont adipiscing elit.</p>
+                            <h5 className="title">Low-Code/No-Code</h5>
+{/*                             <p>Lorem ipsum dolor sit amet cont adipiscing elit.</p> */}
                         </div>
                     </div>
                     <div className="features-box features-style-6 ">
@@ -25,8 +25,8 @@ const features = () => {
                             <img className="svgInject" src="/assets/images/svg-icons/instructor.svg" alt="animated icon" />
                         </div>
                         <div className="content">
-                            <h5 className="title">Top Instructors</h5>
-                            <p>Lorem ipsum dolor sit amet cont adipiscing elit.</p>
+                            <h5 className="title">Data Integration</h5>
+{/*                             <p>Lorem ipsum dolor sit amet cont adipiscing elit.</p> */}
                         </div>
                     </div>
                     <div className="features-box features-style-6  feature-wrapper">
@@ -34,8 +34,8 @@ const features = () => {
                             <img className="svgInject" src="/assets/images/svg-icons/certificate.svg" alt="animated icon" />
                         </div>
                         <div className="content">
-                            <h5 className="title">Online Certificates</h5>
-                            <p>Lorem ipsum dolor sit amet cont adipiscing elit.</p>
+                            <h5 className="title">Automation</h5>
+{/*                             <p>Lorem ipsum dolor sit amet cont adipiscing elit.</p> */}
                         </div>
                     </div>
                     <div className="features-box features-style-6 feature-wrapper">
@@ -43,8 +43,8 @@ const features = () => {
                             <img className="svgInject" src="/assets/images/svg-icons/user.svg" alt="animated icon" />
                         </div>
                         <div className="content">
-                            <h5 className="title">6000k+ Members</h5>
-                            <p>Lorem ipsum dolor sit amet cont adipiscing elit.</p>
+                            <h5 className="title">Customizability</h5>
+{/*                             <p>Lorem ipsum dolor sit amet cont adipiscing elit.</p> */}
                         </div>
                     </div>
                 </div>

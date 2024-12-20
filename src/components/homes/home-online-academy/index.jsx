@@ -19,7 +19,7 @@ const index = () => {
             <Header no_top_bar={true}/>
                 <HeroArea/>
                 <Categories/>
-                <Courses/>
+                {/*<Courses/> */}
                 {/*<BrandArea/>*/}
                 {/*<TeamArea/>*/}
                 {/*<CounterArea/>*/}

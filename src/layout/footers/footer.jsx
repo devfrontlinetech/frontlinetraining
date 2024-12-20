@@ -51,7 +51,7 @@ const Footer = ({ style_2, dark_bg,home_4 }) => {
                             <div className="edu-footer-widget">
                                 <div className="logo">
                                     <Link href={'/'}>
-                                        <a>
+                                        <a  aria-label="Frontlinetraining">
                                             {!dark_bg && <>
                                                 {!style_2 && <img className="logo-light" src={logoLight} alt="Corporate Logo" />}
                                                 <img className="logo-dark" src={logoDark} alt="Corporate Logo" />
@@ -60,7 +60,7 @@ const Footer = ({ style_2, dark_bg,home_4 }) => {
                                     </Link>
 
                                     <Link href={'/'}>
-                                        <a>
+                                        <a  aria-label="Frontlinetraining">
                                             {dark_bg && <img className="logo-light" src={home_4?'/assets/images/fnline/Frontline_Logo_White.png' :'/assets/images/fnline/Frontline_Logo_Dark.png'} alt="Corporate Logo" />}
                                         </a>
                                     </Link>
@@ -114,7 +114,7 @@ const Footer = ({ style_2, dark_bg,home_4 }) => {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="inner text-center">
-                                <p>Copyright {new Date().getFullYear()} <a href="https://wa.me/919789655455?text=I%20need%20course%20details" rel="noreferrer" target="_blank">Frontline</a> Designed By <a href="https://wa.me/919789655455?text=I%20need%20course%20details" rel="noreferrer" target="_blank">Frontline</a>. All Rights Reserved</p>
+                                <p>Copyright {new Date().getFullYear()} Frontlinetraining Designed By <a href="https://frontlinetechnologies.org/" rel="noreferrer" target="_blank" aria-label="Frontlinetraining">Frontline</a>. All Rights Reserved</p>
                             </div>
                         </div>
                     </div>

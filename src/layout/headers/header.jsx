@@ -27,7 +27,7 @@ const categories = [
             { title: 'UI/UX Training', link: '/ui-ux' },
             { title: ' Full stack MERN (Mongo Express React Node) Training', link: '/mern-python' },
             { title: 'Software Testing', link: '/software-testing' },
-            { title: ' Paython with Data Science Training', link: '/python-data' },
+            { title: ' Python with Data Science Training', link: '/python-data' },
             { title: ' Data Analysis Training', link: '/data-analysis' },
             { title: 'AI/ML Training', link: '/ai-ml' },
            // { title: ' DevOps Training', link: '/home-modern-schooling', new: true },
@@ -114,7 +114,7 @@ const Header = ({ header_style, no_top_bar, disable_full_width, disable_category
                                         </div>
                                     </li>
                                     <li className="icon search-icon">
-                                        <a style={{cursor:'pointer'}} onClick={() => setIsSearchOpen(true)} className="search-trigger">
+                                        <a href="#" style={{cursor:'pointer'}} onClick={() => setIsSearchOpen(true)} className="search-trigger" aria-label="Open Search Box">
                                             <i className="icon-2"></i>
                                         </a>
                                     </li>
@@ -142,7 +142,7 @@ const Header = ({ header_style, no_top_bar, disable_full_width, disable_category
                                         </Link>
                                     </li>
                                     <li className="mobile-menu-bar d-block d-xl-none">
-                                        <button className="hamberger-button" onClick={() => setIsOpen(true)}>
+                                        <button className="hamberger-button" onClick={() => setIsOpen(true)} aria-label="Name">
                                             <i className="icon-54"></i>
                                         </button>
                                     </li>

@@ -36,7 +36,9 @@
         font-size: 14px;
         color: var(--color-white);
         a {
-            color: var(--color-secondary);
+            // color: var(--color-secondary);
+            //#ff0025
+            color: #ffa8a8;
             text-decoration: underline;
             font-weight: 500;
             &:hover {

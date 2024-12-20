@@ -463,7 +463,7 @@
         }
     }
     .edu-btn {
-        color: var(--color-white) !important;
+        color: var(--color-black) !important;
     }
     .d-none-shape-dark {
         display: block;
@@ -2494,7 +2494,9 @@
         box-shadow: none;
         
         p {
-            color: var(--color-title);
+            // color: var(--color-title);
+		color: #FFFFFF;
+
         }
         .thumbnail {
             .qoute-icon {

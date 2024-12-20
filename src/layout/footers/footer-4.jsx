@@ -7,8 +7,8 @@ import FooterSocial from './component/footer-social';
 const footer_contents = {
     desc: 'Frontline Tech is a global IT consulting services and Tech Engineering provider. Our clientele comes from a broad array of industries from SME to large corporations. IT experience and using cutting edge technology.',
     add: '29/11 A Old Bypass Road, Near SBI, Karur 1.',
-    call: '+7200 247247',
-    email: 'www.frontl.in',
+    call: '+91 97896 55455',
+    email: 'info@frontlinetraining.in',
     widgets: [
         {
             col: '3',
@@ -143,7 +143,7 @@ const FooterTwo = () => {
                         <div className="col-lg-12">
                             <div className="inner text-center">
                                 <p>Copyright {new Date().getFullYear()} 
-                                    <a href="https://frontlinetechnologies.org/contact" rel="noreferrer" target="_blank">Frontline</a> Designed By <a href="https://frontlinetechnologies.org/contact" target="_blank" rel="noreferrer">Frontline</a>. All Rights Reserved
+                                    Frontlinetraining Designed By <a href="https://frontlinetechnologies.org/" target="_blank" rel="noreferrer" aria-label="Frontlinetraining">Frontline</a>. All Rights Reserved
                                 </p>
                             </div>
                         </div>

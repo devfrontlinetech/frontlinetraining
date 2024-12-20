@@ -41,7 +41,7 @@ const FooterThree = () => {
                             <div className="edu-footer-widget"> 
                                 <div className="logo">
                                     <Link href="/">
-                                        <a>
+                                        <a  aria-label="Frontlinetraining">
                                             <img className="logo-dark" src="/assets/images/fnline/Frontline_Logo_White.png" alt="Corporate Logo" />
                                         </a>
                                     </Link>
@@ -97,7 +97,7 @@ const FooterThree = () => {
                             <div className="inner text-center">
                                 <p>
                                     Copyright {new Date().toDateString()} 
-                                    <a href="https://frontlinetechnologies.org/contact" rel="noreferrer" target="_blank">Frontline</a> Designed By <a href="https://frontlinetechnologies.org/contact" target="_blank" rel="noreferrer">Frontline</a>. All Rights Reserved
+                                    Frontlinetraining Designed By <a href="https://frontlinetechnologies.org/" target="_blank" rel="noreferrer" aria-label="Frontlinetraining">Frontline</a>. All Rights Reserved
                                 </p>
                             </div>
                         </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Footer, Header } from '../../layout';
 import BreadcrumbThree from '../breadcrumb/breadcrumb-3';
-
+import ContactMap from '../contact-us/contact-map';
 import ContactUsArea from './contact-us-area';
 
 
@@ -12,8 +12,8 @@ const index = () => {
                 <Header no_top_bar={true} />
                 <BreadcrumbThree title="Contact Us" subtitle="Contact Us" />
                 <ContactUsArea/>
-                
-                <Footer style_2={'footer-dark bg-image footer-style-2'} />
+                <ContactMap/>
+                <Footer/>
             </div>
         </div>
     )

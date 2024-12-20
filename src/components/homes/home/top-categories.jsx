@@ -22,8 +22,8 @@ const category_contents = {
             delay: '150',
             color: 'color-extra01-style',
             icon: 'icon-11 personal-development',
-            title: 'Interview Training',
-            link: 'contact-me'
+            title: 'Power Platform',
+            link: 'power-platform'
         },
         {
             delay: '50',
@@ -45,14 +45,14 @@ const category_contents = {
             color: 'color-extra03-style',
             icon: 'icon-14',
             title: 'Digital Marketing',
-            link: 'digital-marketing'
+            link: 'digitalmarketing'
         },
         {
             delay: '50',
             color: 'color-extra04-style',
             icon: 'icon-15',
-            title: 'Programming Training',
-            link: 'contact-me'
+            title: 'Low code No code',
+            link: 'lowcode-nocode'
         },
         {
             delay: '100',

@@ -457,7 +457,10 @@
     }
     .copyright-area {
         a {
-            color: var(--color-primary);
+            // color: var(--color-primary);
+            //color: #009f70;
+           //color: #24b800;
+           color: #06062A;
             transition: background 0.2s linear;
             &:hover {
                 background: var(--gradient-primary);
@@ -486,7 +489,8 @@
 }
 .footer-lighten {
     .copyright-area {
-        background-color: #ebeff0;
+        // background-color: #ebeff0;
+       background-color: #C5F3DD;
         p {
             color: var(--color-black);
         }
