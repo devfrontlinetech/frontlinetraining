@@ -12,7 +12,7 @@ const AdBanner = () => {
                     <div className="row justify-content-center">
                         <div className="col-lg-6">
                             <div className="thumbnail">
-                                <img src="/assets/images/cta/cta-girl-bg.webp" alt="girl image" />
+                                <img src="/assets/images/cta/empl.webp" alt="girl image" />
                             </div>
                             <ul className="shape-group">
                                 <motion.li className="shape-01 scene"
