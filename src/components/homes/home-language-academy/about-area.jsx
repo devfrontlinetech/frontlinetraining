@@ -27,10 +27,10 @@ const AboutArea = () => {
                 <div className="row g-5 align-items-center">
                     <div className="col-lg-6">
                         <div className="about-image-gallery">
-                            <img className="main-img-1" data-sal-delay="100" data-sal="fade-in" data-sal-duration="800" src="/assets/images/about/about-19.webp" alt="About Image" />
+                            <img className="main-img-1" data-sal-delay="100" data-sal="fade-in" data-sal-duration="800" src="/assets/images/about/pp-img.jpg" alt="About Image" />
                             <div className="main-img-wrapper">
                                 <div className="main-img-inner" data-sal-delay="100" data-sal="fade-in" data-sal-duration="800">
-                                    <img className="main-img-2" src="/assets/images/about/about-20.webp" alt="About Image" />
+                                    <img className="main-img-2" src="/assets/images/about/pp1-img.webp" alt="About Image" />
                                 </div>
                             </div>
 
