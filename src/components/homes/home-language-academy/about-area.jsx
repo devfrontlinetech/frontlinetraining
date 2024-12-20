@@ -4,17 +4,17 @@ import { useMouseMoveUI } from '../../../contexts/mouse-move-context';
 
 const tabs = {
     heading:[
-        {active:true,target:'about-edu',title:'About EduBlink'},
-        {target:'about-mission',title:'Our Mission'},
-        {target:'about-vision',title:'Our Vision'}
+        {active:true,target:'power-apps',title:'Power Apps'},
+        {target:'power-automate',title:'Power Automate'},
+        {target:'power-bi',title:'Power BI'}
     ],
     content:[
-        {show:true,id:'about-edu',desc:"Magna aliquaenim minim veniam quis nostrud exercitation ullamco laborisLorem ipsum dolor sit amet consectetur adipisicing elit sed do eius tempor incididunt labore.",
-        feature_list:['Education award achived','Available online courses']},
-        {id:'about-mission',desc:"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.",
-        feature_list:['Education award achived','Available online courses']},
-        {id:'about-vision',desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exer.",
-        feature_list:['Education award achived','Available online courses']}
+        {show:true,id:'power-apps',desc:"Power Apps is a suite of apps, services, and connectors, as well as a data platform, that provides a rapid development environment to build custom apps.",
+        feature_list:['Comprehensive Coverage','Hands-On Learning','Available online course']},
+        {id:'power-automate',desc:"A comprehensive, end-to-end cloud automation platform powered by low code and AI.",
+        feature_list:['Practical Workflow Creation','Advanced Automation Techniques']},
+        {id:'power-bi',desc:"Find insights in your data and share rich analytics reports. Create rich, interactive reports with visual analytics using Power BI.",
+        feature_list:['Data Visualization and Reporting','Data Transformation and Analysis']}
     ]
 }
 
@@ -53,8 +53,8 @@ const AboutArea = () => {
                     <div className="col-lg-6" data-sal-delay="50" data-sal="slide-up" data-sal-duration="800">
                         <div className="about-content">
                             <div className="section-title section-left">
-                                <span className="pre-title">About Us</span>
-                                <h2 className="title">We Provide Best <span className="color-primary">Language</span> Courses For You</h2>
+{/*                                 <span className="pre-title">About Us</span> */}
+                                <h2 className="title">We Provide Best <span className="color-primary">Services</span>  For You</h2>
                                 <span className="shape-line"><i className="icon-19"></i></span>
                             </div>
 
@@ -82,9 +82,9 @@ const AboutArea = () => {
                                 }
                             </div>
 
-                            <div className="about-btn sal-animate" data-sal-delay="400" data-sal="slide-up" data-sal-duration="1000">
+{/*                             <div className="about-btn sal-animate" data-sal-delay="400" data-sal="slide-up" data-sal-duration="1000">
                                 <a href="#" className="edu-btn">Learn more <i className="icon-4"></i></a>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
