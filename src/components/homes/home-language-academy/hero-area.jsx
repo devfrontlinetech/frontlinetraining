@@ -12,10 +12,10 @@ const HeroArea = () => {
                 <div className="row align-items-center">
                     <div className="col-lg-6">
                         <div className="banner-content">
-                            <h1 className="title" data-sal-delay="100" data-sal="slide-up" data-sal-duration="1000">Take Online <br /> <span className="color-secondary">Language</span> Courses<br />With Certificate</h1>
-                            <p data-sal-delay="200" data-sal="slide-up" data-sal-duration="1000">Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit.</p>
+                           <h1 className="title" data-sal-delay="100" data-sal="slide-up" data-sal-duration="1000"> <br /> <span className="color-secondary">Power</span>Platform</h1>
+                            <p data-sal-delay="200" data-sal="slide-up" data-sal-duration="1000">The Power Platform is low-code/no-code suite of apps that includes Power Apps, Power BI, Power Automate (formerly Flow), and Power Virtual Agents.</p>
                             <div className="banner-btn" data-sal-delay="400" data-sal="slide-up" data-sal-duration="1000">
-                                <Link href="/course-style-1">
+                                <Link href="/web-dev">
                                     <a className="edu-btn">Find courses <i className="icon-4"></i></a>
                                 </Link>
                             </div>
@@ -39,7 +39,7 @@ const HeroArea = () => {
                             <div className="thumbnail" data-sal-delay="500" data-sal="slide-left" data-sal-duration="1000">
                                 <img src="/assets/images/banner/flag-boy.webp" alt="flag-boy Image" />
                             </div>
-                            <div className="instructor-info" data-sal-delay="800" data-sal="fade-in" data-sal-duration="1000">
+{/*                             <div className="instructor-info" data-sal-delay="800" data-sal="fade-in" data-sal-duration="1000">
                                 <div className="inner">
                                     <div className="enrolled-counter">
                                         <div className="counterup-wrapper">
@@ -62,7 +62,7 @@ const HeroArea = () => {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
 
                             <ul className="shape-group">
                                 <li className="shape-3" data-sal-delay="1000" data-sal="fade" data-sal-duration="1000">
