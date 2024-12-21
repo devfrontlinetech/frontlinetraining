@@ -145,7 +145,7 @@ const BlogDetailsArea = ({blog}) => {
                         </div> */}
 
                         {/*  Start Comment Area  */}
-                        <CommentArea />
+{/*                         <CommentArea /> */}
                         {/*  End Comment Area  */}
                         <div className="comment-form-area">
                             <h3 className="heading-title">Leave Your Comment Here</h3>
