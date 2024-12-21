@@ -30,11 +30,11 @@ const BlogArea = () => {
                                         <div className="inner">
                                             <div className="thumbnail">
                                                 {!slider && 
-                                                    <Link href={`/blog-details/${id}`}>
+                                                    // <Link href={`/blog-details/${id}`}>
                                                         <a>
                                                             <img src={img} alt="Blog Images" />
                                                         </a>
-                                                    </Link>
+                                                   // </Link>
                                                 }
 
                                                 {video && <button onClick={() => setIsVideoOpen(true)} style={{ border: 'none' }} className="video-play-btn video-popup-activation">
@@ -60,11 +60,11 @@ const BlogArea = () => {
                                                     >
                                                         {images.map((img, i) => (
                                                             <SwiperSlide key={i}>
-                                                                <Link href={`/blog-details/${id}`}>
+{/*                                                                 <Link href={`/blog-details/${id}`}> */}
                                                                     <a>
                                                                         <img src={img} alt="Blog Images" />
                                                                     </a>
-                                                                </Link>
+{/*                                                                 </Link> */}
                                                             </SwiperSlide>
                                                         ))}
 
@@ -105,11 +105,11 @@ const BlogArea = () => {
                                 )
                             })}
 
-                            <ul className="edu-pagination justify-content-start pt-0">
+{/*                             <ul className="edu-pagination justify-content-start pt-0"> */}
                                 {/* pagination start */}
-                                <PaginationTwo />
+{/*                                 <PaginationTwo /> */}
                                 {/* pagination end */}
-                            </ul>
+{/*                             </ul> */}
                         </div>
 
                         <div className="col-lg-4">

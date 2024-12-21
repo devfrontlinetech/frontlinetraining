@@ -71,7 +71,7 @@ export default function TestimonialArea() {
                                 <h2 className="title">What Our Clients Have To Say</h2>
                                 <span className="shape-line"><i className="icon-19"></i></span>
                                 <p>The art of “Communicating with Computers” is called coding, It allows us to be able to communicate with computers, and make them do what we want them to. One of the most exciting aspects of learning to code is the potential to bring your ideas to life and that’s how popular games, software, apps, web apps, and various other algorithms are built.</p>
-                                <a href="#" className="edu-btn btn-large">View All<i className="icon-4"></i></a>
+{/*                                 <a href="#" className="edu-btn btn-large">View All<i className="icon-4"></i></a> */}
                             </div>
                         </div>
                     </div>

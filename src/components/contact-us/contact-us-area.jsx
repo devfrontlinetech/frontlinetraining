@@ -20,7 +20,7 @@ const ContactUsArea = () => {
                                 </li>
                                 <li>
                                     <h5 className="title">Email</h5>
-                                    <p><a href="mailto:info@frontline.in">info@frontline.in</a></p>
+                                    <p><a href="mailto:info@frontlinetraining.in">info@frontlinetraining.in</a></p>
                                 </li>
                                 <li>
                                     <h5 className="title">Phone</h5>

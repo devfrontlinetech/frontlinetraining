@@ -53,12 +53,12 @@ const BlogSidebar = () => {
                     <h4 className="widget-title">Categories</h4>
                     <div className="content">
                         <ul className="category-list">
-                            <li><a href="#">Business Studies <span>(3)</span></a></li>
-                            <li><a href="#">Computer Engineering <span>(7)</span></a></li>
-                            <li><a href="#">Medical &amp; Health<span>(2)</span></a></li>
-                            <li><a href="#">Software <span>(1)</span></a></li>
-                            <li><a href="#">Web Development <span>(3)</span></a></li>
-                            <li><a href="#">Uncategorized <span>(9)</span></a></li>
+                            <li><a href="digitalmarketing">Digital Marketing<span>(3)</span></a></li>
+                            <li><a href="software-testing">Software Testing <span>(7)</span></a></li>
+                            <li><a href="ui-ux">UI / UX<span>(2)</span></a></li>
+                            <li><a href="python-data">Python / Data Science<span>(1)</span></a></li>
+                            <li><a href="ai-ml">AI / ML <span>(3)</span></a></li>
+                            <li><a href="ethical-hacking">Ethical Hacking<span>(9)</span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -78,11 +78,11 @@ const BlogSidebar = () => {
                     <h4 className="widget-title">Archives</h4>
                     <div className="content">
                         <ul className="category-list">
-                            <li><a href="#">2017 Nevember <span>(3)</span></a></li>
-                            <li><a href="#">2018 December <span>(7)</span></a></li>
-                            <li><a href="#">2019 January<span>(2)</span></a></li>
-                            <li><a href="#">2020 February <span>(1)</span></a></li>
-                            <li><a href="#">2021 March <span>(3)</span></a></li>
+                            <li><a >2019 Nevember <span>(3)</span></a></li>
+                            <li><a >2020 December <span>(7)</span></a></li>
+                            <li><a >2021 / 2022 January<span>(2)</span></a></li>
+                            <li><a >2023 February <span>(1)</span></a></li>
+                            <li><a >2024 March <span>(3)</span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -93,11 +93,11 @@ const BlogSidebar = () => {
                     <h4 className="widget-title">Tags</h4>
                     <div className="content">
                         <div className="tag-list">
-                            <a href="#">Language</a>
-                            <a href="#">eLearn</a>
-                            <a href="#">Tips</a>
-                            <a href="#">Course</a>
-                            <a href="#">Motivation</a>
+                            <a href="contact-us">Language</a>
+                            <a href="contact-us">eLearn</a>
+                            <a href="contact-us">Tips</a>
+                            <a href="contact-us">Course</a>
+                            <a href="contact-us">Motivation</a>
                         </div>
                     </div>
                 </div>

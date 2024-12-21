@@ -43,9 +43,9 @@ const EventArea = () => {
                                             <span className="event-location"><i className="icon-40"></i>{event_meta}</span>
                                             <p>{sm_desc}</p>
                                             <div className="read-more-btn">
-                                                <Link href={`/event-details/${id}`}>
+{/*                                                 <Link href={`/event-details/${id}`}>
                                                     <a className="edu-btn btn-medium curved-medium">Attend <i className="icon-4"></i></a>
-                                                </Link>
+                                                </Link> */}
                                             </div>
                                         </div>
                                     </div>
