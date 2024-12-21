@@ -36,8 +36,8 @@ const BlogDetailsArea = ({blog}) => {
                                 <h5 className="author">Simon Baker</h5>
                             </blockquote> */}
 
-                            <h3 className="title">The Complete Camtasia</h3>
-                            <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.</p>
+                            <h3 className="title">Transforming Businesses with Technology</h3>
+                            <p> "Digitally Transforming Your Business for Success" Description: Focus on how your IT solutions help businesses enhance their operations, improve efficiency, and accelerate growth using the latest tech tools and platforms.</p>
 
                             <div className="features-image">
                                 <div className="row g-md-5">
@@ -56,15 +56,16 @@ const BlogDetailsArea = ({blog}) => {
 
                             <p></p>
 
-                            <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.</p>
+                            <p>Our programs are designed to ignite your passion and empower you to make an impact.</p>
 
-                            <h3 className="title">Intrinsic Motivation</h3>
-                            <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam. </p>
+                            <h3 className="title">Dream Big, Learn Bigger</h3>
+                            <p>In the world of IT, there are no limits to what you can achieve. Dream big, learn bigger, and let your journey towards greatness begin with us.</p>
 
                             <ul>
-                                <li>Aute irure dolor in reprehenderit</li>
-                                <li>Occaecat cupidatat non proident sunt in culpa</li>
-                                <li>Pariatur enim ipsam.</li>
+                                <li>Focus on Soft Skills</li>
+                                <li>Never Stop Learning</li>
+                                <li>Work on Real Projects</li>
+                                
                             </ul>
 
                             <div className="blog-share-area">
@@ -73,9 +74,9 @@ const BlogDetailsArea = ({blog}) => {
                                         <div className="blog-tags">
                                             <h6 className="title">Tags:</h6>
                                             <div className="tag-list">
-                                                <a href="#">Language</a>
-                                                <a href="#">eLearn</a>
-                                                <a href="#">Tips</a>
+                                                <a href="contact-us">Language</a>
+                                                <a href="contact-us">eLearn</a>
+                                                <a href="contact-us">Tips</a>
                                             </div>
                                         </div>
                                     </div>
@@ -85,13 +86,13 @@ const BlogDetailsArea = ({blog}) => {
                                             <h6 className="title">Share on:</h6>
                                             <ul className="social-share icon-transparent">
                                                 <li>
-                                                    <a href="#"><i className="icon-facebook"></i></a>
+                                                    <a href=" https://www.facebook.com/frontlinetechin/"><i className="icon-facebook"></i></a>
                                                 </li>
                                                 <li>
-                                                    <a href="#"><i className="icon-twitter"></i></a>
+                                                    <a href="https://twitter.com/FrontlineTechin"><i className="icon-twitter"></i></a>
                                                 </li>
                                                 <li>
-                                                    <a href="#"><i className="icon-instagram"></i></a>
+                                                    <a href="https://www.instagram.com/frontlinetechnologies_/"><i className="icon-instagram"></i></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -100,7 +101,7 @@ const BlogDetailsArea = ({blog}) => {
                             </div>
                         </div>
 
-                        <div className="blog-author">
+{/*                         <div className="blog-author">
                             <div className="thumbnail">
                                 <img src="/assets/images/blog/author-01.jpg" alt="Author Images" />
                             </div>
@@ -141,7 +142,7 @@ const BlogDetailsArea = ({blog}) => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
 
                         {/*  Start Comment Area  */}
                         <CommentArea />
