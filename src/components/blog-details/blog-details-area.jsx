@@ -43,12 +43,12 @@ const BlogDetailsArea = ({blog}) => {
                                 <div className="row g-md-5">
                                     <div className="col-6">
                                         <div className="thumb">
-                                            <img src="/assets/images/blog/features-1.jpg" alt="Features Images" />
+                                            <img src="/assets/images/blog/moti-1.jpg" alt="Features Images" />
                                         </div>
                                     </div>
                                     <div className="col-6">
                                         <div className="thumb">
-                                            <img src="/assets/images/blog/features-2.jpg" alt="Features Images" />
+                                            <img src="/assets/images/blog/moti-2.jpg" alt="Features Images" />
                                         </div>
                                     </div>
                                 </div>
