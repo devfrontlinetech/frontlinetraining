@@ -31,10 +31,10 @@ const BlogDetailsArea = ({blog}) => {
                                 <li>Learn Today, Lead Tomorrow.</li>
                             </ul>
 
-                            <blockquote>
+{/*                             <blockquote>
                                 <p>Lorem ipsum dolor amet con sectur elitadicing elit sed do usmod tempor uincididunt enim minim veniam nostrud.</p>
                                 <h5 className="author">Simon Baker</h5>
-                            </blockquote>
+                            </blockquote> */}
 
                             <h3 className="title">The Complete Camtasia</h3>
                             <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.</p>
