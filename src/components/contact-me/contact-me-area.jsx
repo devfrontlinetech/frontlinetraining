@@ -56,7 +56,7 @@ const ContactMeArea = () => {
                                         </li>
                                     </ul>
                                     <ul className="social-share">
-                                        <li><a href="#"><i className="icon-share-alt"></i></a></li>
+                                        <li><a href="https://www.whatsapp.com/"><i className="icon-share-alt"></i></a></li>
                                         <SocialShare/>
                                     </ul>
                                 </div>
