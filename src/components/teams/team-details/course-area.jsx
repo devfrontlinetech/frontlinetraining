@@ -16,7 +16,7 @@ const CourseArea = ( { name } ) => {
                         </div>
                         
                         <div className="row g-5">
-                            {courses.slice(0,20).map((course) => {
+                            {courses.slice(0,12).map((course) => {
                                 return (
                                     <div className="col-md-6 col-xl-3" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800" key={course.id}>
                                         <CourseTypeOne data={course} />
