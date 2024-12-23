@@ -35,12 +35,12 @@ const SidebarOne = () => {
                     <h4 className="widget-title">Categories</h4>
                     <div className="content">
                         <ul className="category-list">
-                            <li><a href="#">Business Studies <span>(3)</span></a></li>
-                            <li><a href="#">Computer Engineering <span>(7)</span></a></li>
-                            <li><a href="#">Medical &amp; Health<span>(2)</span></a></li>
-                            <li><a href="#">Software <span>(1)</span></a></li>
-                            <li><a href="#">Web Development <span>(3)</span></a></li>
-                            <li><a href="#">Uncategorized <span>(9)</span></a></li>
+                            <li><a href="digitalmarketing">Digital Marketing<span>(3)</span></a></li>
+                            <li><a href="software-testing">Software Testing <span>(7)</span></a></li>
+                            <li><a href="ui-ux">UI / UX<span>(2)</span></a></li>
+                            <li><a href="python-data">Python / Data Science<span>(1)</span></a></li>
+                            <li><a href="ai-ml">AI / ML <span>(3)</span></a></li>
+                            <li><a href="ethical-hacking">Ethical Hacking<span>(9)</span></a></li>
                         </ul>
                     </div>
                 </div>
