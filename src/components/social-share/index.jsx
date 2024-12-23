@@ -1,9 +1,9 @@
 import React from 'react';
 
 const social_share = [
-    { link: 'http://facebook.com', target: '_blank', icon: 'icon-facebook',},
-    { link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter', },
-    { link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
+    { link: 'https://www.facebook.com/frontlinetechin/', target: '_blank', icon: 'icon-facebook' },
+    { link: 'https://twitter.com/FrontlineTechin', target: '_blank', icon: 'icon-twitter' },
+    { link: 'https://www.linkedin.com/company/frontline-technologies', target: '_blank', icon: 'icon-linkedin2' },
 ];
 
 export const SocialShare = () => {
