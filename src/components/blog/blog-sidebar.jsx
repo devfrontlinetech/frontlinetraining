@@ -68,7 +68,7 @@ const BlogSidebar = () => {
                 <div className="inner">
                     <h4 className="title">Get Online Courses From <span>FrontLine</span></h4>
                     <span className="shape-line"><i className="icon-19"></i></span>
-                    <p>Nostrud exer ciation laboris aliqup</p>
+                    <p>Success is just one click away</p>
                     <a href="contact-me" className="edu-btn btn-medium">Start Now <i className="icon-4"></i></a>
                 </div>
             </div>
