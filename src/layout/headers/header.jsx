@@ -113,8 +113,13 @@ const Header = ({ header_style, no_top_bar, disable_full_width, disable_category
                                             </button>
                                         </div>
                                     </li>
-                                    <li className="icon search-icon">
+{/*                                     <li className="icon search-icon">
                                         <a href="/search-popup" style={{cursor:'pointer'}} onClick={() => setIsSearchOpen(true)} className="search-trigger" aria-label="Open Search Box">
+                                            <i className="icon-2"></i>
+                                        </a>
+                                    </li> */}
+                                       <li className="icon search-icon">
+                                        <a style={{cursor:'pointer'}} onClick={() => setIsSearchOpen(true)} className="search-trigger">
                                             <i className="icon-2"></i>
                                         </a>
                                     </li>
