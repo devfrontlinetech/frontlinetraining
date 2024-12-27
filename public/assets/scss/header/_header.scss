@@ -103,6 +103,36 @@
         }
     }
 }
+//css for search bar updated 27/12/2024
+.dropdown-results {
+    position: absolute;
+    width: 16%;
+    top: 100%;
+    margin-left: 0;
+    // right: 0;
+    background-color: transparent;
+    
+    // border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-height: 200px;
+    overflow-y: auto;
+    // z-index: 9999;
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        padding: 8px 10px;
+        cursor: pointer;
+
+        &:hover {
+            color: #18ed8d;
+        }
+    }
+}
 
 /*------------------------
     Header Style One  
