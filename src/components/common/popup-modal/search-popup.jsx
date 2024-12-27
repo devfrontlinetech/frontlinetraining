@@ -46,6 +46,8 @@ const SearchPopup = ({ isSearchOpen, setIsSearchOpen }) => {
     { id: 11, name: 'css', link: '/web-dev' },
     { id: 12, name: 'javascript', link: '/web-dev' },
     { id: 13, name: 'Ai-Ml', link: '/ai-ml' },
+    { id: 14, name: 'Power-Platform', link: '/power-platform' },
+    { id: 15, name: 'Low code- No code', link: '/lowcode-nocode' },
     
     
   ];
