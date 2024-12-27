@@ -16,15 +16,15 @@ import Cart from './component/cart';
 
 // Sample product data (this should be replaced with actual dynamic data)
 const products = [
-    { id: 1, name: 'Digital Marketing Training', link: '/digitalmarketing' },
-    { id: 2, name: 'UI/UX Training', link: '/ui-ux' },
-    { id: 3, name: 'Full Stack MERN Training', link: '/mern-python' },
-    { id: 4, name: 'Software Testing', link: '/software-testing' },
-    { id: 5, name: 'Python with Data Science', link: '/python-data' },
-    { id: 6, name: 'Data Analysis Training', link: '/data-analysis' },
-    { id: 7, name: 'AI/ML Training', link: '/ai-ml' },
-    { id: 8, name: 'Ethical Hacking', link: '/ethical-hacking' },
-    { id: 9, name: 'javascript', link: '/web-dev' },
+   { id: 1, name: 'courses', link: '/web-dev' },
+    { id: 2, name: 'digitalmarketing', link: '/digitalmarketing' },
+    { id: 3, name: 'software testing', link: '/software-testing' },
+    { id: 4, name: 'ui/ux', link: '/ui-ux' },
+    { id: 5, name: 'Ethical Hacking', link: '/ethical-hacking' },
+    { id: 6, name: 'python-datascience', link: '/python-data' },
+    { id: 7, name: 'Mobile Development', link: '/mob-dev' },
+    { id: 8, name: 'Full Stack', link: '/full-stack' },
+    { id: 9, name: 'Web Design', link: '/web-design' },
 ];
 
 const categories = [
