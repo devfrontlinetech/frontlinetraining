@@ -25,6 +25,10 @@ const products = [
     { id: 7, name: 'Mobile Development', link: '/mob-dev' },
     { id: 8, name: 'Full Stack', link: '/full-stack' },
     { id: 9, name: 'Web Design', link: '/web-design' },
+    { id: 10, name: 'html', link: '/web-dev' },
+    { id: 11, name: 'css', link: '/web-dev' },
+    { id: 12, name: 'javascript', link: '/web-dev' },
+    { id: 13, name: 'Ai-Ml', link: '/ai-ml' },
 ];
 
 const categories = [
