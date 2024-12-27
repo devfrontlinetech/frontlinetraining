@@ -105,18 +105,17 @@
 }
 //css for search bar updated 27/12/2024
 .dropdown-results {
-    position: absolute;
-    width: 16%;
+     position: absolute;
+    width: 14%;
     top: 100%;
     margin-left: 0;
     // right: 0;
-    background-color: transparent;
     
+    background-color: black;
     // border: 1px solid #ddd;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.368);
     max-height: 200px;
     overflow-y: auto;
-    // z-index: 9999;
 
     ul {
         list-style: none;
