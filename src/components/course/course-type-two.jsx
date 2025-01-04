@@ -11,7 +11,7 @@ const CourseTypeTwo = ({ data, classes }) => {
                             <img src={`/assets/images/course/course-05/${data.img}`} alt="Course Thumb" />
                         </a>
                     </Link>
-                    <div className="course-price price-round">${Math.trunc(data.course_price)}</div>
+{/*                     <div className="course-price price-round">${Math.trunc(data.course_price)}</div> */}
                 </div>
                 <div className="content">
                     <span className="course-level">{data.level}</span>
