@@ -17,7 +17,7 @@ const HeroArea = () => {
                             Effective design can lead to increased conversions and sales.
                             </p>
                             <div className="banner-btn" data-sal-delay="400" data-sal="slide-up" data-sal-duration="1000">
-                                <Link href="/web-dev">
+                                <Link href="/uiux">
                                     <a className="edu-btn">Find courses <i className="icon-4"></i></a>
                                 </Link>
                             </div>
