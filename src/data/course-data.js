@@ -1,6 +1,6 @@
 const course_data = [
   {
-    id: 1,
+    id: 'fullstack-web-developer-courses',
     img: 'tittle-01.jpg',
     duration: '4 Weeks',
     course_outline:'Online + Onsite',
@@ -69,7 +69,7 @@ const course_data = [
     ]
   },
   {
-    id: 2,
+    id: 'practical-web-development-courses',
     img: 'Tittle-02.jpg',
     duration: '3 Weeks',
     course_outline:'Online Only',
@@ -138,7 +138,7 @@ const course_data = [
     ]
   },
   {
-    id: 3,
+    id: 'advanced-web-development-course',
     img: 'Tittle-03.jpg',
     duration: '10 Weeks',
     course_outline:'Onsite Only',
@@ -207,7 +207,7 @@ const course_data = [
     ]
   },
   {
-    id: 4,
+    id: 'creating-responsive-html-email',
     img: 'Tittle-04.png',
     duration: '6 Weeks',
     course_outline:'Online Only',
@@ -276,12 +276,12 @@ const course_data = [
     ]
   },
   {
-    id: 5,
+    id: '2025-web-development-bootcamp',
     img: 'Tittle-05.jpg',
     duration: '6 Weeks',
     course_outline:'Online + Onsite',
     level: 'Advanced',
-    title: 'The Complete 2023 Web Development Bootcamp',
+    title: 'The Complete 2025 Web Development Bootcamp',
     rating: '4.8',
     rating_count: 27,
     course_price: '',
@@ -345,7 +345,7 @@ const course_data = [
     ]
   },
   {
-    id: 6,
+    id: 'python-beginners',
     img: 'Tittle-06.jpg',
     duration: '9 Weeks',
     course_outline:'Online + Onsite',
@@ -414,7 +414,7 @@ const course_data = [
     ]
   },
   {
-    id: 7,
+    id: 'javascript-2hrs',
     university_courses:true,
     img: 'Tittle-09.jpg',
     filter_category:["undergraduate","graduate"],
@@ -485,7 +485,7 @@ const course_data = [
     ]
   },
   {
-    id: 8,
+    id: 'android-devlopers-training',
     university_courses:true,
     img: 'Tittle-07.webp',
     filter_category:["undergraduate","graduate"],
@@ -556,7 +556,7 @@ const course_data = [
     ]
   },
   {
-    id: 9,
+    id: 'web-mobile-designer',
     university_courses:true,
     img: 'mobweb-02.webp',
     filter_category:["undergraduate","online"],
@@ -627,7 +627,7 @@ const course_data = [
     ]
   },
   {
-    id: 10,
+    id: 'mobile-testing-android-ios',
     duration: '6 to 8 Weeks',
     course_outline:'Onsite Only',
     img: 'mobweb-03.jpg',
@@ -697,7 +697,7 @@ const course_data = [
     ]
   },
   {
-    id: 11,
+    id: 'mobile-ethical-hacking',
     duration: '9 Weeks',
     course_outline:'Online Only',
     img: 'mobweb-04.jpg',
@@ -767,7 +767,7 @@ const course_data = [
     ]
   },
   {
-    id: 12,
+    id: 'fullstact-android-development',
     duration: '8 Weeks',
     course_outline:'Online + Onsite',
     img: 'mobweb-01.jpg',
@@ -837,7 +837,7 @@ const course_data = [
     ]
   },
   {
-    id: 13,
+    id: 'hardware-mobilerepair-course',
     duration: '7 to 9 Weeks',
     course_outline:'Onsite Only',
     img: 'mobweb-05.avif',
@@ -908,7 +908,7 @@ const course_data = [
   },
   // kitchen course
   {
-    id: 14,
+    id: 'course-mobile-photography',
     kitchen_course:true,
     course_outline:'Online Only',
     duration: '16 Weeks',
@@ -979,7 +979,7 @@ const course_data = [
     ]
   },
   {
-    id: 15,
+    id: 'development-mernstack-gen-ai',
     kitchen_course:true,
     duration: ' 9 Weeks',
     course_outline:'Online + Onsite',
@@ -1050,14 +1050,14 @@ const course_data = [
     ]
   },
   {
-    id: 16,
+    id: 'web-development-bootcamp-2025',
     kitchen_course:true,
     duration: '13 Weeks',
     course_outline:'Onsite Only',
     img: 'fullstack-02.png',
     hours: 35,
     level: 'developing',
-    title: 'Web Development Bootcamp 2024.',
+    title: 'Web Development Bootcamp 2025.',
     rating: '5',
     rating_count: 40,
     course_price: '',
@@ -1121,7 +1121,7 @@ const course_data = [
     ]
   },
   {
-    id: 17,
+    id: 'react-angular-node-js-fullstack',
     kitchen_course:true,
     duration: '20 Weeks',
     course_outline:'Online + Onsite',
@@ -1193,7 +1193,7 @@ const course_data = [
     ]
   },
   {
-    id: 18,
+    id: '50days-codecamp',
     kitchen_course:true,
     duration: '15 Weeks',
     course_outline:'Online + Onsite',
@@ -1264,7 +1264,7 @@ const course_data = [
     ]
   },
   {
-    id: 19,
+    id: 'ai-python-fullstack',
     kitchen_course:true,
     duration: '13 Weeks',
     course_outline:'Onsite Only',
@@ -1335,7 +1335,7 @@ const course_data = [
     ]
   },
   {
-    id: 20,
+    id: 'beginner-advanced-fullstack-courses',
     yoga_course: true,
     img: 'fullstack-06.jpg',
     duration: '9 Weeks',
@@ -1405,7 +1405,7 @@ const course_data = [
     ]
   },
   {
-    id: 21,
+    id: 'web-moblie-designer',
     yoga_course: true,
     img: 'uiux-01.png',
     duration: '6 Weeks',
@@ -1475,7 +1475,7 @@ const course_data = [
     ]
   },
   {
-    id: 22,
+    id: 'figma-ui-ux',
     yoga_course:true,
     img: 'uiux-02.webp',
     duration: '9 to 10 Weeks',
@@ -1545,7 +1545,7 @@ const course_data = [
     ]
   },
   {
-    id: 23,
+    id: 'ui-ux-advanced',
     yoga_course: true,
     img: 'uiux-03.jpg',
     duration: '3 to 4 Weeks',
@@ -1615,7 +1615,7 @@ const course_data = [
     ]
   },
   {
-    id: 24,
+    id: 'user-experience-design',
     yoga_course: true,
     duration: '12 Weeks',
     course_outline:'Online Only',
@@ -1686,7 +1686,7 @@ const course_data = [
     ]
   },
   {
-    id: 25,
+    id: 'complete-web-design',
     yoga_course: true,
     duration: '9 Weeks',
     course_outline:'Online Only',
@@ -1758,7 +1758,7 @@ const course_data = [
   },
  // kindergarten course 
   {
-    id: 26,
+    id: 'responsive-webdisign-html5-css',
     kindergarten_course:true,
     duration: '5 Weeks',
     course_outline:'Online + Onsite',
@@ -1830,7 +1830,7 @@ const course_data = [
     ]
   },
   {
-    id: 27,
+    id: 'webdesign-for-beginners',
     kindergarten_course:true,
     duration: '12 Weeks',
     course_outline:'Online + Onsite',
@@ -1902,7 +1902,7 @@ const course_data = [
     ]
   },
   {
-    id: 28,
+    id: 'web-developer-camp-2025',
     kindergarten_course:true,
     duration: '5 Weeks',
     course_outline:'Onsite Only',
@@ -1910,7 +1910,7 @@ const course_data = [
     bg_color:'bg-color-secondary',
     hours: 12,
     level: 'Beginner',
-    title: 'The Web Developer Camp 2024.',
+    title: 'The Web Developer Camp 2025.',
     rating: '4.5',
     rating_count: 40,
     course_price: '',
@@ -1974,7 +1974,7 @@ const course_data = [
     ]
   },
   {
-    id: 29,
+    id: 'webdisign-hosting-seo-business',
     kindergarten_course:true,
     duration: '12 Weeks',
     course_outline:'Online + Onsite',
@@ -2046,7 +2046,7 @@ const course_data = [
     ]
   },
   {
-    id: 30,
+    id: 'graphic-design-web-digital-design',
     kindergarten_course:true,
     duration: '5 Weeks',
     course_outline:'Online Only',
@@ -2054,7 +2054,7 @@ const course_data = [
     bg_color:'bg-color-primary',
     hours: 12,
     level: 'Advanced',
-    title: 'Graphic Design Theory, Web & Degital Design.',
+    title: 'Graphic Design Theory, Web & Digital Design.',
     rating: '4.5',
     rating_count: 40,
     course_price: '',
@@ -2118,7 +2118,7 @@ const course_data = [
     ]
   },
   {
-    id: 31,
+    id: 'frontend-web-development-course',
     kindergarten_course:true,
     duration: '12 Weeks',
     course_outline:'Online + Onsite',
