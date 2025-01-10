@@ -238,11 +238,11 @@ const course_data = [
     language: 'English',
     certificate: 'yes',
     videoId: 'PICj5tr9hcc',
-    course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
+    course_desc: 'Creating a responsive HTML email involves designing an email layout that adjusts and looks good across various devices and screen sizes, from desktops to mobile phones. The key techniques for building a responsive email include',
     course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
     learn_list: ['Learn to use Python professionally, learning both Python 2 & Python 3!', 'Build 6 beautiful real-world projects for your portfolio (not boring toy apps)', 'Understand the Theory behind Vue.js and use it in Real Projects', 'Create responsive, accessible, and beautiful layouts'],
     course_desc_3: 'Consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor.',
-    curriculum_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat.',
+    curriculum_desc: 'This course is designed to introduce students to the basics of web development, with a focus on HTML (Hypertext Markup Language). ',
     course_lessons: [
       {
         title: 'Week 1-4',
@@ -288,7 +288,7 @@ const course_data = [
     lesson: 35,
     student: 48,
     category:'Art & Design',
-    short_desc: 'Lorem ipsum dolor sit amet consectur adipiscing elit sed eiusmod tempor.',
+    short_desc: 'The Complete 2025 Web Development Bootcamp is an all-in-one course designed to take you from a beginner to a full-stack web developer in 2025.',
     instructor: 'R R Anbuthane',
     instructor_img:'partner-02.webp',
     instructor_title:'Founder & CEO',
@@ -307,11 +307,11 @@ const course_data = [
     language: 'English',
     certificate: 'yes',
     videoId: 'PICj5tr9hcc',
-    course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
+    course_desc: 'This bootcamp offers a step-by-step guide through web development, ensuring you gain practical experience building real-world projects.',
     course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
     learn_list: ['Learn to use Python professionally, learning both Python 2 & Python 3!', 'Build 6 beautiful real-world projects for your portfolio (not boring toy apps)', 'Understand the Theory behind Vue.js and use it in Real Projects', 'Create responsive, accessible, and beautiful layouts'],
     course_desc_3: 'Consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor.',
-    curriculum_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat.',
+    curriculum_desc: ' Understand the full-stack development lifecycle, front-end vs. back-end development, and the role of a web developer.',
     course_lessons: [
       {
         title: 'Week 1-4',
