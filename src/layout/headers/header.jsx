@@ -126,7 +126,7 @@ const Header = ({ header_style, no_top_bar, disable_full_width, disable_category
                                                 value={searchTerm}
                                                 onChange={(e) => setSearchTerm(e.target.value)} // Update search term
                                             />
-                                            <button className="search-btn" type="button">
+                                            <button className="search-btn" type="button" aria-label="Name">
                                                 <i className="icon-2"></i>
                                             </button>
                                         </div>
