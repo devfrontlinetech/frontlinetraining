@@ -1,6 +1,6 @@
 const course_data = [
   {
-    id: 'fullstack-web-developer-courses',
+    id: 'fullstack-courses',
     img: 'tittle-01.jpg',
     duration: '4 Weeks',
     course_outline:'Online + Onsite',
@@ -69,7 +69,7 @@ const course_data = [
     ]
   },
   {
-    id: 'practical-web-development-courses',
+    id: 'web-development',
     img: 'Tittle-02.jpg',
     duration: '3 Weeks',
     course_outline:'Online Only',
@@ -138,7 +138,7 @@ const course_data = [
     ]
   },
   {
-    id: 'advanced-web-development-course',
+    id: 'advanced-development-',
     img: 'Tittle-03.jpg',
     duration: '10 Weeks',
     course_outline:'Onsite Only',
@@ -207,7 +207,7 @@ const course_data = [
     ]
   },
   {
-    id: 'creating-responsive-html-email',
+    id: 'responsive-html',
     img: 'Tittle-04.png',
     duration: '6 Weeks',
     course_outline:'Online Only',
@@ -276,7 +276,7 @@ const course_data = [
     ]
   },
   {
-    id: '2025-web-development-bootcamp',
+    id: '2025-bootcamp',
     img: 'Tittle-05.jpg',
     duration: '6 Weeks',
     course_outline:'Online + Onsite',
@@ -485,7 +485,7 @@ const course_data = [
     ]
   },
   {
-    id: 'android-devlopers-training',
+    id: 'android-training',
     university_courses:true,
     img: 'Tittle-07.webp',
     filter_category:["undergraduate","graduate"],
@@ -556,7 +556,7 @@ const course_data = [
     ]
   },
   {
-    id: 'web-mobile-designer',
+    id: 'mobile-designer',
     university_courses:true,
     img: 'mobweb-02.webp',
     filter_category:["undergraduate","online"],
@@ -627,7 +627,7 @@ const course_data = [
     ]
   },
   {
-    id: 'mobile-testing-android-ios',
+    id: 'mobile-testing',
     duration: '6 to 8 Weeks',
     course_outline:'Onsite Only',
     img: 'mobweb-03.jpg',
@@ -697,7 +697,7 @@ const course_data = [
     ]
   },
   {
-    id: 'mobile-ethical-hacking',
+    id: 'ethical-hacking',
     duration: '9 Weeks',
     course_outline:'Online Only',
     img: 'mobweb-04.jpg',
@@ -767,7 +767,7 @@ const course_data = [
     ]
   },
   {
-    id: 'fullstact-android-development',
+    id: 'fullstact-development',
     duration: '8 Weeks',
     course_outline:'Online + Onsite',
     img: 'mobweb-01.jpg',
@@ -837,7 +837,7 @@ const course_data = [
     ]
   },
   {
-    id: 'hardware-mobilerepair-course',
+    id: 'mobilerepair',
     duration: '7 to 9 Weeks',
     course_outline:'Onsite Only',
     img: 'mobweb-05.avif',
@@ -908,7 +908,7 @@ const course_data = [
   },
   // kitchen course
   {
-    id: 'course-mobile-photography',
+    id: 'mob-photography',
     kitchen_course:true,
     course_outline:'Online Only',
     duration: '16 Weeks',
@@ -979,7 +979,7 @@ const course_data = [
     ]
   },
   {
-    id: 'development-mernstack-gen-ai',
+    id: 'mernstack',
     kitchen_course:true,
     duration: ' 9 Weeks',
     course_outline:'Online + Onsite',
@@ -1050,7 +1050,7 @@ const course_data = [
     ]
   },
   {
-    id: 'web-development-bootcamp-2025',
+    id: 'web-bootcamp-2025',
     kitchen_course:true,
     duration: '13 Weeks',
     course_outline:'Onsite Only',
@@ -1121,7 +1121,7 @@ const course_data = [
     ]
   },
   {
-    id: 'react-angular-node-js-fullstack',
+    id: 'fullstack',
     kitchen_course:true,
     duration: '20 Weeks',
     course_outline:'Online + Onsite',
@@ -1264,7 +1264,7 @@ const course_data = [
     ]
   },
   {
-    id: 'ai-python-fullstack',
+    id: 'python-fullstack',
     kitchen_course:true,
     duration: '13 Weeks',
     course_outline:'Onsite Only',
@@ -1335,7 +1335,7 @@ const course_data = [
     ]
   },
   {
-    id: 'beginner-advanced-fullstack-courses',
+    id: 'advanced-fullstack',
     yoga_course: true,
     img: 'fullstack-06.jpg',
     duration: '9 Weeks',
@@ -1405,7 +1405,7 @@ const course_data = [
     ]
   },
   {
-    id: 'web-moblie-designer',
+    id: 'mob-designer',
     yoga_course: true,
     img: 'uiux-01.png',
     duration: '6 Weeks',
@@ -1475,7 +1475,7 @@ const course_data = [
     ]
   },
   {
-    id: 'figma-ui-ux',
+    id: 'figma-uiux',
     yoga_course:true,
     img: 'uiux-02.webp',
     duration: '9 to 10 Weeks',
@@ -1545,7 +1545,7 @@ const course_data = [
     ]
   },
   {
-    id: 'ui-ux-advanced',
+    id: 'uiux-advanced',
     yoga_course: true,
     img: 'uiux-03.jpg',
     duration: '3 to 4 Weeks',
@@ -1663,7 +1663,7 @@ const course_data = [
           { title: 'Course Overview', badge_list: true, question: 0, minutes: 10 },
           { title: 'Course Exercise / Reference Files', icon: 'icon-68' },
           { title: 'Code Editor Installation (Optional if you have one)', icon: 'icon-68' },
-          { title: ' Embedding PHP in HTML', icon: 'icon-68' },
+          { title: 'Embedding PHP in HTML', icon: 'icon-68' },
         ]
       },
       {
@@ -1758,7 +1758,7 @@ const course_data = [
   },
  // kindergarten course 
   {
-    id: 'responsive-webdisign-html5-css',
+    id: 'responsive-webdisign',
     kindergarten_course:true,
     duration: '5 Weeks',
     course_outline:'Online + Onsite',
@@ -1830,7 +1830,7 @@ const course_data = [
     ]
   },
   {
-    id: 'webdesign-for-beginners',
+    id: 'webdesign-beginners',
     kindergarten_course:true,
     duration: '12 Weeks',
     course_outline:'Online + Onsite',
@@ -1902,7 +1902,7 @@ const course_data = [
     ]
   },
   {
-    id: 'web-developer-camp-2025',
+    id: 'developer-camp2025',
     kindergarten_course:true,
     duration: '5 Weeks',
     course_outline:'Onsite Only',
@@ -1974,7 +1974,7 @@ const course_data = [
     ]
   },
   {
-    id: 'webdisign-hosting-seo-business',
+    id: 'hosting',
     kindergarten_course:true,
     duration: '12 Weeks',
     course_outline:'Online + Onsite',
@@ -2046,7 +2046,7 @@ const course_data = [
     ]
   },
   {
-    id: 'graphic-design-web-digital-design',
+    id: 'graphic-design',
     kindergarten_course:true,
     duration: '5 Weeks',
     course_outline:'Online Only',
@@ -2118,7 +2118,7 @@ const course_data = [
     ]
   },
   {
-    id: 'frontend-web-development-course',
+    id: 'frontend-course',
     kindergarten_course:true,
     duration: '12 Weeks',
     course_outline:'Online + Onsite',
