@@ -30,7 +30,7 @@ const index = () => {
                 {/*<EventArea/>*/}
                 {/*<BrandArea/>*/}
                 <AdBanner/>
-                <Footer dark_bg={true} />
+                <Footer />
             </div>
         </div>
     )
