@@ -75,7 +75,7 @@ const SearchPopup = ({ isSearchOpen, setIsSearchOpen }) => {
           <img className="logo-dark" src="/assets/images/logo/train3.png" alt="logo" />
         </div>
         <div className="close-button" onClick={() => setIsSearchOpen(false)}>
-          <button className="close-trigger">
+          <button className="close-trigger" aria-label="Name">
             <i className="icon-73"></i>
           </button>
         </div>
@@ -88,7 +88,7 @@ const SearchPopup = ({ isSearchOpen, setIsSearchOpen }) => {
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)} // Update the search term
             />
-            <button type="submit" className="submit-button">
+            <button type="submit" className="submit-button" aria-label="Name">
               <i className="icon-2"></i>
             </button>
           </form>
