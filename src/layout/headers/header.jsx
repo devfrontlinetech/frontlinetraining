@@ -20,7 +20,7 @@ const products = [
     { id: 2, name: 'digitalmarketing', link: '/digitalmarketing' },
     { id: 3, name: 'software testing', link: '/software-testing' },
     { id: 4, name: 'ui/ux', link: '/ui-ux' },
-    { id: 5, name: 'Ethical Hacking', link: '/ethical-hacking' },
+    { id: 5, name: 'Ethical Hacking', link: '/course-details/ethical-hacking' },
     { id: 6, name: 'python-datascience', link: '/python-data' },
     { id: 7, name: 'Mobile Development', link: '/mob-dev' },
     { id: 8, name: 'Full Stack', link: '/full-stack' },
@@ -32,6 +32,12 @@ const products = [
     { id: 14, name: 'Power-Platform', link: '/power-platform' },
     { id: 15, name: 'Low code- No code', link: '/lowcode-nocode' },
     { id: 16, name: 'php, Mysql', link: '/course-details/web-development' },
+    { id: 17, name: 'frontend course', link: '/course-details/frontend-course' },
+    { id: 18, name: 'advanced fullstack', link: '/course-details/advanced-fullstack' },
+    { id: 19, name: 'python', link: '/course-details/python' },
+    { id: 20, name: 'mobile designing', link: '/course-details/mobile-designer' }, 
+    { id: 21, name: 'javascript', link: '/course-details/javascript-2hrs' }, 
+    { id: 22, name: 'html', link: '/course-details/html-responsive' }, 
 
 ];
 
