@@ -25,9 +25,9 @@ const products = [
     { id: 7, name: 'Mobile Development', link: '/mob-dev' },
     { id: 8, name: 'Full Stack', link: '/full-stack' },
     { id: 9, name: 'Web Design', link: '/web-design' },
-    { id: 10, name: 'html', link: '/web-dev' },
-    { id: 11, name: 'css', link: '/web-dev' },
-    { id: 12, name: 'javascript', link: '/web-dev' },
+    { id: 10, name: 'html', link: '/course-details/fullstack' },
+    { id: 11, name: 'css', link: '/course-details/fullstack' },
+    { id: 12, name: 'javascript', link: '/course-details/javascript-2hrs' },
     { id: 13, name: 'Ai-Ml', link: '/ai-ml' },
     { id: 14, name: 'Power-Platform', link: '/power-platform' },
     { id: 15, name: 'Low code- No code', link: '/lowcode-nocode' },
@@ -38,7 +38,6 @@ const products = [
     { id: 20, name: 'mobile designing', link: '/course-details/mobile-designer' }, 
     { id: 21, name: 'javascript', link: '/course-details/javascript-2hrs' }, 
     { id: 22, name: 'html', link: '/course-details/html-responsive' }, 
-
 ];
 
 const categories = [
