@@ -1,6 +1,6 @@
 const course_data = [
   {
-    id: 'fullstack-courses',
+    id: 'fullstack',
     img: 'tittle-01.jpg',
     duration: '4 Weeks',
     course_outline:'Online + Onsite',
@@ -207,7 +207,7 @@ const course_data = [
     ]
   },
   {
-    id: 'responsive-html',
+    id: 'html-responsive',
     img: 'Tittle-04.png',
     duration: '6 Weeks',
     course_outline:'Online Only',
@@ -345,7 +345,7 @@ const course_data = [
     ]
   },
   {
-    id: 'python-beginners',
+    id: 'python',
     img: 'Tittle-06.jpg',
     duration: '9 Weeks',
     course_outline:'Online + Onsite',
