@@ -31,7 +31,7 @@ const products = [
     { id: 13, name: 'Ai-Ml', link: '/ai-ml' },
     { id: 14, name: 'Power-Platform', link: '/power-platform' },
     { id: 15, name: 'Low code- No code', link: '/lowcode-nocode' },
-    { id: 16, name: 'php, Mysql', link: '/course-details/2' },
+    { id: 16, name: 'php, Mysql', link: '/course-details/advanced-development' },
 
 ];
 
