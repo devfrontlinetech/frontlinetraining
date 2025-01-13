@@ -138,7 +138,7 @@ const course_data = [
     ]
   },
   {
-    id: 'advanced-development-',
+    id: 'advanced-development',
     img: 'Tittle-03.jpg',
     duration: '10 Weeks',
     course_outline:'Onsite Only',
