@@ -53,8 +53,7 @@ const SearchPopup = ({ isSearchOpen, setIsSearchOpen }) => {
     { id: 18, name: 'advanced fullstack', link: '/course-details/advanced-fullstack' },
     { id: 19, name: 'python', link: '/course-details/python' },
     { id: 20, name: 'mobile designing', link: '/course-details/mobile-designer' }, 
-    { id: 21, name: 'javascript', link: '/course-details/javascript-2hrs' }, 
-    { id: 22, name: 'html', link: '/course-details/html-responsive' }, 
+  , 
     
   ];
 
