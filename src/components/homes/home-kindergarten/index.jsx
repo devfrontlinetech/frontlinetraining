@@ -1,5 +1,5 @@
 import React from 'react';
-import { FooterThree, Header } from '../../../layout';
+import { Footer, Header } from '../../../layout';
 import AboutArea from './about-area';
 import AdBanner from './ad-banner';
 import BlogArea from './blog-area';
@@ -22,7 +22,7 @@ const index = () => {
                 <EventArea/>
                 <BlogArea/>
                 {/*<AdBanner/>*/}
-                <FooterThree/>
+                <Footer/>
             </div>
         </div>
     )
