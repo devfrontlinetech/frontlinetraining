@@ -28,7 +28,7 @@ const index = () => {
                 <CtaArea/>
                 <BlogArea/>
                 <AdBanner home_4={true} />
-                <Footer dark_bg={true} home_4={true} />
+                <Footer/>
             </div>
         </div>
     )
