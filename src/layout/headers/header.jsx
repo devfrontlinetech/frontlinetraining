@@ -20,19 +20,24 @@ const products = [
     { id: 2, name: 'digitalmarketing', link: '/digitalmarketing' },
     { id: 3, name: 'software testing', link: '/software-testing' },
     { id: 4, name: 'ui/ux', link: '/ui-ux' },
-    { id: 5, name: 'Ethical Hacking', link: '/ethical-hacking' },
+    { id: 5, name: 'Ethical Hacking', link: '/course-details/ethical-hacking' },
     { id: 6, name: 'python-datascience', link: '/python-data' },
     { id: 7, name: 'Mobile Development', link: '/mob-dev' },
     { id: 8, name: 'Full Stack', link: '/full-stack' },
     { id: 9, name: 'Web Design', link: '/web-design' },
-    { id: 10, name: 'html', link: '/web-dev' },
-    { id: 11, name: 'css', link: '/web-dev' },
-    { id: 12, name: 'javascript', link: '/web-dev' },
+    { id: 10, name: 'html', link: '/course-details/fullstack' },
+    { id: 11, name: 'css', link: '/course-details/fullstack' },
+    { id: 12, name: 'javascript', link: '/course-details/javascript-2hrs' },
     { id: 13, name: 'Ai-Ml', link: '/ai-ml' },
     { id: 14, name: 'Power-Platform', link: '/power-platform' },
     { id: 15, name: 'Low code- No code', link: '/lowcode-nocode' },
-    { id: 16, name: 'php, Mysql', link: '/course-details/2' },
-
+    { id: 16, name: 'php, Mysql', link: '/course-details/web-development' },
+    { id: 17, name: 'frontend course', link: '/course-details/frontend-course' },
+    { id: 18, name: 'advanced fullstack', link: '/course-details/advanced-fullstack' },
+    { id: 19, name: 'python', link: '/course-details/python' },
+    { id: 20, name: 'mobile designing', link: '/course-details/mobile-designer' }, 
+   
+    
 ];
 
 const categories = [
@@ -126,7 +131,7 @@ const Header = ({ header_style, no_top_bar, disable_full_width, disable_category
                                                 value={searchTerm}
                                                 onChange={(e) => setSearchTerm(e.target.value)} // Update search term
                                             />
-                                            <button className="search-btn" type="button">
+                                            <button className="search-btn" type="button" aria-label="Name">
                                                 <i className="icon-2"></i>
                                             </button>
                                         </div>
@@ -150,7 +155,7 @@ const Header = ({ header_style, no_top_bar, disable_full_width, disable_category
 {/*                                         <a href="#" style={{cursor:'pointer'}} onClick={() => setIsSearchOpen(true)} className="search-trigger">
                                             <i className="icon-2"></i>
                                         </a> */}
-                                        <button style={{cursor:'pointer',backgroundColor:'transparent',border:'none'}} type="button" onClick={() => setIsSearchOpen(true)} className="search-trigger">
+                                        <button style={{cursor:'pointer',backgroundColor:'transparent',border:'none'}} type="button" onClick={() => setIsSearchOpen(true)} className="search-trigger" aria-label="Name">
                                             <i className="icon-2" style={{fontSize:'25px'}}></i>
                                         </button>
                                     </li>
@@ -179,7 +184,7 @@ const Header = ({ header_style, no_top_bar, disable_full_width, disable_category
                                         </Link>
                                     </li>
                                     <li className="mobile-menu-bar d-block d-xl-none">
-                                        <button className="hamberger-button" onClick={() => setIsOpen(true)}>
+                                        <button className="hamberger-button" onClick={() => setIsOpen(true)}  aria-label="Name">
                                             <i className="icon-54"></i>
                                         </button>
                                     </li>

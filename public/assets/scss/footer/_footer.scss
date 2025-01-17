@@ -169,6 +169,7 @@
                 img {
                     &.logo-light {
                         display: inline-block;
+                       margin-top: -27px;
                     }
                 }
             }
@@ -260,6 +261,7 @@
         }
         p {
             color: #bababa;
+            text-align: justify;
         }
         li {
             color: #bababa;
@@ -275,6 +277,8 @@
         }
         p {
             color: var(--footer-text);
+            text-align: justify;
+            font-size: 14px;
         }
         li {
             color: var(--footer-text);
