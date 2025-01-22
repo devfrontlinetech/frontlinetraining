@@ -38,7 +38,7 @@ import CourseTypeOne from '../course/course-type-one';
 // }
 
 
-const Webdev = () => {
+const CourseOneArea = () => {
     const coursePerView = 28; // Set courses per view to 30
     const [courses, setCourses] = useState(course_data);
 
@@ -61,4 +61,4 @@ const Webdev = () => {
     );
 }
 
-export default Webdev;
+export default CourseOneArea;
