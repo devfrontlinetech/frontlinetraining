@@ -1,7 +1,7 @@
 import React from 'react';
 import { Footer, Header } from '../../layout';
 import BreadcrumbThree from '../breadcrumb/breadcrumb-3';
-import Webdev from './webdev';
+import CourseOneArea from  './course-1-area';
 
 const index = () => {
     return (
@@ -9,7 +9,7 @@ const index = () => {
             <div id="main-wrapper" className="main-wrapper">
                 <Header no_top_bar={true} />
                 <BreadcrumbThree title="Our Courses" subtitle="Courses" />
-                <Webdev/>
+                <CourseOneArea/>
                 <Footer/>
             </div>
         </div>
