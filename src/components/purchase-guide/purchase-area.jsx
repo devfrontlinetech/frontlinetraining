@@ -67,7 +67,7 @@ const PurchaseArea = () => {
 
                             <div className="text-block">
                                 <h4 className="title">Why to Buy Our Course?</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p>We offer in-depth, well-structured courses that cover everything you need to succeed. You’ll gain both theoretical knowledge and practical skills that can be applied immediately.</p>
                                 <ul>
                                     <li>Updated content on a regular basis</li>
                                     <li>Secure & hassle-free payment</li>
