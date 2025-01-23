@@ -56,7 +56,7 @@ const PurchaseArea = () => {
 
                             <div className="text-block">
                                 <h4 className="title">Accepted Credit Cards</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p>We accept a variety of payment methods to make your purchasing experience seamless and convenient. You can pay for courses using:</p>
                                 <ul>
                                     <li>Visa</li>
                                     <li>Mastercards</li>
