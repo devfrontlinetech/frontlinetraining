@@ -6,32 +6,32 @@ import Counter from '../../common/counter';
 const counter_data = [
     {
         color: 'primary-color',
-        count: 29.3,
+        count: 100,
         icon: '48',
-        text: 'K',
+        text: '+',
         title: 'Student Enrolled',
         decimal: 1
     },
     {
         color: 'secondary-color',
-        count: 32.4,
+        count: 80,
         icon: '47',
-        text: 'K',
+        text: '+',
         title: 'Class Completed',
         decimal: 1
     },
     {
         color: 'extra08-color',
-        count: 100,
+        count: 98,
         icon: '49',
         text: '%',
         title: 'Satisfaction Rate'
     },
     {
         color: 'extra05-color',
-        count: 354,
+        count: 10,
         icon: '50',
-        text: '%',
+        text: '+',
         title: 'Top Instructors'
     }
 ]
