@@ -52,7 +52,8 @@ const CounterArea = ({about_p_3}) => {
                                     </div>
                                     <h2 className="counter-item count-number">
                                         <span className="odometer">
-                                            <Counter number={parseFloat(count)} text={text} decimal={c.decimal} />
+{/*                                             <Counter number={parseFloat(count)} text={text} decimal={c.decimal} /> */}
+                                            <Counter number={parseFloat(count)} text={text}  />
                                         </span>
                                     </h2>
                                     <h6 className="title">{title}</h6>
