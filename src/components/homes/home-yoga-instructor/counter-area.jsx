@@ -2,10 +2,10 @@ import React from 'react';
 import Counter from '../../common/counter';
 
 const counter_data = [
-    { icon: 'icon-77', count: 29.3, text: 'K', title: 'Student Enrolled', decimal: 1 },
-    { icon: 'icon-78', count: 32.4, text: 'K', title: 'Class Completed', decimal: 1 },
+    { icon: 'icon-77', count: 49, text: '+', title: 'Student Enrolled', decimal: 1 },
+    { icon: 'icon-78', count: 20, text: '+', title: 'Class Completed', decimal: 1 },
     { icon: 'icon-79', count: 100, text: '%', title: 'Satisfaction Rate' },
-    { icon: 'icon-80', count: 354, text: '+', title: 'Top Instructors' }
+    { icon: 'icon-80', count: 10, text: '+', title: 'Top Instructors' }
 ]
 
 const CounterArea = () => {
@@ -21,7 +21,8 @@ const CounterArea = () => {
                                 </div>
                                 <h2 className="counter-item count-number">
                                     <span className="odometer">
-                                        <Counter number={parseFloat(count.count)} text={count.text} decimal={count.decimal} />
+{/*                                         <Counter number={parseFloat(count.count)} text={count.text} decimal={count.decimal} /> */}
+                                        <Counter number={parseFloat(count.count)} text={count.text} />
                                     </span>
                                 </h2>
                                 <h6 className="title">{count.title}</h6>
