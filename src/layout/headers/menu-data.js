@@ -106,7 +106,7 @@ const menu_data = [
         mega_menu: false,
         submenus: [
          // { title: 'Web Development', link: '/web-dev', hot: true },
-            { title: 'Digital Marketing', link: '/digital-marketing' },
+            { title: 'Digital Marketing', link: '/digital-marketing', hot: true },
             { title: 'Mobile Development', link: '/mob-dev' },
             { title: 'Full Stack Courese', link: '/full-stack' },
             { title: 'Web Design', link: '/web-design'},
