@@ -28,7 +28,7 @@ const HeroArea = () => {
                             <h1 className="title" data-sal-delay="100" data-sal="slide-up" data-sal-duration="1000">AI and Machine Learining.</h1>
                             <p data-sal-delay="200" data-sal="slide-up" data-sal-duration="1000">Limitless Opportunities In The World Of Technology.</p>
                             <div className="banner-btn" data-sal-delay="400" data-sal="slide-up" data-sal-duration="1000">
-                                <Link href="/web-dev">
+                                <Link href="/our-courses">
                                     <a className="edu-btn btn-curved">Find courses <i className="icon-4"></i></a>
                                 </Link>
                             </div>
