@@ -5,16 +5,16 @@ const counter_data = [
     {
         color: 'primary-color',
         delay: '50',
-        count: 29.3,
-        text: 'K',
+        count: 100,
+        text: '+',
         title: 'Student Enrolled',
         decimal: 1
     },
     {
         color: 'secondary-color',
         delay: '100',
-        count: 32.4,
-        text: 'K',
+        count: 60,
+        text: '+',
         title: 'Class Completed',
         decimal: 1
     },
@@ -28,8 +28,8 @@ const counter_data = [
     {
         color: 'extra05-color',
         delay: '200',
-        count: 354,
-        text: '%',
+        count: 10,
+        text: '+',
         title: 'Top Instructors'
     }
 ]
@@ -44,7 +44,8 @@ const CounterArea = ({home_3 = false,home_8=false}) => {
                             <div className={`edu-counterup counterup-style-${home_3?'1':'5'} ${!home_3&&c.color}`}>
                                 <h2 className={`counter-item count-number ${home_3&&c.color}`}>
                                     <span className="odometer">
-                                        <Counter number={parseFloat(c.count)} text={c.text} decimal={c.decimal} />
+{/*                                         <Counter number={parseFloat(c.count)} text={c.text} decimal={c.decimal} /> */}
+                                        <Counter number={parseFloat(c.count)} text={c.text} />
                                     </span>
                                 </h2>
                                 <h6 className="title">{c.title}</h6>
