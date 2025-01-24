@@ -30,9 +30,14 @@ const AboutUsArea = () => {
                                 <p>Online platforms, tools, and technologies to promote products and services. It encompasses a wide range of strategies and channels aimed at connecting with customers where they spend much of their time: online</p>
                           </div>
                             
-                                <div className="banner-btn" data-sal-delay="400" data-sal="slide-up" data-sal-duration="1000">
+{/*                                 <div className="banner-btn" data-sal-delay="400" data-sal="slide-up" data-sal-duration="1000">
                                    <Link href="/digital-marketing" legacyBehavior>
                                         <a className="edu-btn">Find courses <i className="icon-4"></i></a>
+                                    </Link>
+                                </div> */}
+                            <div className="new-button" data-sal-delay="400" data-sal="slide-up" data-sal-duration="1000">
+                                    <Link href="/digital-marketing" passHref>
+                                        <button className="click-btn">Find course</button>
                                     </Link>
                                 </div>
                             
