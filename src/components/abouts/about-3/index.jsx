@@ -23,7 +23,7 @@ const index = () => {
                
               
                 <TeamArea about_p_3={true}/>
-                <Footer style_2={'footer-dark bg-image footer-style-2'} />
+                <Footer/>
             </div>
         </div>
     )
