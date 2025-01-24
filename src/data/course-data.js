@@ -13,7 +13,7 @@ const course_data = [
     lesson: 13,
     student: 28,
     category:'Art & Design',
-    short_desc: 'Learn HTML5, CSS3, JavaScript, Python, Wagtail CMS, PHP & MySQL from scratch!',
+    short_desc: 'Overview of Digital Marketing, PPC, SEO Tools, Social Media Strategy, Email List Building.',
     instructor: 'R R Anbuthane',
     instructor_img:'partner-02.webp',
     instructor_title:'Founder & CEO',
