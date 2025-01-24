@@ -31,7 +31,7 @@ const AboutUsArea = () => {
                           </div>
                             
 
-                                <div className="new-button" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                <div className="new-button">
                                     <Link href="/digital-marketing" passHref>
                                         <button className="click-btn">Find course</button>
                                     </Link>
