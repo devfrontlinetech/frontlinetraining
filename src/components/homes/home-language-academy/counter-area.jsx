@@ -4,15 +4,15 @@ import Counter from '../../common/counter';
 const counter_data = [
     {
         color: 'primary-color',
-        count: 29.3,
-        text: 'K',
+        count: 78,
+        text: '+',
         title: 'Student Enrolled',
         decimal: 1
     },
     {
         color: 'secondary-color',
-        count: 32.4,
-        text: 'K',
+        count: 70,
+        text: '+',
         title: 'Class Completed',
         decimal: 1
     },
@@ -24,8 +24,8 @@ const counter_data = [
     },
     {
         color: 'extra05-color',
-        count: 354,
-        text: '%',
+        count: 10,
+        text: '+',
         title: 'Top Instructors'
     }
 ]
@@ -40,7 +40,8 @@ const CounterArea = () => {
                             <div className="edu-counterup counterup-style-12">
                                 <h2 className={`counter-item count-number ${c.color}`}>
                                     <span className="odometer">
-                                        <Counter number={parseFloat(c.count)} text={c.text} decimal={c.decimal} />
+{/*                                         <Counter number={parseFloat(c.count)} text={c.text} decimal={c.decimal} /> */}
+                                        <Counter number={parseFloat(c.count)} text={c.text} />
                                     </span>
                                 </h2>
                                 <h6 className="title">{c.title}</h6>
