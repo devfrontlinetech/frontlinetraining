@@ -4,18 +4,19 @@ import Counter from '../../common/counter';
 const data = [
     {
         icon: 'icon-77',
-        count: 29.3,
-        text: 'K',
+        count: 67,
+        text: '+',
         title: 'Student Enrolled',
         decimal: 1
     },
     {
         icon: 'icon-78',
-        count: 32.4,
-        text: 'K',
+        count: 30,
+        text: '+',
         title: 'Class Completed',
         decimal: 1,
-        extraClass: 'icon-flower'
+        // extraClass: 'icon-flower'
+        extraClass: ''
     },
     {
         icon: 'icon-79',
@@ -25,8 +26,8 @@ const data = [
     },
     {
         icon: 'icon-80',
-        count: 354,
-        text: '%',
+        count: 10,
+        text: '+',
         title: 'Top Instructors'
     }
 ]
@@ -45,7 +46,8 @@ const CounterArea = () => {
                                 <div className="counterup-wrapper">
                                     <h2 className="counter-item count-number">
                                         <span className="odometer">
-                                            <Counter number={parseFloat(c.count)} text={c.text} decimal={c.decimal} />
+{/*                                             <Counter number={parseFloat(c.count)} text={c.text} decimal={c.decimal} /> */}
+                                            <Counter number={parseFloat(c.count)} text={c.text}  />
                                         </span>
                                     </h2>
                                 <h6 className="title">{c.title}</h6>
