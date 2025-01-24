@@ -34,7 +34,7 @@ const SearchPopup = ({ isSearchOpen, setIsSearchOpen }) => {
   // Sample products data (could be fetched from an API or defined elsewhere)
   const products = [
    { id: 1, name: 'courses', link: '/web-dev' },
-    { id: 2, name: 'digitalmarketing', link: '/digitalmarketing' },
+    { id: 2, name: 'digitalmarketing', link: '/digital-marketing' },
     { id: 3, name: 'software testing', link: '/software-testing' },
     { id: 4, name: 'ui/ux', link: '/ui-ux' },
     { id: 5, name: 'Ethical Hacking', link: '/course-details/ethical-hacking' },
