@@ -15,7 +15,7 @@ const HeroArea = () => {
                            <h1 className="title" data-sal-delay="100" data-sal="slide-up" data-sal-duration="1000"> <br /> <span className="color-secondary">Power</span>Platform</h1>
                             <p data-sal-delay="200" data-sal="slide-up" data-sal-duration="1000">The Power Platform is low-code/no-code suite of apps that includes Power Apps, Power BI, Power Automate (formerly Flow), and Power Virtual Agents.</p>
                             <div className="banner-btn" data-sal-delay="400" data-sal="slide-up" data-sal-duration="1000">
-                                <Link href="/web-dev">
+                                <Link href="/our-courses">
                                     <a className="edu-btn">Find courses <i className="icon-4"></i></a>
                                 </Link>
                             </div>
