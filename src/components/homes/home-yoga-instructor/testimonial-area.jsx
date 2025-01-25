@@ -13,21 +13,21 @@ const testimonial_contents = {
             img: '/assets/images/testimonial/testimonial-01.png',
             desc: 'Lorem ipsum dolor amet consec tur elit adicing sed do usmod zx tempor enim minim veniam quis nostrud exer citation.',
             ratings: [1, 2, 3, 4, 5],
-            name: 'Ray Sanchez',
+            name: 'Krish',
             title: 'Student'
         },
         {
             img: '/assets/images/testimonial/testimonial-02.png',
             desc: 'I want to remind you that as designers. Let’s design with intention, inspire others, and make the internet a more beautiful. Embrace your journey : the best is yet to come..',
             ratings: [1, 2, 3, 4, 5],
-            name: 'Amber Page',
+            name: 'Rajesh',
             title: 'Designer'
         },
         {
             img: '/assets/images/testimonial/testimonial-03.png',
             desc: 'Lorem ipsum dolor amet consec tur elit adicing sed do usmod zx tempor enim minim veniam quis nostrud exer citation.',
             ratings: [1, 2, 3, 4, 5],
-            name: 'Sara Taylor',
+            name: 'Sara',
             title: 'Developer'
         }
     ]
