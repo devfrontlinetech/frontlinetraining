@@ -14,7 +14,7 @@ const contents = {
             desc: " I now have the skills and confidence to pursue a career in web development. I've even landed an internship where I can continue to grow and learn in a professional setting.",
             ratings: [1, 2, 3, 4, 5],
             img: "/assets/images/testimonial/test-01.jpg",
-            name: "Ray Sanchez",
+            name: "Krish",
             title: 'Student'
         },
         {
@@ -22,7 +22,7 @@ const contents = {
             desc: "Best training in core concepts, curriculum is well-structured, covering everything from the basics to advanced topics, and the support for beginners is great.",
             ratings: [1, 2, 3, 4, 5],
             img: "/assets/images/testimonial/test-02.jpg",
-            name: "Vijay",
+            name: "Samual",
             title: 'Student'
         },
         {
@@ -30,7 +30,7 @@ const contents = {
             desc: "Took fasttrack training for MERN and got trained for 30 days.  Mongodb and Node with express was easy but React was very hard for me but they explained  multiple times with hands on project.",
             ratings: [1, 2, 3, 4, 5],
             img: "/assets/images/testimonial/test-03.jpg",
-            name: "Riju Ambrose",
+            name: "Riju",
             title: 'Developer'
         },
         {
