@@ -16,7 +16,7 @@ const CategoryArea = () => {
                     title={<><span>Online</span>Certifications</>} text={'A chance for learners to earn certifications in their chosen fields, providing recognized qualifications that can enhance careers and job prospects.'} />
                     
                     <FeatureBox delay={'150'} color={'color-extra05-style'} icon={<UserTwo />}
-                    title={<><span>6000</span>Members</>} text={'A growing community of 6,000 members, fostering a collaborative and supportive learning environment where students can interact, share experiences, and network.'} />
+                    title={<><span>102</span>Members</>} text={'A growing community of 102 members, fostering a collaborative and supportive learning environment where students can interact, share experiences, and network.'} />
                 </div>
             </div>
         </div>
