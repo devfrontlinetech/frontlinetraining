@@ -18,7 +18,7 @@ const HeroArea = () => {
                             "Comprehensive Software Testing Solutions for Reliable Applications"    
                             </p>
                             <div className="banner-btn" data-sal-delay="400" data-sal="slide-up" data-sal-duration="1000">
-                                <Link href="/web-dev">
+                                <Link href="/our-courses">
                                     <a className="edu-btn">Find courses <i className="icon-4"></i></a>
                                 </Link>
                             </div>
