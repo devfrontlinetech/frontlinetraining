@@ -7,16 +7,16 @@ const CategoryArea = () => {
             <div className="container">
                 <div className="row g-5">
                     <FeatureBox delay={'50'} color={'color-primary-style'} icon={<SkilledLecturersTwo />}
-                    title={<><span>Skilled </span>Lecturers</>} text={'Experienced and qualified instructors are available to guide learners, ensuring high-quality education and expertise in various subjects.'} />
+                    title={<><span>Skilled </span>Lecturers</>} text={'Experienced and qualified instructors are available to guide learners.'} />
 
                     <FeatureBox delay={'100'} color={'color-secondary-style'} icon={<HybridDistanceProgramsTwo />}
-                    title={<><span>Distance</span> Programs</>} text={'Flexible learning options that allow students to study from anywhere, making education more accessible for people with varying schedules or locations.'} />
+                    title={<><span>Distance</span> Programs</>} text={'Flexible learning options that allow students to study from anywhere.'} />
 
                     <FeatureBox delay={'150'} color={'color-extra08-style'} icon={<CertificateTwo />}
-                    title={<><span>Online</span>Certifications</>} text={'A chance for learners to earn certifications in their chosen fields, providing recognized qualifications that can enhance careers and job prospects.'} />
+                    title={<><span>Online</span>Certifications</>} text={'A chance for learners to earn certifications in their chosen fields.'} />
                     
                     <FeatureBox delay={'150'} color={'color-extra05-style'} icon={<UserTwo />}
-                    title={<><span>102</span>Members</>} text={'A growing community of 102 members, fostering a collaborative and supportive learning environment where students can interact, share experiences, and network.'} />
+                    title={<><span>102</span>Members</>} text={'A growing community of 102 members, share experiences, and network.'} />
                 </div>
             </div>
         </div>
