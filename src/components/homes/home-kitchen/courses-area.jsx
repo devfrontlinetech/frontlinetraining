@@ -35,7 +35,7 @@ const CoursesArea = () => {
                 </div>
                 <div className="course-view-all" data-sal-delay="150" data-sal="slide-up" data-sal-duration="1200">
                     <h5 className="view-text">Get the Most Dedicated Full Stack Course from FrontLine. 
-                    <Link href="/web-dev">
+                    <Link href="/our-courses">
                         <a className="btn-transparent">All Courses <i className="icon-4"></i></a>
                     </Link>
                     </h5>
