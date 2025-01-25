@@ -20,7 +20,7 @@ const instructors_data = [
             {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
             {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'}
         ],
-        name:'Julia Andrei',
+        name:'Smriti',
         title:'Web Developer',
         delay:'100',
         sm_text:"Consectetur adipisicing elit, sed do eius mod tempor incididunt"
@@ -33,7 +33,7 @@ const instructors_data = [
             {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
             {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'}
         ],
-        name:'Penelope Cruz',
+        name:'Aditya',
         title:'Digital Marketer',
         delay:'150',
         sm_text:"Consectetur adipisicing elit, sed do eius mod tempor incididunt"
@@ -46,7 +46,7 @@ const instructors_data = [
             {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
             {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'}
         ],
-        name:'John Travolta',
+        name:'Sham',
         title:'Wordpress Expert',
         delay:'200',
         sm_text:"Consectetur adipisicing elit, sed do eius mod tempor incididunt"
@@ -59,7 +59,7 @@ const instructors_data = [
             {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
             {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'}
         ],
-        name:'Jessi Smith',
+        name:'Jeni',
         title:'Wordpress Expert',
         sm_text:"Consectetur adipisicing elit, sed do eius mod tempor incididunt"
     },
@@ -71,7 +71,7 @@ const instructors_data = [
             {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
             {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'}
         ],
-        name:'Connie Comerford',
+        name:'Krish das',
         title:'Web Developer',
         sm_text:"Consectetur adipisicing elit, sed do eius mod tempor incididunt"
     },
@@ -83,7 +83,7 @@ const instructors_data = [
             {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
             {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'}
         ],
-        name:'Hilary Swank',
+        name:'Dinesh',
         title:'Digital Marketer',
         sm_text:"Consectetur adipisicing elit, sed do eius mod tempor incididunt"
     },
@@ -95,7 +95,7 @@ const instructors_data = [
             {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
             {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'}
         ],
-        name:'Michael Douglas',
+        name:'Harish',
         title:'Designer',
         sm_text:"Consectetur adipisicing elit, sed do eius mod tempor incididunt"
     }
