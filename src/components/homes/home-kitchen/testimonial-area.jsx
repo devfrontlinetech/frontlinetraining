@@ -9,21 +9,21 @@ const testimonial_items = [
         ratings: [1, 2, 3, 4, 5],
         desc: 'I want to remind you that as designers. Let’s design with intention, inspire others, and make the internet a more beautiful. Embrace your journey : the best is yet to come..',
         img: '/assets/images/testimonial/test-01.jpg',
-        name: 'Haley Bennet',
+        name: 'krish',
         title: 'Designer'
     },
     {
         ratings: [1, 2, 3, 4, 5],
         desc: 'It’s a journey filled with endless possibilities. Embrace every challenge, celebrate your successes, and keep pushing the limits of what you can achieve',
         img: '/assets/images/testimonial/test-02.jpg',
-        name: 'Richard Gere',
+        name: 'vel raj',
         title: 'Developer'
     },
     {
         ratings: [1, 2, 3, 4, 5],
         desc: 'never forget why you started. The world is waiting for your voice. Don’t hold back. Step into your power, and let your creativity shine!',
         img: '/assets/images/testimonial/test-04.jpg',
-        name: 'Megan Foxx',
+        name: 'Megan',
         title: 'Content creator'
     }
 ];
