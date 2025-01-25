@@ -12,28 +12,28 @@ const testimonial_contents = {
             img: '/assets/images/testimonial/test-01.jpg',
             desc: 'I want to encourage all of you, whatever you just starting or already on your coding journey, to embrace the process. Don t be afraid to make mistakes; they are often the best teachers.',
             ratings: [1, 2, 3, 4, 5],
-            name: 'Ray Sanchez',
+            name: 'Raj',
             title: 'Student'
         },
         {
             img: '/assets/images/testimonial/test-02.jpg',
             desc: 'I want to remind you that as designers. Let’s design with intention, inspire others, and make the internet a more beautiful. Embrace your journey : the best is yet to come.',
             ratings: [1, 2, 3, 4, 5],
-            name: 'Thomas Lopez',
+            name: 'Megan',
             title: 'Designer'
         },
         {
             img: '/assets/images/testimonial/test-03.jpg',
             desc: 'It’s a journey filled with endless possibilities. Embrace every challenge, celebrate your successes, and keep pushing the limits of what you can achieve.',
             ratings: [1, 2, 3, 4, 5],
-            name: 'Amber Page',
+            name: 'Krish',
             title: 'Developer'
         },
         {
             img: '/assets/images/testimonial/test-04.jpg',
             desc: 'never forget why you started. The world is waiting for your voice. Don’t hold back. Step into your power, and let your creativity shine!',
             ratings: [1, 2, 3, 4, 5],
-            name: 'Robert Tapp',
+            name: 'Rishi',
             title: 'Content Creator'
         }
     ]
