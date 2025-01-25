@@ -6,21 +6,21 @@ import { useMouseMoveUI } from '../../../contexts/mouse-move-context';
 
 const contents = [
     {
-        name: 'Ray Sanchez',
+        name: 'Rajesh',
         title: 'Student',
         ratings: [1, 2, 3, 4, 5],
         imgSrc: '/assets/images/testimonial/testimonial-09.png',
         desc: 'I want to encourage all of you, whatever you just starting or already on your coding journey, to embrace the process. Don t be afraid to make mistakes; they are often the best teachers.'
     },
     {
-        name: 'Sara Lopez',
+        name: 'Samira',
         title: 'Designer',
         ratings: [1, 2, 3, 4, 5],
         imgSrc: '/assets/images/testimonial/testimonial-10.png',
         desc: 'I want to remind you that as designers. Let’s design with intention, inspire others, and make the internet a more beautiful. Embrace your journey : the best is yet to come..'
     },
     {
-        name: 'Amber Page',
+        name: 'sham',
         title: 'Developer',
         ratings: [1, 2, 3, 4, 5],
         imgSrc: '/assets/images/testimonial/testimonial-11.jpg',
