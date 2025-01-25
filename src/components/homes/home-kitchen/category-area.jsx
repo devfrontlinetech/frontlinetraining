@@ -7,16 +7,16 @@ const CategoryArea = () => {
             <div className="container">
                 <div className="row g-5">
                     <FeatureBox delay={'50'} color={'color-primary-style'} icon={<SkilledLecturersTwo />}
-                    title={<><span>Skilled </span>Lecturers</>} text={'Lorem ipsum dolor consec tur elit adicing sed umod tempor.'} />
+                    title={<><span>Skilled </span>Lecturers</>} text={'Experienced and qualified instructors are available to guide learners, ensuring high-quality education and expertise in various subjects.'} />
 
                     <FeatureBox delay={'100'} color={'color-secondary-style'} icon={<HybridDistanceProgramsTwo />}
-                    title={<><span>Distance</span> Programs</>} text={'Lorem ipsum dolor consec tur elit adicing sed umod tempor.'} />
+                    title={<><span>Distance</span> Programs</>} text={'Flexible learning options that allow students to study from anywhere, making education more accessible for people with varying schedules or locations.'} />
 
                     <FeatureBox delay={'150'} color={'color-extra08-style'} icon={<CertificateTwo />}
-                    title={<><span>Online</span>Certifications</>} text={'Lorem ipsum dolor consec tur elit adicing sed umod tempor.'} />
+                    title={<><span>Online</span>Certifications</>} text={'A chance for learners to earn certifications in their chosen fields, providing recognized qualifications that can enhance careers and job prospects.'} />
                     
                     <FeatureBox delay={'150'} color={'color-extra05-style'} icon={<UserTwo />}
-                    title={<><span>6000</span>Members</>} text={'Lorem ipsum dolor consec tur elit adicing sed umod tempor.'} />
+                    title={<><span>6000</span>Members</>} text={'A growing community of 6,000 members, fostering a collaborative and supportive learning environment where students can interact, share experiences, and network.'} />
                 </div>
             </div>
         </div>
