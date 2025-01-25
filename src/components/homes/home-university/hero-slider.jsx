@@ -77,7 +77,7 @@ const HeroSlider = () => {
                                                 </h3>
                                                 <p data-sal-delay="200" data-sal="slide-up" data-sal-duration="1000">{sm_text}</p>
                                                 <div className="banner-btn" data-sal-delay="400" data-sal="slide-up" data-sal-duration="1000">
-                                                    <Link href="/web-dev">
+                                                    <Link href="/our-courses">
                                                     <a className="edu-btn btn-secondary">{btn_text} <i className="icon-4"></i></a>
                                                     </Link>
                                                 </div>
