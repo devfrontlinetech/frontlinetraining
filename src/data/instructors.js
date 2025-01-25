@@ -110,7 +110,7 @@ export const yoga_instructor = [
             {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
             {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'}
         ],
-        name:'Nancy Dew',
+        name:'Janvi',
         title:'Developer',
         delay:'50',
         sm_text:"Consectetur adipisicing elit, sed do eius mod tempor incididunt"
@@ -123,7 +123,7 @@ export const yoga_instructor = [
             {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
             {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'}
         ],
-        name:'Jared Hayes',
+        name:'Yamini',
         title:'Designer',
         delay:'100',
         sm_text:"Consectetur adipisicing elit, sed do eius mod tempor incididunt"
@@ -136,7 +136,7 @@ export const yoga_instructor = [
             {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
             {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'}
         ],
-        name:'Rebecca Roye',
+        name:'Hema',
         title:'Web Developer',
         delay:'150',
         sm_text:"Consectetur adipisicing elit, sed do eius mod tempor incididunt"
