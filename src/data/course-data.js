@@ -81,9 +81,9 @@ const course_data = [
       },
     ],
     reviews:[
-      {img:'/assets/images/blog/pro-05.jpg',rating:5,name:'Haley Bennet',date:'Oct 10, 2021',desc:'Superb training methods and techniques in Ui/Ux , I designed two logos that clients reviewed.'},
-      {img:'/assets/images/blog/pro-03.jpg',rating:5,name:'Simon Baker',date:'Oct 15, 2021',desc:'They trained me to design App and posted on sites like behance and dribble, I was often contacted about where I took training.'},
-      {img:'/assets/images/blog/pro-01.jpg',rating:5,name:'Richard Gere',date:'Oct 19, 2021',desc:'I took Digital Marketing course here.I learnt campaign management by doing FB ads for an educational institution. Now I am freelancing and I get referrals from here.'},
+      {img:'/assets/images/blog/pro-05.jpg',rating:5,name:'Haley Bennet',date:'Jan 10, 2025',desc:'Superb training methods and techniques in Ui/Ux , I designed two logos that clients reviewed.'},
+      {img:'/assets/images/blog/pro-03.jpg',rating:5,name:'Simon Baker',date:'Jan 17, 2025',desc:'They trained me to design App and posted on sites like behance and dribble, I was often contacted about where I took training.'},
+      {img:'/assets/images/blog/pro-01.jpg',rating:5,name:'Richard Gere',date:'Jan 28, 2025',desc:'I took Digital Marketing course here.I learnt campaign management by doing FB ads for an educational institution. Now I am freelancing and I get referrals from here.'},
     ]
   },
   {
