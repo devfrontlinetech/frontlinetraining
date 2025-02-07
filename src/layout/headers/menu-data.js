@@ -25,7 +25,7 @@ const menu_data = [
     },
     {
         title: 'Gallery',
-        link: 'gallery-grid',
+        link: '/gallery-grid',
     },
     
   /*  {
@@ -102,7 +102,7 @@ const menu_data = [
     },*/
     {
         title: 'Courses',
-        link: 'web-dev',
+        link: '/web-dev',
         mega_menu: false,
         submenus: [
          // { title: 'Web Development', link: '/web-dev', hot: true },
@@ -120,7 +120,7 @@ const menu_data = [
     },
     {
         title: 'Blog',
-        link: 'blog-standard',
+        link: '/blog-standard',
         // mega_menu: false,
         // // submenus: [
         // //     { title: 'Blog Standard', link: '/blog-standard' },
