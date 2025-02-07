@@ -17,7 +17,7 @@ const footer_contents = {
                 //{ link: 'about-1', title: 'About' },
                 { link: 'web-dev', title: 'Courses' },
                 { link: 'team-details', title: 'Instructor' },
-                { link: '', title: 'Events' },
+                { link: 'contact-us', title: 'Events' },
                 { link: 'team-1', title: 'Instructor Profile' },
                 { link: 'purchase-guide', title: 'Purchase Guide' }
             ]
