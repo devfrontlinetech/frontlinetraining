@@ -14,7 +14,7 @@ const CartArea = () => {
                 <div className="container py-5">
                     <h3>No Cart Items</h3>
                     <div className="update-btn">
-                        <Link href="/web-dev">
+                        <Link href="/our-courses">
                             <a className="edu-btn btn-border btn-medium disabled">
                                 Return to Courses
                             </a>
