@@ -581,7 +581,7 @@ const course_data = [
     duration: '3 Weeks',
     level: 'Business',
     course_outline:'Online Only',
-    title: 'Complete Web & Mobile Designer.',
+    title: 'Complete Web & Mobile Designer',
     rating: '4.4',
     rating_count: 10,
     course_price: '',
