@@ -11,7 +11,7 @@ const WishlistArea = () => {
                 <div className="container">
                     <div className="text-center">
                         <h3>No Wishlist Product</h3>
-                        <Link href="/web-dev">
+                        <Link href="/our-courses">
                         <a className="edu-btn btn-medium">Return to courses</a>
                         </Link>
                     </div>
