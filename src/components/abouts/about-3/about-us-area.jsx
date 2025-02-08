@@ -27,8 +27,14 @@ const AboutUsArea = () => {
                                 <span className="pre-title"></span>
                                 <h2 className="title"> <span className="color-secondary">DIGITAL MARKETING</span> <h3>Services For You...</h3></h2>
                                 <span className="shape-line"><i className="icon-19"></i></span>
-                                <p>Online platforms, tools, and technologies to promote products and services. It encompasses a wide range of strategies and channels aimed at connecting with customers where they spend much of their time: online</p>
-                          </div>
+{/*                                 <p>Online platforms, tools, and technologies to promote products and services. It encompasses a wide range of strategies and channels aimed at connecting with customers where they spend much of their time: online</p>   */}
+                              <div className="banner-btn" data-sal-delay="400" data-sal="slide-up" data-sal-duration="1000">
+                                <Link href="/digital-marketing" legacyBehavior>
+                                    <a className="edu-btn">Find courses <i className="icon-4"></i></a>
+                                </Link>
+                            </div>
+                                
+                            </div>
                            
                              <div className="about-mission">
                                 <MissionItem color="02" icon="51" title="Our Mission" text="Digital marketing solutions that empower businesses to connect with their audience, growth, and success in an ever-evolving digital landscape." />
