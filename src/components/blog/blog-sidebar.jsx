@@ -78,10 +78,10 @@ const BlogSidebar = () => {
                     <h4 className="widget-title">Archives</h4>
                     <div className="content">
                         <ul className="category-list">
-                            <li><a >2019 Nevember <span>(3)</span></a></li>
-                            <li><a >2020 December <span>(7)</span></a></li>
-                            <li><a >2021 / 2022 January<span>(2)</span></a></li>
-                            <li><a >2023 February <span>(1)</span></a></li>
+                            <li><a >2024 Nevember <span>(3)</span></a></li>
+                            <li><a >2024 December <span>(7)</span></a></li>
+                            <li><a >2024 January<span>(2)</span></a></li>
+                            <li><a >2024 February <span>(1)</span></a></li>
                             <li><a >2024 March <span>(3)</span></a></li>
                         </ul>
                     </div>
