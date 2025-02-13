@@ -18,7 +18,7 @@ function MyApp( { Component, pageProps } ) {
     const router = useRouter();
     useEffect( () => {
         sal( { threshold: 0.1, once: true } );
-    }, [router.asPath] );
+    }, [router.asPath] ); 
 
     useEffect( () => {
         sal();
