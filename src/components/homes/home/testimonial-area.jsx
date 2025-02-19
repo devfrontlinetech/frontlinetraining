@@ -67,7 +67,7 @@ export default function TestimonialArea() {
                     <div className="col-lg-5">
                         <div className="testimonial-heading-area">
                             <div className="section-title section-left" data-sal-delay="50" data-sal="slide-up" data-sal-duration="800">
-                                <span className="pre-title">Testimonial</span>
+                                <span className="pre-title">Testimonials</span>
                                 <h2 className="title">What Our Clients Have To Say</h2>
                                 <span className="shape-line"><i className="icon-19"></i></span>
                                 <p>The art of “Communicating with Computers” is called coding, It allows us to be able to communicate with computers, and make them do what we want them to. One of the most exciting aspects of learning to code is the potential to bring your ideas to life and that’s how popular games, software, apps, web apps, and various other algorithms are built.</p>
