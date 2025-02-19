@@ -37,7 +37,7 @@ const AboutArea = () => {
                                         </div>
                                         <div className="content">
                                             <h6 className="title">10+</h6>
-                                            <span className="subtitle">Wonderful Awards</span>
+                                            <span className="subtitle">Wonderful Award</span>
                                         </div>
                                     </div>
                                 </div>
