@@ -23,7 +23,7 @@ const ContactUsArea = () => {
                                     <p><a href="mailto:info@frontlinetraining.in">info@frontlinetraining.in</a></p>
                                 </li>
                                 <li>
-                                    <h5 className="title">Phones</h5>
+                                    <h5 className="title">Phone</h5>
                                     <p><a href="tel:+91 97896 55455">(+91)97896 55455</a></p>
                                 </li>
                             </ul>
