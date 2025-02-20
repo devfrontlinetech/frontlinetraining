@@ -1,5 +1,5 @@
 const defaultSEOConfig = {
-    title: "My Example Website",
+    title: "frontlinetraining",
     description: "Welcome to my example website built with Next.js",
     openGraph: {
       type: "website",
