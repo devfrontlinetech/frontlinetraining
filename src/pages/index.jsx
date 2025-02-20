@@ -51,7 +51,7 @@ import HomeMain from '../components/homes/home';
 import SEO from '../components/seo';
 import { Wrapper } from '../layout';
 import { NextSeo } from 'next-seo';
-import { Head } from 'next/document';
+import Head from 'next/head'; // Import Head from next/head
 
 export default function Home() {
     return (
@@ -69,8 +69,8 @@ export default function Home() {
                         tags: ['Coding', 'Web Development', 'Next.js', 'React.js'],
                     },
                 }}
-                />
-                <Head>
+            />
+            <Head>
                 <script
                     type="application/ld+json"
                     dangerouslySetInnerHTML={{
