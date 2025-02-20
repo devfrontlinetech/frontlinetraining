@@ -1,6 +1,6 @@
 const defaultSEOConfig = {
     title: "frontlinetraining",
-    description: "Welcome to my example website built with Next.js",
+    description: "Welcome to our website built with Next.js",
     openGraph: {
       type: "website",
       locale: "en_US",
