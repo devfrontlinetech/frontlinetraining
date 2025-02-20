@@ -72,7 +72,7 @@ const AboutArea = () => {
                         <div className="col-lg-6" data-sal-delay="150" data-sal="slide-left" data-sal-duration="800">
                             <div className="about-content">
                                 <div className="section-title section-left">
-                                    <span className="pre-title">About Uss</span>
+                                    <span className="pre-title">About Us</span>
                                     <h2 className="title">Learn & Grow Your Skills From <span className="color-secondary">Anywhere</span></h2>
                                     <span className="shape-line"><i className="icon-19"></i></span>
                                     <p>Frontline Training, offers industry focused courses in Full Stack Development, Data Science, Artificial Intelligence and Machine Learning, Ethical Hacking, Cloud Computing, and UI/UX Design to equip you with cutting-edge skills for a successful tech career.</p>
