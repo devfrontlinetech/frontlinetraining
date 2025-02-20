@@ -12,6 +12,7 @@ const defaultSEOConfig = {
       site: "@exampletwitter",
       cardType: "summary_large_image",
     },
+    
   };
   
   export default defaultSEOConfig;
