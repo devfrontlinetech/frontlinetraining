@@ -4,8 +4,8 @@ const defaultSEOConfig = {
     openGraph: {
       type: "website",
       locale: "en_US",
-      url: "https://example.com",
-      site_name: "My Example Website",
+      url: "https://frontlinetraining.in/",
+      site_name: "frontlinetraining",
     },
     twitter: {
       handle: "@exampletwitterhandle",
