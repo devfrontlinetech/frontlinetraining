@@ -83,11 +83,11 @@ export default function Home() {
                             dateModified: '2025-01-25T08:00:00Z',
                             author: {
                                 '@type': 'Person',
-                                name: 'Jane Doe',
+                                name: 'Anbu',
                             },
                             publisher: {
                                 '@type': 'Organization',
-                                name: 'My Amazing Website',
+                                name: 'frontlinetraining',
                                 logo: {
                                     '@type': 'ImageObject',
                                     url: 'https://myamazingwebsite.com/logo.png',
