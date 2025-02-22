@@ -62,7 +62,7 @@ export default function Home() {
                                 'reviewCount': 200,
                             },    
                         }),
-                    }}
+                    }}     
                 />
             </Head>
             <HomeMain />
