@@ -60,7 +60,7 @@ export default function Home() {
                                 '@type': 'AggregateRating',
                                 'ratingValue': 4.5, 
                                 'reviewCount': 200,
-                            },
+                            },   
                         }),
                     }}
                 />
@@ -68,7 +68,7 @@ export default function Home() {
             <HomeMain />
         </Wrapper>
     );
-}
+}   
 
 
 
