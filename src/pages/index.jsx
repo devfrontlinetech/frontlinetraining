@@ -58,7 +58,7 @@ export default function Home() {
                             'name': 'frontlinetraining',
                             'aggregateRating': {
                                 '@type': 'AggregateRating',
-                                'ratingValue': 4.5, 
+                                'ratingValue': 4.8, 
                                 'reviewCount': 200,
                             },    
                         }),
