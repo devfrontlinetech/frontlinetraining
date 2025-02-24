@@ -39,7 +39,7 @@ export default function Home() {
                             },
                             publisher: {
                                 '@type': 'Organization',
-                                name: 'frontlinetraining',
+                                name: 'frontlinetraining-karur',
                                 logo: {
                                     '@type': 'ImageObject',
                                     url: 'https://frontlinetraining.in/public/assets/images/fnline/Frontline_Logo_White.png',
