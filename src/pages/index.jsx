@@ -29,8 +29,8 @@ export default function Home() {
                         __html: JSON.stringify({
                             '@context': 'https://schema.org',
                             '@type': 'Article',
-                            headline: 'Why I Love Coding',
-                            description: 'A simple explanation of why coding is so much fun!',
+                            headline: 'frontlinetraining',
+                            description: 'The art of “Communicating with Computers” is called coding, It allows us to be able to communicate with computers, and make them do what we want them to. One of the most exciting aspects of learning to code is the potential to bring your ideas to life and that’s how popular games, software, apps, web apps, and various other algorithms are built.',
                             datePublished: '2025-01-25T00:00:00Z',
                             dateModified: '2025-01-25T08:00:00Z',
                             author: {
@@ -42,10 +42,10 @@ export default function Home() {
                                 name: 'frontlinetraining',
                                 logo: {
                                     '@type': 'ImageObject',
-                                    url: 'https://myamazingwebsite.com/logo.png',
+                                    url: 'https://frontlinetraining.in/public/assets/images/fnline/Frontline_Logo_White.png',
                                 },
                             },
-                            image: 'https://myamazingwebsite.com/article-image.jpg',
+                            image: 'https://frontlinetraining.in/public/assets/images/fnline/Frontline_Logo_White.png',
                         }),
                     }}
                 />
@@ -58,7 +58,8 @@ export default function Home() {
                             'name': 'frontlinetraining',
                             'aggregateRating': {
                                 '@type': 'AggregateRating',
-                                'ratingValue': 4.8, 
+                                'ratingValue': 4.8,
+                                'ratingCount': 200, 
                                 'reviewCount': 200,
                             },    
                         }),
