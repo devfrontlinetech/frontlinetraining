@@ -29,7 +29,7 @@ export default function Home() {
                         __html: JSON.stringify({
                             '@context': 'https://schema.org',
                             '@type': 'Article',
-                            headline: 'frontlinetraining',
+                            headline: 'frontlinetraining-karur',
                             description: 'The art of “Communicating with Computers” is called coding, It allows us to be able to communicate with computers, and make them do what we want them to. One of the most exciting aspects of learning to code is the potential to bring your ideas to life and that’s how popular games, software, apps, web apps, and various other algorithms are built.',
                             datePublished: '2025-01-25T00:00:00Z',
                             dateModified: '2025-01-25T08:00:00Z',
