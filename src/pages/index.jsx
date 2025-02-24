@@ -10,7 +10,7 @@ export default function Home() {
         <Wrapper>
             <SEO pageTitle={'Home Main'} />
             <NextSeo
-                title="Why I Love Coding?"
+                title="frontlinetraining-karur"
                 description="A simple explanation of why coding is so much fun!"
                 openGraph={{
                     type: 'article',
