@@ -33,7 +33,7 @@ function MyApp( { Component, pageProps } ) {
                     <DefaultSeo {...defaultSEOConfig} />
                         <Component { ...pageProps } />
                     </MouseMoveProvider>
-                    <Theme />
+                    <Theme />     
                 </ThemeProvider>
             </Provider>
         </React.Fragment>
