@@ -21,7 +21,7 @@ function MyApp( { Component, pageProps } ) {
         sal( { threshold: 0.1, once: true } );
     }, [router.asPath] ); 
 
-    useEffect( () => {       
+    useEffect( () => {        
         sal();
     }, [] );
     return (
