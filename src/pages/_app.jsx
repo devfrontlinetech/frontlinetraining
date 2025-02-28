@@ -22,7 +22,7 @@ function MyApp( { Component, pageProps } ) {
     }, [router.asPath] ); 
 
     useEffect( () => {        
-        sal();
+        sal();   
     }, [] );
     return (
         <React.Fragment>
