@@ -1,4 +1,4 @@
-import { useState } from "react"; // Import useState
+import { useState } from "react";
 import Link from "next/link";
 import FooterSocial from "./component/footer-social";
 
