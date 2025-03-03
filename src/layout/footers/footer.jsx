@@ -15,7 +15,7 @@ const footer_contents = {
             class: 'explore-widget',
             widget_title: 'Online Platform',
             footer_links: [
-                { link: 'web-dev', title: 'Courses' },
+                { link: 'our-courses', title: 'Courses' },
                 { link: 'team-details', title: 'Instructor' },
                 { link: 'contact-us', title: 'Events' },
                 { link: 'team-1', title: 'Instructor Profile' },
