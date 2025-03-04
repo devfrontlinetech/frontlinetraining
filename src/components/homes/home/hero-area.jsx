@@ -10,8 +10,8 @@ const HeroArea = () => {
                 <div className="row align-items-center">
                     <div className="col-lg-6">
                         <div className="banner-content">
-                            <h2 className="title" data-sal-delay="100" data-sal="slide-up" data-sal-duration="1000"><span className="color-secondary">IT</span> Training in karur</h2>
-                            <p data-sal-delay="200" data-sal="slide-up" data-sal-duration="1000">Our software expertise drives business success. Explore seamless technology solutions with us today.</p>
+                            <h1 className="title" data-sal-delay="100" data-sal="slide-up" data-sal-duration="1000"><span className="color-secondary">IT</span> Training in karur</h1>
+                            <p data-sal-delay="200" data-sal="slide-up" data-sal-duration="1000">State of the Art IT training center in karur. We impart it and software development courses with industry exposure and job assistance</p>
                             <div className="banner-btn" data-sal-delay="400" data-sal="slide-up" data-sal-duration="1000">
                                 <Link href="/our-courses">
                                     <a className="edu-btn">Find courses <i className="icon-4"></i></a>
