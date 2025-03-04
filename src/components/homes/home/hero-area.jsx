@@ -42,7 +42,7 @@ const HeroArea = () => {
                                             <img src="/assets/images/banner/ins-img.jpg" alt="Images" />
                                         </div>
                                         <div className="content">
-                                            <span>200+</span> Instructors
+                                            <span>Top</span> Instructors
                                         </div>
                                     </div>
                                 </div>
