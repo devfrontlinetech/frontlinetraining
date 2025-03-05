@@ -107,7 +107,7 @@ const Header = ({ header_style, no_top_bar, disable_full_width, disable_category
                                                                 <Link href={category.link} legacyBehavior><a>{category.title}</a></Link>
                                                             </li>
                                                         ))}
-                                                    </ul>
+                                                    </ul>  
                                                 </li>
                                             </ul>
                                         </nav>
