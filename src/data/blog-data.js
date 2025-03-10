@@ -232,7 +232,7 @@ const blog_data = [
     comment:'12',
     desc:'To remove guesswork in business generation and development, developers can use a combination of data-driven decision-making, agile practices, and continuous feedback loops. Here are key strategies to guide developers.',
     blog_standard:true,
-  },
+  },   
   {
     id:21,
     img:'/assets/images/blog/developer.webp',
