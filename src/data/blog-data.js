@@ -224,7 +224,7 @@ const blog_data = [
     images:[
       '/assets/images/blog/swip-01.jpg',
       '/assets/images/blog/swip-02.jpg',
-      '/assets/images/blog/swip-03.jpg',
+      '/assets/images/blog/swip-03.jpg',                
     ],
     category:'Education',
     title:'How to Developers Taking the Guess Work Generation of Business',
