@@ -1588,6 +1588,16 @@
   .react-calendar {
     width: 100%!important;
   }
+
+
+
+  .react-calendar__navigation__label__labelText,.react-calendar__navigation__label__labelText--from{
+    color: red!important;
+}
+.heading{
+    color: rgb(169, 166, 166)!important;
+}
+
   @media screen and (max-width :1920px)
     {
     // .col-lg-6 {
