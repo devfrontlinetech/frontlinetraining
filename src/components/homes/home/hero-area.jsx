@@ -21,7 +21,7 @@ const HeroArea = () => {
   const bookedDates = ["23-03-2025", "25-03-2025", "28-04-2025", "09-04-2025", "10-04-2025", "11-04-2025", "12-04-2025"];
   const unavailableDates = ["20-03-2025", "21-03-2025", "22-03-2025", "15-04-2025", "16-04-2025", "17-04-2025"];
 
-  const handleDateChange = (date) => {
+  const handleDateChange = (date) => { 
     const formattedDate = format(date, "dd-MM-yyyy");
     setSelectedDate(formattedDate);
     setSelectedTime(null);
