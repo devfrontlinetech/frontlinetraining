@@ -30,7 +30,7 @@ const HeroArea = () => {
         { time: "02:00 AM to 05:00 PM", available: true },
       ]);
     } else {
-      setTimeSlots([]);
+      setTimeSlots([]);  
     }
   };
 
