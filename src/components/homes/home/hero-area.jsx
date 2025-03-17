@@ -53,7 +53,7 @@ const HeroArea = () => {
 
     return (
         <div className="hero-banner hero-style-1">
-            <div className="container-fluid">
+            <div className="container-fluid"> 
                 <div className='row'>
                     <div className='col-lg-2' offset="2"></div>
                     <div className='col-lg-8'>
@@ -63,7 +63,7 @@ const HeroArea = () => {
                             <h1 className="title" data-sal-delay="100" data-sal="slide-up" data-sal-duration="1000"><span className="color-secondary">IT</span> Training in karur</h1>
                             <p data-sal-delay="200" data-sal="slide-up" data-sal-duration="1000">State of the Art IT training center in karur. We impart it and software development courses with industry exposure and job assistance</p>
                             <div className="banner-btn" data-sal-delay="400" data-sal="slide-up" data-sal-duration="1000">
-                                <Link href="/web-dev" legacyBehavior>
+                                <Link href="/our-courses" legacyBehavior>
                                     <a className="edu-btn">Find courses <i className="icon-4"></i></a>
                                 </Link>
                             </div>
