@@ -14,12 +14,21 @@ const HeroArea = () => {
   const [selectedTime, setSelectedTime] = useState(null);
 
   // Mock Data
+<<<<<<< HEAD
   const availableDates = [ "18-03-2025", "19-03-2025", "20-03-2025", "22-03-2025", "11-04-2025", "12-04-2025", "13-04-2025", "14-04-2025"];
   const bookedDates = [ "17-04-2025", "18-04-2025", "19-04-2025", "20-04-2025"];
   const unavailableDates = [ "25-03-2025", "07-04-2025", "08-04-2025", "09-04-2025", "10-04-2025"];
 
   const handleDateChange = (date) => {
     const formattedDate = format(date, "dd-MM-yyyy");              
+=======
+  const availableDates = ["15-03-2025", "16-03-2025", "17-03-2025", "18-03-2025", "19-03-2025", "18-04-2025", "19-04-2025", "01-04-2025","02-04-2025", "03-04-2025", "04-04-2025", "05-04-2025", "06-04-2025", "07-04-2025"];
+  const bookedDates = ["23-03-2025", "25-03-2025", "28-04-2025", "09-04-2025", "10-04-2025", "11-04-2025", "12-04-2025"];
+  const unavailableDates = ["20-03-2025", "21-03-2025", "22-03-2025", "15-04-2025", "16-04-2025", "17-04-2025"];
+
+  const handleDateChange = (date) => { 
+    const formattedDate = format(date, "dd-MM-yyyy");
+>>>>>>> c1a2a6e6ebbb7f07bc8c69a91d665f2ff5f13557
     setSelectedDate(formattedDate);
     setSelectedTime(null);
 
@@ -84,48 +93,48 @@ const HeroArea = () => {
 
                         <div className="booking-container">
                             
-      <div className="calendar-container">
-      <h5 className='heading'>Check Availability  Online / Offline</h5>
-        <Calendar onChange={handleDateChange} minDate={new Date()} tileClassName={tileClassName} />
+                            <div className="calendar-container">
+                            <h5 className='heading'>Check Availability  Online / Offline</h5>
+                                <Calendar onChange={handleDateChange} minDate={new Date()} tileClassName={tileClassName} />
 
-        <div className="legend-container">
-        <span className="legend available">Available</span>
-        <span className="legend booked">Booked</span>
-        <span className="legend unavailable">Not Available</span>
-      </div>
+                                <div className="legend-container">
+                                <span className="legend available">Available</span>
+                                <span className="legend booked">Booked</span>
+                                <span className="legend unavailable">Not Available</span>
+                            </div>
 
 
-      </div>
+                            </div>
 
      
-      {selectedDate && (
-        <div className="time-slots-container">
-          <h3 className="slot-title">Time Slots for {selectedDate}</h3>
-          {timeSlots.length > 0 ? (
-            timeSlots.map((slot, index) => (
-              <div key={index} className="time-slot-box">
-                <input
-                  type="radio"
-                  name="timeSlot" className='rad'
-                  onChange={() => setSelectedTime(slot.time)}
-                />
-                <span className="slot-time">{slot.time}</span>
-                <span className="slot-status">Available</span>
-              </div>
-            ))
-          ) : (
-            <p className="no-slots">No time slots available</p>
-          )}
-          {selectedTime && (
-            <button className="book-btn" onClick={handleBooking}>
-              Book Now
-            </button>
-          )}
-        </div>
-      )}
+                            {selectedDate && (
+                                <div className="time-slots-container">
+                                <h3 className="slot-title">Time Slots for {selectedDate}</h3>
+                                {timeSlots.length > 0 ? (
+                                    timeSlots.map((slot, index) => (
+                                    <div key={index} className="time-slot-box">
+                                        <input
+                                        type="radio"
+                                        name="timeSlot" className='rad'
+                                        onChange={() => setSelectedTime(slot.time)}
+                                        />
+                                        <span className="slot-time">{slot.time}</span>
+                                        <span className="slot-status">Available</span>
+                                    </div>
+                                    ))
+                                ) : (
+                                    <p className="no-slots">No time slots available</p>
+                                )}
+                                {selectedTime && (
+                                    <button className="book-btn" onClick={handleBooking}>
+                                    Book Now
+                                    </button>
+                                )}
+                                </div>
+                            )}
 
-      
-    </div>
+                            
+                            </div>  
 
 
 
