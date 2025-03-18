@@ -151,7 +151,7 @@ const HeroArea = () => {
                                     <img src="/assets/images/about/shape-15.png" alt="Shape" />
                                 </li>
                                 <motion.li className="shape-2 scene" data-sal-delay="1000" data-sal="fade" data-sal-duration="1000"
-                                animate={ {
+                                animate={ {      
                                     x: mouseDirection(25).x,
                                     y: mouseDirection(25).y
                                 } }
