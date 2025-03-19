@@ -79,7 +79,7 @@ const HeroArea = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-lg-6 col-md-12">   
+                    <div className="col-lg-6 col-md-12">      
                         <div className="banner-thumbnail">
 
                         <div className="booking-container">
@@ -88,7 +88,7 @@ const HeroArea = () => {
       <h5 className='heading'>Check Availability  Online / Offline</h5>
         <Calendar onChange={handleDateChange} minDate={new Date()} tileClassName={tileClassName} />
 
-        <div className="legend-container">
+        <div className="legend-container">      
         <span className="legend available">Available</span>
         <span className="legend booked">Booked</span>
         <span className="legend unavailable">Not Available</span>
