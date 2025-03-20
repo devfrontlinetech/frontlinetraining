@@ -146,6 +146,8 @@ const HeroArea = () => {
                                     </div>
                                 </div>
                             </div> */}
+
+                            
                             <ul className="shape-group">
                                 <li className="shape-1" data-sal-delay="1000" data-sal="fade" data-sal-duration="1000">
                                     <img src="/assets/images/about/shape-15.png" alt="Shape" />
