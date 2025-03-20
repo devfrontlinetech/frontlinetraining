@@ -96,7 +96,7 @@ const HeroArea = () => {
 
 
       </div>
-
+               
      
       {selectedDate && (
         <div className="time-slots-container">
