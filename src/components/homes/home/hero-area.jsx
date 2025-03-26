@@ -205,5 +205,5 @@ const HeroArea = () => {
         </div>
     )
 }
-   
+
 export default HeroArea;
