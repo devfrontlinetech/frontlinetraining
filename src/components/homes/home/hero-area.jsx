@@ -126,11 +126,8 @@ const HeroArea = () => {
 
       
     </div>
-
-
-
-
-                            {/* <div className="thumbnail" data-sal-delay="500" data-sal="slide-left" data-sal-duration="1000">
+      
+                      {/* <div className="thumbnail" data-sal-delay="500" data-sal="slide-left" data-sal-duration="1000">
                                 <img src="/assets/images/banner/heroimg.webp" alt="Girl Image" />
                             </div>
                             <div className="instructor-info" data-sal-delay="600" data-sal="slide-up" data-sal-duration="1000">
