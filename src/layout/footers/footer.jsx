@@ -60,7 +60,7 @@ const Footer = ({ style_2, dark_bg, home_4 }) => {
                                 <div className="logo">
                                     <Link href={'/'} legacyBehavior>
                                         <a>
-                                            {!dark_bg && <img className="logo-light" src={logoLight} alt="Corporate Logo" />}
+                                            {/*  {!dark_bg && <img className="logo-light" src={logoLight} alt="Corporate Logo" />} */}
                                             <img className="logo-dark" src={logoDark} alt="Corporate Logo" />
                                         </a>
                                     </Link>
