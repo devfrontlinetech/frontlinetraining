@@ -21,7 +21,7 @@ const HeroArea = () => {
   const handleDateChange = (date) => {   
     const formattedDate = format(date, "dd-MM-yyyy");              
     setSelectedDate(formattedDate);
-    setSelectedTime(null);
+    setSelectedTime(null);    
 
     if (availableDates.includes(formattedDate)) {
       setTimeSlots([
