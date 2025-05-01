@@ -91,7 +91,7 @@ const HeroArea = () => {
         <div className="legend-container">      
         <span className="legend available">Available</span>
         <span className="legend booked">Booked</span>
-        <span className="legend unavailable">Not Available</span>
+        <span className="legend unavailable">Not Available</span>  
       </div>
 
 
