@@ -100,7 +100,7 @@ const HeroArea = () => {
      
       {selectedDate && (
         <div className="time-slots-container">
-          <h3 className="slot-title">Time Slots for {selectedDate}</h3>
+          <h3 className="slot-title">Time Slots for {selectedDate}</h3> 
           {timeSlots.length > 0 ? (
             timeSlots.map((slot, index) => (
               <div key={index} className="time-slot-box">
@@ -116,7 +116,7 @@ const HeroArea = () => {
           ) : (
             <p className="no-slots">No time slots available</p>
           )}
-          {selectedTime && (
+          {selectedTime && ( 
             <button className="book-btn" onClick={handleBooking}>
               Book Now
             </button>
