@@ -79,7 +79,7 @@ const SearchPopup = ({ isSearchOpen, setIsSearchOpen }) => {
           <img className="logo-dark" src="/assets/images/logo/train3.png" alt="logo" />
         </div>
         <div className="close-button" onClick={() => setIsSearchOpen(false)}>
-          <button className="close-trigger" aria-label="Name">
+          <button className="close-trigger" id="al" aria-label="Name">
             <i className="icon-73"></i>
           </button>
         </div>
