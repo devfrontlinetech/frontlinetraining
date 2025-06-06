@@ -162,7 +162,7 @@ const Intro = () => {
           <div className="code-box">
             <pre className="code-block">
                     {`import logo from './logo.svg';
-                    import './App.css';
+                       import './App.css';
 
                     function App() {
                       return (

@@ -176,7 +176,7 @@ const Task = ({ index, expanded, onToggle }) => {
       `;
 
       setOutput(html);
-      setDone(true); // Automatically mark as done after run
+      setDone(true);
     } catch (err) {
       setOutput(`<pre style="color:red;">${err.message}</pre>`);
     }
