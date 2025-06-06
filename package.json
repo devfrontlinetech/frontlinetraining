@@ -10,6 +10,7 @@
         "lint": "next lint"
     },
     "dependencies": {
+        "@babel/standalone": "^7.27.6",
         "@popperjs/core": "^2.11.6",
         "@reduxjs/toolkit": "^1.8.5",
         "@svgr/webpack": "^6.3.1",
