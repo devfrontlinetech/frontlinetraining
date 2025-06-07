@@ -90,7 +90,7 @@ const Workingspace = () => {
 
       <aside className={`dashboard-left ${menuOpen ? 'open' : ''}`}>
         <nav className="headlines">
-          <h3 className="side-head">React Basics</h3>
+          <h3 className="side-head" data-sal-delay="200" data-sal="slide-up" data-sal-duration="1000">React Basics</h3>
           {workLinks.map((item, index) => (
            <Link
               href={item.path}
@@ -98,7 +98,7 @@ const Workingspace = () => {
               className="side-link"
               onClick={() => setMenuOpen(false)}
             >
-              <h3 className="side-link-label">{item.label}</h3>
+              <h3 className="side-link-label" data-sal-delay="200" data-sal="slide-right" data-sal-duration="1000">{item.label}</h3>
             </Link>
 
           ))}
@@ -106,23 +106,23 @@ const Workingspace = () => {
       </aside>
 
       <div className="work-right">
-        <h2 className="right-head">React Code Runner</h2>
-          <h4 className="work-h4">
+        <h2 className="right-head" data-sal-delay="250" data-sal="slide-up" data-sal-duration="1000">React Code Runner</h2>
+          <h4 className="work-h4" data-sal-delay="300" data-sal="slide-right" data-sal-duration="1000">
             Create your own website and React.js applications with a Node.js environment in frontline technologies
           </h4>
 
-        <div className="run-btn">
+        <div className="run-btn" data-sal-delay="350" data-sal="slide-right" data-sal-duration="1000">
           <button onClick={runCode} className="run-button">Run</button>
         </div>
 
-        <textarea
+        <textarea  data-sal-delay="400" data-sal="slide-up" data-sal-duration="1000"
           value={code}
           onChange={(e) => setCode(e.target.value)}
           rows={10}
           className="code-editor"
         />
 
-        <iframe
+        <iframe  data-sal-delay="400" data-sal="slide-up" data-sal-duration="1000"
           srcDoc={output}
           sandbox="allow-scripts"
           title="code-output"
@@ -130,7 +130,7 @@ const Workingspace = () => {
         />
 
         <div className="task-container">
-          <h2 className="task-head">Tasks;</h2>
+          <h2 className="task-head" data-sal-delay="500" data-sal="slide-right" data-sal-duration="1000">Tasks;</h2>
           {taskData.map((_, index) => (
             <Task
               key={index}
@@ -176,7 +176,7 @@ const Task = ({ index, expanded, onToggle }) => {
       `;
 
       setOutput(html);
-      setDone(true);
+      setDone(true); // Automatically mark as done after run
     } catch (err) {
       setOutput(`<pre style="color:red;">${err.message}</pre>`);
     }
@@ -185,7 +185,7 @@ const Task = ({ index, expanded, onToggle }) => {
   return (
     <div className="task">
       <div className="task-header" onClick={onToggle}>
-        <h3 className='task-title'>
+        <h3 className='task-title' data-sal-delay="450" data-sal="slide-up" data-sal-duration="1000"> 
           {taskData[index].title} {done && <span style={{ color: 'green' }}>✅</span>}
         </h3>
       </div>
