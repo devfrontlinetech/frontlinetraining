@@ -3,7 +3,6 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import * as Babel from '@babel/standalone';
 
-
 const workLinks = [
   { label: 'Home', path: '/' },
   { label: 'Introduction', path: '/codeintro' },
@@ -23,14 +22,9 @@ const taskData = [
     title: 'Task 3: Create a form that accepts a user’s name and displays it below the input field in real-time.',
     defaultCode: ``,
   },
-//   {
-//     title: 'Task 4: React app',
-//     defaultCode: ``,
-//   },
 ];
 
 const Workingspace = () => {
- 
   const router = useRouter();
   const [code, setCode] = useState('');
   const [output, setOutput] = useState('');
@@ -40,14 +34,13 @@ const Workingspace = () => {
   useEffect(() => {
     setCode(`import React from 'react';
 
-        function App() {
-          return <h2>Go To The Task’s Section--- ↓ </h2>;
-          <h2>Complete the all task’s</h2>
-        }
-          
+function App() {
+  return <h2>Go To The Task’s Section--- ↓ </h2>;
+  <h2>Complete the all task’s</h2>
+}
 
-        const root = document.getElementById('root');
-        ReactDOM.render(<App />, root);`);
+const root = document.getElementById('root');
+ReactDOM.render(<App />, root);`);
 
     setOutput('');
     window.scrollTo(0, 0);
@@ -92,7 +85,7 @@ const Workingspace = () => {
         <nav className="headlines">
           <h3 className="side-head" data-sal-delay="200" data-sal="slide-up" data-sal-duration="1000">React Basics</h3>
           {workLinks.map((item, index) => (
-           <Link
+            <Link
               href={item.path}
               key={index}
               className="side-link"
@@ -100,29 +93,28 @@ const Workingspace = () => {
             >
               <h3 className="side-link-label" data-sal-delay="200" data-sal="slide-right" data-sal-duration="1000">{item.label}</h3>
             </Link>
-
           ))}
         </nav>
       </aside>
 
       <div className="work-right">
         <h2 className="right-head" data-sal-delay="250" data-sal="slide-up" data-sal-duration="1000">React Code Runner</h2>
-          <h4 className="work-h4" data-sal-delay="300" data-sal="slide-right" data-sal-duration="1000">
-            Create your own website and React.js applications with a Node.js environment in frontline technologies
-          </h4>
+        <h4 className="work-h4" data-sal-delay="300" data-sal="slide-right" data-sal-duration="1000">
+          Create your own website and React.js applications with a Node.js environment in frontline technologies
+        </h4>
 
         <div className="run-btn" data-sal-delay="350" data-sal="slide-right" data-sal-duration="1000">
           <button onClick={runCode} className="run-button">Run</button>
         </div>
 
-        <textarea  data-sal-delay="400" data-sal="slide-up" data-sal-duration="1000"
+        <textarea data-sal-delay="400" data-sal="slide-up" data-sal-duration="1000"
           value={code}
           onChange={(e) => setCode(e.target.value)}
           rows={10}
           className="code-editor"
         />
 
-        <iframe  data-sal-delay="400" data-sal="slide-up" data-sal-duration="1000"
+        <iframe data-sal-delay="400" data-sal="slide-up" data-sal-duration="1000"
           srcDoc={output}
           sandbox="allow-scripts"
           title="code-output"
@@ -176,7 +168,7 @@ const Task = ({ index, expanded, onToggle }) => {
       `;
 
       setOutput(html);
-      setDone(true); // Automatically mark as done after run
+      if (code.trim() !== '') setDone(true); 
     } catch (err) {
       setOutput(`<pre style="color:red;">${err.message}</pre>`);
     }
