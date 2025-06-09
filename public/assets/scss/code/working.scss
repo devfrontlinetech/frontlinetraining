@@ -196,12 +196,14 @@ margin-top: 50px;
 
 
 
+
 /* === Extra large screens (Desktops and Monitors) === */
 @media (min-width: 1281px) {
   .code-editor,
   .output-area {
     width: 75%;
     font-size: 1rem;
+    margin-left: 100px !important;
   }
 
   .work-right {
@@ -214,6 +216,7 @@ margin-top: 50px;
   .code-editor,
   .output-area {
     width: 85%;
+    margin-left: 80px !important;
   }
 }
 
@@ -255,7 +258,9 @@ margin-top: 50px;
 
   .code-editor,
   .output-area {
-    width: 90%;
+  
+    width: 85%;
+    margin-left: 80px !important;
   }
 }
 
@@ -295,7 +300,8 @@ margin-top: 50px;
 
   .code-editor,
   .output-area {
-    width: 100%;
+     width: 85%;
+    margin-left: 50px !important;
   }
 
   .task {
@@ -311,7 +317,7 @@ margin-top: 50px;
 
   .code-editor {
     min-height: 150px;
-    font-size: 0.8rem;
+    font-size: 0.5rem;
   }
 
   .output-area {
