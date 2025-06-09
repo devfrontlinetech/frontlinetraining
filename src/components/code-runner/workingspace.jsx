@@ -36,7 +36,7 @@ const Workingspace = () => {
 
 function App() {
   return <h2>Go To The Task’s Section--- ↓ </h2>;
-  <h2>Complete the all task’s</h2>
+  
 }
 
 const root = document.getElementById('root');
