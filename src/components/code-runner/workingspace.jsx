@@ -34,13 +34,13 @@ const Workingspace = () => {
   useEffect(() => {
     setCode(`import React from 'react';
 
-function App() {
-  return <h2>Go To The Task’s Section--- ↓ </h2>;
-  
-}
+                function App() {
+                return <h2>Go To The Task’s Section--- ↓ </h2>;
+                
+                }
 
-const root = document.getElementById('root');
-ReactDOM.render(<App />, root);`);
+                const root = document.getElementById('root');
+                ReactDOM.render(<App />, root);`);
 
     setOutput('');
     window.scrollTo(0, 0);
