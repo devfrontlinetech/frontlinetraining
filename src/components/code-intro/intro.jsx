@@ -162,7 +162,7 @@ const Intro = () => {
             <pre className="code-block" data-sal-delay="850" data-sal="slide-right" data-sal-duration="1000">
                     {`
                 import logo from './logo.svg';
-                    import './App.css';
+                import './App.css';
 
                     function App() {
                       return (
@@ -205,9 +205,10 @@ const Intro = () => {
 
                      <div className="code-box">
                           <pre className="code-block" data-sal-delay="700" data-sal="slide-left" data-sal-duration="1000">
-                              {`import React from 'react';
+                              {`
+                              import React from 'react';
 
-                                  function App() {
+                                 function App() {
                                           return (
                                                <div className="App">
                                                    <h1>Hello, World!</h1>
@@ -231,7 +232,9 @@ const Intro = () => {
 
           <div className="code-box">
               <pre className="code-block" data-sal-delay="250" data-sal="slide-left" data-sal-duration="1000">
-                  {`import React from 'react';
+                  {`
+                  
+                    import React from 'react';
                     import ReactDOM from 'react-dom/client';
                     import App from './App';
 
