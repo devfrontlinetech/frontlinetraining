@@ -160,7 +160,8 @@ const Intro = () => {
           </ul>
           <div className="code-box">
             <pre className="code-block" data-sal-delay="850" data-sal="slide-right" data-sal-duration="1000">
-                    {`import logo from './logo.svg';
+                    {`
+                import logo from './logo.svg';
                     import './App.css';
 
                     function App() {
