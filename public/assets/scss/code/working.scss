@@ -67,7 +67,7 @@
   height: 300px !important;
   border: 1px solid #ccc !important;
   border-radius: 6px !important;
-  background-color: white !important;
+  background-color: white ;
   padding: 10px !important;
 }
   
@@ -93,7 +93,7 @@
 margin-top: 50px;
 }
 .task-head{
-  color: black!important;
+  color: black;
 }
 
 .task {
@@ -107,7 +107,7 @@ margin-top: 50px;
   transition: all 0.3s ease!important;
 }
 .task-title{
-  color: #0b066d!important;
+  color: #0b066d;
   font-weight: 100 !important;
   font-size: 15px !important;
   margin-top: 20px !important;
@@ -120,9 +120,9 @@ margin-top: 50px;
   transition: background-color 0.3s ease!important;
 }
 
-.task-header:hover {
-  background-color: #eaeaea;
-}
+// .task-header:hover {
+//   background-color: #eaeaea;
+// }
 
 .task-body-wrapper {
   max-height: 0;
@@ -165,12 +165,12 @@ margin-top: 50px;
   background-color: #0056b3 !important;
 }
 
-.output-area {
-  width: 100%;
-  height: 200px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-}
+// .output-area {
+//   width: 100%;
+//   height: 200px;
+//   border: 1px solid #ddd;
+//   border-radius: 8px;
+// }
 
 
 
