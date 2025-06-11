@@ -1,6 +1,6 @@
 import SEO from '../components/seo';
 import { Wrapper } from '../layout';
-import CodeSpace from '../components/code-runner/intro';
+import CodeSpace from '../components/code-runner';
 
 const CodeSpacePage = () => {
     return (
