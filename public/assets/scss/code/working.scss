@@ -16,8 +16,7 @@
     margin-bottom: 20px;
   }
   
-
-  
+ 
   .headlines a {
     color: #ecf0f1!important;
     text-decoration: none;
@@ -28,7 +27,7 @@
   }
   .work-h4 {
     font-size: 1.6rem;
-    color: #555!important;
+    color: #555;
     margin-bottom: 1.5rem;
   }
   .work-right {
@@ -43,22 +42,23 @@
 .right-head {
   font-size: 2rem;
   margin-bottom: 0.5rem;
-  color: #333!important;
+  color: #333;
 }
   
 .code-editor {
   width: 80% !important; 
   min-height: 220px !important;
-//   font-family: 'Courier New', Courier, monospace !important;
+  margin-left: 40px !important;
+  // font-family: 'Courier New', Courier, monospace !important;
   font-size: 1rem !important;
   /* padding: 10px; */
   border: 1px solid #ccc !important;
   border-radius: 6px !important;
   margin-bottom: 15px !important;
   resize: vertical !important;
-  background-color: #fff !important;
+  background-color: #fff;
   padding: 10px !important;
-  color: black !important;
+  color: black ;
   font-size: 1.2rem !important;
 }
 
@@ -67,7 +67,7 @@
   height: 300px !important;
   border: 1px solid #ccc !important;
   border-radius: 6px !important;
-  background-color: white ;
+  // background-color: white ;
   padding: 10px !important;
 }
   
@@ -77,7 +77,16 @@
     justify-content: flex-start;
   }
   
-
+// .run-button {
+//   background-color: #0f9efe;
+//   color: white!important;
+//   border: none;
+//   padding: 0.6rem 1.5rem;
+//   border-radius: 6px;
+//   cursor: pointer;
+//   font-size: 1rem;
+//   transition: background 0.2s ease;
+// }
 .run-button:hover {
   background-color: #0043ce;
 }
@@ -102,20 +111,20 @@ margin-top: 50px;
   border-radius: 12px!important;
   margin-bottom: 1rem!important;
   overflow: hidden!important;
-  background-color: #fdfdfd!important;
+  background-color: #fdfdfd;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05)!important;
   transition: all 0.3s ease!important;
 }
 .task-title{
   color: #0b066d;
-  font-weight: 100 !important;
-  font-size: 15px !important;
-  margin-top: 20px !important;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
 .task-header {
   margin-top: 20px;
   padding: 1rem!important;
-  background-color: #f5f5f5!important;
+  background-color: #f5f5f5;
   cursor: pointer!important;
   transition: background-color 0.3s ease!important;
 }
@@ -154,7 +163,7 @@ margin-top: 50px;
   border: none !important;
   border-radius: 8px !important;
   background-color: #007bff !important;
-  color: white!important;
+  color: white;
   font-weight: bold !important;
   cursor: pointer !important;
   transition: background-color 0.3s ease !important;
@@ -171,7 +180,6 @@ margin-top: 50px;
 //   border: 1px solid #ddd;
 //   border-radius: 8px;
 // }
-
 
 
 
