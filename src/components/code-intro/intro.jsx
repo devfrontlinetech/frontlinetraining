@@ -76,7 +76,7 @@ const Intro = () => {
               <li className="intro-list-item" data-sal-delay="950" data-sal="slide-right" data-sal-duration="1000">JAVASCRIPT ✓</li>
 
             <li className="highlight-step" data-sal-delay="1000" data-sal="slide-right" data-sal-duration="1000">
-              If you want to study these subjects first, find the tutorials on our{' '}
+              If you want to study these subjects first, find the solution on our{' '}
             <a
               href="/"
               target="_blank"
