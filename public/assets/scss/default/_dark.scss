@@ -163,7 +163,7 @@
     .intro-right,
     .work-right,
     .code-editor,
-    .output-area,
+    
     .task-title,
     .task-body,
     .task-header,
@@ -171,6 +171,11 @@
     .faq-style-7 {
         background-color: var(--dark-bg-color);
     }
+    .output-area {
+    background-color: #ffffff;
+    }
+
+
     .remote-training .header-right .header-action .search-bar .input-group {
         background: transparent;
         border: 1px solid #333a44;
