@@ -233,7 +233,6 @@ const Intro = () => {
           <div className="code-box">
               <pre className="code-block" data-sal-delay="250" data-sal="slide-left" data-sal-duration="1000">
                   {`
-                  
                     import React from 'react';
                     import ReactDOM from 'react-dom/client';
                     import App from './App';
