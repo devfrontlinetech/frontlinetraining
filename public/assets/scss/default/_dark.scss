@@ -31,7 +31,7 @@
     .step-title,
     .side-head,
     .task-title,
-    .output-area,
+    
     input[type=text], 
     input[type=password], 
     input[type=email], 
@@ -163,7 +163,7 @@
     .intro-right,
     .work-right,
     .code-editor,
-    .output-area,
+    
     .task-title,
     .task-body,
     .task-header,
@@ -172,7 +172,11 @@
         background-color: var(--dark-bg-color);
     }
     .output-area {
-    background-color: #cbcbcb;
+    background-color: #040404;
+    }
+
+    .output-area {
+       color: var(--color-white) !important;
     }
 
 
