@@ -15,7 +15,7 @@ const HeroArea = () => {
 
   // Mock Data
   const availableDates = [
-  "15-09-2025",
+  
   "22-09-2025",
   "23-09-2025",
   "26-09-2025",
