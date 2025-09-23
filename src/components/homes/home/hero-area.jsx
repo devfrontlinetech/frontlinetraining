@@ -53,8 +53,7 @@ const bookedDates = [
 ];
 
 const unavailableDates = [
-  "17-09-2025",
-  "24-09-2025",
+   "24-09-2025",
 
   // October
   "05-10-2025",
