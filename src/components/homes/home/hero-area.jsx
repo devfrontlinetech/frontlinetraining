@@ -16,6 +16,9 @@ const HeroArea = () => {
   // Mock Data
   const availableDates = [
     // October
+    
+    "06-10-2025",
+    "08-10-2025",
     "10-10-2025",
     "17-10-2025",
     "22-10-2025",
@@ -32,7 +35,7 @@ const HeroArea = () => {
 
   const bookedDates = [
     // October
-    "01-10-2025",
+    
     "15-10-2025",
     "20-10-2025",
     "26-10-2025",
