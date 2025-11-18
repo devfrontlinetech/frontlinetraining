@@ -35,6 +35,8 @@ const HeroArea = () => {
   ];
 
   const unavailableDates = [
+
+    "18-11-2025",
     "21-11-2025",
     "22-11-2025",
     "23-11-2025",
