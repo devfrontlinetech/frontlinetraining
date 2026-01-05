@@ -16,9 +16,9 @@ const HeroArea = () => {
   // Mock Data
   const availableDates = [
   
-    "02-01-2026",
-    "03-01-2026",
-    "04-01-2026",
+    "02-02-2026",
+    "03-02-2026",
+    "04-02-2026",
   ];
 
   const bookedDates = [
@@ -144,7 +144,7 @@ const HeroArea = () => {
                       </h5>
                       <Calendar
                         onChange={handleDateChange}
-                        minDate={new Date()}
+                        minDate={new Date()} 
                         tileClassName={tileClassName}
                       />
 
