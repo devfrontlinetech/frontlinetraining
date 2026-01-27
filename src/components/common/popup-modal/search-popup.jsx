@@ -1,4 +1,3 @@
-
 // const SearchPopup = ({isSearchOpen,setIsSearchOpen}) => {
 //     const handleSubmit = e => {
 //       e.preventDefault();
@@ -25,44 +24,55 @@
 // }
 // export default SearchPopup;
 
-
-{/*New code added 26/12/2024*/}
-import React, { useState } from 'react';
-import Link from 'next/link';
+{
+  /*New code added 26/12/2024*/
+}
+import React, { useState } from "react";
+import Link from "next/link";
 
 const SearchPopup = ({ isSearchOpen, setIsSearchOpen }) => {
   // Sample products data (could be fetched from an API or defined elsewhere)
   const products = [
-   { id: 1, name: 'courses', link: '/web-dev' },
-    { id: 2, name: 'digitalmarketing', link: '/digital-marketing' },
-    { id: 3, name: 'software testing', link: '/software-testing' },
-    { id: 4, name: 'ui/ux', link: '/ui-ux' },
-    { id: 5, name: 'Ethical Hacking', link: '/course-details/ethical-hacking' },
-    { id: 6, name: 'python-datascience', link: '/python-data' },
-    { id: 7, name: 'Mobile Development', link: '/mob-dev' },
-    { id: 8, name: 'Full Stack', link: '/full-stack' },
-    { id: 9, name: 'Web Design', link: '/web-design' },
-    { id: 10, name: 'html', link: '/course-details/fullstack' },
-    { id: 11, name: 'css', link: '/course-details/fullstack' },
-    { id: 12, name: 'javascript', link: '/course-details/javascript-2hrs' },
-    { id: 13, name: 'Ai-Ml', link: '/ai-ml' },
-    { id: 14, name: 'Power-Platform', link: '/power-platform' },
-    { id: 15, name: 'Low code- No code', link: '/lowcode-nocode' },
-    { id: 16, name: 'php, Mysql', link: '/course-details/web-development' },
-    { id: 17, name: 'frontend course', link: '/course-details/frontend-course' },
-    { id: 18, name: 'advanced fullstack', link: '/course-details/advanced-fullstack' },
-    { id: 19, name: 'python', link: '/course-details/python' },
-    { id: 20, name: 'mobile designing', link: '/course-details/mobile-designer' }, 
-   
-    
+    { id: 1, name: "courses", link: "/web-dev" },
+    { id: 2, name: "digitalmarketing", link: "/digital-marketing" },
+    { id: 3, name: "software testing", link: "/software-testing" },
+    { id: 4, name: "ui/ux", link: "/ui-ux" },
+    { id: 5, name: "Ethical Hacking", link: "/course-details/ethical-hacking" },
+    { id: 6, name: "python-datascience", link: "/python-data" },
+    { id: 7, name: "Mobile Development", link: "/mob-dev" },
+    { id: 8, name: "Full Stack", link: "/full-stack" },
+    { id: 9, name: "Web Design", link: "/web-design" },
+    { id: 10, name: "html", link: "/course-details/fullstack" },
+    { id: 11, name: "css", link: "/course-details/fullstack" },
+    { id: 12, name: "javascript", link: "/course-details/javascript-2hrs" },
+    { id: 13, name: "Ai-Ml", link: "/ai-ml" },
+    { id: 14, name: "Power-Platform", link: "/power-platform" },
+    { id: 15, name: "Low code- No code", link: "/lowcode-nocode" },
+    { id: 16, name: "php, Mysql", link: "/course-details/web-development" },
+    {
+      id: 17,
+      name: "frontend course",
+      link: "/course-details/frontend-course",
+    },
+    {
+      id: 18,
+      name: "advanced fullstack",
+      link: "/course-details/advanced-fullstack",
+    },
+    { id: 19, name: "python", link: "/course-details/python" },
+    {
+      id: 20,
+      name: "mobile designing",
+      link: "/course-details/mobile-designer",
+    },
   ];
 
   // State to manage the search term
-  const [searchTerm, setSearchTerm] = useState('');
+  const [searchTerm, setSearchTerm] = useState("");
 
   // Filter products based on search term
   const filteredProducts = products.filter((product) =>
-    product.name.toLowerCase().includes(searchTerm.toLowerCase())
+    product.name.toLowerCase().includes(searchTerm.toLowerCase()),
   );
 
   // Handle form submission (search)
@@ -72,11 +82,19 @@ const SearchPopup = ({ isSearchOpen, setIsSearchOpen }) => {
   };
 
   return (
-    <div className={`edu-search-popup ${isSearchOpen ? 'open' : ''}`}>
+    <div className={`edu-search-popup ${isSearchOpen ? "open" : ""}`}>
       <div className="content-wrap">
         <div className="site-logo">
-          <img className="logo-light" src="/assets/images/logo/train1.png" alt="logo" />
-          <img className="logo-dark" src="/assets/images/logo/train3.png" alt="logo" />
+          <img
+            className="logo-light"
+            src="/assets/images/logo/train1.png"
+            alt="logo"
+          />
+          <img
+            className="logo-dark"
+            src="/assets/images/logo/train3.png"
+            alt="logo"
+          />
         </div>
         <div className="close-button" onClick={() => setIsSearchOpen(false)}>
           <button className="close-trigger" id="al" aria-label="Name">
@@ -96,7 +114,7 @@ const SearchPopup = ({ isSearchOpen, setIsSearchOpen }) => {
               <i className="icon-2"></i>
             </button>
           </form>
-          
+
           {/* Display filtered product list if there are matches */}
           {searchTerm && filteredProducts.length > 0 && (
             <div className="product-list">
@@ -125,6 +143,3 @@ const SearchPopup = ({ isSearchOpen, setIsSearchOpen }) => {
 };
 
 export default SearchPopup;
-
-
-
