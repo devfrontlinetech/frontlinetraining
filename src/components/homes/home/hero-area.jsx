@@ -15,7 +15,6 @@ const HeroArea = () => {
 
   // Mock Data
   const availableDates = [
-  
     "02-02-2026",
     "03-02-2026",
     "04-02-2026",
@@ -38,7 +37,6 @@ const HeroArea = () => {
   ];
 
   const unavailableDates = [
-  
     "14-01-2026",
     "21-01-2026",
     "22-01-2026",
@@ -68,7 +66,7 @@ const HeroArea = () => {
       const whatsappNumber = "+919789655455";
       const whatsappMessage = `Hello, I would like to book an appointment on ${selectedDate} for the following time slots: ${selectedTime}.`;
       const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
-        whatsappMessage
+        whatsappMessage,
       )}`;
       window.open(whatsappURL, "_blank");
     }
@@ -149,7 +147,7 @@ const HeroArea = () => {
                       </h5>
                       <Calendar
                         onChange={handleDateChange}
-                        minDate={new Date()} 
+                        minDate={new Date()}
                         tileClassName={tileClassName}
                       />
 
