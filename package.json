@@ -48,5 +48,8 @@
     "devDependencies": {
         "eslint": "^9.39.2",
         "eslint-config-next": "^16.1.1-canary.10"
+    },
+     "engines": {
+        "node": ">=20.9.0"
     }
 }
