@@ -1,23 +1,23 @@
-// 1. Remove the tilde (~) - modern Sass doesn't need it
-@import 'bootstrap/scss/bootstrap';
-@import "swiper/css/bundle";
+// 1. Bootstrap SCSS import (no tilde required for Turbopack/webpack)
+@import 'node_modules/bootstrap/scss/bootstrap';
 
-// 2. Remove 'node_modules/' from the start - includePaths handles this
+// 2. Swiper CSS Bundle (CSS import as is)
+@import 'swiper/css/bundle';
+
+// 3. React Modal Video SCSS (SCSS import as is)
 @import 'react-modal-video/scss/modal-video.scss';
 
-// 3. Keep these as is (or remove .css if Sass complains)
+// 4. CSS imports for React packages (CSS files are fine as they are)
 @import 'react-image-lightbox/style.css';
 @import 'react-toastify/dist/ReactToastify.css';
 
-// 4. Relative paths are fine
+// 5. Relative custom styles (ensure these paths are correct)
 @import '../../public/assets/css/vendor/icomoon.css';
 @import '../../public/assets/css/vendor/remixicon.css';
 @import '../../public/assets/scss/app.scss';
 
-
-
-
-
+// 6. Custom mixins (ensure mixin paths are correct, this is where you might need to adjust)
+@import 'styles/mixins/banner';  // Adjust according to your folder structure
 
 
 
