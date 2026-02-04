@@ -1,20 +1,11 @@
-// 1. Remove the tilde (~) - modern Sass doesn't need it
-@import 'bootstrap/scss/bootstrap';
+@import "bootstrap/scss/bootstrap";
 @import "swiper/css/bundle";
-
-// 2. Remove 'node_modules/' from the start - includePaths handles this
-@import 'react-modal-video/scss/modal-video.scss';
-
-// 3. Keep these as is (or remove .css if Sass complains)
+@import 'node_modules/react-modal-video/scss/modal-video.scss';
 @import 'react-image-lightbox/style.css';
 @import 'react-toastify/dist/ReactToastify.css';
-
-// 4. Relative paths are fine
 @import '../../public/assets/css/vendor/icomoon.css';
 @import '../../public/assets/css/vendor/remixicon.css';
 @import '../../public/assets/scss/app.scss';
-
-
 
 
 // old file 29/01/2026 changed to new
