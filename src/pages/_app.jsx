@@ -1,31 +1,31 @@
-import { useRouter } from 'next/router';
-import React, { useEffect } from 'react';
-import { Provider } from 'react-redux';
-import sal from 'sal.js';
-import { ThemeProvider } from 'next-themes';
+import { useRouter } from "next/router";
+import React, { useEffect } from "react";
+import { Provider } from "react-redux";
+import sal from "sal.js";
+import { ThemeProvider } from "next-themes";
 
-import '../styles/index.scss';
+import "../styles/index.scss";
 
 /* Move plain CSS imports here (NOT in SCSS) */
-import 'swiper/css/bundle';
-import 'react-image-lightbox/style.css';
-import 'react-toastify/dist/ReactToastify.css';
-import '../public/assets/css/vendor/icomoon.css';
-import '../public/assets/css/vendor/remixicon.css';
+import "swiper/css/bundle";
+import "react-image-lightbox/style.css";
+import "react-toastify/dist/ReactToastify.css";
+import "../public/assets/css/vendor/icomoon.css";
+import "../public/assets/css/vendor/remixicon.css";
 
-import { store } from '../redux/store';
-import Theme from '../components/common/theme';
-import { MouseMoveProvider } from '../contexts/mouse-move-context';
-import SEO from '../components/seo';
-import { DefaultSeo } from 'next-seo';
-import defaultSEOConfig from '../../next-seo.config';
+import { store } from "../redux/store";
+import Theme from "../components/common/theme";
+import { MouseMoveProvider } from "../contexts/mouse-move-context";
+import SEO from "../components/seo";
+import { DefaultSeo } from "next-seo";
+import defaultSEOConfig from "../../next-seo.config";
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
 
   /* Better Bootstrap JS loading for Next */
   useEffect(() => {
-    import('bootstrap/dist/js/bootstrap');
+    import("bootstrap/dist/js/bootstrap");
   }, []);
 
   useEffect(() => {
@@ -54,9 +54,6 @@ function MyApp({ Component, pageProps }) {
 
 export default MyApp;
 
-
-
-
 // OLD FILE 05-02-2026
 
 // import { useRouter } from 'next/router';
@@ -75,15 +72,14 @@ export default MyApp;
 // import { DefaultSeo } from 'next-seo';
 // import defaultSEOConfig from '../../next-seo.config';
 
-
 // function MyApp( { Component, pageProps } ) {
 //     const router = useRouter();
 //     useEffect( () => {
 //         sal( { threshold: 0.1, once: true } );
-//     }, [router.asPath] ); 
+//     }, [router.asPath] );
 
-//     useEffect( () => {        
-//         sal();   
+//     useEffect( () => {
+//         sal();
 //     }, [] );
 //     return (
 //         <React.Fragment>
