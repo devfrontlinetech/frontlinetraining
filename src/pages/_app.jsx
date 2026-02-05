@@ -6,7 +6,7 @@ import { ThemeProvider } from 'next-themes';
 
 import '../styles/index.scss';
 
-/* ✅ Move plain CSS imports here (NOT in SCSS) */
+/* Move plain CSS imports here (NOT in SCSS) */
 import 'swiper/css/bundle';
 import 'react-image-lightbox/style.css';
 import 'react-toastify/dist/ReactToastify.css';
@@ -23,7 +23,7 @@ import defaultSEOConfig from '../../next-seo.config';
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
 
-  /* ✅ Better Bootstrap JS loading for Next */
+  /* Better Bootstrap JS loading for Next */
   useEffect(() => {
     import('bootstrap/dist/js/bootstrap');
   }, []);
