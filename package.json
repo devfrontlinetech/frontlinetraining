@@ -19,7 +19,6 @@
     "@reduxjs/toolkit": "^1.8.5",
     "@svgr/webpack": "^6.3.1",
     "bootstrap": "^5.2.0",
-    "cross-env": "^10.1.0",
     "firebase": "^11.9.0",
     "formik": "^2.2.9",
     "framer-motion": "^7.6.7",
@@ -47,6 +46,7 @@
     "yup": "^0.32.11"
   },
   "devDependencies": {
+    "cross-env": "^10.1.0",
     "eslint": "^9.39.2",
     "eslint-config-next": "^16.1.1-canary.10"
   },
