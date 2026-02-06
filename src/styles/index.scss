@@ -1,6 +1,8 @@
 /* Your custom theme styles only */
-@import "../../public/assets/scss/app.scss";
-@import "bootstrap/scss/bootstrap";
+
+
+@use "../../public/assets/scss/app.scss" as *;
+@use "bootstrap/scss/bootstrap" as *;
 
 
 
