@@ -1,19 +1,7 @@
-/* --- Bootstrap (partial imports only) --- */
-@import "bootstrap/scss/bootstrap";
-@import "bootstrap/scss/variables";
-@import "bootstrap/scss/mixins";
-
-@import "bootstrap/scss/reboot";
-@import "bootstrap/scss/grid";
-@import "bootstrap/scss/buttons";
-@import "bootstrap/scss/forms";
-@import "bootstrap/scss/utilities";
-
-/* --- Third-party SCSS only (real SCSS allowed) --- */
-// @import "react-modal-video/scss/modal-video.scss";
-
-/* --- Your theme SCSS --- */
+/* Your custom theme styles only */
 @import "../../public/assets/scss/app.scss";
+
+
 
 // old file 29/01/2026 changed to new
 

@@ -1,0 +1,3 @@
+module.exports=[37672,a=>a.a(async(b,c)=>{try{let b=await a.y("framer-motion-813964e6bf935274");a.n(b),c()}catch(a){c(a)}},!0),83560,a=>{"use strict";var b=a.i(96134);a.s(["Footer",()=>b.default])},50885,a=>a.a(async(b,c)=>{try{var d=a.i(92313),e=b([d]);[d]=e.then?(await e)():e,a.s(["Header",()=>d.default]),c()}catch(a){c(a)}},!1),59892,a=>{"use strict";var b=a.i(15369);a.s(["blog_data",()=>b.default])},82382,a=>{"use strict";var b=a.i(62291);a.s(["event_data",()=>b.default])},81769,a=>{"use strict";var b=a.i(53603);a.s(["Certificate",()=>b.default])},67989,a=>{"use strict";var b=a.i(79994);a.s(["Instructor",()=>b.default])},1658,a=>{"use strict";var b=a.i(14186);a.s(["OnlineClass",()=>b.default])}];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__ab3bc024._.js.map
