@@ -10,8 +10,9 @@ import "../styles/index.scss";
 import "swiper/css/bundle";
 import "react-image-lightbox/style.css";
 import "react-toastify/dist/ReactToastify.css";
-import "../public/assets/css/vendor/icomoon.css";
-import "../public/assets/css/vendor/remixicon.css";
+import "../styles/vendor/icomoon.css";
+import "../styles/vendor/remixicon.css";
+
 
 import { store } from "../redux/store";
 import Theme from "../components/common/theme";
