@@ -5,9 +5,7 @@ const nextConfig = {
   sassOptions: {
     includePaths: ["node_modules"],
   },
-  turbopack: {
-    enabled: false,
-  },
+
 };
 
 module.exports = nextConfig;
