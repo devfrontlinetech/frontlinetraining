@@ -1,12 +1,8 @@
-[variables]
-NODE_OPTIONS="--max-old-space-size=4096"
-NEXT_FORCE_WEBPACK="1"
-
 [phases.install]
-cmds = ["npm install --omit=dev"]
+cmds = ["npm install"]
 
 [phases.build]
 cmds = ["npm run build"]
 
 [start]
-cmd = "npm start"
+cmd = "npm run start"
