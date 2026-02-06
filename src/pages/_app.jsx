@@ -9,7 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 /* Third-party CSS */
 import "swiper/css/bundle";
-import "react-image-lightbox/style.css";
+// import "react-image-lightbox/style.css";
 import "react-toastify/dist/ReactToastify.css";
 import "react-modal-video/css/modal-video.min.css";
 import "react-rangeslider/lib/index.css";
@@ -17,23 +17,9 @@ import "react-rangeslider/lib/index.css";
 /* Your SCSS */
 import "../styles/index.scss";
 
-
-import "bootstrap/dist/css/bootstrap.min.css";
-
-
 if (typeof window !== "undefined") {
   require("bootstrap/dist/js/bootstrap");
 }
-
-/* Global SCSS (bootstrap partials only inside it) */
-import "../styles/index.scss";
-
-/* Third-party CSS MUST be imported here */
-import "swiper/css/bundle";
-import "react-image-lightbox/style.css";
-import "react-toastify/dist/ReactToastify.css";
-import "react-modal-video/css/modal-video.min.css";
-import "react-rangeslider/lib/index.css";
 
 import { store } from "../redux/store";
 import Theme from "../components/common/theme";
@@ -69,10 +55,6 @@ function MyApp({ Component, pageProps }) {
 
 export default MyApp;
 
-
-
-
-
 //OLD CODE
 
 // import { useRouter } from 'next/router';
@@ -91,15 +73,14 @@ export default MyApp;
 // import { DefaultSeo } from 'next-seo';
 // import defaultSEOConfig from '../../next-seo.config';
 
-
 // function MyApp( { Component, pageProps } ) {
 //     const router = useRouter();
 //     useEffect( () => {
 //         sal( { threshold: 0.1, once: true } );
-//     }, [router.asPath] ); 
+//     }, [router.asPath] );
 
-//     useEffect( () => {        
-//         sal();   
+//     useEffect( () => {
+//         sal();
 //     }, [] );
 //     return (
 //         <React.Fragment>
