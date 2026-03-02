@@ -93,7 +93,7 @@ const HeroArea = () => {
     <div className="hero-banner hero-style-1">
       <div className="container-fluid">
         <div className="row">
-          <div className="col-lg-2" offset="2"></div>
+          <div className="col-lg-2" offset="2"></div> 
           <div className="col-lg-8">
             <div className="row align-items-center">
               <div className="col-lg-6 col-md-12">
