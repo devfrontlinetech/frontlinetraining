@@ -110,7 +110,7 @@ const menu_data = [
             { title: 'Mobile Development', link: '/mob-dev' },
             { title: 'Full Stack Courese', link: '/full-stack' },
             { title: 'Web Design', link: '/web-design'},
-            { title: 'UI X UX Design', link: '/uiux', new: true},
+            { title: "UI X UX Design", link: "/ui-ux-course", new: true },
         
 
            // { title: 'Course Details 1', link: '/course-details' },
