@@ -34,7 +34,7 @@ const HeroArea = () => {
                 data-sal="slide-up"
                 data-sal-duration="1000"
               >
-                <Link href="/uiux" legacyBehavior>
+                <Link href="/ui-ux-course" legacyBehavior>
                   <a className="edu-btn">
                     Explore UI/UX Courses <i className="icon-4"></i>
                   </a>
