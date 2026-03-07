@@ -18,9 +18,11 @@ const course_two_data = [
     instructor: "R R Anbuthane",
     instructor_img: "ins-01.jpg",
     instructor_title: "Mr. Anbu Lead UI/UX Design Instructor & Tech Strategist",
-    instructor_desc: 
-    `With over a decade of experience in the technology and design sector as the founder of Frontline Technologies, Mr. Anbu brings a unique, holistic perspective to UI/UX design. He is adept in Figma and specializes in bridging the gap between complex backend logic and intuitive frontend experiences.
-     As a mentor, Anbu focuses on industry-ready skills, teaching students how to use Figma not just as a drawing tool, but as a collaborative platform for building scalable digital products. His teaching philosophy emphasizes "Functional Design" — ensuring that every pixel serves a purpose for the end-user.`,
+    instructor_desc: [
+      `"With over a decade of experience in the technology and design sector as the founder of Frontline Technologies, Mr. Anbu brings a unique, holistic perspective to UI/UX design. He is adept in Figma and he specializes in bridging the gap between complex backend logic and intuitive frontend experiences."`,
+      `"As a mentor, Anbu focuses on industry-ready skills, teaching students how to use Figma not just as a drawing tool, but as a collaborative platform for building scalable digital products. His teaching philosophy emphasizes "Functional Design" — ensuring that every pixel serves a purpose for the end-user."`,
+    ],
+
     features: [
       "Design modern web and mobile UI layouts.",
       "Create responsive UI components using Figma.",
@@ -112,9 +114,10 @@ const course_two_data = [
     instructor: "Mr. Anbu",
     instructor_img: "ins-01.jpg",
     instructor_title: "Mr. Anbu Lead UI/UX Design Instructor & Tech Strategist",
-    instructor_desc: 
-    `With over a decade of experience in the technology and design sector as the founder of Frontline Technologies, Mr. Anbu brings a unique, holistic perspective to UI/UX design. He is adept in Figma and specializes in bridging the gap between complex backend logic and intuitive frontend experiences.
-     As a mentor, Anbu focuses on industry-ready skills, teaching students how to use Figma not just as a drawing tool, but as a collaborative platform for building scalable digital products. His teaching philosophy emphasizes "Functional Design" — ensuring that every pixel serves a purpose for the end-user.`,
+    instructor_desc: [
+      `"With over a decade of experience in the technology and design sector as the founder of Frontline Technologies, Mr. Anbu brings a unique, holistic perspective to UI/UX design. He is adept in Figma and he specializes in bridging the gap between complex backend logic and intuitive frontend experiences."`,
+      `"As a mentor, Anbu focuses on industry-ready skills, teaching students how to use Figma not just as a drawing tool, but as a collaborative platform for building scalable digital products. His teaching philosophy emphasizes "Functional Design" — ensuring that every pixel serves a purpose for the end-user."`,
+    ],
     features: [
       "Create low fidelity wireframes.",
       "Plan UI structure before design.",
@@ -177,9 +180,10 @@ const course_two_data = [
     instructor: "Mr. Anbu",
     instructor_img: "ins-01.jpg",
     instructor_title: "Mr. Anbu Lead UI/UX Design Instructor & Tech Strategist",
-    instructor_desc: 
-    `With over a decade of experience in the technology and design sector as the founder of Frontline Technologies, Mr. Anbu brings a unique, holistic perspective to UI/UX design. He is adept in Figma and specializes in bridging the gap between complex backend logic and intuitive frontend experiences.
-     As a mentor, Anbu focuses on industry-ready skills, teaching students how to use Figma not just as a drawing tool, but as a collaborative platform for building scalable digital products. His teaching philosophy emphasizes "Functional Design" — ensuring that every pixel serves a purpose for the end-user.`,
+    instructor_desc: [
+      `"With over a decade of experience in the technology and design sector as the founder of Frontline Technologies, Mr. Anbu brings a unique, holistic perspective to UI/UX design. He is adept in Figma and he specializes in bridging the gap between complex backend logic and intuitive frontend experiences."`,
+      `"As a mentor, Anbu focuses on industry-ready skills, teaching students how to use Figma not just as a drawing tool, but as a collaborative platform for building scalable digital products. His teaching philosophy emphasizes "Functional Design" — ensuring that every pixel serves a purpose for the end-user."`,
+    ],
     features: [
       "Interactive UI flows",
       "Clickable prototypes",
@@ -220,9 +224,10 @@ const course_two_data = [
     instructor: "Mr. Anbu",
     instructor_img: "ins-01.jpg",
     instructor_title: "Mr. Anbu Lead UI/UX Design Instructor & Tech Strategist",
-    instructor_desc: 
-    `With over a decade of experience in the technology and design sector as the founder of Frontline Technologies, Mr. Anbu brings a unique, holistic perspective to UI/UX design. He is adept in Figma and specializes in bridging the gap between complex backend logic and intuitive frontend experiences.
-     As a mentor, Anbu focuses on industry-ready skills, teaching students how to use Figma not just as a drawing tool, but as a collaborative platform for building scalable digital products. His teaching philosophy emphasizes "Functional Design" — ensuring that every pixel serves a purpose for the end-user.`,
+    instructor_desc: [
+      `"With over a decade of experience in the technology and design sector as the founder of Frontline Technologies, Mr. Anbu brings a unique, holistic perspective to UI/UX design. He is adept in Figma and he specializes in bridging the gap between complex backend logic and intuitive frontend experiences."`,
+      `"As a mentor, Anbu focuses on industry-ready skills, teaching students how to use Figma not just as a drawing tool, but as a collaborative platform for building scalable digital products. His teaching philosophy emphasizes "Functional Design" — ensuring that every pixel serves a purpose for the end-user."`,
+    ],
     features: [
       "Create UI component libraries",
       "Maintain design consistency",
@@ -263,9 +268,10 @@ const course_two_data = [
     instructor: "Mr. Anbu",
     instructor_img: "ins-01.jpg",
     instructor_title: "Mr. Anbu Lead UI/UX Design Instructor & Tech Strategist",
-    instructor_desc: 
-    `With over a decade of experience in the technology and design sector as the founder of Frontline Technologies, Mr. Anbu brings a unique, holistic perspective to UI/UX design. He is adept in Figma and specializes in bridging the gap between complex backend logic and intuitive frontend experiences.
-     As a mentor, Anbu focuses on industry-ready skills, teaching students how to use Figma not just as a drawing tool, but as a collaborative platform for building scalable digital products. His teaching philosophy emphasizes "Functional Design" — ensuring that every pixel serves a purpose for the end-user.`,
+    instructor_desc: [
+      `"With over a decade of experience in the technology and design sector as the founder of Frontline Technologies, Mr. Anbu brings a unique, holistic perspective to UI/UX design. He is adept in Figma and he specializes in bridging the gap between complex backend logic and intuitive frontend experiences."`,
+      `"As a mentor, Anbu focuses on industry-ready skills, teaching students how to use Figma not just as a drawing tool, but as a collaborative platform for building scalable digital products. His teaching philosophy emphasizes "Functional Design" — ensuring that every pixel serves a purpose for the end-user."`,
+    ],
     features: [
       "Mobile UI layouts",
       "App design patterns",
@@ -307,9 +313,10 @@ const course_two_data = [
     instructor: "Mr. Anbu",
     instructor_img: "ins-01.jpg",
     instructor_title: "Mr. Anbu Lead UI/UX Design Instructor & Tech Strategist",
-    instructor_desc: 
-    `With over a decade of experience in the technology and design sector as the founder of Frontline Technologies, Mr. Anbu brings a unique, holistic perspective to UI/UX design. He is adept in Figma and specializes in bridging the gap between complex backend logic and intuitive frontend experiences.
-     As a mentor, Anbu focuses on industry-ready skills, teaching students how to use Figma not just as a drawing tool, but as a collaborative platform for building scalable digital products. His teaching philosophy emphasizes "Functional Design" — ensuring that every pixel serves a purpose for the end-user.`,
+    instructor_desc: [
+      `"With over a decade of experience in the technology and design sector as the founder of Frontline Technologies, Mr. Anbu brings a unique, holistic perspective to UI/UX design. He is adept in Figma and he specializes in bridging the gap between complex backend logic and intuitive frontend experiences."`,
+      `"As a mentor, Anbu focuses on industry-ready skills, teaching students how to use Figma not just as a drawing tool, but as a collaborative platform for building scalable digital products. His teaching philosophy emphasizes "Functional Design" — ensuring that every pixel serves a purpose for the end-user."`,
+    ],
     features: [
       "Design professional website layouts",
       "Create responsive UI sections",
