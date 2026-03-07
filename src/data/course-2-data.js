@@ -203,7 +203,27 @@ const course_two_data = [
     ],
     course_desc_3: "Build realistic product prototypes.",
     curriculum_desc: "Interactive design learning path.",
-    course_lessons: [],
+    course_lessons: [
+      {
+        title: "Week 1-2",
+        text: "Prototyping Basics",
+        lessons: [
+          { title: "Introduction to Prototyping", icon: "icon-68" },
+          { title: "Understanding User Flows", icon: "icon-68" },
+          { title: "Figma Prototype Tools", icon: "icon-68" },
+        ],
+      },
+      {
+        title: "Week 3-5",
+        text: "Advanced Interaction Design",
+        lessons: [
+          { title: "Clickable Prototypes", icon: "icon-68" },
+          { title: "Micro Interactions", icon: "icon-68" },
+          { title: "Animation & Transitions", icon: "icon-68" },
+          { title: "Prototype Testing", icon: "icon-68" },
+        ],
+      },
+    ],
     reviews: [],
   },
 
@@ -247,7 +267,27 @@ const course_two_data = [
     ],
     course_desc_3: "Create large scale design systems.",
     curriculum_desc: "Design system learning path.",
-    course_lessons: [],
+    course_lessons: [
+      {
+        title: "Week 1-2",
+        text: "Design System Foundations",
+        lessons: [
+          { title: "Introduction to Design Systems", icon: "icon-68" },
+          { title: "Understanding UI Components", icon: "icon-68" },
+          { title: "Figma Component Basics", icon: "icon-68" },
+        ],
+      },
+      {
+        title: "Week 3-5",
+        text: "Building Component Libraries",
+        lessons: [
+          { title: "Component Variants", icon: "icon-68" },
+          { title: "Design Tokens", icon: "icon-68" },
+          { title: "Shared Libraries", icon: "icon-68" },
+          { title: "Scaling Design Systems", icon: "icon-68" },
+        ],
+      },
+    ],
     reviews: [],
   },
 
@@ -291,7 +331,27 @@ const course_two_data = [
     ],
     course_desc_3: "Students will create a full mobile app design project.",
     curriculum_desc: "Mobile UI design learning path.",
-    course_lessons: [],
+    course_lessons: [
+      {
+        title: "Week 1-3",
+        text: "Mobile UI Fundamentals",
+        lessons: [
+          { title: "Mobile UI Introduction", icon: "icon-68" },
+          { title: "Mobile Design Principles", icon: "icon-68" },
+          { title: "App Layout Design", icon: "icon-68" },
+        ],
+      },
+      {
+        title: "Week 4-6",
+        text: "Mobile App Projects",
+        lessons: [
+          { title: "Design App Screens", icon: "icon-68" },
+          { title: "Navigation Patterns", icon: "icon-68" },
+          { title: "Mobile Prototype Design", icon: "icon-68" },
+          { title: "Final Mobile App Project", icon: "icon-68" },
+        ],
+      },
+    ],
     reviews: [],
   },
   {
@@ -342,20 +402,21 @@ const course_two_data = [
     course_lessons: [
       {
         title: "Week 1-3",
-        text: "Website Design Basics",
+        text: "Website UI Fundamentals",
         lessons: [
-          { title: "Website UI Introduction", icon: "icon-68" },
-          { title: "Layout Structure", icon: "icon-68" },
-          { title: "Responsive Grid System", icon: "icon-68" },
+          { title: "Website Layout Basics", icon: "icon-68" },
+          { title: "Grid & Spacing Systems", icon: "icon-68" },
+          { title: "Typography for Web", icon: "icon-68" },
         ],
       },
       {
         title: "Week 4-6",
-        text: "Design Projects",
+        text: "Website Design Projects",
         lessons: [
-          { title: "Landing Page Design", icon: "icon-68" },
-          { title: "Website UI Components", icon: "icon-68" },
-          { title: "Final Website Design Project", icon: "icon-68" },
+          { title: "Landing Page UI", icon: "icon-68" },
+          { title: "Responsive Web Design", icon: "icon-68" },
+          { title: "Component Based UI", icon: "icon-68" },
+          { title: "Final Website UI Project", icon: "icon-68" },
         ],
       },
     ],
