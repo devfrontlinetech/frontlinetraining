@@ -11,11 +11,16 @@ const CourseDetails = () => {
   const router = useRouter();
   const { id } = router.query;
 
-  const allCourses = [...course_data, ...course_two_data];
+  const allCourses = [
+    ...(course_data || []),
+    ...(course_two_data || [])
+  ];
 
-  const course = allCourses.find((item) => String(item.id) === String(id));
+  const course = allCourses.find(
+    (item) => String(item.id) === String(id)
+  );
 
-  if (!course) return <div>Loading...</div>;
+  if (!course) return <div>Course not found</div>;
 
   return (
     <Wrapper>

@@ -11,12 +11,9 @@ const DynamicCourseDetails = () => {
   const router = useRouter();
   const { id } = router.query;
 
- 
   const allCourses = [...course_data, ...course_two_data];
 
-  const course = allCourses.find(
-    (item) => String(item.id) === String(id)
-  );
+  const course = allCourses.find((item) => String(item.id) === String(id));
 
   if (!course) return <div>Loading...</div>;
 
@@ -30,9 +27,7 @@ const DynamicCourseDetails = () => {
 
 export default DynamicCourseDetails;
 
-
 export async function getStaticPaths() {
-
   const allCourses = [...course_data, ...course_two_data];
 
   const paths = allCourses.map((course) => ({
@@ -47,17 +42,11 @@ export async function getStaticPaths() {
   };
 }
 
-
 export async function getStaticProps() {
   return {
     props: {},
   };
 }
-
-
-
-
-
 
 
 
