@@ -4,8 +4,8 @@ import SEO from "../../components/seo";
 import { Wrapper } from "../../layout";
 import CourseDetailsMain from "../../components/course-details";
 
-import { course_data } from "../../data/course-data";
-import { course_two_data } from "../../data/course-2-data";
+import course_data from "../../data/course-data";
+import course_two_data from "../../data/course-2-data";
 
 const DynamicCourseDetails = () => {
   const router = useRouter();
@@ -47,7 +47,6 @@ export async function getStaticProps() {
     props: {},
   };
 }
-
 
 
 // import { useRouter } from 'next/router';
