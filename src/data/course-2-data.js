@@ -18,8 +18,9 @@ const course_two_data = [
     instructor: "R R Anbuthane",
     instructor_img: "ins-01.jpg",
     instructor_title: "Mr. Anbu Lead UI/UX Design Instructor & Tech Strategist",
-    instructor_desc:
-      "Experienced UI/UX designer and mentor helping students build professional design skills using modern tools like Figma.",
+    instructor_desc: 
+    `With over a decade of experience in the technology and design sector as the founder of Frontline Technologies, Mr. Anbu brings a unique, holistic perspective to UI/UX design. He is adept in Figma and specializes in bridging the gap between complex backend logic and intuitive frontend experiences.
+     As a mentor, Anbu focuses on industry-ready skills, teaching students how to use Figma not just as a drawing tool, but as a collaborative platform for building scalable digital products. His teaching philosophy emphasizes "Functional Design" — ensuring that every pixel serves a purpose for the end-user.`,
     features: [
       "Design modern web and mobile UI layouts.",
       "Create responsive UI components using Figma.",
@@ -111,7 +112,9 @@ const course_two_data = [
     instructor: "Mr. Anbu",
     instructor_img: "ins-01.jpg",
     instructor_title: "Mr. Anbu Lead UI/UX Design Instructor & Tech Strategist",
-    instructor_desc: "UI/UX instructor with industry design experience.",
+    instructor_desc: 
+    `With over a decade of experience in the technology and design sector as the founder of Frontline Technologies, Mr. Anbu brings a unique, holistic perspective to UI/UX design. He is adept in Figma and specializes in bridging the gap between complex backend logic and intuitive frontend experiences.
+     As a mentor, Anbu focuses on industry-ready skills, teaching students how to use Figma not just as a drawing tool, but as a collaborative platform for building scalable digital products. His teaching philosophy emphasizes "Functional Design" — ensuring that every pixel serves a purpose for the end-user.`,
     features: [
       "Create low fidelity wireframes.",
       "Plan UI structure before design.",
@@ -174,7 +177,9 @@ const course_two_data = [
     instructor: "Mr. Anbu",
     instructor_img: "ins-01.jpg",
     instructor_title: "Mr. Anbu Lead UI/UX Design Instructor & Tech Strategist",
-    instructor_desc: "Expert UI designer and instructor.",
+    instructor_desc: 
+    `With over a decade of experience in the technology and design sector as the founder of Frontline Technologies, Mr. Anbu brings a unique, holistic perspective to UI/UX design. He is adept in Figma and specializes in bridging the gap between complex backend logic and intuitive frontend experiences.
+     As a mentor, Anbu focuses on industry-ready skills, teaching students how to use Figma not just as a drawing tool, but as a collaborative platform for building scalable digital products. His teaching philosophy emphasizes "Functional Design" — ensuring that every pixel serves a purpose for the end-user.`,
     features: [
       "Interactive UI flows",
       "Clickable prototypes",
@@ -215,7 +220,9 @@ const course_two_data = [
     instructor: "Mr. Anbu",
     instructor_img: "ins-01.jpg",
     instructor_title: "Mr. Anbu Lead UI/UX Design Instructor & Tech Strategist",
-    instructor_desc: "Design mentor with product design experience.",
+    instructor_desc: 
+    `With over a decade of experience in the technology and design sector as the founder of Frontline Technologies, Mr. Anbu brings a unique, holistic perspective to UI/UX design. He is adept in Figma and specializes in bridging the gap between complex backend logic and intuitive frontend experiences.
+     As a mentor, Anbu focuses on industry-ready skills, teaching students how to use Figma not just as a drawing tool, but as a collaborative platform for building scalable digital products. His teaching philosophy emphasizes "Functional Design" — ensuring that every pixel serves a purpose for the end-user.`,
     features: [
       "Create UI component libraries",
       "Maintain design consistency",
@@ -256,7 +263,9 @@ const course_two_data = [
     instructor: "Mr. Anbu",
     instructor_img: "ins-01.jpg",
     instructor_title: "Mr. Anbu Lead UI/UX Design Instructor & Tech Strategist",
-    instructor_desc: "Professional UI designer.",
+    instructor_desc: 
+    `With over a decade of experience in the technology and design sector as the founder of Frontline Technologies, Mr. Anbu brings a unique, holistic perspective to UI/UX design. He is adept in Figma and specializes in bridging the gap between complex backend logic and intuitive frontend experiences.
+     As a mentor, Anbu focuses on industry-ready skills, teaching students how to use Figma not just as a drawing tool, but as a collaborative platform for building scalable digital products. His teaching philosophy emphasizes "Functional Design" — ensuring that every pixel serves a purpose for the end-user.`,
     features: [
       "Mobile UI layouts",
       "App design patterns",
@@ -280,64 +289,70 @@ const course_two_data = [
     reviews: [],
   },
   {
-  id: "figma-web-ui",
-  yoga_course: true,
-  img: "uiux-09.jpg",
-  duration: "6 Weeks",
-  course_outline: "Online + Onsite",
-  level: "Intermediate",
-  title: "Website UI Design with Figma",
-  position: "right",
-  rating: "5.0",
-  rating_count: 11,
-  lesson: 20,
-  student: 32,
-  category: "UI/UX Design",
-  short_desc: "Learn how to design modern and responsive website UI using Figma.",
-  instructor: "Mr. Anbu",
-  instructor_img: "ins-01.jpg",
-  instructor_title: "Mr. Anbu Lead UI/UX Design Instructor & Tech Strategist",
-  instructor_desc: "UI/UX mentor teaching practical web design techniques.",
-  features: [
-    "Design professional website layouts",
-    "Create responsive UI sections",
-    "Use modern UI design patterns"
-  ],
-  social_links: [],
-  language: "English",
-  certificate: "yes",
-  videoId: "c238xxeDdFI",
-  course_desc: "Learn how to design modern websites using Figma and build professional UI layouts.",
-  course_desc_2: "Students will design homepage, landing pages and full website structures.",
-  learn_list: [
-    "Website UI layout design",
-    "Responsive grid systems",
-    "Landing page design",
-    "Modern UI design trends"
-  ],
-  course_desc_3: "Create a complete website UI project ready for developer handoff.",
-  curriculum_desc: "Complete website UI design course structure.",
-  course_lessons: [
-    {
-      title: "Week 1-3",
-      text: "Website Design Basics",
-      lessons: [
-        { title: "Website UI Introduction", icon: "icon-68" },
-        { title: "Layout Structure", icon: "icon-68" },
-        { title: "Responsive Grid System", icon: "icon-68" }
-      ]
-    },
-    {
-      title: "Week 4-6",
-      text: "Design Projects",
-      lessons: [
-        { title: "Landing Page Design", icon: "icon-68" },
-        { title: "Website UI Components", icon: "icon-68" },
-        { title: "Final Website Design Project", icon: "icon-68" }
-      ]
-    }
-  ],
-  reviews: []
-},
+    id: "figma-web-ui",
+    yoga_course: true,
+    img: "uiux-09.jpg",
+    duration: "6 Weeks",
+    course_outline: "Online + Onsite",
+    level: "Intermediate",
+    title: "Website UI Design with Figma",
+    position: "right",
+    rating: "5.0",
+    rating_count: 11,
+    lesson: 20,
+    student: 32,
+    category: "UI/UX Design",
+    short_desc:
+      "Learn how to design modern and responsive website UI using Figma.",
+    instructor: "Mr. Anbu",
+    instructor_img: "ins-01.jpg",
+    instructor_title: "Mr. Anbu Lead UI/UX Design Instructor & Tech Strategist",
+    instructor_desc: 
+    `With over a decade of experience in the technology and design sector as the founder of Frontline Technologies, Mr. Anbu brings a unique, holistic perspective to UI/UX design. He is adept in Figma and specializes in bridging the gap between complex backend logic and intuitive frontend experiences.
+     As a mentor, Anbu focuses on industry-ready skills, teaching students how to use Figma not just as a drawing tool, but as a collaborative platform for building scalable digital products. His teaching philosophy emphasizes "Functional Design" — ensuring that every pixel serves a purpose for the end-user.`,
+    features: [
+      "Design professional website layouts",
+      "Create responsive UI sections",
+      "Use modern UI design patterns",
+    ],
+    social_links: [],
+    language: "English",
+    certificate: "yes",
+    videoId: "c238xxeDdFI",
+    course_desc:
+      "Learn how to design modern websites using Figma and build professional UI layouts.",
+    course_desc_2:
+      "Students will design homepage, landing pages and full website structures.",
+    learn_list: [
+      "Website UI layout design",
+      "Responsive grid systems",
+      "Landing page design",
+      "Modern UI design trends",
+    ],
+    course_desc_3:
+      "Create a complete website UI project ready for developer handoff.",
+    curriculum_desc: "Complete website UI design course structure.",
+    course_lessons: [
+      {
+        title: "Week 1-3",
+        text: "Website Design Basics",
+        lessons: [
+          { title: "Website UI Introduction", icon: "icon-68" },
+          { title: "Layout Structure", icon: "icon-68" },
+          { title: "Responsive Grid System", icon: "icon-68" },
+        ],
+      },
+      {
+        title: "Week 4-6",
+        text: "Design Projects",
+        lessons: [
+          { title: "Landing Page Design", icon: "icon-68" },
+          { title: "Website UI Components", icon: "icon-68" },
+          { title: "Final Website Design Project", icon: "icon-68" },
+        ],
+      },
+    ],
+    reviews: [],
+  },
 ];
 export default course_two_data;
