@@ -10,7 +10,7 @@ const index = () => {
         <Header no_top_bar={true} />
         <BreadcrumbThree title="Figma UI/UX Design" subtitle="Figma UI/UX" />
         <CourseSixArea />
-        <Footer style_2={"footer-dark bg-image footer-style-2"} />
+        <Footer />
       </div>
     </div>
   );
