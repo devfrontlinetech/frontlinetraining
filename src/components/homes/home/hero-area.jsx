@@ -14,8 +14,6 @@ const HeroArea = () => {
   const [selectedTime, setSelectedTime] = useState(null);
 
   const availableDates = [
-
-    "09-03-2026",
     "10-03-2026",
     "15-03-2026",
     "16-03-2026",
@@ -96,7 +94,7 @@ const HeroArea = () => {
     <div className="hero-banner hero-style-1">
       <div className="container-fluid">
         <div className="row">
-          <div className="col-lg-2" offset="2"></div> 
+          <div className="col-lg-2" offset="2"></div>
           <div className="col-lg-8">
             <div className="row align-items-center">
               <div className="col-lg-6 col-md-12">
