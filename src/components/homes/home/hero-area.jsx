@@ -14,7 +14,7 @@ const HeroArea = () => {
   const [selectedTime, setSelectedTime] = useState(null);
 
   const availableDates = [
-    "10-03-2026",
+  
     "15-03-2026",
     "16-03-2026",
     "17-03-2026",
