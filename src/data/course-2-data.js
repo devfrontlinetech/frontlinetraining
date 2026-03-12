@@ -1,100 +1,145 @@
 const course_two_data = [
-  {
-    id: "figma-uiux-master",
-    yoga_course: true,
-    img: "uiux-01.jpg",
-    duration: "6 Weeks",
-    course_outline: "Online + Onsite",
-    level: "Beginner",
-    title: "Figma UI/UX Design Masterclass",
-    rating: "5.0",
-    rating_count: 15,
-    course_price: "",
-    lesson: 20,
-    student: 40,
-    category: "UI/UX Design",
-    short_desc:
-      "Master modern UI/UX design using Figma and create stunning web and mobile interfaces.",
-    instructor: "R R Anbuthane",
-    instructor_img: "ins-01.jpg",
-    instructor_title: "Mr. Anbu Lead UI/UX Design Instructor & Tech Strategist",
-    instructor_desc: [
-      `"With over a decade of experience in the technology and design sector as the founder of Frontline Technologies, Mr. Anbu brings a unique, holistic perspective to UI/UX design. He is adept in Figma and he specializes in bridging the gap between complex backend logic and intuitive frontend experiences."`,
-      `"As a mentor, Anbu focuses on industry-ready skills, teaching students how to use Figma not just as a drawing tool, but as a collaborative platform for building scalable digital products. His teaching philosophy emphasizes "Functional Design" — ensuring that every pixel serves a purpose for the end-user."`,
-    ],
+{
+  id: "figma-uiux-master",
+  yoga_course: true,
+  img: "uiux-01.jpg",
+  duration: "12 Weeks",
+  course_outline: "Online + Onsite",
+  level: "Beginner to Advanced",
+  title: "Professional UI/UX Design with Figma",
+  rating: "5.0",
+  rating_count: 15,
+  course_price: "",
+  lesson: 25,
+  student: 40,
+  category: "UI/UX Design",
 
-    features: [
-      "Design modern web and mobile UI layouts.",
-      "Create responsive UI components using Figma.",
-      "Build professional portfolio design projects.",
-    ],
-    social_links: [
-      { link: "http://facebook.com", target: "_blank", icon: "icon-facebook" },
-      { link: "http://twitter.com", target: "_blank", icon: "icon-twitter" },
-      {
-        link: "https://www.linkedin.com/",
-        target: "_blank",
-        icon: "icon-linkedin2",
-      },
-      {
-        link: "https://www.youtube.com/",
-        target: "_blank",
-        icon: "icon-youtube",
-      },
-    ],
-    language: "English",
-    certificate: "yes",
-    videoId: "c238xxeDdFI",
-    course_desc:
-      "Learn the fundamentals of UI and UX design using Figma including layouts, typography, colors, and modern design patterns.",
-    course_desc_2:
-      "Understand visual hierarchy, spacing, alignment, and design consistency to create professional digital interfaces.",
-    learn_list: [
-      "Figma interface and tools",
-      "Design responsive layouts",
-      "Create UI components",
-      "Build real-world UI design projects",
-    ],
-    course_desc_3:
-      "Students will design complete website and mobile app interfaces while learning industry-standard UI/UX workflows.",
-    curriculum_desc:
-      "A step-by-step UI/UX design curriculum covering beginner fundamentals to advanced Figma design techniques.",
-    course_lessons: [
-      {
-        title: "Week 1-3",
-        text: "UI/UX Fundamentals",
-        lessons: [
-          { title: "Introduction to UI/UX", icon: "icon-68" },
-          { title: "Understanding Design Principles", icon: "icon-68" },
-          { title: "Figma Interface Overview", icon: "icon-68" },
-          { title: "Typography Basics", icon: "icon-68" },
-          { title: "Color Theory", icon: "icon-68" },
-          { title: "Layout and Grid Systems", icon: "icon-68" },
-        ],
-      },
-      {
-        title: "Week 4-6",
-        text: "Designing Real Projects",
-        lessons: [
-          { title: "Designing Web UI Layout", icon: "icon-68" },
-          { title: "Mobile App UI Design", icon: "icon-68" },
-          { title: "Figma Components", icon: "icon-68" },
-          { title: "Auto Layout", icon: "icon-68" },
-          { title: "Interactive Prototypes", icon: "icon-68" },
-          { title: "Portfolio Project", icon: "icon-68" },
-        ],
-      },
-    ],
-    reviews: [
-      {
-        img: "/assets/images/blog/comment-01.jpg",
-        rating: 5,
-        name: "Haley Bennet",
-        date: "Oct 10, 2021",
-        desc: "Excellent course for beginners who want to start UI/UX design.",
-      },
-    ],
-  },
+  short_desc:
+    "Master modern UI/UX design using Figma and create professional web and mobile interfaces from research to developer handoff.",
+
+  instructor: "R R Anbuthane",
+  instructor_img: "ins-01.jpg",
+  instructor_title: "Mr. Anbu Lead UI/UX Design Instructor & Tech Strategist",
+
+  instructor_desc: [
+    `"With over a decade of experience in the technology and design sector as the founder of Frontline Technologies, Mr. Anbu brings a unique, holistic perspective to UI/UX design. He is adept in Figma and specializes in bridging the gap between complex backend logic and intuitive frontend experiences."`,
+
+    `"As a mentor, Anbu focuses on industry-ready skills, teaching students how to use Figma not just as a design tool but as a collaborative platform for building scalable digital products. His teaching philosophy emphasizes Functional Design — ensuring every pixel serves a purpose for the end-user."`,
+  ],
+
+  features: [
+    "Design modern web and mobile UI interfaces",
+    "Master Figma tools and Auto Layout",
+    "Create interactive prototypes",
+    "Build scalable design systems",
+    "Complete real-world UI/UX capstone project"
+  ],
+
+  social_links: [
+    { link: "http://facebook.com", target: "_blank", icon: "icon-facebook" },
+    { link: "http://twitter.com", target: "_blank", icon: "icon-twitter" },
+    { link: "https://www.linkedin.com/", target: "_blank", icon: "icon-linkedin2" },
+    { link: "https://www.youtube.com/", target: "_blank", icon: "icon-youtube" },
+  ],
+
+  language: "English",
+  certificate: "yes",
+  videoId: "c238xxeDdFI",
+
+  course_desc:
+    "Learn UI and UX design from scratch using Figma while mastering the complete product design workflow used by professional designers.",
+
+  course_desc_2:
+    "Students will understand design thinking, user research, wireframing, UI systems, prototyping, and usability principles used in real digital products.",
+
+  course_desc_3:
+    "By the end of the course, students will build a real-world mobile app or website UI project ready for portfolio and developer handoff.",
+
+  learn_list: [
+    "UX design process and design thinking",
+    "User research and personas",
+    "Wireframing and layout planning",
+    "Figma interface and vector tools",
+    "Responsive UI with Auto Layout",
+    "Reusable components and design systems",
+    "Advanced prototyping and micro interactions",
+    "Developer handoff using Figma Dev Mode"
+  ],
+
+  curriculum_desc:
+    "This 12-week Professional UI/UX Design with Figma program teaches the complete product design workflow from design thinking and user research to UI systems, advanced prototyping, and developer handoff. Students will design real-world web and mobile applications while learning industry-standard UI/UX practices.",
+
+  course_lessons: [
+    {
+      title: "Module 1 (Week 1–2)",
+      text: "Introduction to Design Thinking",
+      lessons: [
+        { title: "Understanding UX Lifecycle (Empathize, Define, Ideate, Prototype, Test)", icon: "icon-68" },
+        { title: "User Research Fundamentals", icon: "icon-68" },
+        { title: "Creating User Personas", icon: "icon-68" },
+        { title: "Customer Journey Mapping", icon: "icon-68" }
+      ]
+    },
+
+    {
+      title: "Module 2 (Week 3–4)",
+      text: "Figma Fundamentals",
+      lessons: [
+        { title: "Figma Interface Overview", icon: "icon-68" },
+        { title: "Working with Layers and Pages", icon: "icon-68" },
+        { title: "Vector Basics & Shapes", icon: "icon-68" },
+        { title: "Pen Tool & Boolean Operations", icon: "icon-68" },
+        { title: "Typography & Color Styles", icon: "icon-68" }
+      ]
+    },
+
+    {
+      title: "Module 3 (Week 5–7)",
+      text: "UI Components & Design Systems",
+      lessons: [
+        { title: "Mastering Auto Layout for Responsive UI", icon: "icon-68" },
+        { title: "Creating Reusable Components", icon: "icon-68" },
+        { title: "Component Variants & States", icon: "icon-68" },
+        { title: "Design Tokens & UI Libraries", icon: "icon-68" },
+        { title: "Building Design Systems (Typography, Colors, Grids)", icon: "icon-68" }
+      ]
+    },
+
+    {
+      title: "Module 4 (Week 8–10)",
+      text: "Advanced Prototyping",
+      lessons: [
+        { title: "Smart Animate & UI Transitions", icon: "icon-68" },
+        { title: "Interactive Components", icon: "icon-68" },
+        { title: "Creating Realistic User Flows", icon: "icon-68" },
+        { title: "Micro Interactions & Navigation", icon: "icon-68" },
+        { title: "User Testing Prototypes in Figma", icon: "icon-68" }
+      ]
+    },
+
+    {
+      title: "Module 5 (Week 11–12)",
+      text: "Capstone Project",
+      lessons: [
+        { title: "Planning a Real-World UI/UX Project", icon: "icon-68" },
+        { title: "Designing a Mobile App Interface", icon: "icon-68" },
+        { title: "Designing a Web Dashboard UI", icon: "icon-68" },
+        { title: "Preparing Files for Developers", icon: "icon-68" },
+        { title: "Developer Handoff using Figma Dev Mode", icon: "icon-68" }
+      ]
+    }
+  ],
+
+  reviews: [
+    {
+      img: "/assets/images/blog/comment-01.jpg",
+      rating: 5,
+      name: "Haley Bennet",
+      date: "Oct 10, 2021",
+      desc: "Excellent course for beginners who want to start UI/UX design.",
+    },
+  ]
+},
 
   {
     id: "figma-wireframe",
