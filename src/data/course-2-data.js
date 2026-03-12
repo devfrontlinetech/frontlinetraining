@@ -176,7 +176,8 @@ const course_two_data = [
     lesson: 20,
     student: 28,
     category: "UI/UX Design",
-    short_desc: "Create interactive UI prototypes using Figma.",
+    short_desc:
+      "Create interactive UI prototypes with Figma, ensuring seamless user experiences",
     instructor: "Mr. Anbu",
     instructor_img: "ins-01.jpg",
     instructor_title: "Mr. Anbu Lead UI/UX Design Instructor & Tech Strategist",
@@ -304,7 +305,8 @@ const course_two_data = [
     lesson: 22,
     student: 35,
     category: "UI/UX Design",
-    short_desc: "Dynamic components allow easy customization for unique branding",
+    short_desc:
+      "Dynamic components allow easy customization for unique branding",
     instructor: "Mr. Anbu",
     instructor_img: "ins-01.jpg",
     instructor_title: "Mr. Anbu Lead UI/UX Design Instructor & Tech Strategist",
