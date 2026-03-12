@@ -304,7 +304,7 @@ const course_two_data = [
     lesson: 22,
     student: 35,
     category: "UI/UX Design",
-    short_desc: "Design modern mobile apps using Figma UI tools.",
+    short_desc: "Dynamic components allow easy customization for unique branding",
     instructor: "Mr. Anbu",
     instructor_img: "ins-01.jpg",
     instructor_title: "Mr. Anbu Lead UI/UX Design Instructor & Tech Strategist",
