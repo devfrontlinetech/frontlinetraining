@@ -83,7 +83,7 @@ const CategoryArea = () => {
               >
                 <div className="icon">{category.icon}</div>
                 <div className="content">
-                  <Link href="/web-dev" legacyBehavior>
+                  <Link href={`/course-details/${data.id}`} legacyBehavior>
                     <a>
                       <h5 className="title">{category.title}</h5>
                     </a>
