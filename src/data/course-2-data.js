@@ -334,26 +334,61 @@ const course_two_data = [
     course_desc_3: "Students will create a full mobile app design project.",
     curriculum_desc: "Mobile UI design learning path.",
     course_lessons: [
-      {
-        title: "Week 1-3",
-        text: "Mobile UI Fundamentals",
-        lessons: [
-          { title: "Mobile UI Introduction", icon: "icon-68" },
-          { title: "Mobile Design Principles", icon: "icon-68" },
-          { title: "App Layout Design", icon: "icon-68" },
-        ],
-      },
-      {
-        title: "Week 4-6",
-        text: "Mobile App Projects",
-        lessons: [
-          { title: "Design App Screens", icon: "icon-68" },
-          { title: "Navigation Patterns", icon: "icon-68" },
-          { title: "Mobile Prototype Design", icon: "icon-68" },
-          { title: "Final Mobile App Project", icon: "icon-68" },
-        ],
-      },
-    ],
+  {
+    title: "Module 1",
+    text: "Introduction to Design Thinking",
+    lessons: [
+      { title: "Understanding UX Lifecycle (Empathize, Define, Ideate, Prototype, Test)", icon: "icon-68" },
+      { title: "User Research Fundamentals", icon: "icon-68" },
+      { title: "Creating User Personas", icon: "icon-68" },
+      { title: "Customer Journey Mapping", icon: "icon-68" }
+    ]
+  },
+
+  {
+    title: "Module 2",
+    text: "Figma Fundamentals",
+    lessons: [
+      { title: "Figma Interface Overview", icon: "icon-68" },
+      { title: "Working with Layers and Pages", icon: "icon-68" },
+      { title: "Vector Basics & Shapes", icon: "icon-68" },
+      { title: "Pen Tool and Boolean Operations", icon: "icon-68" }
+    ]
+  },
+
+  {
+    title: "Module 3",
+    text: "UI Components & Design Systems",
+    lessons: [
+      { title: "Mastering Auto Layout for Responsive UI", icon: "icon-68" },
+      { title: "Creating Reusable Components", icon: "icon-68" },
+      { title: "Component Variants & States", icon: "icon-68" },
+      { title: "Building a Design System (Typography, Colors, Grids)", icon: "icon-68" }
+    ]
+  },
+
+  {
+    title: "Module 4",
+    text: "Advanced Prototyping",
+    lessons: [
+      { title: "Smart Animate & UI Transitions", icon: "icon-68" },
+      { title: "Interactive Components (Buttons, Toggles, Overlays)", icon: "icon-68" },
+      { title: "Creating Realistic UI Flows", icon: "icon-68" },
+      { title: "User Testing Prototypes in Figma", icon: "icon-68" }
+    ]
+  },
+
+  {
+    title: "Module 5",
+    text: "Capstone Project",
+    lessons: [
+      { title: "Designing a Real-World Mobile App", icon: "icon-68" },
+      { title: "Designing a Web Dashboard UI", icon: "icon-68" },
+      { title: "Preparing Files for Developers", icon: "icon-68" },
+      { title: "Developer Handoff using Figma Dev Mode", icon: "icon-68" }
+    ]
+  }
+],
     reviews: [],
   },
   {
