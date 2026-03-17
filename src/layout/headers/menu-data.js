@@ -1,33 +1,27 @@
-
-
-
-
-
 const menu_data = [
-    {   
-        
-        title: 'Home',
-        link: '/',
-        // mega_menu: false,
-        
-        // submenus: [
-          
-        // //    { title: 'Digital Marketing Training', link: '/about-3', hot: true },
-        // //    { title: 'UI/UX Training', link: '/home-distant-learning' },
-        // //    { title: ' Full stack MERN (Mongo Express React Node) Training', link: '/home-university' },
-        // //    { title: 'Software Testing', link: '/home-online-academy' },
-        // //    { title: ' Paython with Data Science Training', link: '/home-kitchen' },
-        // //    { title: ' Data Analysis Training', link: '/home-yoga-instructor' },
-        // //    { title: 'AI/ML Training', link: '/home-kindergarten' },
-        // //    { title: ' DevOps Training', link: '/home-modern-schooling', new: true },
-        // //    { title: 'Ethical Hacking', link: '/about-2' }
-        // ]
-    },
-    {
-        title: 'Gallery',
-        link: '/gallery-grid',
-    },
-    
+  {
+    title: "Home",
+    link: "/",
+    // mega_menu: false,
+
+    // submenus: [
+
+    // //    { title: 'Digital Marketing Training', link: '/about-3', hot: true },
+    // //    { title: 'UI/UX Training', link: '/home-distant-learning' },
+    // //    { title: ' Full stack MERN (Mongo Express React Node) Training', link: '/home-university' },
+    // //    { title: 'Software Testing', link: '/home-online-academy' },
+    // //    { title: ' Paython with Data Science Training', link: '/home-kitchen' },
+    // //    { title: ' Data Analysis Training', link: '/home-yoga-instructor' },
+    // //    { title: 'AI/ML Training', link: '/home-kindergarten' },
+    // //    { title: ' DevOps Training', link: '/home-modern-schooling', new: true },
+    // //    { title: 'Ethical Hacking', link: '/about-2' }
+    // ]
+  },
+  {
+    title: "Gallery",
+    link: "/gallery-grid",
+  },
+
   /*  {
         title: 'Pages',
         link: '#',
@@ -100,48 +94,47 @@ const menu_data = [
             { title: 'Checkout', link: '/checkout' }
         ]
     },*/
-    {
-        title: 'Courses',
-        link: '/web-dev',
-        mega_menu: false,
-        submenus: [
-         // { title: 'Web Development', link: '/web-dev', hot: true },
-            { title: 'Digital Marketing', link: '/digital-marketing', hot: true },
-            { title: 'Mobile Development', link: '/mob-dev' },
-            { title: 'Full Stack Courese', link: '/full-stack' },
-            { title: 'Web Design', link: '/web-design'},
-            { title: "UI X UX Design", link: "/ui-ux-course", new: true },
-        
+  {
+    title: "Courses",
+    link: "/web-dev",
+    mega_menu: false,
+    submenus: [
+      // { title: 'Web Development', link: '/web-dev', hot: true },
+      { title: "Digital Marketing", link: "/digital-marketing", hot: true },
+      { title: "Mobile Development", link: "/mob-dev" },
+      { title: "Full Stack Courese", link: "/full-stack" },
+      { title: "Web Design", link: "/web-design" },
+      { title: "UI X UX Design", link: "/ui-ux-course", new: true },
 
-           // { title: 'Course Details 1', link: '/course-details' },
-           // { title: 'Course Details 2', link: '/course-details-2' },
-           // { title: 'Course Details 3', link: '/course-details-3' }
-        ]
-    },
-    {
-        title: 'Blog',
-        link: '/blog-standard',
-        // mega_menu: false,
-        // // submenus: [
-        // //     { title: 'Blog Standard', link: '/blog-standard' },
-        // //     // { title: 'Blog Masonry', link: '/blog-masonry' },
-        // //     // { title: 'Blog List', link: '/blog-list' },
-        // //     // { title: 'Blog Details', link: '/blog-details' }
-        // // ]
-    },
-    {
-        title: 'LMS',
-        link: 'https://lms.frontlinetraining.in',
-    },
-    {
-        title: 'Contact',
-        link: '/contact-us',
-        // mega_menu: false,
-        // submenus: [
-        //    // { title: 'Contact Us', link: '/contact-us' },
-        //     { title: 'Contact Me', link: '/contact-me' }
-        // ]
-    }
-]
+      // { title: 'Course Details 1', link: '/course-details' },
+      // { title: 'Course Details 2', link: '/course-details-2' },
+      // { title: 'Course Details 3', link: '/course-details-3' }
+    ],
+  },
+  {
+    title: "Blog",
+    link: "/blog-standard",
+    // mega_menu: false,
+    // // submenus: [
+    // //     { title: 'Blog Standard', link: '/blog-standard' },
+    // //     // { title: 'Blog Masonry', link: '/blog-masonry' },
+    // //     // { title: 'Blog List', link: '/blog-list' },
+    // //     // { title: 'Blog Details', link: '/blog-details' }
+    // // ]
+  },
+  {
+    title: "LMS",
+    link: "https://lms.frontlinetraining.in",
+  },
+  {
+    title: "Contact",
+    link: "/contact-us",
+    // mega_menu: false,
+    // submenus: [
+    //    // { title: 'Contact Us', link: '/contact-us' },
+    //     { title: 'Contact Me', link: '/contact-me' }
+    // ]
+  },
+];
 
 export default menu_data;
