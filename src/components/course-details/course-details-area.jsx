@@ -19,7 +19,7 @@ const CourseDetailsArea = ({ course }) => {
                                 </li>
                                 <li className="nav-item" role="presentation">
                                     <button className="nav-link" id="carriculam-tab" data-bs-toggle="tab" data-bs-target="#carriculam"
-                                    type="button" role="tab" aria-controls="carriculam" aria-selected="false">Curriculum</button>
+                                    type="button" role="tab" aria-controls="carriculam" aria-selected="false">Carriculum</button>
                                 </li>
                                 <li className="nav-item" role="presentation">
                                     <button className="nav-link" id="instructor-tab" data-bs-toggle="tab" data-bs-target="#instructor"
