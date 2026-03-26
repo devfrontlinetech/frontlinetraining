@@ -3,25 +3,24 @@ import { BookLibrary, ScholarshipFacility, SkilledLecturers } from '../../../svg
 
 const categories = [
     {
-        icon:<ScholarshipFacility/>,
-        title:'Scholarship Facility',
-        text:'Lorem ipsum dolor sit amet cont adipiscing elit.',
-        color:'color-primary-style'
+        icon: <ScholarshipFacility />,
+        title: 'Scholarship Facility',
+        text: 'We offer scholarship opportunities to support students in achieving their educational goals without financial barriers.',
+        color: 'color-primary-style'
     },
     {
-        icon:<SkilledLecturers/>,
-        title:'Skilled Lecturers',
-        text:'Lorem ipsum dolor sit amet cont adipiscing elit.',
-        color:'color-secondary-style'
+        icon: <SkilledLecturers />,
+        title: 'Skilled Lecturers',
+        text: 'Learn from experienced and qualified instructors who provide practical knowledge and real-world insights.',
+        color: 'color-secondary-style'
     },
     {
-        icon:<BookLibrary/>,
-        title:'Book Library & Store',
-        text:'Lorem ipsum dolor sit amet cont adipiscing elit.',
-        color:'color-extra02-style'
+        icon: <BookLibrary />,
+        title: 'Book Library & Store',
+        text: 'Access a wide range of learning resources, books, and study materials to enhance your knowledge and skills.',
+        color: 'color-extra02-style'
     }
-]
-
+];
 const CategoryArea = () => {
     return (
         <div className="features-area-3">

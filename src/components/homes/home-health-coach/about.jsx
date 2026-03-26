@@ -39,19 +39,43 @@ const About = () => {
                         </div>
                     </div>
                     <div className="col-lg-6">
-                        <div className="about-content">
-                            <div className="section-title section-left" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                      <div className="about-content">
+                            <div 
+                                className="section-title section-left" 
+                                data-sal-delay="150" 
+                                data-sal="slide-up" 
+                                data-sal-duration="800"
+                            >
                                 <span className="pre-title">About Us</span>
-                                <h2 className="title">Individual <span className="color-secondary">Nutrition</span> Counseling & Coaching</h2>
-                                <span className="shape-line"><i className="icon-19"></i></span>
-                                <p>Lorem ipsum dolor sit amet consectur adipiscing elit sed eiusmod ex tempor incididunt labore dolore magna aliquaenim ad minim.</p>
+
+                                <h2 className="title">
+                                    Individual <span className="color-secondary">Nutrition</span> Counseling & Coaching
+                                </h2>
+
+                                <span className="shape-line">
+                                    <i className="icon-19"></i>
+                                </span>
+
+                                <p>
+                                    We provide personalized nutrition guidance and coaching tailored to your lifestyle, goals, and health needs. 
+                                    Our approach focuses on building sustainable habits, improving overall wellness, and helping you achieve long-term results through expert support and practical strategies.
+                                </p>
                             </div>
-                            <ul className="features-list" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                                <li>Expert Trainers</li>
-                                <li>Online Remote Learning</li>
-                                <li>Lifetime Access</li>
+
+                            <ul 
+                                className="features-list" 
+                                data-sal-delay="150" 
+                                data-sal="slide-up" 
+                                data-sal-duration="800"
+                            >
+                                <li>Certified and experienced nutrition experts</li>
+                                <li>Flexible online and remote coaching sessions</li>
+                                <li>Lifetime access to learning resources and updates</li>
                             </ul>
-                            <a href="#" className="edu-btn">Get Start Today <i className="icon-4"></i></a>
+
+                            <a href="#" className="edu-btn">
+                                Get Start Today <i className="icon-4"></i>
+                            </a>
                         </div>
                     </div>
                 </div>

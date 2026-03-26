@@ -224,7 +224,7 @@ const course_data = [
       {img:'/assets/images/blog/pro-03.jpg',rating:5,name:'Harish',date:'Oct 19, 2025',desc:'I took Digital Marketing course here.I learnt campaign management by doing FB ads for an educational institution. Now I am freelancing and I get referrals from here.'},
     ]
   },
-  {
+{
     id: 'html-responsive',
     img: 'Tittle-04.png',
     duration: '6 Weeks',
@@ -242,25 +242,39 @@ const course_data = [
     instructor_img:'partner-02.webp',
     instructor_title:'Founder & CEO',
     instructor_desc:'Our Clients base has grown by 100%, a clear indication that our solutions resonate in the market. This growth wouldn’t have been possible without your hard work and commitment.',
+    
     features: [
       'Build fully-fledged websites and web apps for your business.',
       'After the course you will be able to build ANY website you want.',
       'You will master both front and back-end development technologies.'
     ], 
+
     social_links:[
       {link: 'http://facebook.com', target: '_blank', icon: 'icon-facebook'},
       {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
       {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
       {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
     ],
+
     language: 'English',
     certificate: 'yes',
     videoId: 'PICj5tr9hcc',
-    course_desc: 'Creating a responsive HTML email involves designing an email layout that adjusts and looks good across various devices and screen sizes, from desktops to mobile phones. The key techniques for building a responsive email include',
-    course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
-    learn_list: ['Learn to use Python professionally, learning both Python 2 & Python 3!', 'Build 6 beautiful real-world projects for your portfolio (not boring toy apps)', 'Understand the Theory behind Vue.js and use it in Real Projects', 'Create responsive, accessible, and beautiful layouts'],
-    course_desc_3: 'Consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor.',
-    curriculum_desc: 'This course is designed to introduce students to the basics of web development, with a focus on HTML (Hypertext Markup Language). ',
+
+    course_desc: 'Creating a responsive HTML email involves designing layouts that adapt seamlessly across different screen sizes and email clients. In this course, you will learn industry best practices such as using table-based structures, inline CSS, media queries, and fallback techniques to ensure compatibility and consistent rendering.',
+
+    course_desc_2: 'You will also explore how to optimize email performance, improve deliverability, and handle common limitations found in email clients like Gmail and Outlook. By the end of the course, you will be able to design visually appealing, mobile-friendly email templates suitable for marketing campaigns and transactional emails.',
+
+    learn_list: [
+      'Learn to use Python professionally, learning both Python 2 & Python 3!',
+      'Build 6 beautiful real-world projects for your portfolio (not boring toy apps)',
+      'Understand the Theory behind Vue.js and use it in Real Projects',
+      'Create responsive, accessible, and beautiful layouts'
+    ],
+
+    course_desc_3: 'This course provides hands-on experience with real-world email design challenges. You will build multiple responsive email templates from scratch, test them across devices, and gain confidence in creating production-ready email campaigns that meet modern standards.',
+
+    curriculum_desc: 'This course is designed to help learners understand the fundamentals of HTML email development, including structure, styling, responsiveness, and compatibility across various platforms and devices.',
+
     course_lessons: [
       {
         title: 'Week 1-4',
@@ -287,81 +301,97 @@ const course_data = [
         ]
       },
     ],
+
     reviews:[
       {img:'/assets/images/blog/pro-05.jpg',rating:5,name:'Malar',date:'Jan 10, 2025',desc:'Superb training methods and techniques in Ui/Ux , I designed two logos that clients reviewed.'},
       {img:'/assets/images/blog/pro-03.jpg',rating:5,name:'Sneha',date:'Jan 17, 2025',desc:'They trained me to design App and posted on sites like behance and dribble, I was often contacted about where I took training.'},
       {img:'/assets/images/blog/pro-01.jpg',rating:5,name:'Harish',date:'Jan 28, 2025',desc:'I took Digital Marketing course here.I learnt campaign management by doing FB ads for an educational institution. Now I am freelancing and I get referrals from here.'},
     ]         
-  },
-  {
-    id: '2025-bootcamp',
-    img: 'Tittle-05.jpg',
-    duration: '6 Weeks',
-    course_outline:'Online + Onsite',
-    level: 'Advanced',
-    title: 'The Complete 2025 Web Development Bootcamp',
-    rating: '4.8',
-    rating_count: 27,
-    course_price: '',
-    lesson: 35,
-    student: 48,
-    category:'Art & Design',
-    short_desc: 'The Complete 2025 Web Development Bootcamp is an all-in-one course designed to take you from a beginner to a full-stack web developer in 2025.',
-    instructor: 'R R Anbuthane',
-    instructor_img:'partner-02.webp',
-    instructor_title:'Founder & CEO',
-    instructor_desc:'Our Clients base has grown by 100%, a clear indication that our solutions resonate in the market. This growth wouldn’t have been possible without your hard work and commitment.',
-    features: [
-      'Build fully-fledged websites and web apps for your business.',
-      'After the course you will be able to build ANY website you want.',
-      'You will master both front and back-end development technologies.'
-    ], 
-    social_links:[
-      {link: 'http://facebook.com', target: '_blank', icon: 'icon-facebook'},
-      {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
-      {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
-      {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
-    ],
-    language: 'English',
-    certificate: 'yes',
-    videoId: 'PICj5tr9hcc',
-    course_desc: 'This bootcamp offers a step-by-step guide through web development, ensuring you gain practical experience building real-world projects.',
-    course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
-    learn_list: ['Learn to use Python professionally, learning both Python 2 & Python 3!', 'Build 6 beautiful real-world projects for your portfolio (not boring toy apps)', 'Understand the Theory behind Vue.js and use it in Real Projects', 'Create responsive, accessible, and beautiful layouts'],
-    course_desc_3: 'Consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor.',
-    curriculum_desc: ' Understand the full-stack development lifecycle, front-end vs. back-end development, and the role of a web developer.',
-    course_lessons: [
-      {
-        title: 'Week 1-4',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
-        lessons: [
-          { title: 'Introduction', icon: 'icon-68' },
-          { title: 'Course Overview', icon: 'icon-68' },
-          { title: 'Course Overview', badge_list: true, question: 0, minutes: 10 },
-          { title: 'Course Exercise / Reference Files', icon: 'icon-68' },
-          { title: 'Code Editor Installation (Optional if you have one)', icon: 'icon-68' },
-          { title: ' Embedding PHP in HTML', icon: 'icon-68' },
-        ]
-      },
-      {
-        title: 'Week 5-8',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
-        lessons: [
-          { title: 'Defining Functions', icon: 'icon-68' },
-          { title: 'Function Parameters', icon: 'icon-68' },
-          { title: ' Return Values From Functions', badge_list: true, question: 2, minutes: 15 },
-          { title: ' Global Variable and Scope', icon: 'icon-68' },
-          { title: 'Newer Way of creating a Constant', icon: 'icon-68' },
-          { title: 'Constants', icon: 'icon-68' },
-        ]
-      },
-    ],
-    reviews:[
-      {img:'/assets/images/blog/pro-05.jpg',rating:5,name:'Malar',date:'Jan 10, 2025',desc:'Superb training methods and techniques in Ui/Ux , I designed two logos that clients reviewed.'},
-      {img:'/assets/images/blog/pro-03.jpg',rating:5,name:'Sneha',date:'Jan 17, 2025',desc:'They trained me to design App and posted on sites like behance and dribble, I was often contacted about where I took training.'},
-      {img:'/assets/images/blog/pro-01.jpg',rating:5,name:'Harish',date:'Jan 28, 2025',desc:'I took Digital Marketing course here.I learnt campaign management by doing FB ads for an educational institution. Now I am freelancing and I get referrals from here.'},
-    ]
-  },
+},
+{
+  id: '2025-bootcamp',
+  img: 'Tittle-05.jpg',
+  duration: '6 Weeks',
+  course_outline:'Online + Onsite',
+  level: 'Advanced',
+  title: 'The Complete 2025 Web Development Bootcamp',
+  rating: '4.8',
+  rating_count: 27,
+  course_price: '',
+  lesson: 35,
+  student: 48,
+  category:'Art & Design',
+  short_desc: 'The Complete 2025 Web Development Bootcamp is an all-in-one course designed to take you from a beginner to a full-stack web developer in 2025.',
+  instructor: 'R R Anbuthane',
+  instructor_img:'partner-02.webp',
+  instructor_title:'Founder & CEO',
+  instructor_desc:'Our Clients base has grown by 100%, a clear indication that our solutions resonate in the market. This growth wouldn’t have been possible without your hard work and commitment.',
+
+  features: [
+    'Build fully-fledged websites and web apps for your business.',
+    'After the course you will be able to build ANY website you want.',
+    'You will master both front and back-end development technologies.'
+  ], 
+
+  social_links:[
+    {link: 'http://facebook.com', target: '_blank', icon: 'icon-facebook'},
+    {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
+    {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
+    {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
+  ],
+
+  language: 'English',
+  certificate: 'yes',
+  videoId: 'PICj5tr9hcc',
+
+  course_desc: 'This bootcamp offers a structured, hands-on path into modern web development, covering everything from core HTML, CSS, and JavaScript to advanced frameworks and backend systems. You will build real-world applications that simulate industry-level projects.',
+
+  course_desc_2: 'Throughout the program, you will learn how to design responsive user interfaces, manage application state, build RESTful APIs, and deploy full-stack applications. The course also introduces version control with Git, debugging techniques, and performance optimization.',
+
+  learn_list: [
+    'Master HTML, CSS, JavaScript, and modern ES6+ concepts',
+    'Build real-world full-stack applications using React and Node.js',
+    'Understand REST APIs, databases (MongoDB), and authentication systems',
+    'Create responsive, scalable, and production-ready web applications'
+  ],
+
+  course_desc_3: 'By the end of the bootcamp, you will have a strong portfolio of projects, practical experience with modern development tools, and the confidence to work as a professional web developer or freelancer in the current job market.',
+
+  curriculum_desc: 'Understand the complete full-stack development lifecycle including frontend architecture, backend logic, database integration, API communication, and deployment strategies used in real-world applications.',
+
+  course_lessons: [
+    {
+      title: 'Week 1-4',
+      text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+      lessons: [
+        { title: 'Introduction', icon: 'icon-68' },
+        { title: 'Course Overview', icon: 'icon-68' },
+        { title: 'Course Overview', badge_list: true, question: 0, minutes: 10 },
+        { title: 'Course Exercise / Reference Files', icon: 'icon-68' },
+        { title: 'Code Editor Installation (Optional if you have one)', icon: 'icon-68' },
+        { title: ' Embedding PHP in HTML', icon: 'icon-68' },
+      ]
+    },
+    {
+      title: 'Week 5-8',
+      text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+      lessons: [
+        { title: 'Defining Functions', icon: 'icon-68' },
+        { title: 'Function Parameters', icon: 'icon-68' },
+        { title: ' Return Values From Functions', badge_list: true, question: 2, minutes: 15 },
+        { title: ' Global Variable and Scope', icon: 'icon-68' },
+        { title: 'Newer Way of creating a Constant', icon: 'icon-68' },
+        { title: 'Constants', icon: 'icon-68' },
+      ]
+    },
+  ],
+
+  reviews:[
+    {img:'/assets/images/blog/pro-05.jpg',rating:5,name:'Malar',date:'Jan 10, 2025',desc:'Superb training methods and techniques in Ui/Ux , I designed two logos that clients reviewed.'},
+    {img:'/assets/images/blog/pro-03.jpg',rating:5,name:'Sneha',date:'Jan 17, 2025',desc:'They trained me to design App and posted on sites like behance and dribble, I was often contacted about where I took training.'},
+    {img:'/assets/images/blog/pro-01.jpg',rating:5,name:'Harish',date:'Jan 28, 2025',desc:'I took Digital Marketing course here.I learnt campaign management by doing FB ads for an educational institution. Now I am freelancing and I get referrals from here.'},
+  ]
+},
   {
     id: 'python',
     img: 'Tittle-06.jpg',
@@ -1067,361 +1097,446 @@ const course_data = [
       {img:'/assets/images/blog/pro-01.jpg',rating:5,name:'Harish',date:'Jan 28, 2025',desc:'I took Digital Marketing course here.I learnt campaign management by doing FB ads for an educational institution. Now I am freelancing and I get referrals from here.'},
     ]
   },
-  {
-    id: 'web-bootcamp-2025',
-    kitchen_course:true,
-    duration: '13 Weeks',
-    course_outline:'Onsite Only',
-    img: 'fullstack-02.png',
-    hours: 35,
-    level: 'developing',
-    title: 'Web Development Bootcamp 2025.',
-    rating: '5',
-    rating_count: 40,
-    course_price: '',
-    lesson: 20,
-    student: 36,
-    category:'Academics',
-    short_desc: 'Focus on JavaScript, and popular frameworks like React and Node.js.',
-    instructor: 'R R Anbuthane',
-    instructor_img:'partner-02.webp',
-    instructor_title:'Founder & CEO',
-    instructor_desc:'Consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua enim minim veniam quis nostrud exercitation ulla mco laboris nisi ut aliquip ex ea commodo consequat. duis aute irure dolor in reprehenderit in voluptate.',
-    features: [
-      'Cook much loved recipes like ravioli, pizza and pesto from scratch',
-      'Cook better than restaurant Thai food at home',
-      'Keep your food safe from harmful bacteria and disease.'
-    ], 
-    social_links:[
-      {link: 'http://facebook.com', target: '_blank', icon: 'icon-facebook'},
-      {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
-      {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
-      {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
-    ],
-    language: 'English',
-    certificate: 'yes',
-    videoId: 'PICj5tr9hcc',
-    course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
-    course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
-    learn_list: ['Professional Japanese cooking from beginners to experts','Will be able to cook authentic Italian recipes in their own kitchen','Understand the HOW of cooking, before thinking of the WHAT to cook.'],
-    course_desc_3: 'Consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor.',
-    curriculum_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat.',
-    course_lessons: [
-      {
-        title: 'Week 1-4',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
-        lessons: [
-          { title: 'Introduction', icon: 'icon-68' },
-          { title: 'Course Overview', icon: 'icon-68' },
-          { title: 'Course Overview', badge_list: true, question: 0, minutes: 10 },
-          { title: 'Course Exercise / Reference Files', icon: 'icon-68' },
-          { title: 'Code Editor Installation (Optional if you have one)', icon: 'icon-68' },
-          { title: ' Embedding PHP in HTML', icon: 'icon-68' },
-        ]
-      },
-      {
-        title: 'Week 5-8',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
-        lessons: [
-          { title: 'Defining Functions', icon: 'icon-68' },
-          { title: 'Function Parameters', icon: 'icon-68' },
-          { title: ' Return Values From Functions', badge_list: true, question: 2, minutes: 15 },
-          { title: ' Global Variable and Scope', icon: 'icon-68' },
-          { title: 'Newer Way of creating a Constant', icon: 'icon-68' },
-          { title: 'Constants', icon: 'icon-68' },
-        ]
-      },
-    ],
-    reviews:[
-      {img:'/assets/images/blog/pro-05.jpg',rating:5,name:'Malar',date:'Jan 10, 2025',desc:'Superb training methods and techniques in Ui/Ux , I designed two logos that clients reviewed.'},
-      {img:'/assets/images/blog/pro-03.jpg',rating:5,name:'Sneha',date:'Jan 17, 2025',desc:'They trained me to design App and posted on sites like behance and dribble, I was often contacted about where I took training.'},
-      {img:'/assets/images/blog/pro-01.jpg',rating:5,name:'Harish',date:'Jan 28, 2025',desc:'I took Digital Marketing course here.I learnt campaign management by doing FB ads for an educational institution. Now I am freelancing and I get referrals from here.'},
-    ]
-  },
-  {
-    id: 'fullstack',
-    kitchen_course:true,
-    duration: '20 Weeks',
-    course_outline:'Online + Onsite',
-    img: 'fullstack-03.webp',
-    hours: 40,
-    level: 'developing',
-    //level: 'Drawing',
-    title: 'React Js, Angular and Node Js. (Full Stack)',
-    rating: '5',
-    rating_count: 35,
-    course_price: '',
-    lesson: 22,
-    student: 40,
-    category:'Development',
-    short_desc: 'React.js, Angular, and Node.js. Powerful combination for building web app.',
-    instructor: 'R R Anbuthane',
-    instructor_img:'partner-02.webp',
-    instructor_title:'Founder & CEO',
-    instructor_desc:'Consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua enim minim veniam quis nostrud exercitation ulla mco laboris nisi ut aliquip ex ea commodo consequat. duis aute irure dolor in reprehenderit in voluptate.',
-    features: [
-      'Professional Indian cooking from beginners to experts.',
-      'Prepare a huge variety of simple, delicious, healthy recipes.',
-      'Serve delicious and healthy meals for your loved ones.'
-    ],
-    social_links:[
-      {link: 'http://facebook.com', target: '_blank', icon: 'icon-facebook'},
-      {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
-      {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
-      {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
-    ],
-    language: 'English',
-    certificate: 'yes',
-    videoId: 'PICj5tr9hcc',
-    course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
-    course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
-    learn_list: ['Professional Japanese cooking from beginners to experts','Will be able to cook authentic Italian recipes in their own kitchen','Understand the HOW of cooking, before thinking of the WHAT to cook.'],
-    course_desc_3: 'Consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor.',
-    curriculum_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat.',
-    course_lessons: [
-      {
-        title: 'Week 1-4',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
-        lessons: [
-          { title: 'Introduction', icon: 'icon-68' },
-          { title: 'Course Overview', icon: 'icon-68' },
-          { title: 'Course Overview', badge_list: true, question: 0, minutes: 10 },
-          { title: 'Course Exercise / Reference Files', icon: 'icon-68' },
-          { title: 'Code Editor Installation (Optional if you have one)', icon: 'icon-68' },
-          { title: ' Embedding PHP in HTML', icon: 'icon-68' },
-        ]
-      },
-      {
-        title: 'Week 5-8',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
-        lessons: [
-          { title: 'Defining Functions', icon: 'icon-68' },
-          { title: 'Function Parameters', icon: 'icon-68' },
-          { title: ' Return Values From Functions', badge_list: true, question: 2, minutes: 15 },
-          { title: ' Global Variable and Scope', icon: 'icon-68' },
-          { title: 'Newer Way of creating a Constant', icon: 'icon-68' },
-          { title: 'Constants', icon: 'icon-68' },
-        ]
-      },
-    ],
-    reviews:[
-      {img:'/assets/images/blog/pro-05.jpg',rating:5,name:'Malar',date:'Jan 10, 2025',desc:'Superb training methods and techniques in Ui/Ux , I designed two logos that clients reviewed.'},
-      {img:'/assets/images/blog/pro-03.jpg',rating:5,name:'Sneha',date:'Jan 17, 2025',desc:'They trained me to design App and posted on sites like behance and dribble, I was often contacted about where I took training.'},
-      {img:'/assets/images/blog/pro-01.jpg',rating:5,name:'Harish',date:'Jan 28, 2025',desc:'I took Digital Marketing course here.I learnt campaign management by doing FB ads for an educational institution. Now I am freelancing and I get referrals from here.'},
-    ]
-  },
-  {
-    id: '50days-codecamp',
-    kitchen_course:true,
-    duration: '15 Weeks',
-    course_outline:'Online + Onsite',
-    img: 'fullstack-04.jpg',
-    hours: 32,
-    level: 'Developing',
-    title: '50 Days Code Camp.',
-    rating: '4',
-    rating_count: 38,
-    course_price: '',
-    lesson: 15,
-    student: 31,
-    category:'Business',
-    short_desc: 'Hands-on coding program designed to teach essential programming skills over 50 days.',
-    instructor: 'R R Anbuthane',
-    instructor_img:'partner-02.webp',
-    instructor_title:'Founder & CEO',
-    instructor_desc:'Consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua enim minim veniam quis nostrud exercitation ulla mco laboris nisi ut aliquip ex ea commodo consequat. duis aute irure dolor in reprehenderit in voluptate.',
-    features: [
-      'Prepare a huge variety of simple, delicious, healthy recipes.',
-      'Professional Indian cooking from beginners to experts.',
-      'Serve delicious and healthy meals for your loved ones.'
-    ], 
-    social_links:[
-      {link: 'http://facebook.com', target: '_blank', icon: 'icon-facebook'},
-      {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
-      {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
-      {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
-    ],
-    language: 'English',
-    certificate: 'yes',
-    videoId: 'PICj5tr9hcc',
-    course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
-    course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
-    learn_list: ['Professional Japanese cooking from beginners to experts','Will be able to cook authentic Italian recipes in their own kitchen','Understand the HOW of cooking, before thinking of the WHAT to cook.'],
-    course_desc_3: 'Consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor.',
-    curriculum_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat.',
-    course_lessons: [
-      {
-        title: 'Week 1-4',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
-        lessons: [
-          { title: 'Introduction', icon: 'icon-68' },
-          { title: 'Course Overview', icon: 'icon-68' },
-          { title: 'Course Overview', badge_list: true, question: 0, minutes: 10 },
-          { title: 'Course Exercise / Reference Files', icon: 'icon-68' },
-          { title: 'Code Editor Installation (Optional if you have one)', icon: 'icon-68' },
-          { title: ' Embedding PHP in HTML', icon: 'icon-68' },
-        ]
-      },
-      {
-        title: 'Week 5-8',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
-        lessons: [
-          { title: 'Defining Functions', icon: 'icon-68' },
-          { title: 'Function Parameters', icon: 'icon-68' },
-          { title: ' Return Values From Functions', badge_list: true, question: 2, minutes: 15 },
-          { title: ' Global Variable and Scope', icon: 'icon-68' },
-          { title: 'Newer Way of creating a Constant', icon: 'icon-68' },
-          { title: 'Constants', icon: 'icon-68' },
-        ]
-      },
-    ],
-    reviews:[
-      {img:'/assets/images/blog/pro-05.jpg',rating:5,name:'Malar',date:'Jan 10, 2025',desc:'Superb training methods and techniques in Ui/Ux , I designed two logos that clients reviewed.'},
-      {img:'/assets/images/blog/pro-03.jpg',rating:5,name:'Sneha',date:'Jan 17, 2025',desc:'They trained me to design App and posted on sites like behance and dribble, I was often contacted about where I took training.'},
-      {img:'/assets/images/blog/pro-01.jpg',rating:5,name:'Harish',date:'Jan 28, 2025',desc:'I took Digital Marketing course here.I learnt campaign management by doing FB ads for an educational institution. Now I am freelancing and I get referrals from here.'},
-    ]
-  },
-  {
-    id: 'python-fullstack',
-    kitchen_course:true,
-    duration: '13 Weeks',
-    course_outline:'Onsite Only',
-    img: 'fullstack-05.jpg',
-    hours: 35,
-    level: 'developing',
-    title: 'AI with Python (Full Stack)',
-    rating: '5',
-    rating_count: 40,
-    course_price: '',
-    lesson: 20,
-    student: 36,
-    category:'Academics',
-    short_desc: 'AI with Python (Full Stack) teaches building AI-powered web apps using Python,and full-stack technologies.',
-    instructor: 'R R Anbuthane',
-    instructor_img:'partner-02.webp',
-    instructor_title:'Founder & CEO',
-    instructor_desc:'Consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua enim minim veniam quis nostrud exercitation ulla mco laboris nisi ut aliquip ex ea commodo consequat. duis aute irure dolor in reprehenderit in voluptate.',
-    features: [
-      'Cook much loved recipes like ravioli, pizza and pesto from scratch',
-      'Cook better than restaurant Thai food at home',
-      'Keep your food safe from harmful bacteria and disease.'
-    ], 
-    social_links:[
-      {link: 'http://facebook.com', target: '_blank', icon: 'icon-facebook'},
-      {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
-      {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
-      {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
-    ],
-    language: 'English',
-    certificate: 'yes',
-    videoId: 'PICj5tr9hcc',
-    course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
-    course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
-    learn_list: ['Professional Japanese cooking from beginners to experts','Will be able to cook authentic Italian recipes in their own kitchen','Understand the HOW of cooking, before thinking of the WHAT to cook.'],
-    course_desc_3: 'Consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor.',
-    curriculum_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat.',
-    course_lessons: [
-      {
-        title: 'Week 1-4',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
-        lessons: [
-          { title: 'Introduction', icon: 'icon-68' },
-          { title: 'Course Overview', icon: 'icon-68' },
-          { title: 'Course Overview', badge_list: true, question: 0, minutes: 10 },
-          { title: 'Course Exercise / Reference Files', icon: 'icon-68' },
-          { title: 'Code Editor Installation (Optional if you have one)', icon: 'icon-68' },
-          { title: ' Embedding PHP in HTML', icon: 'icon-68' },
-        ]
-      },
-      {
-        title: 'Week 5-8',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
-        lessons: [
-          { title: 'Defining Functions', icon: 'icon-68' },
-          { title: 'Function Parameters', icon: 'icon-68' },
-          { title: ' Return Values From Functions', badge_list: true, question: 2, minutes: 15 },
-          { title: ' Global Variable and Scope', icon: 'icon-68' },
-          { title: 'Newer Way of creating a Constant', icon: 'icon-68' },
-          { title: 'Constants', icon: 'icon-68' },
-        ]
-      },
-    ],
-    reviews:[
-      {img:'/assets/images/blog/pro-05.jpg',rating:5,name:'Malar',date:'Jan 10, 2025',desc:'Superb training methods and techniques in Ui/Ux , I designed two logos that clients reviewed.'},
-      {img:'/assets/images/blog/pro-03.jpg',rating:5,name:'Sneha',date:'Jan 17, 2025',desc:'They trained me to design App and posted on sites like behance and dribble, I was often contacted about where I took training.'},
-      {img:'/assets/images/blog/pro-01.jpg',rating:5,name:'Harish',date:'Jan 28, 2025',desc:'I took Digital Marketing course here.I learnt campaign management by doing FB ads for an educational institution. Now I am freelancing and I get referrals from here.'},
-    ]
-  },
-  {
-    id: 'advanced-fullstack',
-    yoga_course: true,
-    img: 'fullstack-06.jpg',
-    duration: '9 Weeks',
-    course_outline:'Onsite Only',
-    level: 'developing',
-    title: 'Beginner To Advanced Courses Here (Full Stack)',
-    rating: '4.9',
-    rating_count: 30,
-    course_price: '',
-    lesson: 12,
-    student: 85,
-    category:'Marketing',
-    short_desc: 'Beginner to Advanced web courses cover,from front-end to back-end skills.',
-    instructor: 'R R Anbuthane',
-    instructor_img:'partner-02.webp',
-    instructor_title:'Founder & CEO',
-    instructor_desc:'Consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua enim minim veniam quis nostrud exercitation ulla mco laboris nisi ut aliquip ex ea commodo consequat. duis aute irure dolor in reprehenderit in voluptate.',
-    features: [
-      'Build fully-fledged websites and web apps for your business.',
-      'After the course you will be able to build ANY website you want.',
-      'You will master both front and back-end development technologies.'
-    ], 
-    social_links:[
-      {link: 'http://facebook.com', target: '_blank', icon: 'icon-facebook'},
-      {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
-      {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
-      {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
-    ],
-    language: 'English',
-    certificate: 'yes',
-    videoId: 'PICj5tr9hcc',
-    course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
-    course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
-    learn_list: ['Learn to use Python professionally, learning both Python 2 & Python 3!', 'Build 6 beautiful real-world projects for your portfolio (not boring toy apps)', 'Understand the Theory behind Vue.js and use it in Real Projects', 'Create responsive, accessible, and beautiful layouts'],
-    course_desc_3: 'Consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor.',
-    curriculum_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat.',
-    course_lessons: [
-      {
-        title: 'Week 1-4',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
-        lessons: [
-          { title: 'Introduction', icon: 'icon-68' },
-          { title: 'Course Overview', icon: 'icon-68' },
-          { title: 'Course Overview', badge_list: true, question: 0, minutes: 10 },
-          { title: 'Course Exercise / Reference Files', icon: 'icon-68' },
-          { title: 'Code Editor Installation (Optional if you have one)', icon: 'icon-68' },
-          { title: ' Embedding PHP in HTML', icon: 'icon-68' },
-        ]
-      },
-      {
-        title: 'Week 5-8',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
-        lessons: [
-          { title: 'Defining Functions', icon: 'icon-68' },
-          { title: 'Function Parameters', icon: 'icon-68' },
-          { title: ' Return Values From Functions', badge_list: true, question: 2, minutes: 15 },
-          { title: ' Global Variable and Scope', icon: 'icon-68' },
-          { title: 'Newer Way of creating a Constant', icon: 'icon-68' },
-          { title: 'Constants', icon: 'icon-68' },
-        ]
-      },
-    ],
-    reviews:[
-      {img:'/assets/images/blog/pro-05.jpg',rating:5,name:'Malar',date:'Jan 10, 2025',desc:'Superb training methods and techniques in Ui/Ux , I designed two logos that clients reviewed.'},
-      {img:'/assets/images/blog/pro-03.jpg',rating:5,name:'Sneha',date:'Jan 17, 2025',desc:'They trained me to design App and posted on sites like behance and dribble, I was often contacted about where I took training.'},
-      {img:'/assets/images/blog/pro-01.jpg',rating:5,name:'Harish',date:'Jan 28, 2025',desc:'I took Digital Marketing course here.I learnt campaign management by doing FB ads for an educational institution. Now I am freelancing and I get referrals from here.'},
-    ]
-  },
+{
+  id: 'web-bootcamp-2025',
+  kitchen_course:true,
+  duration: '13 Weeks',
+  course_outline:'Onsite Only',
+  img: 'fullstack-02.png',
+  hours: 35,
+  level: 'developing',
+  title: 'Web Development Bootcamp 2025.',
+  rating: '5',
+  rating_count: 40,
+  course_price: '',
+  lesson: 20,
+  student: 36,
+  category:'Academics',
+  short_desc: 'Focus on JavaScript, and popular frameworks like React and Node.js.',
+
+  instructor: 'R R Anbuthane',
+  instructor_img:'partner-02.webp',
+  instructor_title:'Founder & CEO',
+
+  instructor_desc:'An experienced industry professional with a strong background in full-stack development, guiding students through practical, real-world projects and modern development practices used in today’s tech industry.',
+
+  features: [
+    'Build real-world full-stack applications using modern technologies',
+    'Develop responsive and interactive user interfaces with React',
+    'Learn backend development with Node.js, APIs, and databases'
+  ], 
+
+  social_links:[
+    {link: 'http://facebook.com', target: '_blank', icon: 'icon-facebook'},
+    {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
+    {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
+    {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
+  ],
+
+  language: 'English',
+  certificate: 'yes',
+  videoId: 'PICj5tr9hcc',
+
+  course_desc: 'This intensive onsite bootcamp is designed to transform you into a job-ready web developer. You will learn frontend and backend development step-by-step, working on practical projects that simulate real industry scenarios.',
+
+  course_desc_2: 'The course covers JavaScript fundamentals, modern frameworks like React, backend development with Node.js, and database integration. You will also learn version control, debugging techniques, and deployment strategies used by professional developers.',
+
+  learn_list: [
+    'Master JavaScript, ES6+, and core programming concepts',
+    'Build dynamic web applications using React and modern UI practices',
+    'Develop backend APIs using Node.js and Express',
+    'Work with databases like MongoDB and deploy full-stack applications'
+  ],
+
+  course_desc_3: 'By the end of the program, you will have a portfolio of real-world projects, strong problem-solving skills, and the confidence to apply for developer roles or start freelancing in web development.',
+
+  curriculum_desc: 'Learn the complete development lifecycle including frontend design, backend logic, API integration, database management, and deployment of scalable web applications.',
+
+  course_lessons: [
+    {
+      title: 'Week 1-4',
+      text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+      lessons: [
+        { title: 'Introduction', icon: 'icon-68' },
+        { title: 'Course Overview', icon: 'icon-68' },
+        { title: 'Course Overview', badge_list: true, question: 0, minutes: 10 },
+        { title: 'Course Exercise / Reference Files', icon: 'icon-68' },
+        { title: 'Code Editor Installation (Optional if you have one)', icon: 'icon-68' },
+        { title: ' Embedding PHP in HTML', icon: 'icon-68' },
+      ]
+    },
+    {
+      title: 'Week 5-8',
+      text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+      lessons: [
+        { title: 'Defining Functions', icon: 'icon-68' },
+        { title: 'Function Parameters', icon: 'icon-68' },
+        { title: ' Return Values From Functions', badge_list: true, question: 2, minutes: 15 },
+        { title: ' Global Variable and Scope', icon: 'icon-68' },
+        { title: 'Newer Way of creating a Constant', icon: 'icon-68' },
+        { title: 'Constants', icon: 'icon-68' },
+      ]
+    },
+  ],
+
+  reviews:[
+    {img:'/assets/images/blog/pro-05.jpg',rating:5,name:'Malar',date:'Jan 10, 2025',desc:'Superb training methods and techniques in Ui/Ux , I designed two logos that clients reviewed.'},
+    {img:'/assets/images/blog/pro-03.jpg',rating:5,name:'Sneha',date:'Jan 17, 2025',desc:'They trained me to design App and posted on sites like behance and dribble, I was often contacted about where I took training.'},
+    {img:'/assets/images/blog/pro-01.jpg',rating:5,name:'Harish',date:'Jan 28, 2025',desc:'I took Digital Marketing course here.I learnt campaign management by doing FB ads for an educational institution. Now I am freelancing and I get referrals from here.'},
+  ]
+},
+ {
+  id: 'fullstack',
+  kitchen_course:true,
+  duration: '20 Weeks',
+  course_outline:'Online + Onsite',
+  img: 'fullstack-03.webp',
+  hours: 40,
+  level: 'developing',
+  //level: 'Drawing',
+  title: 'React Js, Angular and Node Js. (Full Stack)',
+  rating: '5',
+  rating_count: 35,
+  course_price: '',
+  lesson: 22,
+  student: 40,
+  category:'Development',
+  short_desc: 'React.js, Angular, and Node.js. Powerful combination for building web app.',
+
+  instructor: 'R R Anbuthane',
+  instructor_img:'partner-02.webp',
+  instructor_title:'Founder & CEO',
+
+  instructor_desc:'An industry expert in full-stack development with extensive experience in building scalable web applications using modern frameworks like React, Angular, and Node.js, guiding students through real-time project development.',
+
+  features: [
+    'Build scalable frontend applications using React and Angular',
+    'Develop secure backend APIs using Node.js and Express',
+    'Integrate databases and deploy full-stack applications to production'
+  ],
+
+  social_links:[
+    {link: 'http://facebook.com', target: '_blank', icon: 'icon-facebook'},
+    {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
+    {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
+    {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
+  ],
+
+  language: 'English',
+  certificate: 'yes',
+  videoId: 'PICj5tr9hcc',
+
+  course_desc: 'This full stack course covers modern frontend and backend technologies, enabling you to build complete web applications from scratch. You will learn how to design dynamic user interfaces and connect them with powerful backend systems.',
+
+  course_desc_2: 'The program includes hands-on training in React, Angular, and Node.js, along with REST API development, database integration, authentication systems, and deployment. You will gain practical experience working on real-world applications.',
+
+  learn_list: [
+    'Master React and Angular for building modern frontend applications',
+    'Develop backend services using Node.js and Express',
+    'Work with databases like MongoDB and handle API integrations',
+    'Build and deploy complete full-stack applications'
+  ],
+
+  course_desc_3: 'By the end of the course, you will have built multiple full-stack projects, gained strong problem-solving skills, and be ready to work as a professional developer or freelancer in the web development industry.',
+
+  curriculum_desc: 'Understand the complete architecture of full-stack applications including frontend frameworks, backend logic, API communication, database management, and deployment workflows.',
+
+  course_lessons: [
+    {
+      title: 'Week 1-4',
+      text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+      lessons: [
+        { title: 'Introduction', icon: 'icon-68' },
+        { title: 'Course Overview', icon: 'icon-68' },
+        { title: 'Course Overview', badge_list: true, question: 0, minutes: 10 },
+        { title: 'Course Exercise / Reference Files', icon: 'icon-68' },
+        { title: 'Code Editor Installation (Optional if you have one)', icon: 'icon-68' },
+        { title: ' Embedding PHP in HTML', icon: 'icon-68' },
+      ]
+    },
+    {
+      title: 'Week 5-8',
+      text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+      lessons: [
+        { title: 'Defining Functions', icon: 'icon-68' },
+        { title: 'Function Parameters', icon: 'icon-68' },
+        { title: ' Return Values From Functions', badge_list: true, question: 2, minutes: 15 },
+        { title: ' Global Variable and Scope', icon: 'icon-68' },
+        { title: 'Newer Way of creating a Constant', icon: 'icon-68' },
+        { title: 'Constants', icon: 'icon-68' },
+      ]
+    },
+  ],
+
+  reviews:[
+    {img:'/assets/images/blog/pro-05.jpg',rating:5,name:'Malar',date:'Jan 10, 2025',desc:'Superb training methods and techniques in Ui/Ux , I designed two logos that clients reviewed.'},
+    {img:'/assets/images/blog/pro-03.jpg',rating:5,name:'Sneha',date:'Jan 17, 2025',desc:'They trained me to design App and posted on sites like behance and dribble, I was often contacted about where I took training.'},
+    {img:'/assets/images/blog/pro-01.jpg',rating:5,name:'Harish',date:'Jan 28, 2025',desc:'I took Digital Marketing course here.I learnt campaign management by doing FB ads for an educational institution. Now I am freelancing and I get referrals from here.'},
+  ]
+},
+{
+  id: '50days-codecamp',
+  kitchen_course:true,
+  duration: '15 Weeks',
+  course_outline:'Online + Onsite',
+  img: 'fullstack-04.jpg',
+  hours: 32,
+  level: 'Developing',
+  title: '50 Days Code Camp.',
+  rating: '4',
+  rating_count: 38,
+  course_price: '',
+  lesson: 15,
+  student: 31,
+  category:'Business',
+  short_desc: 'Hands-on coding program designed to teach essential programming skills over 50 days.',
+
+  instructor: 'R R Anbuthane',
+  instructor_img:'partner-02.webp',
+  instructor_title:'Founder & CEO',
+
+  instructor_desc:'A dedicated mentor with strong experience in guiding beginners and intermediate learners through structured coding programs, focusing on real-world problem solving and practical implementation.',
+
+  features: [
+    'Learn core programming concepts with daily coding challenges',
+    'Build mini projects to strengthen practical development skills',
+    'Improve problem-solving and logical thinking through hands-on exercises'
+  ], 
+
+  social_links:[
+    {link: 'http://facebook.com', target: '_blank', icon: 'icon-facebook'},
+    {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
+    {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
+    {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
+  ],
+
+  language: 'English',
+  certificate: 'yes',
+  videoId: 'PICj5tr9hcc',
+
+  course_desc: 'This 50-day intensive code camp is designed to build strong programming fundamentals through consistent daily practice. Each day focuses on a specific concept, helping learners gradually improve their coding confidence and skills.',
+
+  course_desc_2: 'You will work on real coding problems, small projects, and exercises covering topics like JavaScript, logic building, DOM manipulation, and basic application development. The structured approach ensures steady progress throughout the program.',
+
+  learn_list: [
+    'Develop strong fundamentals in JavaScript and programming logic',
+    'Solve real-world coding problems and challenges',
+    'Build small interactive projects using HTML, CSS, and JavaScript',
+    'Improve debugging and problem-solving skills'
+  ],
+
+  course_desc_3: 'By the end of the 50 days, you will have improved your coding speed, logical thinking, and confidence in building small to medium-scale applications, preparing you for advanced development learning paths.',
+
+  curriculum_desc: 'This program focuses on step-by-step skill development through daily coding exercises, covering fundamentals, intermediate concepts, and practical implementation using modern web technologies.',
+
+  course_lessons: [
+    {
+      title: 'Week 1-4',
+      text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+      lessons: [
+        { title: 'Introduction', icon: 'icon-68' },
+        { title: 'Course Overview', icon: 'icon-68' },
+        { title: 'Course Overview', badge_list: true, question: 0, minutes: 10 },
+        { title: 'Course Exercise / Reference Files', icon: 'icon-68' },
+        { title: 'Code Editor Installation (Optional if you have one)', icon: 'icon-68' },
+        { title: ' Embedding PHP in HTML', icon: 'icon-68' },
+      ]
+    },
+    {
+      title: 'Week 5-8',
+      text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+      lessons: [
+        { title: 'Defining Functions', icon: 'icon-68' },
+        { title: 'Function Parameters', icon: 'icon-68' },
+        { title: ' Return Values From Functions', badge_list: true, question: 2, minutes: 15 },
+        { title: ' Global Variable and Scope', icon: 'icon-68' },
+        { title: 'Newer Way of creating a Constant', icon: 'icon-68' },
+        { title: 'Constants', icon: 'icon-68' },
+      ]
+    },
+  ],
+
+  reviews:[
+    {img:'/assets/images/blog/pro-05.jpg',rating:5,name:'Malar',date:'Jan 10, 2025',desc:'Superb training methods and techniques in Ui/Ux , I designed two logos that clients reviewed.'},
+    {img:'/assets/images/blog/pro-03.jpg',rating:5,name:'Sneha',date:'Jan 17, 2025',desc:'They trained me to design App and posted on sites like behance and dribble, I was often contacted about where I took training.'},
+    {img:'/assets/images/blog/pro-01.jpg',rating:5,name:'Harish',date:'Jan 28, 2025',desc:'I took Digital Marketing course here.I learnt campaign management by doing FB ads for an educational institution. Now I am freelancing and I get referrals from here.'},
+  ]
+},
+{
+  id: 'python-fullstack',
+  kitchen_course:true,
+  duration: '13 Weeks',
+  course_outline:'Onsite Only',
+  img: 'fullstack-05.jpg',
+  hours: 35,
+  level: 'developing',
+  title: 'AI with Python (Full Stack)',
+  rating: '5',
+  rating_count: 40,
+  course_price: '',
+  lesson: 20,
+  student: 36,
+  category:'Academics',
+  short_desc: 'AI with Python (Full Stack) teaches building AI-powered web apps using Python,and full-stack technologies.',
+
+  instructor: 'R R Anbuthane',
+  instructor_img:'partner-02.webp',
+  instructor_title:'Founder & CEO',
+
+  instructor_desc:'An experienced trainer in Python and artificial intelligence, helping students build intelligent applications using real-world datasets, machine learning models, and full-stack integration techniques.',
+
+  features: [
+    'Build AI-powered applications using Python and machine learning',
+    'Develop full-stack web apps integrating AI models with frontend interfaces',
+    'Work with real datasets, APIs, and deploy intelligent systems'
+  ], 
+
+  social_links:[
+    {link: 'http://facebook.com', target: '_blank', icon: 'icon-facebook'},
+    {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
+    {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
+    {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
+  ],
+
+  language: 'English',
+  certificate: 'yes',
+  videoId: 'PICj5tr9hcc',
+
+  course_desc: 'This course introduces you to building intelligent applications using Python, combining machine learning concepts with full-stack development. You will learn how to create smart systems that can analyze data, make predictions, and integrate with web applications.',
+
+  course_desc_2: 'The program covers Python fundamentals, data handling, machine learning basics, and backend development using frameworks like Flask or Django. You will also learn how to connect AI models to frontend interfaces and deploy them as real-world applications.',
+
+  learn_list: [
+    'Master Python programming for AI and web development',
+    'Understand machine learning fundamentals and model building',
+    'Integrate AI models into full-stack web applications',
+    'Work with libraries like NumPy, Pandas, and Scikit-learn'
+  ],
+
+  course_desc_3: 'By the end of the course, you will be able to build and deploy AI-powered applications, understand core machine learning workflows, and create full-stack solutions that combine intelligence with user-friendly interfaces.',
+
+  curriculum_desc: 'This course covers the complete pipeline from Python programming and data processing to machine learning model creation and integration into full-stack web applications with deployment strategies.',
+
+  course_lessons: [
+    {
+      title: 'Week 1-4',
+      text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+      lessons: [
+        { title: 'Introduction', icon: 'icon-68' },
+        { title: 'Course Overview', icon: 'icon-68' },
+        { title: 'Course Overview', badge_list: true, question: 0, minutes: 10 },
+        { title: 'Course Exercise / Reference Files', icon: 'icon-68' },
+        { title: 'Code Editor Installation (Optional if you have one)', icon: 'icon-68' },
+        { title: ' Embedding PHP in HTML', icon: 'icon-68' },
+      ]
+    },
+    {
+      title: 'Week 5-8',
+      text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+      lessons: [
+        { title: 'Defining Functions', icon: 'icon-68' },
+        { title: 'Function Parameters', icon: 'icon-68' },
+        { title: ' Return Values From Functions', badge_list: true, question: 2, minutes: 15 },
+        { title: ' Global Variable and Scope', icon: 'icon-68' },
+        { title: 'Newer Way of creating a Constant', icon: 'icon-68' },
+        { title: 'Constants', icon: 'icon-68' },
+      ]
+    },
+  ],
+
+  reviews:[
+    {img:'/assets/images/blog/pro-05.jpg',rating:5,name:'Malar',date:'Jan 10, 2025',desc:'Superb training methods and techniques in Ui/Ux , I designed two logos that clients reviewed.'},
+    {img:'/assets/images/blog/pro-03.jpg',rating:5,name:'Sneha',date:'Jan 17, 2025',desc:'They trained me to design App and posted on sites like behance and dribble, I was often contacted about where I took training.'},
+    {img:'/assets/images/blog/pro-01.jpg',rating:5,name:'Harish',date:'Jan 28, 2025',desc:'I took Digital Marketing course here.I learnt campaign management by doing FB ads for an educational institution. Now I am freelancing and I get referrals from here.'},
+  ]
+},
+{
+  id: 'advanced-fullstack',
+  yoga_course: true,
+  img: 'fullstack-06.jpg',
+  duration: '9 Weeks',
+  course_outline:'Onsite Only',
+  level: 'developing',
+  title: 'Beginner To Advanced Courses Here (Full Stack)',
+  rating: '4.9',
+  rating_count: 30,
+  course_price: '',
+  lesson: 12,
+  student: 85,
+  category:'Marketing',
+  short_desc: 'Beginner to Advanced web courses cover,from front-end to back-end skills.',
+
+  instructor: 'R R Anbuthane',
+  instructor_img:'partner-02.webp',
+  instructor_title:'Founder & CEO',
+
+  instructor_desc:'A skilled full-stack developer and mentor with expertise in guiding learners from beginner to advanced levels, focusing on practical implementation, real-time projects, and modern web technologies.',
+
+  features: [
+    'Build fully-fledged websites and web apps for your business.',
+    'After the course you will be able to build ANY website you want.',
+    'You will master both front and back-end development technologies.'
+  ], 
+
+  social_links:[
+    {link: 'http://facebook.com', target: '_blank', icon: 'icon-facebook'},
+    {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
+    {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
+    {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
+  ],
+
+  language: 'English',
+  certificate: 'yes',
+  videoId: 'PICj5tr9hcc',
+
+  course_desc: 'This course is designed to take you from the basics of web development to advanced full-stack application building. You will start with core concepts like HTML, CSS, and JavaScript, then progress to modern frameworks and backend technologies.',
+
+  course_desc_2: 'The program includes hands-on training with tools like React, Node.js, and databases, along with real-world project development. You will learn how to design, build, and deploy complete applications used in industry environments.',
+
+  learn_list: [
+    'Master frontend technologies like HTML, CSS, JavaScript, and React',
+    'Understand backend development using Node.js and APIs',
+    'Work with databases and full-stack architecture',
+    'Build responsive, scalable, and production-ready applications'
+  ],
+
+  course_desc_3: 'By the end of the course, you will have developed multiple full-stack projects, improved your coding confidence, and gained the skills required to pursue a career in web development or freelancing.',
+
+  curriculum_desc: 'This curriculum covers the complete development lifecycle including frontend design, backend logic, API communication, database integration, and deployment of modern web applications.',
+
+  course_lessons: [
+    {
+      title: 'Week 1-4',
+      text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+      lessons: [
+        { title: 'Introduction', icon: 'icon-68' },
+        { title: 'Course Overview', icon: 'icon-68' },
+        { title: 'Course Overview', badge_list: true, question: 0, minutes: 10 },
+        { title: 'Course Exercise / Reference Files', icon: 'icon-68' },
+        { title: 'Code Editor Installation (Optional if you have one)', icon: 'icon-68' },
+        { title: ' Embedding PHP in HTML', icon: 'icon-68' },
+      ]
+    },
+    {
+      title: 'Week 5-8',
+      text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+      lessons: [
+        { title: 'Defining Functions', icon: 'icon-68' },
+        { title: 'Function Parameters', icon: 'icon-68' },
+        { title: ' Return Values From Functions', badge_list: true, question: 2, minutes: 15 },
+        { title: ' Global Variable and Scope', icon: 'icon-68' },
+        { title: 'Newer Way of creating a Constant', icon: 'icon-68' },
+        { title: 'Constants', icon: 'icon-68' },
+      ]
+    },
+  ],
+
+  reviews:[
+    {img:'/assets/images/blog/pro-05.jpg',rating:5,name:'Malar',date:'Jan 10, 2025',desc:'Superb training methods and techniques in Ui/Ux , I designed two logos that clients reviewed.'},
+    {img:'/assets/images/blog/pro-03.jpg',rating:5,name:'Sneha',date:'Jan 17, 2025',desc:'They trained me to design App and posted on sites like behance and dribble, I was often contacted about where I took training.'},
+    {img:'/assets/images/blog/pro-01.jpg',rating:5,name:'Harish',date:'Jan 28, 2025',desc:'I took Digital Marketing course here.I learnt campaign management by doing FB ads for an educational institution. Now I am freelancing and I get referrals from here.'},
+  ]
+},
   {
     id: 'mob-designer',
     yoga_course: true,
@@ -1492,288 +1607,356 @@ const course_data = [
       {img:'/assets/images/blog/pro-01.jpg',rating:5,name:'Harish',date:'Jan 28, 2025',desc:'I took Digital Marketing course here.I learnt campaign management by doing FB ads for an educational institution. Now I am freelancing and I get referrals from here.'},
     ]
   },
-  {
-    id: 'figma-uiux',
-    yoga_course:true,
-    img: 'uiux-02.webp',
-    duration: '9 to 10 Weeks',
-    course_outline:'Online + Onsite',
-    level: 'BEginner',
-    title: 'Figma UI / UX Design Essentials.',
-    rating: '4.9',
-    rating_count: 15,
-    course_price: '',
-    lesson: 20,
-    student: 35,
-    category:'Development',
-    short_desc: 'Figma UI/UX Design Essentials course is designed to teach you everything you need to get started with UI/UX design using Figma, from basic principles to advanced techniques.',
-    instructor: 'R R Anbuthane.',
-    instructor_img:'partner-02.webp',
-    instructor_title:'Founder & CEO',
-    instructor_desc:'Consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua enim minim veniam quis nostrud exercitation ulla mco laboris nisi ut aliquip ex ea commodo consequat. duis aute irure dolor in reprehenderit in voluptate.',
-    features: [
-      'Build fully-fledged websites and web apps for your business.',
-      'After the course you will be able to build ANY website you want.',
-      'You will master both front and back-end development technologies.'
-    ], 
-    social_links:[
-      {link: 'http://facebook.com', target: '_blank', icon: 'icon-facebook'},
-      {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
-      {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
-      {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
-    ],
-    language: 'English',
-    certificate: 'yes',
-    videoId: 'PICj5tr9hcc',
-    course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
-    course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
-    learn_list: ['Learn to use Python professionally, learning both Python 2 & Python 3!', 'Build 6 beautiful real-world projects for your portfolio (not boring toy apps)', 'Understand the Theory behind Vue.js and use it in Real Projects', 'Create responsive, accessible, and beautiful layouts'],
-    course_desc_3: 'Consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor.',
-    curriculum_desc: 'This curriculum is broken down into beginner, intermediate, and advanced topics, covering theory, practical skills, tools, and design principles.UI/UX Design involves structuring a learning path that covers all the essential areas from foundational concepts to advanced techniques. Below is a comprehensive curriculum outline that could be used for a UI/UX Design course or learning path.',
-    course_lessons: [
-      {
-        title: 'Week 1-4',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
-        lessons: [
-          { title: 'Introduction', icon: 'icon-68' },
-          { title: 'Course Overview', icon: 'icon-68' },
-          { title: 'Course Overview', badge_list: true, question: 0, minutes: 10 },
-          { title: 'Course Exercise / Reference Files', icon: 'icon-68' },
-          { title: 'Code Editor Installation (Optional if you have one)', icon: 'icon-68' },
-          { title: ' Embedding PHP in HTML', icon: 'icon-68' },
-        ]
-      },
-      {
-        title: 'Week 5-8',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
-        lessons: [
-          { title: 'Defining Functions', icon: 'icon-68' },
-          { title: 'Function Parameters', icon: 'icon-68' },
-          { title: ' Return Values From Functions', badge_list: true, question: 2, minutes: 15 },
-          { title: ' Global Variable and Scope', icon: 'icon-68' },
-          { title: 'Newer Way of creating a Constant', icon: 'icon-68' },
-          { title: 'Constants', icon: 'icon-68' },
-        ]
-      },
-    ],
-    reviews:[
-      {img:'/assets/images/blog/pro-05.jpg',rating:5,name:'Malar',date:'Jan 10, 2025',desc:'Superb training methods and techniques in Ui/Ux , I designed two logos that clients reviewed.'},
-      {img:'/assets/images/blog/pro-03.jpg',rating:5,name:'Sneha',date:'Jan 17, 2025',desc:'They trained me to design App and posted on sites like behance and dribble, I was often contacted about where I took training.'},
-      {img:'/assets/images/blog/pro-01.jpg',rating:5,name:'Harish',date:'Jan 28, 2025',desc:'I took Digital Marketing course here.I learnt campaign management by doing FB ads for an educational institution. Now I am freelancing and I get referrals from here.'},
-    ]
-  },
-  {
-    id: 'uiux-advanced',
-    yoga_course: true,
-    img: 'uiux-03.jpg',
-    duration: '3 to 4 Weeks',
-    level: 'Advanced',
-    course_outline:'Online Only',
-    title: 'Figma UI / UX Design Advanced.',
-    rating: '4.4',
-    rating_count: 10,
-    course_price: '',
-    lesson: 15,
-    student: 35,
-    category:'Art & Design',
-    short_desc: 'You’ll be able to design for multiple platforms (web, mobile, tablet) and devices while adhering to the best design practices.',
-    instructor: 'R R Anbuthane',
-    instructor_img:'partner-02.webp',
-    instructor_title:'Founder & CEO',
-    instructor_desc:'Consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua enim minim veniam quis nostrud exercitation ulla mco laboris nisi ut aliquip ex ea commodo consequat. duis aute irure dolor in reprehenderit in voluptate.',
-    features: [
-      'Build fully-fledged websites and web apps for your business.',
-      'After the course you will be able to build ANY website you want.',
-      'You will master both front and back-end development technologies.'
-    ], 
-    social_links:[
-      {link: 'http://facebook.com', target: '_blank', icon: 'icon-facebook'},
-      {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
-      {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
-      {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
-    ],
-    language: 'English',
-    certificate: 'yes',
-    videoId: 'PICj5tr9hcc',
-    course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
-    course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
-    learn_list: ['Learn to use Python professionally, learning both Python 2 & Python 3!', 'Build 6 beautiful real-world projects for your portfolio (not boring toy apps)', 'Understand the Theory behind Vue.js and use it in Real Projects', 'Create responsive, accessible, and beautiful layouts'],
-    course_desc_3: 'Consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor.',
-    curriculum_desc: 'This curriculum is broken down into beginner, intermediate, and advanced topics, covering theory, practical skills, tools, and design principles.UI/UX Design involves structuring a learning path that covers all the essential areas from foundational concepts to advanced techniques. Below is a comprehensive curriculum outline that could be used for a UI/UX Design course or learning path.',
-    course_lessons: [
-      {
-        title: 'Week 1-4',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
-        lessons: [
-          { title: 'Introduction', icon: 'icon-68' },
-          { title: 'Course Overview', icon: 'icon-68' },
-          { title: 'Course Overview', badge_list: true, question: 0, minutes: 10 },
-          { title: 'Course Exercise / Reference Files', icon: 'icon-68' },
-          { title: 'Code Editor Installation (Optional if you have one)', icon: 'icon-68' },
-          { title: ' Embedding PHP in HTML', icon: 'icon-68' },
-        ]
-      },
-      {
-        title: 'Week 5-8',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
-        lessons: [
-          { title: 'Defining Functions', icon: 'icon-68' },
-          { title: 'Function Parameters', icon: 'icon-68' },
-          { title: ' Return Values From Functions', badge_list: true, question: 2, minutes: 15 },
-          { title: ' Global Variable and Scope', icon: 'icon-68' },
-          { title: 'Newer Way of creating a Constant', icon: 'icon-68' },
-          { title: 'Constants', icon: 'icon-68' },
-        ]
-      },
-    ],
-    reviews:[
-      {img:'/assets/images/blog/pro-05.jpg',rating:5,name:'Malar',date:'Jan 10, 2025',desc:'Superb training methods and techniques in Ui/Ux , I designed two logos that clients reviewed.'},
-      {img:'/assets/images/blog/pro-03.jpg',rating:5,name:'Sneha',date:'Jan 17, 2025',desc:'They trained me to design App and posted on sites like behance and dribble, I was often contacted about where I took training.'},
-      {img:'/assets/images/blog/pro-01.jpg',rating:5,name:'Harish',date:'Jan 28, 2025',desc:'I took Digital Marketing course here.I learnt campaign management by doing FB ads for an educational institution. Now I am freelancing and I get referrals from here.'},
-    ]
-  },
-  {
-    id: 'user-experience-design',
-    yoga_course: true,
-    duration: '12 Weeks',
-    course_outline:'Online Only',
-    img: 'uiux-04.jpg',
-    hours: 35,
-    level: 'Advanced',
-    title: 'User Experience Design Essentials',
-    rating: '5',
-    rating_count: 8,
-    course_price: '',
-    lesson: 13,
-    student: 35,
-    category:'Art & Design',
-    short_desc: 'you will have practical experience creating user personas, wireframes, prototypes, and performing user testing—all vital components of the UX design process.',
-    instructor: 'R R Anbuthane',
-    instructor_img:'partner-02.webp',
-    instructor_title:'Founder & CEO',
-    instructor_desc:'Consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua enim minim veniam quis nostrud exercitation ulla mco laboris nisi ut aliquip ex ea commodo consequat. duis aute irure dolor in reprehenderit in voluptate.',
-    features: [
-      'Build fully-fledged websites and web apps for your business.',
-      'After the course you will be able to build ANY website you want.',
-      'You will master both front and back-end development technologies.'
-    ], 
-    social_links:[
-      {link: 'http://facebook.com', target: '_blank', icon: 'icon-facebook'},
-      {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
-      {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
-      {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
-    ],
-    language: 'English',
-    certificate: 'yes',
-    videoId: 'PICj5tr9hcc',
-    course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
-    course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
-    learn_list: ['Professional Japanese cooking from beginners to experts','Will be able to cook authentic Italian recipes in their own kitchen','Understand the HOW of cooking, before thinking of the WHAT to cook.'],
-    course_desc_3: 'Consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor.',
-    curriculum_desc: 'This curriculum is broken down into beginner, intermediate, and advanced topics, covering theory, practical skills, tools, and design principles.UI/UX Design involves structuring a learning path that covers all the essential areas from foundational concepts to advanced techniques. Below is a comprehensive curriculum outline that could be used for a UI/UX Design course or learning path.',
-    course_lessons: [
-      {
-        title: 'Week 1-4',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
-        lessons: [
-          { title: 'Introduction', icon: 'icon-68' },
-          { title: 'Course Overview', icon: 'icon-68' },
-          { title: 'Course Overview', badge_list: true, question: 0, minutes: 10 },
-          { title: 'Course Exercise / Reference Files', icon: 'icon-68' },
-          { title: 'Code Editor Installation (Optional if you have one)', icon: 'icon-68' },
-          { title: 'Embedding PHP in HTML', icon: 'icon-68' },
-        ]
-      },
-      {
-        title: 'Week 5-8',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
-        lessons: [
-          { title: 'Defining Functions', icon: 'icon-68' },
-          { title: 'Function Parameters', icon: 'icon-68' },
-          { title: ' Return Values From Functions', badge_list: true, question: 2, minutes: 15 },
-          { title: ' Global Variable and Scope', icon: 'icon-68' },
-          { title: 'Newer Way of creating a Constant', icon: 'icon-68' },
-          { title: 'Constants', icon: 'icon-68' },
-        ]
-      },
-    ],
-    reviews:[
-      {img:'/assets/images/blog/pro-05.jpg',rating:5,name:'Malar',date:'Jan 10, 2025',desc:'Superb training methods and techniques in Ui/Ux , I designed two logos that clients reviewed.'},
-      {img:'/assets/images/blog/pro-03.jpg',rating:5,name:'Sneha',date:'Jan 17, 2025',desc:'They trained me to design App and posted on sites like behance and dribble, I was often contacted about where I took training.'},
-      {img:'/assets/images/blog/pro-01.jpg',rating:5,name:'Harish',date:'Jan 28, 2025',desc:'I took Digital Marketing course here.I learnt campaign management by doing FB ads for an educational institution. Now I am freelancing and I get referrals from here.'},
-    ]
-  },
-  {
-    id: 'complete-web-design',
-    yoga_course: true,
-    duration: '9 Weeks',
-    course_outline:'Online Only',
-    img: 'web-04.jpg',
-    hours: 45,
-    level: 'Beginner to Advanced',
-    title: 'Complete Web Design: HTML-5, CSS, JavaScript, Vue, React, Git.',
-    rating: '4.8',
-    rating_count: 16,
-    course_price: '',
-    lesson: 18,
-    student: 42,
-    category:'Art & Design',
-    short_desc: 'gain a deep understanding of how web design works from both a technical and creative perspective, enabling you to deliver excellent user experiences.',
-    instructor: 'R R Anbuthane',
-    instructor_img:'partner-02.webp',
-    instructor_title:'Founder & CEO',
-    instructor_desc:'Consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua enim minim veniam quis nostrud exercitation ulla mco laboris nisi ut aliquip ex ea commodo consequat. duis aute irure dolor in reprehenderit in voluptate.',
-    features: [
-      'Build fully-fledged websites and web apps for your business.',
-      'After the course you will be able to build ANY website you want.',
-      'You will master both front and back-end development technologies.'
-    ], 
-    social_links:[
-      {link: 'http://facebook.com', target: '_blank', icon: 'icon-facebook'},
-      {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
-      {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
-      {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
-    ],
-    language: 'English',
-    certificate: 'yes',
-    videoId: 'PICj5tr9hcc',
-    course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
-    course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
-    learn_list: ['Professional Japanese cooking from beginners to experts','Will be able to cook authentic Italian recipes in their own kitchen','Understand the HOW of cooking, before thinking of the WHAT to cook.'],
-    course_desc_3: 'Consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor.',
-    curriculum_desc: 'This curriculum is broken down into beginner, intermediate, and advanced topics, covering theory, practical skills, tools, and design principles.UI/UX Design involves structuring a learning path that covers all the essential areas from foundational concepts to advanced techniques. Below is a comprehensive curriculum outline that could be used for a UI/UX Design course or learning path.',
-    course_lessons: [
-      {
-        title: 'Week 1-4',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
-        lessons: [
-          { title: 'Introduction', icon: 'icon-68' },
-          { title: 'Course Overview', icon: 'icon-68' },
-          { title: 'Course Overview', badge_list: true, question: 0, minutes: 10 },
-          { title: 'Course Exercise / Reference Files', icon: 'icon-68' },
-          { title: 'Code Editor Installation (Optional if you have one)', icon: 'icon-68' },
-          { title: ' Embedding PHP in HTML', icon: 'icon-68' },
-        ]
-      },
-      {
-        title: 'Week 5-8',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
-        lessons: [
-          { title: 'Defining Functions', icon: 'icon-68' },
-          { title: 'Function Parameters', icon: 'icon-68' },
-          { title: ' Return Values From Functions', badge_list: true, question: 2, minutes: 15 },
-          { title: ' Global Variable and Scope', icon: 'icon-68' },
-          { title: 'Newer Way of creating a Constant', icon: 'icon-68' },
-          { title: 'Constants', icon: 'icon-68' },
-        ]
-      },
-    ],
-    reviews:[
-      {img:'/assets/images/blog/pro-05.jpg',rating:5,name:'Malar',date:'Jan 10, 2025',desc:'Superb training methods and techniques in Ui/Ux , I designed two logos that clients reviewed.'},
-      {img:'/assets/images/blog/pro-03.jpg',rating:5,name:'Sneha',date:'Jan 17, 2025',desc:'They trained me to design App and posted on sites like behance and dribble, I was often contacted about where I took training.'},
-      {img:'/assets/images/blog/pro-01.jpg',rating:5,name:'Harish',date:'Jan 28, 2025',desc:'I took Digital Marketing course here.I learnt campaign management by doing FB ads for an educational institution. Now I am freelancing and I get referrals from here.'},
-    ]
-  },
+{
+  id: 'figma-uiux',
+  yoga_course:true,
+  img: 'uiux-02.webp',
+  duration: '9 to 10 Weeks',
+  course_outline:'Online + Onsite',
+  level: 'BEginner',
+  title: 'Figma UI / UX Design Essentials.',
+  rating: '4.9',
+  rating_count: 15,
+  course_price: '',
+  lesson: 20,
+  student: 35,
+  category:'Development',
+  short_desc: 'Figma UI/UX Design Essentials course is designed to teach you everything you need to get started with UI/UX design using Figma, from basic principles to advanced techniques.',
+
+  instructor: 'R R Anbuthane.',
+  instructor_img:'partner-02.webp',
+  instructor_title:'Founder & CEO',
+
+  instructor_desc:'A UI/UX design mentor with practical experience in creating modern user interfaces and improving user experiences using Figma and industry-standard design workflows.',
+
+  features: [
+    'Design modern and user-friendly interfaces using Figma',
+    'Create wireframes, prototypes, and design systems',
+    'Understand UX principles and improve user experience'
+  ], 
+
+  social_links:[
+    {link: 'http://facebook.com', target: '_blank', icon: 'icon-facebook'},
+    {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
+    {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
+    {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
+  ],
+
+  language: 'English',
+  certificate: 'yes',
+  videoId: 'PICj5tr9hcc',
+
+  course_desc: 'This course introduces the fundamentals of UI/UX design using Figma. You will learn how to design clean and modern interfaces, understand user behavior, and create visually appealing layouts for web and mobile applications.',
+
+  course_desc_2: 'You will explore design principles such as typography, color theory, spacing, and usability. The course also includes hands-on projects where you create wireframes, prototypes, and real-world UI designs.',
+
+  learn_list: [
+    'Learn Figma tools and interface design basics',
+    'Create wireframes and interactive prototypes',
+    'Understand UX principles and user-centered design',
+    'Design responsive layouts for web and mobile'
+  ],
+
+  course_desc_3: 'By the end of the course, you will have a strong foundation in UI/UX design and a portfolio of design projects ready to showcase your skills to clients or employers.',
+
+  curriculum_desc: 'This curriculum covers UI/UX fundamentals, design thinking, wireframing, prototyping, usability testing, and real-world project design using Figma tools and workflows.',
+
+  course_lessons: [
+    {
+      title: 'Week 1-4',
+      text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+      lessons: [
+        { title: 'Introduction', icon: 'icon-68' },
+        { title: 'Course Overview', icon: 'icon-68' },
+        { title: 'Course Overview', badge_list: true, question: 0, minutes: 10 },
+        { title: 'Course Exercise / Reference Files', icon: 'icon-68' },
+        { title: 'Code Editor Installation (Optional if you have one)', icon: 'icon-68' },
+        { title: ' Embedding PHP in HTML', icon: 'icon-68' },
+      ]
+    },
+    {
+      title: 'Week 5-8',
+      text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+      lessons: [
+        { title: 'Defining Functions', icon: 'icon-68' },
+        { title: 'Function Parameters', icon: 'icon-68' },
+        { title: ' Return Values From Functions', badge_list: true, question: 2, minutes: 15 },
+        { title: ' Global Variable and Scope', icon: 'icon-68' },
+        { title: 'Newer Way of creating a Constant', icon: 'icon-68' },
+        { title: 'Constants', icon: 'icon-68' },
+      ]
+    },
+  ],
+
+  reviews:[
+    {img:'/assets/images/blog/pro-05.jpg',rating:5,name:'Malar',date:'Jan 10, 2025',desc:'Superb training methods and techniques in Ui/Ux , I designed two logos that clients reviewed.'},
+    {img:'/assets/images/blog/pro-03.jpg',rating:5,name:'Sneha',date:'Jan 17, 2025',desc:'They trained me to design App and posted on sites like behance and dribble, I was often contacted about where I took training.'},
+    {img:'/assets/images/blog/pro-01.jpg',rating:5,name:'Harish',date:'Jan 28, 2025',desc:'I took Digital Marketing course here.I learnt campaign management by doing FB ads for an educational institution. Now I am freelancing and I get referrals from here.'},
+  ]
+},
+ {
+  id: 'uiux-advanced',
+  yoga_course: true,
+  img: 'uiux-03.jpg',
+  duration: '3 to 4 Weeks',
+  level: 'Advanced',
+  course_outline:'Online Only',
+  title: 'Figma UI / UX Design Advanced.',
+  rating: '4.4',
+  rating_count: 10,
+  course_price: '',
+  lesson: 15,
+  student: 35,
+  category:'Art & Design',
+  short_desc: 'You’ll be able to design for multiple platforms (web, mobile, tablet) and devices while adhering to the best design practices.',
+
+  instructor: 'R R Anbuthane',
+  instructor_img:'partner-02.webp',
+  instructor_title:'Founder & CEO',
+
+  instructor_desc:'An advanced UI/UX specialist focused on creating scalable design systems, improving usability, and delivering high-quality user experiences across platforms.',
+
+  features: [
+    'Design complex UI systems and scalable design components',
+    'Create advanced prototypes with animations and interactions',
+    'Apply UX research and usability testing in real projects'
+  ], 
+
+  social_links:[
+    {link: 'http://facebook.com', target: '_blank', icon: 'icon-facebook'},
+    {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
+    {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
+    {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
+  ],
+
+  language: 'English',
+  certificate: 'yes',
+  videoId: 'PICj5tr9hcc',
+
+  course_desc: 'This advanced course focuses on mastering UI/UX design techniques using Figma. You will learn how to create complex design systems, manage large-scale projects, and deliver high-quality user experiences.',
+
+  course_desc_2: 'The program includes advanced prototyping, animations, usability testing, and UX research. You will work on real-world projects that simulate professional design workflows and industry standards.',
+
+  learn_list: [
+    'Create advanced UI designs and scalable design systems',
+    'Master Figma components, auto layout, and prototyping',
+    'Conduct UX research and usability testing',
+    'Design for web, mobile, and cross-platform applications'
+  ],
+
+  course_desc_3: 'By the end of this course, you will have advanced-level UI/UX design skills and a professional portfolio that demonstrates your ability to solve complex design problems.',
+
+  curriculum_desc: 'This curriculum focuses on advanced UI/UX concepts including design systems, interaction design, user research, usability testing, and professional project workflows using Figma.',
+
+  course_lessons: [
+    {
+      title: 'Week 1-4',
+      text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+      lessons: [
+        { title: 'Introduction', icon: 'icon-68' },
+        { title: 'Course Overview', icon: 'icon-68' },
+        { title: 'Course Overview', badge_list: true, question: 0, minutes: 10 },
+        { title: 'Course Exercise / Reference Files', icon: 'icon-68' },
+        { title: 'Code Editor Installation (Optional if you have one)', icon: 'icon-68' },
+        { title: ' Embedding PHP in HTML', icon: 'icon-68' },
+      ]
+    },
+    {
+      title: 'Week 5-8',
+      text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+      lessons: [
+        { title: 'Defining Functions', icon: 'icon-68' },
+        { title: 'Function Parameters', icon: 'icon-68' },
+        { title: ' Return Values From Functions', badge_list: true, question: 2, minutes: 15 },
+        { title: ' Global Variable and Scope', icon: 'icon-68' },
+        { title: 'Newer Way of creating a Constant', icon: 'icon-68' },
+        { title: 'Constants', icon: 'icon-68' },
+      ]
+    },
+  ],
+
+  reviews:[
+    {img:'/assets/images/blog/pro-05.jpg',rating:5,name:'Malar',date:'Jan 10, 2025',desc:'Superb training methods and techniques in Ui/Ux , I designed two logos that clients reviewed.'},
+    {img:'/assets/images/blog/pro-03.jpg',rating:5,name:'Sneha',date:'Jan 17, 2025',desc:'They trained me to design App and posted on sites like behance and dribble, I was often contacted about where I took training.'},
+    {img:'/assets/images/blog/pro-01.jpg',rating:5,name:'Harish',date:'Jan 28, 2025',desc:'I took Digital Marketing course here.I learnt campaign management by doing FB ads for an educational institution. Now I am freelancing and I get referrals from here.'},
+  ]
+},
+{
+  id: 'user-experience-design',
+  yoga_course: true,
+  duration: '12 Weeks',
+  course_outline:'Online Only',
+  img: 'uiux-04.jpg',
+  hours: 35,
+  level: 'Advanced',
+  title: 'User Experience Design Essentials',
+  rating: '5',
+  rating_count: 8,
+  course_price: '',
+  lesson: 13,
+  student: 35,
+  category:'Art & Design',
+  short_desc: 'you will have practical experience creating user personas, wireframes, prototypes, and performing user testing—all vital components of the UX design process.',
+
+  instructor: 'R R Anbuthane',
+  instructor_img:'partner-02.webp',
+  instructor_title:'Founder & CEO',
+
+  instructor_desc:'A UX design expert focused on creating intuitive and user-centered digital experiences through research, prototyping, and usability testing methodologies.',
+
+  features: [
+    'Create user personas, journey maps, and research insights',
+    'Design wireframes and interactive prototypes',
+    'Conduct usability testing and improve user experience'
+  ], 
+
+  social_links:[
+    {link: 'http://facebook.com', target: '_blank', icon: 'icon-facebook'},
+    {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
+    {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
+    {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
+  ],
+
+  language: 'English',
+  certificate: 'yes',
+  videoId: 'PICj5tr9hcc',
+
+  course_desc: 'This course focuses on the fundamentals of user experience design, helping you understand how users interact with digital products. You will learn how to research user needs and design meaningful experiences.',
+
+  course_desc_2: 'You will gain hands-on experience in creating user personas, wireframes, prototypes, and conducting usability testing to improve product usability and accessibility.',
+
+  learn_list: [
+    'Understand UX principles and user-centered design',
+    'Create wireframes and interactive prototypes',
+    'Conduct user research and usability testing',
+    'Improve user experience through design thinking'
+  ],
+
+  course_desc_3: 'By the end of this course, you will be able to design user-friendly interfaces backed by research and testing, making you job-ready for UX design roles.',
+
+  curriculum_desc: 'This curriculum covers UX fundamentals, user research, wireframing, prototyping, usability testing, and real-world design problem solving using industry-standard tools.',
+
+  course_lessons: [
+    {
+      title: 'Week 1-4',
+      text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+      lessons: [
+        { title: 'Introduction', icon: 'icon-68' },
+        { title: 'Course Overview', icon: 'icon-68' },
+        { title: 'Course Overview', badge_list: true, question: 0, minutes: 10 },
+        { title: 'Course Exercise / Reference Files', icon: 'icon-68' },
+        { title: 'Code Editor Installation (Optional if you have one)', icon: 'icon-68' },
+        { title: 'Embedding PHP in HTML', icon: 'icon-68' },
+      ]
+    },
+    {
+      title: 'Week 5-8',
+      text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+      lessons: [
+        { title: 'Defining Functions', icon: 'icon-68' },
+        { title: 'Function Parameters', icon: 'icon-68' },
+        { title: ' Return Values From Functions', badge_list: true, question: 2, minutes: 15 },
+        { title: ' Global Variable and Scope', icon: 'icon-68' },
+        { title: 'Newer Way of creating a Constant', icon: 'icon-68' },
+        { title: 'Constants', icon: 'icon-68' },
+      ]
+    },
+  ],
+
+  reviews:[
+    {img:'/assets/images/blog/pro-05.jpg',rating:5,name:'Malar',date:'Jan 10, 2025',desc:'Superb training methods and techniques in Ui/Ux , I designed two logos that clients reviewed.'},
+    {img:'/assets/images/blog/pro-03.jpg',rating:5,name:'Sneha',date:'Jan 17, 2025',desc:'They trained me to design App and posted on sites like behance and dribble, I was often contacted about where I took training.'},
+    {img:'/assets/images/blog/pro-01.jpg',rating:5,name:'Harish',date:'Jan 28, 2025',desc:'I took Digital Marketing course here.I learnt campaign management by doing FB ads for an educational institution. Now I am freelancing and I get referrals from here.'},
+  ]
+},
+{
+  id: 'complete-web-design',
+  yoga_course: true,
+  duration: '9 Weeks',
+  course_outline:'Online Only',
+  img: 'web-04.jpg',
+  hours: 45,
+  level: 'Beginner to Advanced',
+  title: 'Complete Web Design: HTML-5, CSS, JavaScript, Vue, React, Git.',
+  rating: '4.8',
+  rating_count: 16,
+  course_price: '',
+  lesson: 18,
+  student: 42,
+  category:'Art & Design',
+  short_desc: 'gain a deep understanding of how web design works from both a technical and creative perspective, enabling you to deliver excellent user experiences.',
+
+  instructor: 'R R Anbuthane',
+  instructor_img:'partner-02.webp',
+  instructor_title:'Founder & CEO',
+
+  instructor_desc:'An experienced web design instructor specializing in modern frontend technologies and responsive design, helping learners build visually appealing and high-performance websites.',
+
+  features: [
+    'Design and build responsive websites using HTML, CSS, and JavaScript',
+    'Work with modern frameworks like React and Vue',
+    'Use Git for version control and project collaboration'
+  ], 
+
+  social_links:[
+    {link: 'http://facebook.com', target: '_blank', icon: 'icon-facebook'},
+    {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
+    {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'},
+    {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
+  ],
+
+  language: 'English',
+  certificate: 'yes',
+  videoId: 'PICj5tr9hcc',
+
+  course_desc: 'This course provides a complete understanding of web design from beginner to advanced level. You will learn how to create visually appealing and responsive websites using modern technologies.',
+
+  course_desc_2: 'The program includes HTML5, CSS3, JavaScript, and frameworks like React and Vue. You will also learn Git for version control and best practices for building scalable web projects.',
+
+  learn_list: [
+    'Master HTML5, CSS3, and JavaScript fundamentals',
+    'Build responsive and interactive web interfaces',
+    'Work with modern frameworks like React and Vue',
+    'Use Git for version control and collaboration'
+  ],
+
+  course_desc_3: 'By the end of this course, you will be able to design and develop complete websites, apply best practices, and confidently work on real-world web design projects.',
+
+  curriculum_desc: 'This curriculum covers frontend development, responsive design, JavaScript programming, modern frameworks, version control, and real-world project building.',
+
+  course_lessons: [
+    {
+      title: 'Week 1-4',
+      text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+      lessons: [
+        { title: 'Introduction', icon: 'icon-68' },
+        { title: 'Course Overview', icon: 'icon-68' },
+        { title: 'Course Overview', badge_list: true, question: 0, minutes: 10 },
+        { title: 'Course Exercise / Reference Files', icon: 'icon-68' },
+        { title: 'Code Editor Installation (Optional if you have one)', icon: 'icon-68' },
+        { title: ' Embedding PHP in HTML', icon: 'icon-68' },
+      ]
+    },
+    {
+      title: 'Week 5-8',
+      text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
+      lessons: [
+        { title: 'Defining Functions', icon: 'icon-68' },
+        { title: 'Function Parameters', icon: 'icon-68' },
+        { title: ' Return Values From Functions', badge_list: true, question: 2, minutes: 15 },
+        { title: ' Global Variable and Scope', icon: 'icon-68' },
+        { title: 'Newer Way of creating a Constant', icon: 'icon-68' },
+        { title: 'Constants', icon: 'icon-68' },
+      ]
+    },
+  ],
+
+  reviews:[
+    {img:'/assets/images/blog/pro-05.jpg',rating:5,name:'Malar',date:'Jan 10, 2025',desc:'Superb training methods and techniques in Ui/Ux , I designed two logos that clients reviewed.'},
+    {img:'/assets/images/blog/pro-03.jpg',rating:5,name:'Sneha',date:'Jan 17, 2025',desc:'They trained me to design App and posted on sites like behance and dribble, I was often contacted about where I took training.'},
+    {img:'/assets/images/blog/pro-01.jpg',rating:5,name:'Harish',date:'Jan 28, 2025',desc:'I took Digital Marketing course here.I learnt campaign management by doing FB ads for an educational institution. Now I am freelancing and I get referrals from here.'},
+  ]
+},
  // kindergarten course 
   {
     id: 'responsive-webdisign',
@@ -1810,11 +1993,11 @@ const course_data = [
     language: 'English',
     certificate: 'yes',
     videoId: 'PICj5tr9hcc',
-    course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
-    course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
+    course_desc: 'Learn how to build responsive websites that adapt seamlessly across mobile, tablet, and desktop devices using HTML5 and CSS3.',
+    course_desc_2: 'This course covers Flexbox, CSS Grid, media queries, and best practices for creating modern layouts that deliver consistent user experience across all screen sizes.',
     learn_list: ['Professional Japanese cooking from beginners to experts','Will be able to cook authentic Italian recipes in their own kitchen','Understand the HOW of cooking, before thinking of the WHAT to cook.'],
-    course_desc_3: 'Consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor.',
-    curriculum_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat.',
+    course_desc_3: 'By the end of this course, you will confidently create responsive websites optimized for performance and usability across devices.',
+    curriculum_desc: 'Covers responsive design principles, layout systems, mobile-first design, CSS frameworks basics, and real-world project implementation.',
     course_lessons: [
       {
         title: 'Week 1-4',
@@ -1882,11 +2065,12 @@ const course_data = [
     language: 'English',
     certificate: 'yes',
     videoId: 'PICj5tr9hcc',
-    course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
-    course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
+    course_desc: 'This beginner-friendly course introduces the fundamentals of web design, including HTML structure, CSS styling, and layout techniques.',
+
+    course_desc_2: 'You will learn how to design clean and user-friendly interfaces while understanding basic UI/UX principles and design workflows.',
     learn_list: ['Professional Japanese cooking from beginners to experts','Will be able to cook authentic Italian recipes in their own kitchen','Understand the HOW of cooking, before thinking of the WHAT to cook.'],
-    course_desc_3: 'Consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor.',
-    curriculum_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat.',
+    course_desc_3: 'After completing this course, you will be able to design and build basic websites with confidence and clarity.',
+    curriculum_desc: 'Covers HTML basics, CSS styling, layouts, UI principles, and beginner-level project building.',
     course_lessons: [
       {
         title: 'Week 1-4',
@@ -1954,11 +2138,12 @@ const course_data = [
     language: 'English',
     certificate: 'yes',
     videoId: 'PICj5tr9hcc',
-    course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
-    course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
+    course_desc: 'This developer camp introduces you to full-stack web development with hands-on training and real-world projects.',
+    course_desc_2: 'You will learn frontend technologies like HTML, CSS, JavaScript along with backend basics, APIs, and deployment techniques.',
     learn_list: ['Professional Japanese cooking from beginners to experts','Will be able to cook authentic Italian recipes in their own kitchen','Understand the HOW of cooking, before thinking of the WHAT to cook.'],
-    course_desc_3: 'Consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor.',
-    curriculum_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat.',
+    course_desc_3: 'By the end of this camp, you will have the confidence and skills to start your journey as a web developer.',
+
+  curriculum_desc: 'Includes frontend basics, backend introduction, project building, debugging, and deployment practices.',
     course_lessons: [
       {
         title: 'Week 1-4',
@@ -2026,11 +2211,18 @@ const course_data = [
     language: 'English',
     certificate: 'yes',
     videoId: 'PICj5tr9hcc',
-    course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
-    course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
-    learn_list: ['Professional Japanese cooking from beginners to experts','Will be able to cook authentic Italian recipes in their own kitchen','Understand the HOW of cooking, before thinking of the WHAT to cook.'],
-    course_desc_3: 'Consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor.',
-    curriculum_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat.',
+   course_desc: 'This course is designed to provide a strong foundation in modern web development, covering both theoretical concepts and practical implementation. You will learn how to build real-world applications using current industry tools and best practices.',
+
+    course_desc_2: 'Throughout the program, you will work on hands-on projects that help you understand core concepts, improve problem-solving skills, and gain confidence in building scalable and user-friendly applications.',
+
+    learn_list: [
+      'Understand core programming and web development concepts',
+      'Build real-world projects for your portfolio',
+      'Learn modern tools, frameworks, and best practices',
+      'Develop problem-solving and debugging skills'
+    ],
+    course_desc_3: 'By the end of this course, you will be able to design, develop, and deploy complete applications, making you ready for real-world development roles or freelance opportunities.',
+    curriculum_desc: 'The curriculum is structured to take you from fundamentals to advanced topics, including practical exercises, projects, and real-world scenarios to ensure a complete learning experience.',
     course_lessons: [
       {
         title: 'Week 1-4',
@@ -2098,11 +2290,21 @@ const course_data = [
     language: 'English',
     certificate: 'yes',
     videoId: 'PICj5tr9hcc',
-    course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
-    course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
-    learn_list: ['Professional Japanese cooking from beginners to experts','Will be able to cook authentic Italian recipes in their own kitchen','Understand the HOW of cooking, before thinking of the WHAT to cook.'],
-    course_desc_3: 'Consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor.',
-    curriculum_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat.',
+   course_desc: 'This course is designed to provide a complete understanding of the subject with a strong focus on practical learning. You will gain hands-on experience through real-world projects, industry-relevant tools, and structured lessons that help you build confidence and job-ready skills.',
+
+course_desc_2: 'Throughout the program, you will work on assignments, case studies, and guided exercises that simulate real industry scenarios. By the end of the course, you will have a solid portfolio and the ability to apply your knowledge in professional environments.',
+
+learn_list: [
+  'Understand core concepts from fundamentals to advanced level',
+  'Build real-world projects to strengthen practical knowledge',
+  'Learn industry-standard tools and best practices',
+  'Improve problem-solving and critical thinking skills',
+  'Create a strong portfolio for career opportunities'
+],
+
+course_desc_3: 'This course is suitable for beginners as well as learners looking to upgrade their skills. With step-by-step guidance, mentorship, and structured content, you will be able to confidently work on real-time projects and advance your career.',
+
+curriculum_desc: 'The curriculum is carefully structured into multiple phases, starting from basic concepts and progressing to advanced topics. Each module includes theory, hands-on exercises, and project work to ensure a complete learning experience. Regular assessments and practical tasks help reinforce your understanding at every stage.',
     course_lessons: [
       {
         title: 'Week 1-4',
@@ -2170,11 +2372,21 @@ const course_data = [
     language: 'English',
     certificate: 'yes',
     videoId: 'PICj5tr9hcc',
-    course_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.',
-    course_desc_2: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.',
-    learn_list: ['Professional Japanese cooking from beginners to experts','Will be able to cook authentic Italian recipes in their own kitchen','Understand the HOW of cooking, before thinking of the WHAT to cook.'],
-    course_desc_3: 'Consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor.',
-    curriculum_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat.',
+   course_desc: 'This course provides a comprehensive learning experience designed to build strong foundational and advanced skills. You will learn through hands-on projects, real-world examples, and step-by-step guidance to ensure practical understanding.',
+
+course_desc_2: 'Throughout the course, you will work on industry-relevant assignments and develop problem-solving skills required in real job environments. By the end, you will be confident in applying your knowledge to build professional-level projects.',
+
+learn_list: [
+  'Master fundamental concepts and advanced techniques',
+  'Build real-world projects for your portfolio',
+  'Learn modern tools, frameworks, and best practices',
+  'Improve logical thinking and problem-solving skills',
+  'Gain confidence to work on live projects and freelance tasks'
+],
+
+course_desc_3: 'Whether you are a beginner or looking to upgrade your existing skills, this course is structured to guide you at every step. With practical learning and expert guidance, you will be ready to take on real-world challenges.',
+
+curriculum_desc: 'The curriculum is structured in a step-by-step format, starting from basics and progressing to advanced topics. Each module includes theory, hands-on practice, and mini-projects to reinforce learning and ensure a complete understanding of the subject.',
     course_lessons: [
       {
         title: 'Week 1-4',

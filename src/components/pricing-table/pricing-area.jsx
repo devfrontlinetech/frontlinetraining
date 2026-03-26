@@ -41,16 +41,34 @@ const PricingArea = () => {
                     <span className="shape-line"><i className="icon-19"></i></span>
                 </div>
 
-                <div className="row g-5">
-                    <PricingTable delay='100' title="Silver Plan" amount="29.00" duration="Per month" item_off_1={true}
-                    sm_text="Lorem ipsum dolor sit amet consect adipisicing elit sed. do eilt sed" item_off_2={true} />
+           <div className="row g-5">
+                <PricingTable
+                    delay='100'
+                    title="Silver Plan"
+                    amount="29.00"
+                    duration="Per month"
+                    item_off_1={true}
+                    item_off_2={true}
+                    sm_text="Perfect for beginners starting their learning journey with essential features and basic support."
+                />
 
-                    <PricingTable delay='200' title="Gold Plan" amount="49.00" duration="Per month"
-                    sm_text="Lorem ipsum dolor sit amet consect adipisicing elit sed. do eilt sed" item_off_2={true} />
+                <PricingTable
+                    delay='200'
+                    title="Gold Plan"
+                    amount="49.00"
+                    duration="Per month"
+                    item_off_2={true}
+                    sm_text="Ideal for learners who want advanced features, guided support, and access to premium content."
+                />
 
-                    <PricingTable delay='300' title="Diamond Plan" amount="79.00" duration="Per month"
-                    sm_text="Lorem ipsum dolor sit amet consect adipisicing elit sed. do eilt sed" />
-                </div>
+                <PricingTable
+                    delay='300'
+                    title="Diamond Plan"
+                    amount="79.00"
+                    duration="Per month"
+                    sm_text="Best for professionals seeking full access, priority support, and complete learning resources."
+                />
+            </div>
             </div>
         </div>
     )

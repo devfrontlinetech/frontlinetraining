@@ -9,18 +9,23 @@ const features = () => {
                     <h2 className="title">The Ultimate Guide to Upgrading <br /> Your Coaching </h2>
                     <span className="shape-line"><i className="icon-19"></i></span>
                 </div>
+
                 <div className="row g-5">
+
                     <div className="col-lg-4 col-md-6" data-sal-delay="50" data-sal="slide-up" data-sal-duration="800">
                         <div className="categorie-grid categorie-style-5 color-primary edublink-svg-animate">
                             <div className="icon">
                                 <i className="icon-83"></i>
                             </div>
                             <div className="content">
-                                <h5 className="title">Daily Excersize</h5>
-                                <p>Lorem ipsum dolor amet ex consecturs adipiscing elit sed eiusmod.</p>
+                                <h5 className="title">Daily Exercise</h5>
+                                <p>
+                                    Build a consistent workout routine to improve strength, stamina, and overall fitness levels.
+                                </p>
                             </div>
                         </div>
                     </div>
+
                     <div className="col-lg-4 col-md-6" data-sal-delay="100" data-sal="slide-up" data-sal-duration="800">
                         <div className="categorie-grid categorie-style-5 color-secondary">
                             <div className="icon">
@@ -28,10 +33,13 @@ const features = () => {
                             </div>
                             <div className="content">
                                 <h5 className="title">Personal Program</h5>
-                                <p>Lorem ipsum dolor amet ex consecturs adipiscing elit sed eiusmod.</p>
+                                <p>
+                                    Get customized coaching plans designed according to your goals, lifestyle, and fitness level.
+                                </p>
                             </div>
                         </div>
                     </div>
+
                     <div className="col-lg-4 col-md-6" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
                         <div className="categorie-grid categorie-style-5 color-extra08">
                             <div className="icon">
@@ -39,10 +47,13 @@ const features = () => {
                             </div>
                             <div className="content">
                                 <h5 className="title">Natural Process</h5>
-                                <p>Lorem ipsum dolor amet ex consecturs adipiscing elit sed eiusmod.</p>
+                                <p>
+                                    Focus on sustainable and natural methods to achieve long-term health and wellness.
+                                </p>
                             </div>
                         </div>
                     </div>
+
                     <div className="col-lg-4 col-md-6" data-sal-delay="50" data-sal="slide-up" data-sal-duration="800">
                         <div className="categorie-grid categorie-style-5 color-tertiary">
                             <div className="icon">
@@ -50,10 +61,13 @@ const features = () => {
                             </div>
                             <div className="content">
                                 <h5 className="title">Improving Health</h5>
-                                <p>Lorem ipsum dolor amet ex consecturs adipiscing elit sed eiusmod.</p>
+                                <p>
+                                    Learn effective strategies to improve overall health, energy levels, and daily performance.
+                                </p>
                             </div>
                         </div>
                     </div>
+
                     <div className="col-lg-4 col-md-6" data-sal-delay="100" data-sal="slide-up" data-sal-duration="800">
                         <div className="categorie-grid categorie-style-5 color-extra02">
                             <div className="icon">
@@ -61,10 +75,13 @@ const features = () => {
                             </div>
                             <div className="content">
                                 <h5 className="title">Immune System</h5>
-                                <p>Lorem ipsum dolor amet ex consecturs adipiscing elit sed eiusmod.</p>
+                                <p>
+                                    Strengthen your immune system through proper nutrition, exercise, and healthy habits.
+                                </p>
                             </div>
                         </div>
                     </div>
+
                     <div className="col-lg-4 col-md-6" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
                         <div className="categorie-grid categorie-style-5 color-extra07">
                             <div className="icon Physical-activity">
@@ -72,10 +89,13 @@ const features = () => {
                             </div>
                             <div className="content">
                                 <h5 className="title">Physical Activity</h5>
-                                <p>Lorem ipsum dolor amet ex consecturs adipiscing elit sed eiusmod.</p>
+                                <p>
+                                    Stay active with guided routines that enhance mobility, flexibility, and endurance.
+                                </p>
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>

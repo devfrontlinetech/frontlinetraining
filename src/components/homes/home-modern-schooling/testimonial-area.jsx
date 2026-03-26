@@ -5,28 +5,28 @@ import { Autoplay, Pagination } from 'swiper';
 const testimonials = [
     {
         img: '/assets/images/testimonial/test-01.jpg',
-        desc: 'I want to encourage all of you, whatever you just starting or already on your coding journey, to embrace the process. Don t be afraid to make mistakes; they are often the best teachers.',
+        desc: 'I encourage everyone on their coding journey to stay consistent and embrace the learning process. Mistakes are valuable—they help you grow and improve faster.',
         ratings: [1, 2, 3, 4, 5],
         name: 'Krish',
         title: 'Student'
     },
     {
         img: '/assets/images/testimonial/testimonial-06.png',
-        desc: 'I want to remind you that as designers. Let’s design with intention, inspire others, and make the internet a more beautiful. Embrace your journey : the best is yet to come..',
+        desc: 'As designers, we should focus on creating meaningful and impactful experiences. Design with purpose, inspire others, and keep improving every day.',
         ratings: [1, 2, 3, 4, 5],
-        name: 'Samual',
+        name: 'Samuel',
         title: 'Designer'
     },
     {
         img: '/assets/images/testimonial/testimonial-07.png',
-        desc: 'Lorem ipsum dolor amet consec tur elit adicing sed do usmod zx tempor enim minim veniam quis nostrud exer citation.',
+        desc: 'This platform helped me strengthen my development skills with practical examples and real-world projects. It’s a great place to learn and build confidence.',
         ratings: [1, 2, 3, 4, 5],
         name: 'Harish',
         title: 'Developer'
     },
     {
         img: '/assets/images/testimonial/testimonial-06.png',
-        desc: 'Lorem ipsum dolor amet consec tur elit adicing sed do usmod zx tempor enim minim veniam quis nostrud exer citation.',
+        desc: 'The learning experience is smooth and well-structured. The content is easy to understand and helps improve both creativity and technical skills.',
         ratings: [1, 2, 3, 4, 5],
         name: 'Sanjith',
         title: 'Designer'

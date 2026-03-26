@@ -4,16 +4,22 @@ import { useMouseMoveUI } from '../../../contexts/mouse-move-context';
 
 const accordion_items = [
     {
-        id: 'collapseOne', show: true, title: 'How can I contact a school directly?',
-        desc: 'Lorem ipsum dolor sit amet consectur adipiscing elit sed eius mod ex tempor incididunt labore dolore magna aliquaenim ad minim eniam.'
+        id: 'collapseOne',
+        show: true,
+        title: 'How can I contact a school directly?',
+        desc: 'You can contact a school through its official website, admission email, or helpline number. Most schools provide dedicated support channels for quick communication.'
     },
     {
-        id: 'collapseTwo', show: false, title: 'How do I find a school where I want to study?',
-        desc: 'Lorem ipsum dolor sit amet consectur adipiscing elit sed eius mod ex tempor incididunt labore dolore magna aliquaenim ad minim eniam.'
+        id: 'collapseTwo',
+        show: false,
+        title: 'How do I find a school where I want to study?',
+        desc: 'Use online search platforms to filter schools based on location, course, and budget. Compare reviews, rankings, and facilities before making your decision.'
     },
     {
-        id: 'collapseThree', show: false, title: 'Where should I study abroad?',
-        desc: 'Lorem ipsum dolor sit amet consectur adipiscing elit sed eius mod ex tempor incididunt labore dolore magna aliquaenim ad minim eniam.'
+        id: 'collapseThree',
+        show: false,
+        title: 'Where should I study abroad?',
+        desc: 'Choose a country based on your career goals, budget, course availability, and lifestyle preferences. Consider visa rules, education quality, and job opportunities.'
     }
 ];
 
@@ -29,7 +35,7 @@ const FaqArea = () => {
                                 <span className="pre-title">FAQ’s</span>
                                 <h2 className="title">Learn Your Best Education Culture with FrontLine</h2>
                                 <span className="shape-line"><i className="icon-19"></i></span>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor incididunt labore dolore magna.</p>
+                                <p> Find answers to common questions about courses, admissions, and learning paths.  Our goal is to guide you with clear information so you can make the best decisions for your education and career. </p>
                             </div>
                             <div className="faq-accordion" id="faq-accordion">
                                 <div className="accordion">
