@@ -15,7 +15,6 @@ const HeroArea = () => {
   // Dates for April and May 2026
   const availableDates = [
 
-    "15-04-2026",
     "22-04-2026",
     "01-05-2026",
     "05-05-2026",
