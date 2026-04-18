@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 14px;
 }
 
 body {
@@ -67,7 +68,6 @@ h2 {
 .secondary-btn:hover {
   background: #4338ca;
 }
-
 /* ==============================
    HERO SECTION
 ============================== */
@@ -90,6 +90,7 @@ h2 {
   flex-wrap: wrap;
 }
 
+/* LEFT / RIGHT */
 .hero-left {
   flex: 1;
   min-width: 300px;
@@ -100,7 +101,8 @@ h2 {
   min-width: 300px;
 }
 
-.hero-left h1 {
+/* TITLE */
+.hero__title {
   font-size: 42px;
   font-weight: 700;
   color: #0f172a;
@@ -108,22 +110,25 @@ h2 {
   margin-bottom: 20px;
 }
 
-.hero-left h1 span {
-  color: #2563eb;
+.hero__highlight {
+  color: #ee4a62;
+  font-size: 39px;
 }
 
-.hero-subtitle {
+/* SUBTITLE */
+.hero__subtitle {
   font-size: 18px;
   color: #475569;
   margin-bottom: 25px;
   line-height: 1.6;
 }
 
-.hero-highlights {
+/* HIGHLIGHTS */
+.hero__highlights {
   margin-bottom: 25px;
 }
 
-.highlight-item {
+.hero__highlight-item {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -132,96 +137,90 @@ h2 {
   font-size: 15px;
 }
 
-.highlight-item svg {
+.hero__highlight-icon {
   color: #22c55e;
+  font-size: 16px;
 }
 
-.hero-buttons {
+/* BUTTONS */
+.hero__actions {
   display: flex;
   gap: 15px;
   margin-bottom: 30px;
 }
 
-.primary-btn {
-  background: #2563eb;
-  color: #fff;
+.btn {
   padding: 12px 28px;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
   border: none;
-  border-radius: 8px;
-  font-size: 15px;
-  cursor: pointer;
   transition: 0.3s ease;
 }
 
-.primary-btn:hover {
-  background: #1d4ed8;
+.btn--primary {
+  background: #eb7f25;
+  color: #fff;
 }
 
-.secondary-btn {
+.btn--primary:hover {
+  background: #ff9634;
+}
+
+.btn--secondary {
   background: transparent;
-  border: 2px solid #2563eb;
-  color: #2563eb;
-  padding: 12px 28px;
-  border-radius: 8px;
-  font-size: 15px;
-  cursor: pointer;
-  transition: 0.3s ease;
+  border: 2px solid #eb7f25;
+  color: #221306;
 }
 
-.secondary-btn:hover {
-  background: #2563eb;
-  color: white;
+.btn--secondary:hover {
+  background: #eb7f25;
+  color: #fff;
 }
 
-.hero-stats {
+/* STATS */
+.hero__stats {
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
 }
 
-.stat {
+.hero__stat {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-.stat svg {
+.hero__stat-icon {
   font-size: 20px;
-  color: #2563eb;
+  color: #eb7f25;
 }
 
-.stat h4 {
+.hero__stat-number {
   margin: 0;
   font-size: 18px;
   color: #0f172a;
 }
 
-.stat p {
+.hero__stat-text {
   margin: 0;
   font-size: 13px;
   color: #64748b;
 }
 
+/* IMAGE */
 .hero-image-placeholder {
-  background: #e2e8f0;
   height: 350px;
   border-radius: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #64748b;
-  font-size: 18px;
-  font-weight: 500;
 }
 
 .hero-image {
-  width: 103%;
-}
-
-.grid {
-  display: grid;
-  gap: 25px;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
 }
 
 /* ==============================
@@ -250,6 +249,7 @@ h2 {
   font-size: 16px;
   color: #64748b;
   margin-bottom: 50px;
+  text-align: center;
 }
 
 .categories-grid {
@@ -269,13 +269,13 @@ h2 {
 
 .category-card:hover {
   transform: translateY(-8px);
-  background: #2563eb;
+  background: #eb6025;
   color: #ffffff;
   box-shadow: 0 20px 40px rgba(37, 99, 235, 0.2);
 }
 
 .category-icon {
-  font-size: 36px;
+  // font-size: 36px!important;
   margin-bottom: 15px;
   color: #2563eb;
   transition: 0.3s ease;
@@ -284,6 +284,10 @@ h2 {
 .category-card:hover .category-icon {
   color: #ffffff;
 }
+.category-icon svg{
+  color: #ea580c!important;
+  font-size: 30px;
+} 
 
 .category-name {
   font-size: 18px;
@@ -344,7 +348,7 @@ h2 {
 }
 
 .course-title {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600;
   margin-bottom: 15px;
   margin-top: 20px;
@@ -399,7 +403,7 @@ h2 {
   position: absolute;
   top: 15px;
   /* left: 15px; */
-  background: #4f46e5;
+  background: #ff6e04;
   color: white;
   font-size: 12px;
   padding: 6px 12px;
@@ -416,14 +420,15 @@ h2 {
   display: flex;
   align-items: center;
   gap: 6px;
+  font-size: 14px;
 }
 
 .icon-star {
-  color: #facc15;
+  color: #facc15 !important;
 }
 .browse-more-wrapper {
   text-align: center;
-  margin-top: 60px;
+  margin-top: 30px;
 }
 
 .browse-more-btn {
@@ -433,7 +438,7 @@ h2 {
   border-radius: 50px;
   border: none;
   cursor: pointer;
-  background: linear-gradient(135deg, #0d6efd, #0047c1);
+  background: linear-gradient(135deg, #ffae74, #ff6e04);
   color: #fff;
   transition: all 0.3s ease;
 }
@@ -442,12 +447,14 @@ h2 {
   transform: translateY(-4px);
   box-shadow: 0 12px 25px rgba(0, 71, 193, 0.3);
 }
+
+
 /* ===========================
    WHY CHOOSE US SECTION
 =========================== */
 .why-us {
   padding: 80px 0;
-  background: #f8fafc;
+  background: linear-gradient(135deg, #fff7f1, #ffddc2);
 }
 
 .container {
@@ -485,9 +492,13 @@ h2 {
 }
 
 .icon {
-  font-size: 40px;
-  color: #2563eb;
+  // font-size: 40px;
+  color: #ff6e04;
   margin-bottom: 20px;
+}
+
+.icon svg {
+  font-size: 25px;
 }
 
 .why-card h4 {
@@ -500,6 +511,7 @@ h2 {
   font-size: 15px;
   color: #64748b;
   line-height: 1.6;
+  text-align: center;
 }
 
 /* ===============================
@@ -549,13 +561,13 @@ h2 {
 .certificate-feature {
   margin-bottom: 20px;
   padding-left: 15px;
-  border-left: 4px solid #4f46e5;
+  border-left: 4px solid #db7500da;
 }
 
 .certificate-feature h4 {
   font-size: 18px;
   margin-bottom: 5px;
-  color: #4f46e5;
+  color: #e5a346;
 }
 
 .certificate-feature p {
@@ -565,7 +577,7 @@ h2 {
 
 .certificate-content .primary-btn {
   margin-top: 20px;
-  background-color: #5042ee;
+  background: linear-gradient(135deg, #ffae74, #ff6e04);
   color: white;
 }
 
@@ -695,7 +707,7 @@ h2 {
 
 .faq-arrow {
   transition: transform 0.3s ease;
-  color: #2563eb;
+  color: #eb5d25;
 }
 
 .faq-rotate {
@@ -721,17 +733,17 @@ h2 {
 }
 
 /* ==============================
-   CTA SECTION
+   CTA BLOCK
 ============================== */
-.cta-section {
+.cta-block {
   padding: 100px 0;
-  background: linear-gradient(135deg, #2563eb, #1e40af);
-  color: #ffffff;
+  background: linear-gradient(135deg, #e6d4c4, #ffab44);
+  color: #ffffff !important;
   position: relative;
   overflow: hidden;
 }
 
-.cta-section::before {
+.cta-block::before {
   content: "";
   position: absolute;
   width: 400px;
@@ -743,7 +755,7 @@ h2 {
   filter: blur(80px);
 }
 
-.cta-container {
+.cta-block__container {
   width: 90%;
   max-width: 1100px;
   margin: auto;
@@ -752,30 +764,35 @@ h2 {
   z-index: 2;
 }
 
-.cta-title {
+.cta-block__title {
   font-size: 38px;
   font-weight: 700;
   margin-bottom: 15px;
 }
 
-.cta-subtitle {
-  font-size: 18px;
-  max-width: 700px;
+.cta-block__title svg{
+  font-size: 25px;
+}
+
+.cta-block__subtitle {
+  color: #fff;
+  font-size: 15px;
+  max-width: 600px;
   margin: 0 auto 40px;
   line-height: 1.6;
   opacity: 0.95;
 }
 
-.cta-buttons {
+.cta-block__buttons {
   display: flex;
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
 }
 
-.cta-primary-btn {
+.cta-block__primary-btn {
   background: #ffffff;
-  color: #1e40af;
+  color: #af641e;
   padding: 14px 32px;
   border: none;
   border-radius: 10px;
@@ -788,12 +805,12 @@ h2 {
   transition: all 0.3s ease;
 }
 
-.cta-primary-btn:hover {
+.cta-block__primary-btn:hover {
   transform: translateY(-4px);
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
 }
 
-.cta-secondary-btn {
+.cta-block__secondary-btn {
   background: transparent;
   color: #ffffff;
   border: 2px solid #ffffff;
@@ -805,23 +822,22 @@ h2 {
   transition: all 0.3s ease;
 }
 
-.cta-secondary-btn:hover {
+.cta-block__secondary-btn:hover {
   background: #ffffff;
-  color: #1e40af;
+  color: #af691e;
 }
 
-.cta-arrow {
+.cta-block__arrow {
   transition: transform 0.3s ease;
 }
 
-.cta-primary-btn:hover .cta-arrow {
+.cta-block__primary-btn:hover .cta-block__arrow {
   transform: translateX(5px);
 }
-.rocket{
+
+.cta-block__rocket {
   color: rgb(255, 111, 0);
 }
-
-
 
 /* ==============================
     RESPONSIVE MEDIA QUERIES
@@ -841,7 +857,8 @@ h2 {
     text-align: center;
   }
 
-  .hero-buttons, .hero-stats {
+  .hero-buttons,
+  .hero-stats {
     justify-content: center;
   }
 
@@ -868,7 +885,7 @@ h2 {
     flex-direction: column;
   }
 
-  .hero-buttons button, 
+  .hero-buttons button,
   .hero-buttons a {
     width: 100%;
   }
@@ -878,12 +895,14 @@ h2 {
     align-items: center;
   }
 
-  .cta-primary-btn, .cta-secondary-btn {
+  .cta-primary-btn,
+  .cta-secondary-btn {
     width: 100%;
     max-width: 300px;
   }
 
-  .categories-grid, .courses-grid {
+  .categories-grid,
+  .courses-grid {
     grid-template-columns: 1fr; /* Stack cards on very small screens */
   }
 
@@ -891,88 +910,400 @@ h2 {
     font-size: 26px;
     margin-bottom: 40px;
   }
-  
+
   .hero-image-placeholder {
-      height: 250px;
+    height: 250px;
   }
 }
 
 /* Extra Small Devices */
 @media (max-width: 380px) {
-    .hero-left h1 {
-        font-size: 28px;
-    }
-    
-    .stat h4 {
-        font-size: 16px;
-    }
-}
-
-/* 
-@media (max-width: 900px) {
-  .certification-wrapper {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .certificate-feature {
-    border-left: none;
-    border-top: 3px solid #4f46e5;
-    padding-top: 10px;
-  }
-}
-
-@media (max-width: 768px) {
-  .hero h1 {
-    font-size: 32px;
-  }
-
-  h2 {
-    font-size: 26px;
-  }
-
-  .course-card {
-    padding: 25px;
-  }
-
-  .section-title {
-    font-size: 26px;
-  }
-
-  .why-card {
-    padding: 25px 20px;
-  }
-
-  .review-card {
-    padding: 25px;
-  }
-  .faq-question-btn {
-    font-size: 15px;
-  }
-
-  .categories-title {
-    font-size: 24px;
-  }
-
-  .categories-subtitle {
-    font-size: 14px;
-  }
-
-  .cta-title {
+  .hero-left h1 {
     font-size: 28px;
   }
 
-  .cta-subtitle {
-    font-size: 15px;
+  .stat h4 {
+    font-size: 16px;
+  }
+}
+
+
+
+/* ==============================
+   🌙 DARK MODE - HERO SECTION
+============================== */
+[data-theme='dark'] {
+
+  .hero {
+    background: linear-gradient(135deg, #020617, #0f172a);
   }
 
-  .cta-buttons {
-    flex-direction: column;
+  /* TEXT COLORS */
+  .hero__title {
+    color: #f1f5f9;
   }
 
-  .cta-primary-btn,
-  .cta-secondary-btn {
-    width: 100%;
-    justify-content: center;
+  .hero__highlight {
+    color: #fb7185;
   }
-} */
+
+  .hero__subtitle {
+    color: #94a3b8;
+  }
+
+  .hero__highlight-item {
+    color: #cbd5f5;
+  }
+
+  .hero__highlight-icon {
+    color: #22c55e;
+  }
+
+  /* BUTTONS */
+  .btn--primary {
+    background: linear-gradient(135deg, #f97316, #ea580c);
+    color: #fff;
+  }
+
+  .btn--primary:hover {
+    background: linear-gradient(135deg, #fb923c, #f97316);
+  }
+
+  .btn--secondary {
+    border: 2px solid #f97316;
+    color: #f1f5f9;
+  }
+
+  .btn--secondary:hover {
+    background: #f97316;
+    color: #fff;
+  }
+
+  /* STATS */
+  .hero__stat-number {
+    color: #f8fafc;
+  }
+
+  .hero__stat-text {
+    color: #94a3b8;
+  }
+
+  .hero__stat-icon {
+    color: #f97316;
+  }
+
+  /* IMAGE */
+  .hero-image-placeholder {
+    background: #020617;
+  }
+
+  .hero-image {
+    filter: brightness(0.9) contrast(1.05);
+  }
+}
+
+
+/* ===============================
+   🌙 DARK MODE - COURSES SECTION
+================================= */
+[data-theme='dark'] {
+
+  .courses-section {
+    background: #020617;
+  }
+
+  .section-title {
+    color: #f1f5f9;
+  }
+
+  .course-card {
+    background: #0f172a;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
+  }
+
+  .course-card:hover {
+    box-shadow: 0 18px 50px rgba(0, 0, 0, 0.6);
+  }
+
+  .course-title {
+    color: #f8fafc;
+  }
+
+  .course-info,
+  .course-meta {
+    color: #94a3b8;
+  }
+
+  .course-info span,
+  .course-meta span {
+    color: #cbd5f5;
+  }
+
+  .course-badge {
+    background: linear-gradient(135deg, #f97316, #ea580c);
+  }
+
+  .course-image img {
+    filter: brightness(0.85) contrast(1.05);
+  }
+
+  /* Button */
+  .enroll-btn {
+    background: linear-gradient(135deg, #6366f1, #4f46e5);
+  }
+
+  .enroll-btn:hover {
+    background: linear-gradient(135deg, #818cf8, #6366f1);
+  }
+
+  /* Browse More */
+  .browse-more-btn {
+    background: linear-gradient(135deg, #f97316, #ea580c);
+  }
+
+  .browse-more-btn:hover {
+    box-shadow: 0 12px 25px rgba(249, 115, 22, 0.35);
+  }
+
+  /* Stars */
+  .icon-star {
+    color: #facc15 !important;
+  }
+}
+
+/* ==============================
+   🌙 DARK MODE - CATEGORIES
+============================== */
+[data-theme='dark'] {
+
+  .categories-section {
+    background: #020617;
+  }
+
+  .categories-title {
+    color: #f1f5f9;
+  }
+
+  .categories-subtitle {
+    color: #94a3b8;
+  }
+
+  .category-card {
+    background: #0f172a;
+    border: 1px solid #1e293b;
+    color: #e2e8f0;
+  }
+
+  .category-card:hover {
+    background: linear-gradient(135deg, #eb6a25, #d86b1d);
+    color: #ffffff;
+    box-shadow: 0 20px 40px rgba(37, 99, 235, 0.35);
+  }
+
+  .category-icon {
+    color: #60a5fa;
+  }
+
+  .category-card:hover .category-icon {
+    color: #ffffff;
+  }
+
+  .category-name {
+    color: #f8fafc;
+  }
+}
+
+
+/* ===========================
+   🌙 DARK MODE - WHY US
+=========================== */
+[data-theme='dark'] {
+
+  .why-us {
+    background: linear-gradient(135deg, #020617, #0f172a);
+  }
+
+  .section-title {
+    color: #f1f5f9;
+  }
+
+  .why-card {
+    background: #0f172a;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  }
+
+  .why-card:hover {
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.6);
+  }
+
+  .icon {
+    color: #f97316;
+  }
+
+  .why-card h4 {
+    color: #f8fafc;
+  }
+
+  .why-card p {
+    color: #94a3b8;
+  }
+}
+
+/* ===============================
+   🌙 DARK MODE - CERTIFICATION
+================================= */
+[data-theme='dark'] {
+
+  .certification-section {
+    background: #020617;
+  }
+
+  .certificate-content h2 {
+    color: #f1f5f9;
+  }
+
+  .certificate-feature {
+    border-left: 4px solid #f97316;
+  }
+
+  .certificate-feature h4 {
+    color: #fb923c;
+  }
+
+  .certificate-feature p {
+    color: #94a3b8;
+  }
+
+  /* IMAGE */
+  .certificate-image img {
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+    filter: brightness(0.9) contrast(1.05);
+  }
+
+  /* BUTTON */
+  .certificate-content .primary-btn {
+    background: linear-gradient(135deg, #f97316, #ea580c);
+  }
+
+  .certificate-content .primary-btn:hover {
+    background: linear-gradient(135deg, #fb923c, #f97316);
+  }
+}
+
+
+/* ===============================
+   🌙 DARK MODE - REVIEWS
+================================ */
+[data-theme='dark'] {
+
+  .reviews-section {
+    background: #020617;
+  }
+
+  .section-title {
+    color: #f1f5f9;
+  }
+
+  .review-card {
+    background: #0f172a;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+  }
+
+  .review-card:hover {
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7);
+  }
+
+  .stars {
+    color: #facc15;
+  }
+
+  .review-message {
+    color: #cbd5f5;
+  }
+
+  .review-user h4 {
+    color: #f8fafc;
+  }
+
+  .review-user span {
+    color: #94a3b8;
+  }
+}
+
+/* 🌙 DARK MODE - FAQ SECTION */
+[data-theme='dark'] .faq-section-wrapper {
+  background: #020617;
+}
+
+[data-theme='dark'] .faq-title {
+  color: #f1f5f9;
+}
+
+[data-theme='dark'] .faq-card {
+  background: #1e293b;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+[data-theme='dark'] .faq-card.faq-active {
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
+}
+
+[data-theme='dark'] .faq-question-btn {
+  color: #f1f5f9;
+}
+
+[data-theme='dark'] .faq-question-btn:hover {
+  background: #334155;
+}
+
+[data-theme='dark'] .faq-arrow {
+  color: #fb923c;
+}
+
+[data-theme='dark'] .faq-answer-text {
+  color: #cbd5f5;
+}
+
+
+/* ==============================
+   CTA BLOCK - DARK THEME
+============================== */
+[data-theme='dark'] .cta-block {
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: #f1f5f9 !important;
+}
+
+[data-theme='dark'] .cta-block::before {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+[data-theme='dark'] .cta-block__title {
+  color: #ffffff;
+}
+
+[data-theme='dark'] .cta-block__subtitle {
+  color: #cbd5e1;
+}
+
+[data-theme='dark'] .cta-block__primary-btn {
+  background: #ff8c00;
+  color: #ffffff;
+}
+
+[data-theme='dark'] .cta-block__primary-btn:hover {
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
+}
+
+[data-theme='dark'] .cta-block__secondary-btn {
+  border: 2px solid #cbd5e1;
+  color: #e2e8f0;
+}
+
+[data-theme='dark'] .cta-block__secondary-btn:hover {
+  background: #ffffff;
+  color: #1e293b;
+}
+
+[data-theme='dark'] .cta-block__rocket {
+  color: #ffb347;
+}

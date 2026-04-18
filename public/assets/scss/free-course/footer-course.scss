@@ -1,0 +1,413 @@
+// Brand Colors
+$primary-red: #ff4d4d;
+$footer-bg: #ffffff;
+$text-gray: #777777;
+$heading-black: #222222;
+
+.ft5-container {
+  background-color: $footer-bg;
+  padding: 80px 0 30px;
+  border-top: 1px solid #f0f0f0;
+
+  .container {
+    max-width: 1250px; // Standard widescreen container
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+  .ft5-col {
+    flex: 1;
+    min-width: 220px;
+    margin-bottom: 30px;
+
+    h4 {
+      font-size: 2rem; // Perfectly balanced heading size
+      color: $heading-black;
+      font-weight: 700;
+      margin-bottom: 25px;
+      letter-spacing: 0.5px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+
+      li {
+        margin-bottom: 12px;
+        font-size: 1.5rem;
+        color: $text-gray;
+        display: flex;
+        align-items: center;
+
+        // The grey square bullets
+        &::before {
+          content: "";
+          width: 7px;
+          height: 7px;
+          background-color: #d8d8d8;
+          margin-right: 12px;
+          display: inline-block;
+        }
+
+        a {
+          color: $text-gray;
+          text-decoration: none;
+          transition: all 0.3s ease;
+
+          &:hover {
+            color: $primary-red;
+            transform: translateX(3px);
+          }
+        }
+      }
+    }
+  }
+
+  // About Section Styling
+  .ft5-about {
+    flex: 1.4; // Slightly wider for description text
+
+    .ft5-logo {
+      margin-bottom: 20px;
+      object-fit: contain;
+    }
+
+    .ft5-desc {
+      font-size: 1.6rem;
+      line-height: 1.7;
+      color: $text-gray;
+      margin-bottom: 25px;
+      max-width: 300px;
+
+      .ft5-toggle {
+        color: $primary-red;
+        font-weight: 600;
+        cursor: pointer;
+        font-size: 1.3rem;
+      }
+    }
+
+    .ft5-contact {
+      .ft5-contact-item {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 15px;
+        // font-size: 1.2rem;
+        color: $heading-black;
+
+        .ft5-icon {
+          font-size: 1rem;
+          color: $heading-black;
+          min-width: 18px;
+        }
+
+        a {
+          text-decoration: none;
+          color: inherit;
+          &:hover { color: $primary-red; }
+        }
+      }
+    }
+  }
+
+  // Perfect Newsletter Styling
+  .ft5-newsletter {
+    .ft5-desc {
+      font-size: 1.4rem;
+      color: $text-gray;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .ft5-input-group {
+      display: flex;
+      height: 50px; // Fixed height for a clean look
+      margin-bottom: 20px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+
+      input {
+        flex: 1;
+        padding: 0 20px;
+        border: 1px solid #f0f0f0;
+        border-right: none;
+        border-radius: 5px 0 0 5px;
+        background: #f9f9f9;
+        font-size: 1.2rem;
+        outline: none;
+
+        &::placeholder { color: #aaa; }
+      }
+
+      button {
+        background-color: $primary-red;
+        color: #fff;
+        border: none;
+        padding: 0 20px;
+        border-radius: 0 5px 5px 0;
+        font-weight: 700;
+        font-size: 1.2rem;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        cursor: pointer;
+        transition: background 0.3s;
+
+        &:hover { background-color: darken($primary-red, 10%); }
+      }
+    }
+
+    .ft5-social {
+      display: flex;
+      gap: 15px;
+      list-style: none;
+      padding: 0;
+      
+      li::before { display: none; } // Remove bullets for social icons
+    }
+  }
+
+  // Copyright Area
+  .ft5-bottom {
+    margin-top: 50px;
+    border-top: 1px solid #eeeeee;
+    padding: 25px 0;
+    text-align: center;
+
+    p {
+      font-size: 1.4rem;
+      color: $text-gray;
+      margin: 0;
+      text-align: center;
+
+      a {
+        color: $primary-red;
+        text-decoration: none;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+/* Tablet (≤ 992px) */
+@media (max-width: 992px) {
+  .ft5-container {
+    padding: 60px 0 20px;
+
+    .container {
+      gap: 30px;
+    }
+
+    .ft5-col {
+      flex: 1 1 45%; // 2 columns layout
+      min-width: 260px;
+    }
+
+    .ft5-about {
+      flex: 1 1 100%;
+      max-width: 100%;
+
+      .ft5-desc {
+        max-width: 100%;
+      }
+    }
+
+    .ft5-newsletter {
+      .ft5-input-group {
+        flex-direction: column;
+        height: auto;
+
+        input {
+          border-radius: 5px;
+          border-right: 1px solid #f0f0f0;
+          margin-bottom: 10px;
+        }
+
+        button {
+          border-radius: 5px;
+          justify-content: center;
+          padding: 12px;
+        }
+      }
+    }
+  }
+}
+
+
+/* Mobile (≤ 576px) */
+@media (max-width: 576px) {
+  .ft5-container {
+    padding: 50px 0 20px;
+
+    .container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .ft5-col {
+      flex: 1 1 100%;
+      width: 100%;
+    }
+
+    .ft5-col h4 {
+      font-size: 1rem;
+      margin-bottom: 18px;
+    }
+
+    .ft5-col ul li {
+      font-size: 0.9rem;
+    }
+
+    .ft5-about {
+      .ft5-desc {
+        font-size: 0.95rem;
+        line-height: 1.6;
+      }
+
+      .ft5-contact {
+        .ft5-contact-item {
+          font-size: 0.85rem;
+        }
+      }
+    }
+
+    .ft5-newsletter {
+      .ft5-desc {
+        font-size: 0.85rem;
+      }
+
+      .ft5-social {
+        justify-content: flex-start;
+      }
+    }
+
+    .ft5-bottom {
+      padding: 20px 10px;
+
+      p {
+        font-size: 0.75rem;
+        line-height: 1.5;
+      }
+    }
+  }
+}
+
+
+/* Extra Small Devices (≤ 400px) */
+@media (max-width: 400px) {
+  .ft5-container {
+    .ft5-newsletter {
+      .ft5-input-group {
+        input {
+          padding: 0 15px;
+          font-size: 0.8rem;
+        }
+
+        button {
+          font-size: 0.8rem;
+          padding: 10px;
+        }
+      }
+    }
+  }
+}
+
+
+/* ==============================
+   FOOTER (FT5) - DARK THEME
+============================== */
+[data-theme='dark'] {
+  .ft5-container {
+    background-color: #0f172a;
+    border-top: 1px solid #1e293b;
+
+    .ft5-col {
+      h4 {
+        color: #f1f5f9;
+      }
+
+      ul li {
+        color: #94a3b8;
+
+        &::before {
+          background-color: #475569;
+        }
+
+        a {
+          color: #94a3b8;
+
+          &:hover {
+            color: #ff6b6b; // slightly softer red for dark bg
+          }
+        }
+      }
+    }
+
+    .ft5-about {
+      .ft5-desc {
+        color: #94a3b8;
+      }
+
+      .ft5-contact {
+        .ft5-contact-item {
+          color: #e2e8f0;
+
+          .ft5-icon {
+            color: #e2e8f0;
+          }
+
+          a:hover {
+            color: #ff6b6b;
+          }
+        }
+      }
+    }
+
+    .ft5-newsletter {
+      .ft5-desc {
+        color: #94a3b8;
+      }
+
+      .ft5-input-group {
+        box-shadow: none;
+
+        input {
+          background: #1e293b;
+          border: 1px solid #334155;
+          color: #f1f5f9;
+
+          &::placeholder {
+            color: #64748b;
+          }
+        }
+
+        button {
+          background-color: #ff4d4d;
+
+          &:hover {
+            background-color: darken(#ff4d4d, 10%);
+          }
+        }
+      }
+    }
+
+    .ft5-bottom {
+      border-top: 1px solid #1e293b;
+
+      p {
+        color: #94a3b8;
+
+        a {
+          color: #ff6b6b;
+        }
+      }
+    }
+  }
+}
