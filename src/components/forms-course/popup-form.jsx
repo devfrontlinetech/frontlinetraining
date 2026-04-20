@@ -124,7 +124,7 @@ const PopupForm = ({ onClose }) => {
         </form>
         <p className="login-footer">
           Already have an account?{" "}
-          <a href="/login" className="register-link">
+          <a href="/course-login" className="register-link">
             Login
           </a>
         </p>
