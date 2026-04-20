@@ -1,33 +1,37 @@
 import React from "react";
 import { FaArrowRight, FaRocket } from "react-icons/fa";
-import { useNavigate } from "react-router-dom";
+import { useRouter } from "next/navigation";
 
 function CTA() {
-  const usenavigate = useNavigate();
-  return (
-    <section className="cta-section">
-      <div className="cta-container">
-        <div className="cta-content">
-          {/* <h2 className="cta-title">Start Your IT Career Today 🚀<FaRocket/></h2> */}
-          <h2 className="cta-title">Start Your IT Career Today <FaRocket className="rocket"/></h2>
+  const router = useRouter();
 
-          <p className="cta-subtitle">
+  return (
+    <section className="cta-block">
+      <div className="cta-block__container">
+        <div className="cta-block__content">
+          
+          <h2 className="cta-block__title">
+            Start Your IT Career Today <FaRocket className="cta-block__rocket" />
+          </h2>
+
+          <p className="cta-block__subtitle">
             Join thousands of learners upgrading their skills with free
             industry-recognized certification programs.
           </p>
 
-          <div className="cta-buttons">
-            <button className="cta-primary-btn">
-              Enroll Now <FaArrowRight className="cta-arrow" />
+          <div className="cta-block__buttons">
+            <button className="cta-block__primary-btn">
+              Enroll Now <FaArrowRight className="cta-block__arrow" />
             </button>
 
             <button
-              className="cta-secondary-btn"
-              onClick={() => usenavigate("/courses")}
+              className="cta-block__secondary-btn"
+              onClick={() => router.push("/courses")}
             >
               Browse Courses
             </button>
           </div>
+
         </div>
       </div>
     </section>

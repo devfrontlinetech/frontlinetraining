@@ -1,10 +1,12 @@
+"use client";
+
 import React from "react";
-import { useNavigate } from "react-router-dom";
-// import Certificate from "../../../assets/images/free-course/certificate.png";
-import Certificate from "../../../../public/assets/images/free-course/certificate.png";
+import { useRouter } from "next/navigation";
+import Image from "next/image";
 
 function Certification() {
-  const navigate = useNavigate();
+  const router = useRouter();
+
   const certificateFeatures = [
     {
       title: "Verified Certificate",
@@ -24,24 +26,36 @@ function Certification() {
 
   return (
     <section className="certification-section">
-            <div className="container certification-wrapper">
-                <div className="certificate-image">
-                    <img src={Certificate} alt="Free Course Certificate" />
-                 </div>
+      <div className="container certification-wrapper">
 
-                  <div className="certificate-content">
-                       <h2>Earn Your Professional Certificate</h2>
+        <div className="certificate-image">
+          <Image
+            src="/assets/images/free-course/certificate.png"
+            alt="Free Course Certificate"
+            width={500}
+            height={350}
+          />
+        </div>
 
-                         {certificateFeatures.map((feature, index) => (
-                            <div key={index} className="certificate-feature">
-                                 <h4>{feature.title}</h4>
-                                 <p>{feature.description}</p>
-                             </div>
-                           ))} 
+        <div className="certificate-content">
+          <h2>Earn Your Professional Certificate</h2>
 
-                            <button className="primary-btn" onClick={() => navigate("/login")}>Start Learning</button>
-                   </div>
-               </div>
+          {certificateFeatures.map((feature, index) => (
+            <div key={index} className="certificate-feature">
+              <h4>{feature.title}</h4>
+              <p>{feature.description}</p>
+            </div>
+          ))}
+
+          <button
+            className="primary-btn"
+            onClick={() => router.push("/course-login")}
+          >
+            Start Learning
+          </button>
+        </div>
+
+      </div>
     </section>
   );
 }

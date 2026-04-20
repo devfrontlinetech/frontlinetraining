@@ -1,12 +1,11 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { useRouter } from "next/navigation";
 import { FaCheckCircle, FaUsers, FaBookOpen, FaStar } from "react-icons/fa";
-// import HeroImg from "../../../assets/images/free-course/hero.jpg";
-import HeroImg from "../../../../public/assets/images/free-course/hero.jpg";
+import Image from "next/image";
 
 const HeroCourse = () => {
-  const navigate = useNavigate();
-  
+  const router = useRouter();
+
   const highlights = [
     "100% Free Certification",
     "Beginner to Advanced Level",
@@ -16,68 +15,81 @@ const HeroCourse = () => {
   return (
     <section className="hero">
       <div className="container hero-content">
-        
-       
+
         <div className="hero-left">
-          <h1>
-            Free Online <span>IT Courses</span> with Certificate
+          <h1 className="hero__title">
+            Free Online <span className="hero__highlight">IT Courses</span> with
+            Certificate
           </h1>
 
-          <p className="hero-subtitle">
+          <p className="hero__subtitle">
             Upgrade your skills with high-quality, industry-ready IT training
             programs — completely free and accessible anytime.
           </p>
 
-        
-          <div className="hero-highlights">
+          <div className="hero__highlights">
             {highlights.map((item, index) => (
-              <div key={index} className="highlight-item">
-                <FaCheckCircle />
-                <span>{item}</span>
+              <div key={index} className="hero__highlight-item">
+                <FaCheckCircle className="hero__highlight-icon" />
+                <span className="hero__highlight-text">{item}</span>
               </div>
             ))}
           </div>
 
-         
-          <div className="hero-buttons">
-            <button className="primary-btn" onClick={() => navigate("/courses")}>Browse Courses</button>
-            <button className="secondary-btn" onClick={() => navigate("/contact")}>Watch Demo</button>
+          <div className="hero__actions">
+            <button
+              className="btn btn--primary"
+              onClick={() => router.push("/courses")}
+            >
+              Browse Courses
+            </button>
+
+            <button
+              className="btn btn--secondary"
+              onClick={() => router.push("/contact")}
+            >
+              Watch Demo
+            </button>
           </div>
 
-          <div className="hero-stats">
-            <div className="stat">
-              <FaUsers />
+          <div className="hero__stats">
+            <div className="hero__stat">
+              <FaUsers className="hero__stat-icon" />
               <div>
-                <h4>25,000+</h4>
-                <p>Students Enrolled</p>
+                <h4 className="hero__stat-number">25,000+</h4>
+                <p className="hero__stat-text">Students Enrolled</p>
               </div>
             </div>
 
-            <div className="stat">
-              <FaBookOpen />
+            <div className="hero__stat">
+              <FaBookOpen className="hero__stat-icon" />
               <div>
-                <h4>120+</h4>
-                <p>IT Courses</p>
+                <h4 className="hero__stat-number">120+</h4>
+                <p className="hero__stat-text">IT Courses</p>
               </div>
             </div>
 
-            <div className="stat">
-              <FaStar />
+            <div className="hero__stat">
+              <FaStar className="hero__stat-icon" />
               <div>
-                <h4>4.8/5</h4>
-                <p>Average Rating</p>
+                <h4 className="hero__stat-number">4.8/5</h4>
+                <p className="hero__stat-text">Average Rating</p>
               </div>
             </div>
           </div>
         </div>
 
-      
         <div className="hero-right">
           <div className="hero-image-placeholder">
-           <img src={HeroImg} alt="Hero" className="hero-image"/>
+            <Image
+              src="/assets/images/free-course/hero.jpg"
+              alt="Hero"
+              width={500}
+              height={400}
+              className="hero-image"
+            />
           </div>
         </div>
-
       </div>
     </section>
   );
