@@ -15,7 +15,6 @@ const HeroCourse = () => {
   return (
     <section className="hero">
       <div className="container hero-content">
-
         <div className="hero-left">
           <h1 className="hero__title">
             Free Online <span className="hero__highlight">IT Courses</span> with
