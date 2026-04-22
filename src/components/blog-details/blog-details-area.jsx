@@ -32,7 +32,7 @@ const BlogDetailsArea = ({blog}) => {
                             </ul>
 
 {/*                             <blockquote>
-                                <p>Lorem ipsum dolor amet con sectur elitadicing elit sed do usmod tempor uincididunt enim minim veniam nostrud.</p>
+                                <p></p>
                                 <h5 className="author">Simon Baker</h5>
                             </blockquote> */}
 
