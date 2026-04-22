@@ -9,9 +9,9 @@ function CTA() {
     <section className="cta-block">
       <div className="cta-block__container">
         <div className="cta-block__content">
-          
           <h2 className="cta-block__title">
-            Start Your IT Career Today <FaRocket className="cta-block__rocket" />
+            Start Your IT Career Today{" "}
+            <FaRocket className="cta-block__rocket" />
           </h2>
 
           <p className="cta-block__subtitle">
@@ -31,7 +31,6 @@ function CTA() {
               Browse Courses
             </button>
           </div>
-
         </div>
       </div>
     </section>

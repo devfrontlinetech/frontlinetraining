@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
 import { FooterFive, HeaderFour } from "../../../layout";
 import HeroCourse from "./hero-course";
 import Courses from "./free-course-area";
@@ -11,7 +11,6 @@ import CtaArea from "./cta-area";
 import PopupForm from "../../forms-course/popup-form"; // ✅ import popup
 
 const Index = () => {
-
   const [showPopup, setShowPopup] = useState(false);
 
   // ✅ Show popup when page loads
@@ -24,7 +23,7 @@ const Index = () => {
   }, []);
 
   return (
-    <div className='sticky-header'>
+    <div className="sticky-header">
       <div id="main-wrapper" className="main-wrapper">
         <HeaderFour no_top_bar={true} />
 
@@ -47,9 +46,6 @@ const Index = () => {
 
 export default Index;
 
-
-
-
 // import React from 'react';
 // import { FooterFive, HeaderFour } from "../../../layout";
 // import HeroCourse from "./hero-course";
@@ -60,7 +56,6 @@ export default Index;
 // import Reviews from "./reviews";
 // import Faq from "./faq";
 // import CtaArea from "./cta-area";
-
 
 // const index = () => {
 //     return (

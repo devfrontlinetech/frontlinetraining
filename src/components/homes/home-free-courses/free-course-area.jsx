@@ -67,7 +67,6 @@ function Courses() {
         <div className="courses-grid">
           {courses.map((course, index) => (
             <div key={index} className="course-card">
-
               {/* Image */}
               <div className="course-image">
                 <Image
@@ -83,13 +82,21 @@ function Courses() {
                 <h3 className="course-title">{course.title}</h3>
 
                 <div className="course-info">
-                  <span><FaBookOpen /> {course.level}</span>
-                  <span><FaClock /> {course.duration}</span>
+                  <span>
+                    <FaBookOpen /> {course.level}
+                  </span>
+                  <span>
+                    <FaClock /> {course.duration}
+                  </span>
                 </div>
 
                 <div className="course-meta">
-                  <span><FaStar className="icon-star" /> {course.rating}</span>
-                  <span><FaUsers /> {course.students} Students</span>
+                  <span>
+                    <FaStar className="icon-star" /> {course.rating}
+                  </span>
+                  <span>
+                    <FaUsers /> {course.students} Students
+                  </span>
                 </div>
 
                 <div className="browse-more-wrapper">
@@ -100,7 +107,6 @@ function Courses() {
                     Browse More Courses
                   </button>
                 </div>
-
               </div>
             </div>
           ))}

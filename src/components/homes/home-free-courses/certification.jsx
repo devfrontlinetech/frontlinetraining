@@ -27,7 +27,6 @@ function Certification() {
   return (
     <section className="certification-section">
       <div className="container certification-wrapper">
-
         <div className="certificate-image">
           <Image
             src="/assets/images/free-course/certificate.png"
@@ -54,7 +53,6 @@ function Certification() {
             Start Learning
           </button>
         </div>
-
       </div>
     </section>
   );
