@@ -14,7 +14,7 @@ const HeroArea = () => {
   const [selectedTime, setSelectedTime] = useState(null);
   // Dates for April and May 2026
   const availableDates = [
-    "2026-05-10",
+  
     "2026-05-20",
     "2026-05-21",
     "2026-05-28",
@@ -31,7 +31,7 @@ const HeroArea = () => {
   ];
 
   const bookedDates = [
-    "2026-05-12",
+   
     "2026-05-18",
     "2026-05-25",
     "2026-05-26",
