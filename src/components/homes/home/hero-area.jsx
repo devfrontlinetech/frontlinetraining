@@ -15,7 +15,6 @@ const HeroArea = () => {
   // Dates for April and May 2026
   const availableDates = [
 
-    "2026-05-28",
     "2026-06-02",
     "2026-06-06",
     "2026-06-12",
@@ -29,8 +28,7 @@ const HeroArea = () => {
   ];
 
   const bookedDates = [
-    "2026-05-26",
-    "2026-05-27",
+    
     "2026-06-08",
     "2026-06-14",
     "2026-06-20",
@@ -43,7 +41,6 @@ const HeroArea = () => {
 
   const unavailableDates = [
 
-    "2026-05-29",
     "2026-06-04",
     "2026-06-16",
     "2026-06-23",
