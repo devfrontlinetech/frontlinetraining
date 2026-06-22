@@ -4,22 +4,22 @@ import { useMouseMoveUI } from '../../../contexts/mouse-move-context';
 
 const accordion_items = [
     {
-        id: 'collapseOne', 
-        show: true, 
+        id: 'collapseOne',
+        show: true,
         title: 'How can I contact a school directly?',
-        desc: 'Lorem ipsum dolor sit amet consectur adipiscing elit sed eius mod ex tempor incididunt labore dolore magna aliquaenim ad minim eniam.'
+        desc: 'You can contact a school through its official website, email support, or admission helpline. Most institutions provide dedicated contact details for quick assistance.'
     },
     {
-        id: 'collapseTwo', 
-        show: false, 
+        id: 'collapseTwo',
+        show: false,
         title: 'How do I find a school where I want to study?',
-        desc: 'Lorem ipsum dolor sit amet consectur adipiscing elit sed eius mod ex tempor incididunt labore dolore magna aliquaenim ad minim eniam.'
+        desc: 'Use online platforms to search by course, location, and budget. You can compare colleges, read reviews, and check rankings to make an informed decision.'
     },
     {
-        id: 'collapseThree', 
-        show: false, 
+        id: 'collapseThree',
+        show: false,
         title: 'Where should I study abroad?',
-        desc: 'Lorem ipsum dolor sit amet consectur adipiscing elit sed eius mod ex tempor incididunt labore dolore magna aliquaenim ad minim eniam.'
+        desc: 'Choose a country based on your career goals, budget, language preference, and job opportunities. Research visa rules, education quality, and living costs before deciding.'
     }
 ];
 

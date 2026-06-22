@@ -1,0 +1,74 @@
+.blogsec-sidebar-wrapper {
+  width: 300px;
+}
+
+.blogsec-sidebar-card {
+  background: #fff;
+  padding: 1.2rem;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.blogsec-sidebar-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.blogsec-sidebar-search,
+.blogsec-sidebar-input {
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.blogsec-sidebar-list {
+  list-style: none;
+  padding: 0;
+}
+
+.blogsec-sidebar-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem 0;
+  cursor: pointer;
+}
+
+.blogsec-sidebar-list li:hover {
+  color: #007bff;
+}
+
+.blogsec-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.blogsec-tags span {
+  background: #f1f1f1;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 1.3rem;
+}
+
+.blogsec-newsletter p {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.blogsec-subscribe-btn {
+  margin-top: 0.5rem;
+  width: 100%;
+  padding: 0.6rem;
+  border: none;
+  background: #007bff;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.blogsec-subscribe-btn:hover {
+  background: #0056b3;
+}

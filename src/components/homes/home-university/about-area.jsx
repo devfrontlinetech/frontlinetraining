@@ -14,33 +14,33 @@ const tabs = {
             target:'about-vision',title:'Our Vision'
         }
     ],
-    content:[
-        {
-            show:true,
-            id:'about-edu',
-            desc:"Magna aliquaenim minim veniam quis nostrud exercitation ullamco laborisLorem ipsum dolor sit amet consectetur adipisicing elit sed do eius tempor incididunt labore.",
-            feature_list: [
-                'Education award achived',
-                'Available online courses'
-            ]
-        },
-        {
-            id:'about-mission',
-            desc:"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.",
-            feature_list:[
-                'Industry Expert Instructor',
-                'Up-to-Date Course Content'
-            ]
-        },
-        {
-            id:'about-vision',
-            desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exer.",
-            feature_list: [
-                'Online Remote Learning',
-                'Lifetime Access For Learning'
-            ]
-        }
-    ]
+  content: [
+    {
+        show: true,
+        id: 'about-edu',
+        desc: "We provide high-quality education designed to build practical skills and real-world knowledge. Our approach focuses on helping learners grow with confidence and achieve their career goals.",
+        feature_list: [
+            'Education awards achieved',
+            'Wide range of online courses'
+        ]
+    },
+    {
+        id: 'about-mission',
+        desc: "Our mission is to deliver accessible and effective learning experiences that empower individuals to succeed in their chosen fields. We focus on clarity, quality, and continuous improvement.",
+        feature_list: [
+            'Industry expert instructors',
+            'Up-to-date course content'
+        ]
+    },
+    {
+        id: 'about-vision',
+        desc: "Our vision is to create a global learning platform where anyone can gain valuable skills anytime, anywhere. We aim to make education simple, practical, and accessible for everyone.",
+        feature_list: [
+            'Online remote learning',
+            'Lifetime access for learning'
+        ]
+    }
+]
 }
 
 const AboutArea = () => {

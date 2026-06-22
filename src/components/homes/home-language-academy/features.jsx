@@ -17,7 +17,7 @@ const features = () => {
                         </div>
                         <div className="content">
                             <h5 className="title">Low-Code/No-Code</h5>
-{/*                             <p>Lorem ipsum dolor sit amet cont adipiscing elit.</p> */}
+{/*                             <p></p> */}
                         </div>
                     </div>
                     <div className="features-box features-style-6 ">
@@ -26,7 +26,7 @@ const features = () => {
                         </div>
                         <div className="content">
                             <h5 className="title">Data Integration</h5>
-{/*                             <p>Lorem ipsum dolor sit amet cont adipiscing elit.</p> */}
+{/*                             <p></p> */}
                         </div>
                     </div>
                     <div className="features-box features-style-6  feature-wrapper">
@@ -35,7 +35,7 @@ const features = () => {
                         </div>
                         <div className="content">
                             <h5 className="title">Automation</h5>
-{/*                             <p>Lorem ipsum dolor sit amet cont adipiscing elit.</p> */}
+{/*                             <p></p> */}
                         </div>
                     </div>
                     <div className="features-box features-style-6 feature-wrapper">
@@ -44,7 +44,7 @@ const features = () => {
                         </div>
                         <div className="content">
                             <h5 className="title">Customizability</h5>
-{/*                             <p>Lorem ipsum dolor sit amet cont adipiscing elit.</p> */}
+{/*                             <p></p> */}
                         </div>
                     </div>
                 </div>

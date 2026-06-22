@@ -12,24 +12,40 @@ const EventDetailsArea = ({event}) => {
                         <img src="/assets/images/event/event-21.jpg" alt="Event" />
                     </div>
                     <div className="row row--30">
-                        <div className="col-lg-8">
+                      <div className="col-lg-8">
                             <div className="details-content">
                                 <h3>About The Event</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni dolores.</p>
-                                <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.</p>
+
+                                <p>
+                                    This event is designed for aspiring developers and tech enthusiasts who want to enhance their practical skills and stay updated with the latest industry trends. It brings together professionals, learners, and mentors to share knowledge, experiences, and real-world insights.
+                                </p>
+
+                                <p>
+                                    Participants will engage in interactive sessions, live demonstrations, and hands-on activities. The event focuses on building practical understanding, networking opportunities, and providing guidance for career growth in the tech industry.
+                                </p>
+
                                 <ul>
-                                    <li>Aute irure dolor in reprehenderit</li>
-                                    <li>Occaecat cupidatat non proident sunt in culpa</li>
-                                    <li>Pariatur enim ipsam.</li>
+                                    <li>Live sessions with industry experts and developers</li>
+                                    <li>Hands-on workshops and real-time coding demonstrations</li>
+                                    <li>Networking opportunities with like-minded learners</li>
                                 </ul>
+
                                 <h3>Event Location</h3>
-                                <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam. </p>
+
+                                <p>
+                                    The event will be hosted in a well-equipped venue with modern facilities, ensuring a comfortable and engaging learning environment. Easily accessible by public and private transport, the location is ideal for attendees from across the city.
+                                </p>
+
                                 <ul className="event-meta">
-                                    <li><i className="icon-40"></i>Newyork City, USA</li>
-                                    <li><i className="icon-71"></i>+012 (345) 6789</li>
+                                    <li><i className="icon-40"></i>Chennai, Tamil Nadu, India</li>
+                                    <li><i className="icon-71"></i>+91 98765 43210</li>
                                 </ul>
+
                                 <div className="gmap_canvas">
-                                    <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=melbourne,%20Australia&t=&z=15&ie=UTF8&iwloc=&output=embed" ></iframe>
+                                    <iframe
+                                        id="gmap_canvas"
+                                        src="https://maps.google.com/maps?q=chennai,%20india&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                                    ></iframe>
                                 </div>
                             </div>
                         </div>

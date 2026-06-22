@@ -74,24 +74,30 @@ const CourseDetailsThree = () => {
                                     <div className="tab-content" id="myTabContent">
                                         <div className="tab-pane fade show active" id="overview" role="tabpanel" aria-labelledby="overview-tab">
                                             <div className="course-tab-content">
-                                                <div className="course-overview">
+                                               <div className="course-overview">
                                                     <h3 className="heading-title">Course Description</h3>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam.</p>
 
-                                                    <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.</p>
+                                                    <p>
+                                                        This course is designed to give you a complete understanding of modern web development practices, focusing on building real-world applications using practical approaches. You will learn how to structure projects, write clean and maintainable code, and create responsive user interfaces that work seamlessly across devices.
+                                                    </p>
+
+                                                    <p>
+                                                        Throughout the course, you will work on hands-on examples and mini-projects that help reinforce your learning. By the end, you will have the confidence to build and deploy your own projects, along with a solid foundation to grow further in frontend or full-stack development.
+                                                    </p>
 
                                                     <ul className="mb--50">
-                                                        <li>No prior knowledge of Wordpress is required as everything will be covered in this course.</li>
-                                                        <li>Basic HTML and CSS knowledge helps, but {"isn't"} a must-have</li>
-                                                        <li>You {"don't"} need any coding experience at all. That is the beauty of Wordpress.</li>
-                                                        <li>Basic JavaScript knowledge is required</li>
+                                                        <li>No prior experience is required; everything is explained from the basics.</li>
+                                                        <li>Basic understanding of HTML and CSS is helpful but not mandatory.</li>
+                                                        <li>You will learn by building real projects, not just theory.</li>
+                                                        <li>Step-by-step guidance to help you understand concepts clearly.</li>
                                                     </ul>
 
                                                     <h5 className="title">Key Features</h5>
                                                     <ul>
-                                                        <li>No prior knowledge of Wordpress is required as everything will be covered in this course.</li>
-                                                        <li>Basic HTML and CSS knowledge helps, but {"isn't"} a must-have</li>
-                                                        <li>Basic JavaScript knowledge is required</li>
+                                                        <li>Beginner-friendly explanations with practical examples.</li>
+                                                        <li>Real-world projects to strengthen your portfolio.</li>
+                                                        <li>Responsive design techniques for all devices.</li>
+                                                        <li>Clean coding practices and reusable component structure.</li>
                                                     </ul>
                                                 </div>
                                             </div>

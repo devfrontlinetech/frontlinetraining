@@ -3,23 +3,23 @@ import React from 'react';
 const contents = [
     {
         title: 'Nutrition Strategies',
-        desc: 'Lorem ipsum dolor consec tur elit adicing sed umod tempor enim minim veniam quis.',
+        desc: 'Learn practical and sustainable nutrition plans tailored to your lifestyle, helping you achieve long-term health and fitness goals.',
         imgSrc: '/assets/images/svg-icons/h-8-shape-34.svg',
         color: 'color-primary-style'
     },
     {
         title: 'Workout Routines',
-        desc: 'Lorem ipsum dolor consec tur elit adicing sed umod tempor enim minim veniam quis.',
+        desc: 'Follow structured workout routines designed to improve strength, endurance, and overall physical performance at your own pace.',
         imgSrc: '/assets/images/svg-icons/h-8-shape-35.svg',
         color: 'color-secondary-style'
     },
     {
         title: 'Individual Support',
-        desc: 'Lorem ipsum dolor consec tur elit adicing sed umod tempor enim minim veniam quis.',
+        desc: 'Get personalized guidance and continuous support to stay motivated, track progress, and achieve consistent results.',
         imgSrc: '/assets/images/svg-icons/h-8-shape-36.svg',
         color: 'color-extra06-style'
     }
-]
+];
 
 const Service = () => {
     return (

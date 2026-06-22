@@ -48,7 +48,8 @@ const categories = [
     { title: 'Python with Data Science', link: '/python-data' },
     { title: 'Data Analysis Training', link: '/data-analysis' },
     { title: 'AI/ML Training', link: '/ai-ml' },
-    { title: 'Ethical Hacking', link: '/ethical-hacking' }
+    { title: 'Ethical Hacking', link: '/ethical-hacking' },
+    { title: 'Free Courses', link: '/free-courses'}
 ];
 
 const Header = ({ header_style, no_top_bar, disable_full_width, disable_category }) => {

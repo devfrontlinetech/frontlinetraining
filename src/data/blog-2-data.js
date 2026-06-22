@@ -1,0 +1,78 @@
+// src/data/blog-2-data.js
+
+const blogs = [
+  {
+    id: 1,
+    title: "Learn React Basics for Free",
+    desc: "Start your React journey with this beginner-friendly course covering components, props, state, and hooks.",
+    category: "React",
+    image: "/assets/images/blog-course/blog-course-01.jpg",
+    date: "March 10, 2026",
+    location: "Online",
+  },
+  {
+    id: 2,
+    title: "Master JavaScript in 30 Days",
+    desc: "A complete roadmap to become a JavaScript pro with real-world projects.",
+    category: "JavaScript",
+    image: "/assets/images/blog-course/blog-course-02.jpg",
+    date: "March 15, 2026",
+    location: "Online",
+  },
+  {
+    id: 3,
+    title: "CSS Flexbox & Grid Guide",
+    desc: "Build modern, responsive layouts using Flexbox and Grid.",
+    category: "CSS",
+    image: "/assets/images/blog-course/blog-course-03.jpg",
+    date: "March 18, 2026",
+    location: "Online",
+  },
+  {
+    id: 4,
+    title: "Node.js Crash Course",
+    desc: "Learn backend development with Node.js and Express.",
+    category: "Backend",
+    image: "/assets/images/blog-course/blog-course-04.jpg",
+    date: "March 20, 2026",
+    location: "Online",
+  },
+  {
+    id: 5,
+    title: "Full Stack Web Development",
+    desc: "Master frontend, backend, and databases.",
+    category: "Full Stack",
+    image: "/assets/images/blog-course/blog-course-05.jpg",
+    date: "March 25, 2026",
+    location: "Online",
+  },
+  {
+    id: 6,
+    title: "Git & GitHub for Beginners",
+    desc: "Learn version control and collaboration.",
+    category: "Tools",
+    image: "/assets/images/blog-course/blog-course-06.jpg",
+    date: "March 28, 2026",
+    location: "Online",
+  },
+  {
+    id: 7,
+    title: "Responsive Web Design",
+    desc: "Create mobile-friendly websites.",
+    category: "Design",
+    image: "/assets/images/blog-course/blog-course-07.jpg",
+    date: "April 1, 2026",
+    location: "Online",
+  },
+  {
+    id: 8,
+    title: "API Development with Express",
+    desc: "Build REST APIs with authentication.",
+    category: "Backend",
+    image: "/assets/images/blog-course/blog-course-08.jpg",
+    date: "April 3, 2026",
+    location: "Online",
+  },
+];
+
+export default blogs;

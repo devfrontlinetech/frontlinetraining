@@ -1,0 +1,93 @@
+/* ===== HEADER ===== */
+.header-container {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  background: #c3ddff;
+}
+
+/* IMPORTANT FIX */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* DO NOT USE overflow:hidden on parent */
+
+/* ===== CONTAINER ===== */
+.header-box {
+  width: 100%;
+  max-width: 1400px;
+  margin: auto;
+  padding: 15px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ===== LOGO ===== */
+.logo-img {
+  width: 140px;
+}
+
+/* ===== NAV ===== */
+.nav-menu ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+.nav-menu ul li a {
+  text-decoration: none;
+  color: #2e2e2e;
+}
+
+.active-link {
+  border-bottom: 2px solid #2563eb;
+}
+
+/* ===== CTA ===== */
+.start-btn {
+  padding: 10px 16px;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* ===== MOBILE ===== */
+.menu-toggle {
+  display: none;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .header-cta {
+    display: none;
+  }
+
+  .nav-menu {
+    position: absolute;
+    top: 65px;
+    right: 0;
+    width: 60%;
+    background: #fff;
+    display: none;
+  }
+
+  .nav-menu.active {
+    display: block;
+  }
+
+  .nav-menu ul {
+    flex-direction: column;
+    padding: 20px;
+  }
+}

@@ -6,20 +6,26 @@ const contents = {
     pre_title: 'FAq’s',
     title: 'Frequently Asked Questions.',
     faq_img: "/assets/images/faq/faq-07.jpg",
-    accordion_items: [
-        {
-            id: 'collapseOne', show: true, title: 'How can I contact a school directly?',
-            desc: 'Lorem ipsum dolor sit amet consectur adipiscing elit sed eius mod ex tempor incididunt labore dolore magna aliquaenim ad minim eniam.'
-        },
-        {
-            id: 'collapseTwo', show: false, title: 'How do I find a school where I want to study?',
-            desc: 'Lorem ipsum dolor sit amet consectur adipiscing elit sed eius mod ex tempor incididunt labore dolore magna aliquaenim ad minim eniam.'
-        },
-        {
-            id: 'collapseThree', show: false, title: 'Where should I study abroad?',
-            desc: 'Lorem ipsum dolor sit amet consectur adipiscing elit sed eius mod ex tempor incididunt labore dolore magna aliquaenim ad minim eniam.'
-        }
-    ]
+ accordion_items: [
+    {
+        id: 'collapseOne',
+        show: true,
+        title: 'How can I contact a school directly?',
+        desc: 'You can contact a school through its official website, email, or admission helpline. Most institutions provide direct contact details for inquiries and support.'
+    },
+    {
+        id: 'collapseTwo',
+        show: false,
+        title: 'How do I find a school where I want to study?',
+        desc: 'You can search online using course filters, location preferences, and rankings. Compare programs, fees, and reviews to choose the best option for your goals.'
+    },
+    {
+        id: 'collapseThree',
+        show: false,
+        title: 'Where should I study abroad?',
+        desc: 'The right destination depends on your budget, career goals, preferred course, and language. Popular choices include countries with strong education systems and job opportunities.'
+    }
+]
 }
 
 const { pre_title, title, accordion_items, faq_img } = contents;

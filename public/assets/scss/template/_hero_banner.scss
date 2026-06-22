@@ -33,8 +33,12 @@
             margin-bottom: 20px;
             display: block;
         }
+        .color-secondary {
+            font-size: 48px;
+        }
         .title {
             margin-bottom: 18px;
+            font-size: 48px;
             @media #{$smlg-device} {
                 br {
                     display: none;

@@ -7,31 +7,32 @@ import { useMouseMoveUI } from '../../../contexts/mouse-move-context';
 const testimonial_contents = {
     pre_title: 'Testimonials',
     title: 'What Our Students Have To Say',
-    sm_text: 'Lorem ipsum dolor sit amet consectur adipiscing elit sed eiusmod tempor incididunt labore dolore magna aliquaenim ad minim.',
+    sm_text: 'Hear from our learners about their experiences, growth, and success after joining our courses and programs.',
+    
     testimonials: [
         {
             img: '/assets/images/testimonial/testimonial-01.png',
-            desc: 'Lorem ipsum dolor amet consec tur elit adicing sed do usmod zx tempor enim minim veniam quis nostrud exer citation.',
+            desc: 'This platform helped me build a strong foundation in development. The lessons are easy to follow, and the practical approach made learning enjoyable.',
             ratings: [1, 2, 3, 4, 5],
             name: 'Krish',
             title: 'Student'
         },
         {
             img: '/assets/images/testimonial/testimonial-02.png',
-            desc: 'I want to remind you that as designers. Let’s design with intention, inspire others, and make the internet a more beautiful. Embrace your journey : the best is yet to come..',
+            desc: 'As a designer, I learned how to create more meaningful and user-focused designs. The guidance and examples really improved my skills.',
             ratings: [1, 2, 3, 4, 5],
             name: 'Rajesh',
             title: 'Designer'
         },
         {
             img: '/assets/images/testimonial/testimonial-03.png',
-            desc: 'Lorem ipsum dolor amet consec tur elit adicing sed do usmod zx tempor enim minim veniam quis nostrud exer citation.',
+            desc: 'The course structure is well-organized and easy to understand. It helped me improve my coding skills and gain confidence in building real projects.',
             ratings: [1, 2, 3, 4, 5],
             name: 'Sara',
             title: 'Developer'
         }
     ]
-}
+};
 
 const { pre_title, sm_text, testimonials, title } = testimonial_contents;
 

@@ -7,49 +7,67 @@ const PolicyArea = () => {
             <div className="container">
                 <div className="row row--30">
                     <div className="col-lg-8">
-                        <div className="privacy-policy">
+                     <div className="privacy-policy">
+
                             <div className="text-block">
                                 <h3 className="title">Definitions of Privacy Policy</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis aliquip commodo consequat aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat.</p>
+                                <p>
+                                    This Privacy Policy explains how we collect, use, and protect your personal information when you use our website and services. By accessing our platform, you agree to the terms outlined in this policy.
+                                </p>
                             </div>
 
                             <div className="text-block">
-                                <h4 className="title">General information</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip commodo consequat.</p>
-                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat.</p>
+                                <h4 className="title">General Information</h4>
+                                <p>
+                                    We collect basic information such as your name, email address, and usage data to improve our services and provide a better user experience.
+                                </p>
+                                <p>
+                                    Your information is used strictly for communication, service improvement, and platform functionality. We do not misuse or sell your personal data.
+                                </p>
                             </div>
 
                             <div className="text-block">
                                 <h4 className="title">Availability of Website</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p>
+                                    We strive to ensure that our website is available at all times. However, we may occasionally experience downtime due to maintenance or technical issues.
+                                </p>
                                 <ul>
-                                    <li>Internet protocol (IP) addresses</li>
-                                    <li>Browser type, Internet Service Provider (ISP)</li>
-                                    <li>Date and time stamp, referring/exit pages</li>
-                                    <li>Possibly the number of click</li>
+                                    <li>IP address and device-related information</li>
+                                    <li>Browser type and internet service provider</li>
+                                    <li>Date, time, and pages visited</li>
+                                    <li>User interaction and navigation behavior</li>
                                 </ul>
                             </div>
 
                             <div className="text-block">
                                 <h4 className="title">Privacy Policies</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip commodo consequat. </p>
-                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat.</p>
+                                <p>
+                                    We are committed to protecting your privacy and ensuring that your personal data is handled securely. Appropriate security measures are in place to safeguard your information.
+                                </p>
+                                <p>
+                                    Your data will only be used for legitimate purposes related to our services and will not be shared without your consent, except where required by law.
+                                </p>
                             </div>
 
                             <div className="text-block">
                                 <h4 className="title">Third Party Policies</h4>
-                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat.</p>
+                                <p>
+                                    Our website may include links or integrations with third-party services. These platforms have their own privacy policies, and we are not responsible for their practices.
+                                </p>
                                 <ul>
-                                    <li>The Company name, the Company logo, and all related names, logos, product and service names, designs</li>
-                                    <li>No right, title or interest in or to the online course or any portion thereof, is transferred to any Member, and all rights not expressly granted herein, are reserved by the Company.</li>
-                                    <li>The online course is owned by the Company and is protected by American and international copyright, trademark, patent, trade secret and other intellectual property or proprietary rights laws.</li>
+                                    <li>All brand names, logos, and content belong to their respective owners</li>
+                                    <li>Users do not gain ownership rights over any platform content</li>
+                                    <li>Content is protected under applicable copyright and intellectual property laws</li>
                                 </ul>
                             </div>
 
                             <div className="text-block">
                                 <h4 className="title">Online Privacy</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip commodo consequat. </p>
+                                <p>
+                                    This policy applies only to online activities and is valid for users visiting our website. It does not apply to information collected offline or through other channels.
+                                </p>
                             </div>
+
                         </div>
                     </div>
 

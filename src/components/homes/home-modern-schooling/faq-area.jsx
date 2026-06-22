@@ -4,25 +4,24 @@ import { useMouseMoveUI } from '../../../contexts/mouse-move-context';
 
 const accordion_items = [
     {
-        id: 'collapseOne', 
-        show: true, 
+        id: 'collapseOne',
+        show: true,
         title: 'How can I contact a school directly?',
-        desc: 'Lorem ipsum dolor sit amet consectur adipiscing elit sed eius mod ex tempor incididunt labore dolore magna aliquaenim ad minim eniam.'
+        desc: 'You can contact a school through its official website, email address, or admission helpline. Most schools provide dedicated support channels for quick responses.'
     },
     {
-        id: 'collapseTwo', 
-        show: false, 
+        id: 'collapseTwo',
+        show: false,
         title: 'How do I find a school where I want to study?',
-        desc: 'Lorem ipsum dolor sit amet consectur adipiscing elit sed eius mod ex tempor incididunt labore dolore magna aliquaenim ad minim eniam.'
+        desc: 'Search online platforms using filters like location, course, and budget. Compare institutions based on rankings, reviews, and facilities before making a decision.'
     },
     {
-        id: 'collapseThree', 
-        show: false, 
+        id: 'collapseThree',
+        show: false,
         title: 'Where should I study abroad?',
-        desc: 'Lorem ipsum dolor sit amet consectur adipiscing elit sed eius mod ex tempor incididunt labore dolore magna aliquaenim ad minim eniam.'
+        desc: 'Choose a destination based on your career goals, budget, preferred course, and lifestyle. Consider factors like education quality, job opportunities, and visa policies.'
     }
 ];
-
 
 const FaqArea = () => {
     const { mouseDirection, mouseReverse } = useMouseMoveUI();
