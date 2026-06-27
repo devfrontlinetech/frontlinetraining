@@ -66,7 +66,7 @@ const HeroArea = () => {
       window.open(whatsappURL, "_blank");
     }
   };
-
+   
   const tileClassName = ({ date }) => {
     const formattedDate = format(date, "dd-MM-yyyy");
     if (bookedDates.includes(formattedDate)) return "booked-date";
