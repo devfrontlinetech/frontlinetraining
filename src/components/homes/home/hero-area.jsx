@@ -14,15 +14,11 @@ const HeroArea = () => {
   const [selectedTime, setSelectedTime] = useState(null);
   // Dates for April and May 2026
   const availableDates = [
-    "2026-05-10",
-    "2026-05-20",
-    "2026-05-21",
-    "2026-05-28",
-    "2026-06-02",
-    "2026-06-06",
-    "2026-06-12",
-    "2026-06-18",
-    "2026-06-25",
+    "2026-07-02",
+    "2026-07-06",
+    "2026-07-12",
+    "2026-07-18",
+    "2026-07-25",
     "2026-07-03",
     "2026-07-09",
     "2026-07-15",
@@ -121,7 +117,7 @@ const HeroArea = () => {
                   </p>
                   <div
                     className="banner-btn"
-                    data-sal-delay="400"  
+                    data-sal-delay="400"
                     data-sal="slide-up"
                     data-sal-duration="1000"
                   >
