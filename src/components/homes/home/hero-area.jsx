@@ -47,8 +47,6 @@ const HeroArea = () => {
   ];
 
   const unavailableDates = [
-    
-  
     "2026-05-22",
     "2026-05-29",
     "2026-06-04",
@@ -123,7 +121,7 @@ const HeroArea = () => {
                   </p>
                   <div
                     className="banner-btn"
-                    data-sal-delay="400"
+                    data-sal-delay="400"  
                     data-sal="slide-up"
                     data-sal-duration="1000"
                   >
