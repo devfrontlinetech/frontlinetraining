@@ -210,7 +210,7 @@ const HeroArea = () => {
                             </div>
                           ))
                         ) : (
-                          <p className="no-slots">No time  slots available</p>
+                          <p className="no-slots">No time slots available</p>
                         )}
                         {selectedTime && (
                           <button className="book-btn" onClick={handleBooking}>
