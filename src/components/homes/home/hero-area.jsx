@@ -80,6 +80,10 @@ const HeroArea = () => {
           time: "02:00 PM - 05:00 PM",
           available: true,
         },
+        {
+          time: "07:00 PM - 08:00 PM",
+          available: true,
+        },
       ]);
 
       setShowBookingModal(true);
