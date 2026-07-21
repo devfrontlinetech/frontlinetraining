@@ -41,6 +41,8 @@ const HeroArea = () => {
     // July 2026 - 2 Booked Dates
     "2026-07-05",
     "2026-07-19",
+    "2026-07-30",
+    "2026-07-31", 
 
     // August 2026 - 3 Booked Dates
     "2026-08-02",
