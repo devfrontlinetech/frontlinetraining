@@ -382,7 +382,7 @@ Please confirm my appointment.
               {selectedTime ? (
                 <>
                   <FaCheck /> Confirm Booking
-                </>
+                </> 
               ) : (
                 "Select a Time Slot"
               )}
