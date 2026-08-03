@@ -44,7 +44,7 @@ const HeroArea = () => {
     "2026-08-31",
 
     // August 2026 - 3 Booked Dates
-    "2026-08-02",
+
     "2026-08-16",
     "2026-08-30",
   ];
@@ -381,7 +381,7 @@ Please confirm my appointment.
               {selectedTime ? (
                 <>
                   <FaCheck /> Confirm Booking
-                </> 
+                </>
               ) : (
                 "Select a Time Slot"
               )}
