@@ -126,7 +126,7 @@ const HeroArea = () => {
 
 Hello, I would like to book a free consultation.
 
-Date: ${selectedDate}
+Date: ${selectedDate} 
 Time: ${selectedTime}
 
 Please confirm my appointment.
