@@ -193,7 +193,7 @@ Please confirm my appointment.
                     data-sal-delay="200"
                     data-sal="slide-up"
                     data-sal-duration="1000"
-                  > 
+                  >
                     State of the Art IT training center in karur. We impart it
                     and software development courses with industry exposure and
                     job assistance
