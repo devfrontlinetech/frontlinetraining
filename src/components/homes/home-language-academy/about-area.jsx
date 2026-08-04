@@ -24,7 +24,7 @@ const AboutArea = () => {
     return (
         <div className="edu-about-area about-style-3 language-about">
             <div className="container">
-                <div className="row g-5 align-items-center">
+                <div className="row g-5 align-items-center"> 
                     <div className="col-lg-6">
                         <div className="about-image-gallery">
                             <img className="main-img-1" data-sal-delay="100" data-sal="fade-in" data-sal-duration="800" src="/assets/images/about/pp-img.jpg" alt="About Image" />
