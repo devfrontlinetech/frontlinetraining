@@ -71,7 +71,7 @@ const PricingArea = () => {
             </div>
             </div>
         </div>
-    )
+    ) 
 }
 
 export default PricingArea;
