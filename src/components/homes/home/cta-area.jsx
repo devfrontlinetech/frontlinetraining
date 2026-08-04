@@ -31,7 +31,7 @@ const CtaArea = () => {
                                 <motion.li className="shape-01 scene"
                                     animate={ {
                                         x: mouseReverse(50).x,
-                                        y: mouseReverse(50).y
+                                        y: mouseReverse(50).y 
                                     } }
                                 >
                                     <img src="/assets/images/cta/shape-06.png" alt="shape" />
