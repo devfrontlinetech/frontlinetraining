@@ -20,7 +20,7 @@ const HeroArea = () => {
 
   const availableDates = [
     // July 2026 - 5 Available Dates
-   
+
     "2026-08-09",
     "2026-08-15",
     "2026-08-22",
@@ -29,7 +29,7 @@ const HeroArea = () => {
     "2026-08-29",
 
     // August 2026 - 5 Available Dates
-  
+
     "2026-08-11",
     "2026-08-18",
     "2026-08-25",
@@ -38,7 +38,7 @@ const HeroArea = () => {
 
   const bookedDates = [
     // July 2026 - 2 Booked Dates
-  
+
     "2026-08-19",
     "2026-08-30",
     "2026-08-31",
@@ -51,13 +51,13 @@ const HeroArea = () => {
 
   const unavailableDates = [
     // Sundays - July 2026
-    "2026-08-05",
+
     "2026-08-12",
     "2026-08-19",
     "2026-08-26",
 
     // Sundays - August 2026
-    
+
     "2026-08-09",
     "2026-08-16",
     "2026-08-23",
