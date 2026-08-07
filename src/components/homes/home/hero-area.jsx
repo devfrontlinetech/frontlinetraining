@@ -174,10 +174,10 @@ Please confirm my appointment.
         {" "}
         <div className="row">
           {" "}
-          <div className="col-lg-2" offset="2"></div>
+          <div className="col-lg-2" offset="2"></div> 
           <div className="col-lg-8">
-            <div className="row align-items-center">
-              <div className="col-lg-6 col-md-12">
+            <div className="row align-items-center"> 
+              <div className="col-lg-6 col-md-12">   
                 <div className="banner-content">
                   <h1
                     className="title"
