@@ -261,7 +261,7 @@ Please confirm my appointment.
                           <i></i>
                           Available
                         </span>
-
+ 
                         <span className="legend booked">
                           <i></i>
                           Booked
