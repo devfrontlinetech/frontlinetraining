@@ -102,7 +102,7 @@ const HeroArea = () => {
         "This date is unavailable. Sundays and other unavailable dates cannot be booked.",
       );
 
-      setShowWarningModal(true);
+      setShowWarningModal(true);  
       setShowBookingModal(false);
     } else {
       setWarningMessage(
@@ -135,7 +135,7 @@ Please confirm my appointment.
     )}`;
 
     window.open(whatsappURL, "_blank", "noopener,noreferrer");
-
+ 
     setShowBookingModal(false);
   };
 
