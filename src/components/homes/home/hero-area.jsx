@@ -21,7 +21,6 @@ const HeroArea = () => {
   const availableDates = [
     // July 2026 - 5 Available Dates
 
-    "2026-08-09",
     "2026-08-15",
     "2026-08-22",
     "2026-08-23",
@@ -58,7 +57,6 @@ const HeroArea = () => {
 
     // Sundays - August 2026
 
-    "2026-08-09",
     "2026-08-16",
     "2026-08-23",
     "2026-08-30",
@@ -174,10 +172,10 @@ Please confirm my appointment.
         {" "}
         <div className="row">
           {" "}
-          <div className="col-lg-2" offset="2"></div> 
+          <div className="col-lg-2" offset="2"></div>
           <div className="col-lg-8">
-            <div className="row align-items-center"> 
-              <div className="col-lg-6 col-md-12">   
+            <div className="row align-items-center">
+              <div className="col-lg-6 col-md-12">
                 <div className="banner-content">
                   <h1
                     className="title"
@@ -261,7 +259,7 @@ Please confirm my appointment.
                           <i></i>
                           Available
                         </span>
- 
+
                         <span className="legend booked">
                           <i></i>
                           Booked
