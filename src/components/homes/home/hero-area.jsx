@@ -325,7 +325,7 @@ Please confirm my appointment.
 
             <div className="modal-icon">
               <FaClock />
-            </div>
+            </div>  
 
             <h3>Select Your Time</h3>
 
