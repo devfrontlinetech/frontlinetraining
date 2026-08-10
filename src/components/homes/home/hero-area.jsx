@@ -19,16 +19,11 @@ const HeroArea = () => {
   const [warningMessage, setWarningMessage] = useState("");
 
   const availableDates = [
-    // July 2026 - 5 Available Dates
-
     "2026-08-15",
     "2026-08-22",
     "2026-08-23",
     "2026-08-24",
     "2026-08-29",
-
-    // August 2026 - 5 Available Dates
-
     "2026-08-11",
     "2026-08-18",
     "2026-08-25",
@@ -36,27 +31,17 @@ const HeroArea = () => {
   ];
 
   const bookedDates = [
-    // July 2026 - 2 Booked Dates
-
     "2026-08-19",
     "2026-08-30",
     "2026-08-31",
-
-    // August 2026 - 3 Booked Dates
-
     "2026-08-16",
     "2026-08-30",
   ];
 
   const unavailableDates = [
-    // Sundays - July 2026
-
     "2026-08-12",
     "2026-08-19",
     "2026-08-26",
-
-    // Sundays - August 2026
-
     "2026-08-16",
     "2026-08-23",
     "2026-08-30",
@@ -102,7 +87,7 @@ const HeroArea = () => {
         "This date is unavailable. Sundays and other unavailable dates cannot be booked.",
       );
 
-      setShowWarningModal(true);  
+      setShowWarningModal(true);
       setShowBookingModal(false);
     } else {
       setWarningMessage(
@@ -135,7 +120,7 @@ Please confirm my appointment.
     )}`;
 
     window.open(whatsappURL, "_blank", "noopener,noreferrer");
- 
+
     setShowBookingModal(false);
   };
 
