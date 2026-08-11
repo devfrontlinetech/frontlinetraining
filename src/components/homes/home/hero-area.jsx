@@ -19,7 +19,6 @@ const HeroArea = () => {
   const [warningMessage, setWarningMessage] = useState("");
 
   const availableDates = [
-   
     "2026-08-11",
     "2026-08-15",
     "2026-08-22",
@@ -327,7 +326,7 @@ Please confirm my appointment.
 
             <div className="modal-icon">
               <FaClock />
-            </div>  
+            </div>
 
             <h3>Select Your Time</h3>
 
