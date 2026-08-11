@@ -65,7 +65,7 @@ const Courses = () => {
                 <h3>{course.title}</h3>
 
                 <div className="course-info">
-                  <span>
+                  <span> 
                     <FaBookOpen /> {course.level}
                   </span>
                   <span>
