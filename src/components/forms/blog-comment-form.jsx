@@ -17,7 +17,7 @@ const BlogCommentForm = () => {
 
     return (
         <form className="comment-form" onSubmit={handleSubmit}>
-            <div className="row g-5">
+            <div className="row g-5"> 
                 <div className="form-group col-lg-6">
                     <input value={values.name} onChange={handleChange} onBlur={handleBlur} type="text" name="name" id="contact-name" placeholder="Your Name" />
                     {touched.name && <ErrorMsg error={errors.name} />}
