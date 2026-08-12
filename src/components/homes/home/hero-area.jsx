@@ -108,12 +108,12 @@ const HeroArea = () => {
     const whatsappMessage = `
 
 
-Hello, I would like to book a free consultation.
+    Hi Frontline Training team, I would like to book a free consultation.
 
-Date: ${selectedDate} 
-Time: ${selectedTime}
+    Date: ${selectedDate} 
+    Time: ${selectedTime}
 
-Please confirm my appointment.
+    Please confirm my appointment at your earliest convenience. Thank you!
 `.trim();
 
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
@@ -142,7 +142,7 @@ Please confirm my appointment.
 
     if (availableDates.includes(formattedDate)) {
       return "available-date";
-    } 
+    }
 
     if (unavailableDates.includes(formattedDate)) {
       return "unavailable-date";
