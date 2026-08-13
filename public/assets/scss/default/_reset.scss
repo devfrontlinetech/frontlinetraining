@@ -38,7 +38,7 @@ audio:not([controls]) {
 a {
     display: inline-block;
     color: var(--color-heading);
-    text-decoration: none;
+    text-decoration: none !important;
     outline: none;
 }
 
