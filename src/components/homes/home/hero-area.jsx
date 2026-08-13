@@ -388,7 +388,7 @@ const HeroArea = () => {
             onClick={(event) => event.stopPropagation()}
           >
             <button
-              type="button"
+              type="button"  
               className="modal-close"
               onClick={closeWarningModal}
               aria-label="Close warning popup"
