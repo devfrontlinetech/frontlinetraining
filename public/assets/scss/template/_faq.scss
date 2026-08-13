@@ -320,10 +320,11 @@
 	.faq-thumbnail {
 		position: relative;
 		.thumbnail {
-		 	mask-image: url(../../images/others/mask-09.png);
-            -webkit-mask-repeat: no-repeat;
-            -webkit-mask-size: contain;
-            -webkit-mask-position: center;
+		 	mask-image: url(../../images/others/mask-09.png);		  	mask-repeat: no-repeat;            -webkit-mask-repeat: no-repeat;
+			-webkit-mask-size: contain;
+			mask-size: contain;
+			-webkit-mask-position: center;
+			mask-position: center;
             text-align: center;
 		}
 		.shape-group {
