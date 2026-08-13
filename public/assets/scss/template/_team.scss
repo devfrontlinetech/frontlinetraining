@@ -274,8 +274,11 @@
 .team-area-4 {
     position: relative;
     mask-image: url(../../images/others/mask-04.png);
+    mask-repeat: no-repeat;
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-size: cover;
+    mask-size: cover;
+    mask-position: center;
     -webkit-mask-position: center;
     background-color: var(--color-lighten01);
     padding: 120px 0 390px;
