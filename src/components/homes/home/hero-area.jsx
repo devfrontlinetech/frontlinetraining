@@ -19,35 +19,37 @@ const HeroArea = () => {
   const [warningMessage, setWarningMessage] = useState("");
 
   const availableDates = [
-    "2026-08-11",
-    "2026-08-15",
     "2026-08-22",
     "2026-08-23",
     "2026-08-24",
-    "2026-08-29",
-    "2026-08-11",
-    "2026-08-18",
     "2026-08-25",
     "2026-08-28",
+    "2026-08-29",
+    // September 2026 dates added below
+    "2026-09-02",
+    "2026-09-03",
+    "2026-09-05",
+    "2026-09-10",
   ];
 
   const bookedDates = [
-    "2026-08-19",
     "2026-08-30",
     "2026-08-31",
-    "2026-08-16",
-    "2026-08-30",
+    // September 2026 dates added below
+    "2026-09-01",
+    "2026-09-04",
+    "2026-09-07",
   ];
 
   const unavailableDates = [
-    "2026-08-12",
-    "2026-08-19",
-    "2026-08-26",
-    "2026-08-16",
     "2026-08-23",
+    "2026-08-26",
     "2026-08-30",
+    // September 2026 dates added below
+    "2026-09-06",
+    "2026-09-08",
+    "2026-09-09",
   ];
-
   const handleDateChange = (date) => {
     const formattedDate = format(date, "yyyy-MM-dd");
 
