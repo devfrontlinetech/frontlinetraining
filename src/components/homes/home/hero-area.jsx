@@ -19,7 +19,6 @@ const HeroArea = () => {
   const [warningMessage, setWarningMessage] = useState("");
 
   const availableDates = [
-   
     "2026-08-23",
     "2026-08-24",
     "2026-08-25",
@@ -169,7 +168,7 @@ const HeroArea = () => {
                     className="title"
                     data-sal-delay="100"
                     data-sal="slide-up"
-                    data-sal-duration="1000" 
+                    data-sal-duration="1000"
                   >
                     <span className="color-secondary">IT</span> Training in
                     karur
@@ -183,7 +182,7 @@ const HeroArea = () => {
                     State of the Art IT training center in karur. We impart it
                     and software development courses with industry exposure and
                     job assistance
-                  </p> 
+                  </p>
 
                   <div
                     className="banner-btn"
