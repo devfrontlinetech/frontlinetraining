@@ -19,7 +19,6 @@ const HeroArea = () => {
   const [warningMessage, setWarningMessage] = useState("");
 
   const availableDates = [
-
     "2026-08-24",
     "2026-08-25",
     "2026-08-28",
@@ -41,7 +40,6 @@ const HeroArea = () => {
   ];
 
   const unavailableDates = [
-    
     "2026-08-26",
     "2026-08-30",
     // September 2026 dates added below
@@ -127,7 +125,7 @@ const HeroArea = () => {
   };
 
   const closeBookingModal = () => {
-    setShowBookingModal(false); 
+    setShowBookingModal(false);
     setSelectedTime(null);
   };
   const closeWarningModal = () => {
@@ -137,7 +135,7 @@ const HeroArea = () => {
   const tileClassName = ({ date }) => {
     const formattedDate = format(date, "yyyy-MM-dd");
 
-    if (bookedDates.includes(formattedDate)) {   
+    if (bookedDates.includes(formattedDate)) {
       return "booked-date";
     }
 
