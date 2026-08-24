@@ -127,7 +127,7 @@ const HeroArea = () => {
   };
 
   const closeBookingModal = () => {
-    setShowBookingModal(false);
+    setShowBookingModal(false); 
     setSelectedTime(null);
   };
   const closeWarningModal = () => {

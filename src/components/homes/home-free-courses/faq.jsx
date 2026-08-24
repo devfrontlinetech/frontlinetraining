@@ -3,7 +3,7 @@ import { FaChevronDown } from "react-icons/fa";
 
 function FAQ() {
   const [openIndex, setOpenIndex] = useState(null);
-
+   
   const faqs = [
     {
       question: "Are the courses really free?",
