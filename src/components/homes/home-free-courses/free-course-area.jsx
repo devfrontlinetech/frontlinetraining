@@ -15,7 +15,7 @@ function Courses() {
       level: "Beginner to Advanced",
       students: "450",
       rating: "4.8",
-      image: "/assets/images/free-course/courses/course1.jpg",
+      image: "/assets/images/free-course/courses/course1.jpg",  
     },
     {
       title: "Python Programming Masterclass",
@@ -74,7 +74,7 @@ function Courses() {
                   alt={course.title}
                   width={400}
                   height={250}
-                />
+                /> 
                 <div className="course-badge">Free Certificate</div>
               </div>
 

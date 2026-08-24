@@ -58,7 +58,7 @@ function FAQ() {
                   }`}
                 />
               </button>
-
+   
               <div
                 className={`faq-answer-wrapper ${
                   openIndex === index ? "faq-show" : ""
