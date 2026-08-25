@@ -368,7 +368,7 @@ const HeroArea = () => {
               ) : (
                 "Select a Time Slot"
               )}
-            </button>
+            </button> 
 
             <button
               type="button"
