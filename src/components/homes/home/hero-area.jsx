@@ -19,7 +19,6 @@ const HeroArea = () => {
   const [warningMessage, setWarningMessage] = useState("");
 
   const availableDates = [
-
     "2026-09-02",
     "2026-09-03",
     "2026-09-05",
@@ -36,7 +35,6 @@ const HeroArea = () => {
   ];
 
   const unavailableDates = [
-   
     "2026-08-30",
     // September 2026 dates added below
     "2026-09-06",
@@ -364,7 +362,7 @@ const HeroArea = () => {
               ) : (
                 "Select a Time Slot"
               )}
-            </button> 
+            </button>
 
             <button
               type="button"
