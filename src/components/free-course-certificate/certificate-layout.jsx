@@ -58,7 +58,7 @@ const CertificatePage = () => {
             </div>
           </div>
         </div>
-
+  
         <div className="cert-right">
           <h2 className="cert-right-title">
             FRONTLINE <br />
