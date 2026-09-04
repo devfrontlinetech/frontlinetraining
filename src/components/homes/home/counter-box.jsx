@@ -7,7 +7,7 @@ const counter_data = [
     color: "secondary-color",
     number: 180,
     text: "+",
-    title: "Class Completed", 
+    title: "Class Completed",
   },
   { color: "extra05-color", number: 10, text: "+", title: "Top Instructors" },
   {
