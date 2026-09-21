@@ -113,7 +113,7 @@ const menu_data = [
   },
   {
     title: "Blog",
-    link: "/blog-standard",
+    link: "/blog",
     // mega_menu: false,
     // // submenus: [
     // //     { title: 'Blog Standard', link: '/blog-standard' },
