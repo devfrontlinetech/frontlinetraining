@@ -15,7 +15,7 @@ const AboutArea = () => {
                     <div className="row g-5 align-items-center">
                         <div className="col-lg-6">
                             <div className="about-image-gallery">
-                                <img className="main-img-1" src="/assets/images/about/learn-03.jpg" alt="About Image" />
+                                <img className="main-img-1" src="/assets/images/about/Learn-03.jpg" alt="About Image" />
                                 <div className="video-box" data-sal-delay="150" data-sal="slide-down" data-sal-duration="800">
                                     <div className="inner">
                                         <div className="thumb">
