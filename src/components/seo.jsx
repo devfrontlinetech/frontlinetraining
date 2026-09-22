@@ -25,7 +25,10 @@ const SEO = ({ pageTitle, font }) => (
       content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
     />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <meta name="author" content="Frontline Training" />
 
@@ -40,15 +43,6 @@ const SEO = ({ pageTitle, font }) => (
 );
 
 export default SEO;
-
-
-
-
-
-
-
-
-
 
 
 
