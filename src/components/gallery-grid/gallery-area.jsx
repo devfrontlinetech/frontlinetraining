@@ -3,7 +3,7 @@ import { useState } from 'react';
 import ImageLightBox from '../common/popup-modal/image-lightbox';
 
 const gallery_items = [
-    { img: '/assets/images/gallery/gallery-01.jpg', category: 'Education' }, //all image size 370x300
+    { img: '/assets/images/gallery/galllery-01.jpg', category: 'Education' }, //all image size 370x300
     { img: '/assets/images/gallery/gallery-03.jpg', category: 'Education' },
     { img: '/assets/images/gallery/gallery-05.jpg', category: 'Education' },
     { img: '/assets/images/gallery/gallery-02.jpg', category: 'Marketing' },
