@@ -19,7 +19,7 @@ const menu_data = [
   },
   {
     title: "Gallery",
-    link: "/gallery-grid",
+    link: "/gallery",
   },
 
   /*  {
