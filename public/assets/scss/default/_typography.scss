@@ -71,7 +71,7 @@ h6,
 .h6 {
     word-break: break-word;
     font-family: var(--font-secondary);
-    color: var(--color-heading);
+    color: var(--color-heading)!important;
 }
 
 h1,
