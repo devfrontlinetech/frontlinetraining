@@ -198,7 +198,7 @@ const blog_data = [
   },
   {
     id: 21,
-    img: "/assets/images/blog/developer.webp",
+    img: "/assets/images/blog/developer.jpg",
     category: "Developer",
     title: "How to Become a Software Engineer",
     date: "Mar 04, 2026",
