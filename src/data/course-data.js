@@ -314,7 +314,7 @@ const course_data = [
   duration: '6 Weeks',
   course_outline:'Online + Onsite',
   level: 'Advanced',
-  title: 'The Complete 2025 Web Development Bootcamp',
+  title: 'The Complete Web Development Bootcamp',
   rating: '4.8',
   rating_count: 27,
   course_price: '',
