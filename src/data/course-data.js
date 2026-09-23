@@ -321,7 +321,7 @@ const course_data = [
   lesson: 35,
   student: 48,
   category:'Art & Design',
-  short_desc: 'The Complete 2025 Web Development Bootcamp is an all-in-one course designed to take you from a beginner to a full-stack web developer in 2025.',
+  short_desc: 'The Complete Web Development Bootcamp is an all-in-one course designed to take you from a beginner to a full-stack web developer in 2025.',
   instructor: 'R R Anbuthane',
   instructor_img:'partner-02.webp',
   instructor_title:'Founder & CEO',
