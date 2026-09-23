@@ -106,7 +106,7 @@ h5,
 
 h6,
 .h6 {
-    font-size: var(--h6);
+    font-size: var(--h6) !important;
     line-height: var(--h6-lineHeight);
 }
 
