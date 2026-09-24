@@ -15,7 +15,7 @@ const blog_data = [
     id: 2,
     img: "/assets/images/blog/blog-02.jpg",
     category: "LECTURE",
-    title: "The Most Versatile Programming Language in 2025",
+    title: "Why Python Is Everywhere: The Ultimate Versatile Programming Language",
     date: "Mar 01, 2026",
     comment: 15,
     sm_desc:
