@@ -25,7 +25,7 @@ const blog_data = [
   },
   {
     id: 3,
-    img: "/assets/images/blog/m-3.webp",
+    img: "/assets/images/blog/blog-03.jpg",
     category: "BUSINESS",
     title: "Understanding Front-End Frameworks: React vs. Angular vs. Vue",
     date: "Mar 03, 2026",
