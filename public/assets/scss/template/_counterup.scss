@@ -22,19 +22,19 @@
         }
 
         &.primary-color {
-            color: var(--color-primary);
+            color: var(--color-primary)!important;
         }
 
         &.secondary-color {
-            color: var(--color-secondary);
+            color: var(--color-secondary)!important;
         }
 
         &.extra02-color {
-            color: var(--color-extra02);
+            color: var(--color-extra02)!important;
         }
 
         &.extra05-color {
-            color: var(--color-extra05);
+            color: var(--color-extra05)!important;
         }
     }
     .title {
