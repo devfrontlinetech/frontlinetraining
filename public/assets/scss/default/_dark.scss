@@ -576,12 +576,12 @@
   .h4,
   .h5,
   .h6 {
-    color: var(--color-white);
+    color: var(--color-white)!important;
   }
   .edu-pagination {
     li:hover {
       a {
-        color: var(--color-white);
+        color: var(--color-white)!important;
       }
     }
   }
@@ -589,7 +589,7 @@
     background: var(--dark-bg-color);
     .preloader-close-btn-wraper .preloader-close-btn {
       background: #1c252f;
-      color: var(--color-white);
+      color: var(--color-white)!important;
     }
   }
   .edu-btn {
