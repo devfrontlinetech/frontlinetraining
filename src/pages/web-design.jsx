@@ -1,14 +1,14 @@
 import SEO from '../components/seo';
 import { Wrapper } from '../layout';
-import CourseStyleSevenMain from '../components/course-style-7';
+import CourseStyleFiveMain from '../components/course-style-5';
 
-const CourseStyleSeven = () => {
+const CourseStyleFive = () => {
     return (
         <Wrapper>
-            <SEO pageTitle={'Course Style 7'} />
-            <CourseStyleSevenMain />
+            <SEO pageTitle={'web-design'} />
+            <CourseStyleFiveMain />
         </Wrapper>
     )
 }
 
-export default CourseStyleSeven;
+export default CourseStyleFive;
