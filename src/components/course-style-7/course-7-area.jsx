@@ -15,7 +15,7 @@ const CourseSevenArea = () => {
     return (
         <div className="edu-course-area course-area-1 gap-tb-text">
             <div className="container">
-                <SortingArea course_items={course_data} num={courses?.slice(8,next)?.length} setCourses={setCourses} courses={courses} />
+                <SortingArea course_items={course_data} num={courses?.slice(24,next)?.length} setCourses={setCourses} courses={courses} />
 
                 <div className="row g-5">
                     {courses?.slice(24, next)?.map((course) => (
