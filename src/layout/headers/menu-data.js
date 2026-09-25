@@ -96,7 +96,7 @@ const menu_data = [
     },*/
   {
     title: "Courses",
-    link: "/web-dev",
+    link: "/our-courses",
     mega_menu: false,
     submenus: [
       // { title: 'Web Development', link: '/web-dev', hot: true },

@@ -16,7 +16,7 @@ import Cart from './component/cart';
 
 // Sample product data (this should be replaced with actual dynamic data)
 const products = [
-    { id: 1, name: 'courses', link: '/web-dev' },
+    { id: 1, name: 'courses', link: '/our-courses' },
     { id: 2, name: 'digitalmarketing', link: '/digital-marketing' },
     { id: 3, name: 'software testing', link: '/software-testing' },
     { id: 4, name: 'ui/ux', link: '/ui-ux' },
