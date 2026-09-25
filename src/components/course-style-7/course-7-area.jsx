@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import { course_data } from '../../data';
 import SortingArea from '../course-filter/sorting-area';
-import CourseTypeSix from '../course/course-type-ten';
+import CourseTypeTen from '../course/course-type-ten';
 
 const CourseSevenArea = () => {
     const coursePerView =14;
@@ -20,7 +20,7 @@ const CourseSevenArea = () => {
                 <div className="row g-5">
                     {courses?.slice(24, next)?.map((course) => (
                         <div key={course.id} className="col-md-6 col-lg-4">
-                            <CourseTypeSix data={course} classes="course-box-shadow" />
+                            <CourseTypeTen data={course} classes="course-box-shadow" />
                         </div>
                     ))}
                 </div>
