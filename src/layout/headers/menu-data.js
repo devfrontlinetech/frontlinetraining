@@ -103,7 +103,7 @@ const menu_data = [
       { title: "Digital Marketing", link: "/digital-marketing", hot: true },
       { title: "Mobile Development", link: "/mob-dev" },
       { title: "Full Stack Courese", link: "/full-stack" },
-      { title: "Web Design", link: "/web-design" },
+      // { title: "Web Design", link: "/web-design" },
       { title: "UI / UX Design", link: "/ui-ux-course", new: true },
 
       // { title: 'Course Details 1', link: '/course-details' },
