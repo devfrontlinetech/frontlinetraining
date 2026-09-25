@@ -1,12 +1,12 @@
 import SEO from '../components/seo';
 import { Wrapper } from '../layout';
-import CourseStyleFiveMain from '../components/course-style-5';
+import CourseStyleSevenMain from '../components/course-style-7';
 
 const CourseStyleFive = () => {
     return (
         <Wrapper>
             <SEO pageTitle={'web-design'} />
-            <CourseStyleFiveMain />
+            <CourseStyleSevenMain />
         </Wrapper>
     )
 }
