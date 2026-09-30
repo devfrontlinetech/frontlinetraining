@@ -29,7 +29,8 @@ const CoursesArea = () => {
                                                 <img src={`/assets/images/course/course-04/${img}`} alt="Course Meta" />
                                                 </a>
                                             </Link>
-                                            <div className="course-price price-round">${Math.trunc(course_price)}</div>
+                                            {/* <div className="course-price price-round">${Math.trunc(course_price)}</div> */}
+                                            <div className="course-price price-round">Ask</div>
                                         </div>
                                         <div className="content">
                                             <span className="course-level">{level}</span>
