@@ -38,7 +38,7 @@ const blog_data = [
 
   {
     id: 4,
-    img: "/assets/images/blog/blog-030.jpg",
+    img: "/assets/images/blog/blog-worker.jpg",
     category: "ONLINE",
     title: "Education in Our Lives: We Can Change the Future",
     date: "Mar 02, 2026",
