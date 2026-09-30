@@ -66,7 +66,7 @@ const FaqArea = () => {
                     <div className="col-lg-6">
                         <div className="faq-thumbnail">
                             <div className="thumbnail">
-                                <img src="/assets/images/faq/Ques-01.webp" alt="Faq Images"/>
+                                <img src="/assets/images/faq/ques-01.webp" alt="Faq Images"/>
                             </div>
                             <ul className="shape-group">
                                 <motion.li className="shape-1 scene"
