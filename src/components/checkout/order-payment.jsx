@@ -13,7 +13,7 @@ const OrderPayment = () => {
                     <p>Please send a check to Store Name, Store Street, Store Town, Store State / County, Store Postcode.</p>
                 </div>
 
-                <div className="form-group">
+                <div className="form-group"> 
                     <div className="edu-form-check">
                         <input type="radio" id="pay-pal" name="payment" />
                         <label htmlFor="pay-pal">PayPal</label>
