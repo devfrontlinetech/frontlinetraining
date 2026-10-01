@@ -50,8 +50,6 @@ const HeroArea = () => {
   ];
 
   const unavailableDates = [
-    "2026-09-30",
-
     // October 2026
     "2026-10-05",
     "2026-10-07",
