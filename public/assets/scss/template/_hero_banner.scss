@@ -25,100 +25,80 @@ HERO BANNER - BASE
 BANNER CONTENT
 ======================================================= */
 
-  .banner-content {
-    position: relative;
-    z-index: 2;
-
-    @media #{$md-layout} {
+ .banner-content {
       text-align: center;
-      margin-bottom: 50px;
-    }
-
-    @media #{$sm-layout} {
-      text-align: center;
-      margin-bottom: 40px;
-    }
-
-    .subtitle {
-      display: block;
-      margin-bottom: 20px;
-      color: var(--color-tertiary);
-      font-family: var(--font-secondary);
-      font-size: 16px;
-      font-weight: var(--p-bold);
-      letter-spacing: 2.6px;
-      text-transform: uppercase;
-    }
-
-    .title {
-      margin-bottom: 18px;
-      // font-size: 20px;
-      line-height: 1.2;
-
-      @media #{$smlg-device} {
-        font-size: 42px;
-
-        br {
+      padding-bottom: 30px;
+      @media #{$sm-layout} {
+        padding: 160px 0;
+      }
+      .subtitle {
+        letter-spacing: 1px;
+        background: #31b978;
+        background: linear-gradient(to left, #31b978 0%, #1ab69d 76%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 40px;
+        @media #{$sm-layout} {
+          font-size: 14px;
+        }
+      }
+      .title {
+        margin-bottom: 40px;
+      }
+      &:before,
+      &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        z-index: -1;
+        transition: var(--transition);
+        border-radius: 50%;
+        border: 1px solid #dae1e3;
+        @media #{$sm-layout} {
           display: none;
         }
       }
-
-      @media #{$md-layout} {
-        font-size: 38px;
+      &:before {
+        height: 570px;
+        width: 570px;
+        top: -140px;
+        left: 200px;
+        animation: ripple_3 2.5s linear 1s infinite;
+        @media #{$smlg-device} {
+          left: 110px;
+        }
+        @media #{$md-layout} {
+          height: 400px;
+          width: 400px;
+          left: 154px;
+          top: -70px;
+        }
       }
-
-      @media #{$sm-layout} {
-        font-size: 32px;
+      &:after {
+        height: 370px;
+        width: 370px;
+        top: -43px;
+        left: 299px;
+        animation: ripple_3 2.5s linear infinite;
+        @media #{$smlg-device} {
+          left: 210px;
+        }
+        @media #{$md-layout} {
+          height: 300px;
+          width: 300px;
+          left: 202px;
+          top: -16px;
+        }
       }
-
-      @media #{$large-mobile} {
-        font-size: 28px;
-      }
-    }
-
-    .color-secondary {
-      font-size: 48px;
-
-      @media #{$md-layout} {
-        font-size: 38px;
-      }
-
-      @media #{$sm-layout} {
-        font-size: 32px;
-      }
-
-      @media #{$large-mobile} {
-        font-size: 28px;
-      }
-    }
-
-    p {
-      margin-bottom: 30px;
-      color: var(--color-heading);
-      font-size: 18px;
-      line-height: 1.7;
-
-      @media #{$sm-layout} {
-        font-size: 16px;
-      }
-    }
-
-    .shape-group {
-      @extend %liststyle;
-
-      li {
-        position: absolute;
-        z-index: -1;
-        margin: 0;
-
-        &.shape-1 {
-          top: -75px;
-          left: -90px;
+      p {
+        width: 70%;
+        margin: 0 auto 30px;
+        @media #{$md-layout-1} {
+          width: 100%;
         }
       }
     }
-  }
-
   /* =======================================================
 BANNER THUMBNAIL
 ======================================================= */
