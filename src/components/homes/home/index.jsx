@@ -14,7 +14,7 @@ import TestimonialArea from './testimonial-area';
 import TopCategories from './top-categories';
 
 const index = () => {
-    return (
+    return (  
         <div className='sticky-header'>
             <div id="main-wrapper" className="main-wrapper">
                 <Header/>
