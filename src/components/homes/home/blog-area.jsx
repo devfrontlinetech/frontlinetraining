@@ -22,7 +22,7 @@ const BlogArea = ({ style_2 }) => {
           <span className="shape-line">
             <i className="icon-19"></i>
           </span>
-        </div>
+        </div> 
         <div className="row g-5">
           {blogItems.map((blogItem, i) => (
             <div
