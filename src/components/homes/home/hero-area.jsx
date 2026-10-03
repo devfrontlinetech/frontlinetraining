@@ -133,7 +133,7 @@ const HeroArea = () => {
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
       whatsappMessage,
     )}`;
-
+  
     window.open(whatsappURL, "_blank", "noopener,noreferrer");
 
     setShowBookingModal(false);
