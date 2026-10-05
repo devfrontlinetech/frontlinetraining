@@ -41,7 +41,6 @@ const HeroArea = () => {
   const bookedDates = [
     // October 2026
 
-    "2026-10-04",
     "2026-10-10",
     "2026-10-11",
 
@@ -52,9 +51,9 @@ const HeroArea = () => {
 
   const unavailableDates = [
     // October 2026
-    
+
     "2026-10-07",
-    
+
     "2026-10-14",
     "2026-10-19",
     "2026-10-21",
@@ -133,7 +132,7 @@ const HeroArea = () => {
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
       whatsappMessage,
     )}`;
-  
+
     window.open(whatsappURL, "_blank", "noopener,noreferrer");
 
     setShowBookingModal(false);
