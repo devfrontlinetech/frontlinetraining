@@ -13,7 +13,7 @@ const index = () => {
           subtitle="Mob Development"
         />
         <CourseTwoArea />
-        <Footer style_2={"footer-dark bg-image footer-style-2"} />
+        <Footer />
       </div>
     </div>
   );
