@@ -20,9 +20,16 @@ const AboutArea = () => {
                                     <div className="inner">
                                         <div className="thumb">
                                             <img src="/assets/images/about/vid-01.png" alt="About Image" />
-                                            <button onClick={() => setIsVideoOpen(true)} className="popup-icon video-popup-activation border-0" aria-label="Name">
+                                            {/* <button onClick={() => setIsVideoOpen(true)} className="popup-icon video-popup-activation border-0" aria-label="Name">
+                                            <i className="icon-18"></i>
+                                            </button> */}
+
+                                            <button  className="popup-icon video-popup-activation border-0">
                                             <i className="icon-18"></i>
                                             </button>
+
+
+
                                         </div>
                                         <div className="loading-bar">
                                             <span></span>
