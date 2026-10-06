@@ -170,7 +170,7 @@ const course_data = [
     category:'Business',
     short_desc: 'Learn to Build a Complete Website with HTML5 & CSS3. Integrate JavaScript within Your Website. Learn about RWD (Responsive Web Design)',
     instructor: 'R R Anbuthane',
-    instructor_img:'Partner-02.webp',
+    instructor_img:'partner-02.webp',
     instructor_title:'Founder & CEO',
     instructor_desc:'Our Clients base has grown by 100%, a clear indication that our solutions resonate in the market. This growth wouldn’t have been possible without your hard work and commitment.',
     features: [
