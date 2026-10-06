@@ -20,7 +20,7 @@ const HeroArea = () => {
 
   const availableDates = [
     // October 2026
-    "2020-10-05",
+    
     "2026-10-06",
     "2026-10-08",
     "2026-10-09",
