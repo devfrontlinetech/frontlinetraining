@@ -44,8 +44,6 @@ const SEO = ({ pageTitle, font }) => (
 
 export default SEO;
 
-
-
 // import Head from "next/head";
 
 // const SEO = ({ pageTitle, font }) => (
