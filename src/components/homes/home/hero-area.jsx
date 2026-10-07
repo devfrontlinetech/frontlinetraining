@@ -137,7 +137,7 @@ const HeroArea = () => {
     setShowBookingModal(false);
   };
 
-  const closeBookingModal = () => {
+  const closeBookingModal = () => { 
     setShowBookingModal(false);
     setSelectedTime(null);
   };
@@ -287,7 +287,7 @@ const HeroArea = () => {
                       }}
                     >
                       <img
-                        src="/assets/images/about/shape-16.png"
+                        src="/assets/images/about/shape-16.png" 
                         alt="Shape"
                       />
                     </motion.li>
