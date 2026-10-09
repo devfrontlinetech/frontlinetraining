@@ -21,7 +21,6 @@ const HeroArea = () => {
   const availableDates = [
     // October 2026
 
-    "2026-10-08",
     "2026-10-09",
     "2026-10-12",
     "2026-10-13",
@@ -39,7 +38,7 @@ const HeroArea = () => {
 
   const bookedDates = [
     // October 2026
-    "2026-10-07",
+
     "2026-10-14",
     "2026-10-19",
     "2026-10-21",
@@ -134,7 +133,7 @@ const HeroArea = () => {
     setShowBookingModal(false);
   };
 
-  const closeBookingModal = () => { 
+  const closeBookingModal = () => {
     setShowBookingModal(false);
     setSelectedTime(null);
   };
@@ -284,7 +283,7 @@ const HeroArea = () => {
                       }}
                     >
                       <img
-                        src="/assets/images/about/shape-16.png" 
+                        src="/assets/images/about/shape-16.png"
                         alt="Shape"
                       />
                     </motion.li>
