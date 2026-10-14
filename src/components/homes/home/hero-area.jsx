@@ -148,7 +148,7 @@ const HeroArea = () => {
   };
 
   return (
-    <div className="hero-banner hero-style-1">
+    <div className="hero-banner hero-style-1"> 
       {" "}
       <div className="container-fluid">
         {" "}
@@ -166,7 +166,7 @@ const HeroArea = () => {
                     data-sal-duration="1000"
                   >
                     <span className="color-secondary">IT</span> Training in
-                    karur
+                    karur  
                   </h1>
 
                   <p
