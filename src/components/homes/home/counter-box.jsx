@@ -31,7 +31,7 @@ const CounterBox = () => {
                   text={c.text}
                   decimal={c.decimal}
                 />
-              </span>
+              </span> 
             </h2>
             <h6 className="title">{c.title}</h6>
           </div>
