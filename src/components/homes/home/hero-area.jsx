@@ -20,7 +20,7 @@ const HeroArea = () => {
 
   const availableDates = [
     // October 2026
-    "2026-10-20",
+
     "2026-10-22",
     "2026-10-23",
     "2026-10-26",
@@ -37,7 +37,7 @@ const HeroArea = () => {
     "2026-10-28",
   ];
 
-  const unavailableDates = ["2026-10-18", "2026-10-24", "2026-10-25"];
+  const unavailableDates = ["2026-10-24", "2026-10-25"];
 
   const handleDateChange = (date) => {
     const formattedDate = format(date, "yyyy-MM-dd");
