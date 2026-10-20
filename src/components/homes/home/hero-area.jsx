@@ -113,7 +113,7 @@ const HeroArea = () => {
 
     window.open(whatsappURL, "_blank", "noopener,noreferrer");
 
-    setShowBookingModal(false); 
+    setShowBookingModal(false);
   };
 
   const closeBookingModal = () => {
