@@ -133,7 +133,7 @@ const HeroArea = () => {
     if (availableDates.includes(formattedDate)) {
       return "available-date";
     }
- 
+
     if (unavailableDates.includes(formattedDate)) {
       return "unavailable-date";
     }
