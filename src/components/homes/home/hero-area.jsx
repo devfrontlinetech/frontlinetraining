@@ -19,7 +19,6 @@ const HeroArea = () => {
   const [warningMessage, setWarningMessage] = useState("");
 
   const availableDates = [
-
     "2026-10-23",
     "2026-10-26",
     "2026-10-27",
@@ -68,7 +67,7 @@ const HeroArea = () => {
       setWarningMessage(
         "This date is already fully booked. Please select another available date.",
       );
-  
+
       setShowWarningModal(true);
       setShowBookingModal(false);
     } else if (unavailableDates.includes(formattedDate)) {
