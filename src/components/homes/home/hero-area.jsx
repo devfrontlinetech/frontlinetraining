@@ -95,7 +95,7 @@ const HeroArea = () => {
     const whatsappMessage = `
 
 
-    Hi Frontline Training team, I would like to book a free consultation.
+    Hi Frontline Training team, I would like to book a free consultation. 
 
     Date: ${selectedDate} 
     Time: ${selectedTime}
