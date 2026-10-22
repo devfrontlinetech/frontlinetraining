@@ -98,7 +98,7 @@ const HeroArea = () => {
     Hi Frontline Training team, I would like to book a free consultation. 
 
     Date: ${selectedDate} 
-    Time: ${selectedTime}
+    Time: ${selectedTime} 
 
     Please confirm my appointment at your earliest convenience. Thank you!
 `.trim();
