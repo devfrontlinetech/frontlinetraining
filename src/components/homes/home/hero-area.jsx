@@ -68,7 +68,7 @@ const HeroArea = () => {
       setWarningMessage(
         "This date is already fully booked. Please select another available date.",
       );
-
+  
       setShowWarningModal(true);
       setShowBookingModal(false);
     } else if (unavailableDates.includes(formattedDate)) {
