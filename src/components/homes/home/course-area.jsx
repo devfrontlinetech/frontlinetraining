@@ -47,7 +47,7 @@ const CourseArea = () => {
         </div>
       </div>
     </div>
-  );
+  ); 
 };
 
 export default CourseArea;
