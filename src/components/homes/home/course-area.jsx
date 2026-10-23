@@ -27,7 +27,7 @@ const CourseArea = () => {
                 data-sal="slide-up"
                 data-sal-duration="800"
                 key={course.id}
-              > 
+              >
                 <CourseTypeOne data={course} />
               </div>
             );
@@ -47,7 +47,7 @@ const CourseArea = () => {
         </div>
       </div>
     </div>
-  ); 
+  );
 };
 
 export default CourseArea;
