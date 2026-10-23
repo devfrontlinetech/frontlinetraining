@@ -160,7 +160,7 @@ const HeroArea = () => {
     const whatsappNumber = "919789655455";
 
     const whatsappMessage = `
-
+ 
 
     Hi Frontline Training team, I would like to book a free consultation. 
 
