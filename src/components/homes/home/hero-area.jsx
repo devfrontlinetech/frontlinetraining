@@ -117,7 +117,7 @@ const HeroArea = () => {
         {
           time: "11:00 AM - 02:00 PM",
           available: true,
-        },
+        }, 
         {
           time: "02:00 PM - 05:00 PM",
           available: true,
@@ -128,7 +128,7 @@ const HeroArea = () => {
         },
       ]);
 
-      setShowBookingModal(true);
+      setShowBookingModal(true); 
       setShowWarningModal(false);
     } else if (bookedDates.includes(formattedDate)) {
       setWarningMessage(
