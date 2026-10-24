@@ -19,7 +19,6 @@ const HeroArea = () => {
   const [warningMessage, setWarningMessage] = useState("");
 
   const availableDates = [
-   
     "2026-10-24",
     "2026-10-26",
     "2026-10-28",
@@ -177,7 +176,7 @@ const HeroArea = () => {
     window.open(whatsappURL, "_blank", "noopener,noreferrer");
 
     setShowBookingModal(false);
-  }; 
+  };
 
   const closeBookingModal = () => {
     setShowBookingModal(false);
@@ -190,7 +189,7 @@ const HeroArea = () => {
   const tileClassName = ({ date }) => {
     const formattedDate = format(date, "yyyy-MM-dd");
 
-    if (bookedDates.includes(formattedDate)) { 
+    if (bookedDates.includes(formattedDate)) {
       return "booked-date";
     }
 
