@@ -867,7 +867,7 @@ const freeCourseData = [
   {
     id: "blockchain-development",
     title: "Blockchain Development",
-    instructor: "Ryan Cooper",
+    instructor: "R R Anbuthane",
 
     shortDesc: "Learn blockchain and smart contracts.",
 
@@ -910,7 +910,7 @@ const freeCourseData = [
     ],
 
     instructorDetails: {
-      name: "Ryan Cooper",
+      name: "R R Anbuthane",
       role: "Blockchain Developer",
       avatar: "/assets/images/free-course/instructor/ins.jpg",
       description: "Developer specializing in decentralized applications.",
