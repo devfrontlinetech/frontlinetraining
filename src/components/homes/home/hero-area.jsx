@@ -20,7 +20,7 @@ const HeroArea = () => {
 
   const availableDates = [
     // November 2026 - Tuesday, Thursday, Saturday
-   
+
     "2026-11-05",
     "2026-11-07",
     "2026-11-10",
@@ -150,7 +150,7 @@ const HeroArea = () => {
   };
 
   const handleBooking = () => {
-    if (!selectedDate || !selectedTime) return; 
+    if (!selectedDate || !selectedTime) return;
 
     const whatsappNumber = "919789655455";
 
