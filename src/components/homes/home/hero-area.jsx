@@ -67,7 +67,7 @@ const HeroArea = () => {
     "2026-11-30",
 
     // December 2026 - Monday, Wednesday, Friday
-    "2026-12-02",
+
     "2026-12-04",
     "2026-12-07",
     "2026-12-09",
