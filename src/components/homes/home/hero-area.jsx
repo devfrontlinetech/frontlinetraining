@@ -21,7 +21,6 @@ const HeroArea = () => {
   const availableDates = [
     // November 2026 - Tuesday, Thursday, Saturday
 
-    "2026-11-19",
     "2026-11-21",
     "2026-11-24",
     "2026-11-26",
@@ -47,7 +46,6 @@ const HeroArea = () => {
   const bookedDates = [
     // November 2026 - Monday, Wednesday, Friday
 
-    "2026-11-18",
     "2026-11-20",
     "2026-11-23",
     "2026-11-25",
@@ -177,7 +175,7 @@ const HeroArea = () => {
 
     if (availableDates.includes(formattedDate)) {
       return "available-date";
-    } 
+    }
 
     if (unavailableDates.includes(formattedDate)) {
       return "unavailable-date";
