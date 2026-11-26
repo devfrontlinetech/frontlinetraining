@@ -131,7 +131,7 @@ const HeroArea = () => {
 
     const whatsappNumber = "919789655455";
 
-    const whatsappMessage = `
+    const whatsappMessage = ` 
  
 
     Hi Frontline Training team, I would like to book a free consultation. 
@@ -151,7 +151,7 @@ const HeroArea = () => {
     setShowBookingModal(false);
   };
 
-  const closeBookingModal = () => {
+  const closeBookingModal = () => { 
     setShowBookingModal(false);
     setSelectedTime(null);
   };
