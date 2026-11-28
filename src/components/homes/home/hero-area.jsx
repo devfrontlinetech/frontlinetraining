@@ -19,9 +19,6 @@ const HeroArea = () => {
   const [warningMessage, setWarningMessage] = useState("");
 
   const availableDates = [
-    // November 2026 - Tuesday, Thursday, Saturday
-
-    "2026-11-28",
 
     // December 2026 - Tuesday, Thursday, Saturday
     "2026-12-01",
