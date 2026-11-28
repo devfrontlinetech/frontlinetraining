@@ -58,10 +58,6 @@ const HeroArea = () => {
   ];
 
   const unavailableDates = [
-    // November 2026 - Sundays
-
-    "2026-11-29",
-
     // December 2026 - Sundays
     "2026-12-06",
     "2026-12-13",
